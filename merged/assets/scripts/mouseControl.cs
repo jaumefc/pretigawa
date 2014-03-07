@@ -254,7 +254,8 @@ public class mouseControl : MonoBehaviour {
 				Debug.Log("TargetLocation"+targetLocation);
 				Debug.Log("naviLoc="+navi.transform.position);
 				Debug.Log("Dist="+Vector3.Distance(navi.transform.position, targetLocation));
-				if(Vector3.Distance(navi.transform.position, targetLocation)<0.1){
+				Vector3 agentPos = new Vector3(navi.transform.position.x,0,navi.transform.position.z);
+				if(Vector3.Distance(agentPos, targetLocation)<0.1){
 					targetLocation = navi.transform.position;
 					//TODO:targetRotation
 					Debug.Log("TransferIn");
@@ -280,6 +281,7 @@ public class mouseControl : MonoBehaviour {
 
 	public void Dialog(GameObject targetObj) {
 		targetLocation = targetObj.transform.position + 2*targetObj.transform.forward;
+		targetLocation = new Vector3(targetLocation.x,0,targetLocation.z);
 				//TODO: TargetRotation;
 		targetRotation = -targetObj.transform.rotation.eulerAngles;
 		targetObject = targetObj;
