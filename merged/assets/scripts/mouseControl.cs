@@ -25,7 +25,9 @@ public class mouseControl : MonoBehaviour {
 
 	private Transform thisTransform;
 	private CharacterController character;
+	private NavMeshAgent navi;
 	private Vector3 targetLocation;
+	private Vector3 targetRotation;
 	private bool moving = false;
 	private float rotationTarget;
 	private float rotationVelocity;
@@ -38,6 +40,7 @@ public class mouseControl : MonoBehaviour {
 	private GameObject cRaster;
 	private GameObject targetObject;
 	private GizmoDebug gd;
+	private CameraControl CCScript;
 
 	enum CharacterState {
 		Idle = 0,
@@ -64,9 +67,11 @@ public class mouseControl : MonoBehaviour {
 		thisTransform = transform;
 		cam = Camera.main;
 		character = GetComponent<CharacterController>();
+		navi = GetComponent<NavMeshAgent>();
 		_animation = GetComponent<Animation>();
 		_inventory = GetComponent<InventoryControl>();
 		gd = GameObject.FindObjectOfType<GizmoDebug>().GetComponent<GizmoDebug>();
+		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
 
 	}
 
@@ -80,25 +85,18 @@ public class mouseControl : MonoBehaviour {
 		ReadInput();
 		// ANIMATION sector
 		if(_animation) {
-			
-			if(character.velocity.sqrMagnitude < 0.1) {
+			switch(_characterState){
+			case CharacterState.Idle:
 				_animation.CrossFade(idleAnimation.name);
-			}
-			else 
-			{
-				if(_characterState == CharacterState.Running) {
-					_animation[runAnimation.name].speed = Mathf.Clamp(character.velocity.magnitude, 0.0f, 1.0f);
-					_animation.CrossFade(runAnimation.name);	
-				}
-				else if(_characterState == CharacterState.Trotting) {
-					_animation[walkAnimation.name].speed = Mathf.Clamp(character.velocity.magnitude, 0.0f, 1.0f);
-					_animation.CrossFade(walkAnimation.name);	
-				}
-				else if(_characterState == CharacterState.Walking) {
-					_animation[walkAnimation.name].speed = Mathf.Clamp(character.velocity.magnitude, 0.0f, 1.0f);
-					_animation.CrossFade(walkAnimation.name);	
-				}
-				
+				break;
+			case CharacterState.Walking:
+				_animation[walkAnimation.name].speed = Mathf.Clamp(navi.velocity.magnitude, 0.0f, 1.8f);
+				_animation.CrossFade(walkAnimation.name);	
+				break;
+			case CharacterState.Running:
+				_animation[runAnimation.name].speed = Mathf.Clamp(navi.velocity.magnitude, 0.0f, 1.0f);
+				_animation.CrossFade(runAnimation.name);	
+				break;
 			}
 		}
 		// ANIMATION sector
@@ -213,16 +211,14 @@ public class mouseControl : MonoBehaviour {
 		
 		Vector3 movement = Vector3.zero;
 				// Move towards the target location
-		NavMeshAgent navi = character.GetComponent("NavMeshAgent") as NavMeshAgent;
 		navi.SetDestination(targetLocation);
 		Vector3 nextstep = navi.nextPosition;
-		
 		movement = nextstep - thisTransform.position;
 		movement.y=0;
 		
 		float dist = movement.magnitude;
-		
-		if( dist < 0.5 )
+		//Debug.Log (dist);
+		if( navi.velocity.sqrMagnitude < 0.1 )
 		{
 			moving = false;
 			_characterState = CharacterState.Idle;
@@ -237,9 +233,9 @@ public class mouseControl : MonoBehaviour {
 			thisTransform.rotation = Quaternion.LookRotation(movement.normalized);
 		//thisTransform.active/
 			
-		movement += velocity;		
-		movement += Physics.gravity;
-		movement *= Time.deltaTime;
+		//movement += velocity;		
+		//movement += Physics.gravity;
+		//movement *= Time.deltaTime;
 
 		// Actually move the character
 		//  character.Move( movement );
@@ -247,13 +243,27 @@ public class mouseControl : MonoBehaviour {
 		switch(_characterAction)
 		{
 			case CharacterAction.Take: 
-				if(Vector3.Distance(character.transform.position, targetLocation)<0.5){
-					targetLocation = character.transform.position;
-					_inventory.Add(targetObject);
+				if(Vector3.Distance(navi.transform.position, targetLocation)<0.5){
+					targetLocation = navi.transform.position;
+						_inventory.Add(targetObject);
+						targetObject = null;
+						_characterAction = CharacterAction.None;
+				}
+				break;
+			case CharacterAction.Dialog:
+				Debug.Log("TargetLocation"+targetLocation);
+				Debug.Log("naviLoc="+navi.transform.position);
+				Debug.Log("Dist="+Vector3.Distance(navi.transform.position, targetLocation));
+				if(Vector3.Distance(navi.transform.position, targetLocation)<0.1){
+					targetLocation = navi.transform.position;
+					//TODO:targetRotation
+					Debug.Log("TransferIn");
+					CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
 					targetObject = null;
 					_characterAction = CharacterAction.None;
 				}
 				break;
+
 		}
 			
 	}
@@ -266,5 +276,13 @@ public class mouseControl : MonoBehaviour {
 		targetLocation = targetObj.transform.position;
 		targetObject = targetObj;
 		_characterAction = CharacterAction.Take;
+	}
+
+	public void Dialog(GameObject targetObj) {
+		targetLocation = targetObj.transform.position + 2*targetObj.transform.forward;
+				//TODO: TargetRotation;
+		targetRotation = -targetObj.transform.rotation.eulerAngles;
+		targetObject = targetObj;
+		_characterAction = CharacterAction.Dialog;
 	}
 }
