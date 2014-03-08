@@ -60,6 +60,12 @@ public class InventoryControl : MonoBehaviour {
 		showInventory = false;
 	}
 
+	public bool Showing() {
+		return showInventory;
+	}
+
+
+
 	public void Add(GameObject invObj) {
 		invObj.renderer.enabled=false;
 		invObj.collider.enabled=false;
@@ -68,5 +74,7 @@ public class InventoryControl : MonoBehaviour {
 		invObj.guiTexture.transform.localScale = new Vector3(0,0,1);
 		inventoryObjects.Add(invObj);
 	}
+
+
 
 }

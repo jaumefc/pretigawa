@@ -27,7 +27,7 @@ public class mouseControl : MonoBehaviour {
 	private CharacterController character;
 	private NavMeshAgent navi;
 	private Vector3 targetLocation;
-	private Vector3 targetRotation;
+	private Quaternion targetRotation;
 	private bool moving = false;
 	private float rotationTarget;
 	private float rotationVelocity;
@@ -120,7 +120,9 @@ public class mouseControl : MonoBehaviour {
 				Touch touch = Input.GetTouch(0);
 				ray = cam.ScreenPointToRay( new Vector3( touch.position.x, touch.position.y ) );
 			}
-				
+
+			//if(_inventory.)
+
 			RaycastHit hit;
 			if( Physics.Raycast(ray, out hit) )
 			{
@@ -251,17 +253,20 @@ public class mouseControl : MonoBehaviour {
 				}
 				break;
 			case CharacterAction.Dialog:
-				Debug.Log("TargetLocation"+targetLocation);
-				Debug.Log("naviLoc="+navi.transform.position);
-				Debug.Log("Dist="+Vector3.Distance(navi.transform.position, targetLocation));
+				Debug.Log("TargetRotation="+targetRotation);
+				Debug.Log("CurrRotation="+navi.transform.rotation.eulerAngles);
 				Vector3 agentPos = new Vector3(navi.transform.position.x,0,navi.transform.position.z);
 				if(Vector3.Distance(agentPos, targetLocation)<0.1){
-					targetLocation = navi.transform.position;
+					targetLocation = agentPos;
+				navi.transform.rotation = Quaternion.Lerp(navi.transform.rotation, targetRotation,Time.time * 0.002f);
 					//TODO:targetRotation
-					Debug.Log("TransferIn");
-					CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
-					targetObject = null;
-					_characterAction = CharacterAction.None;
+					if(navi.transform.rotation == targetRotation){
+						Debug.Log("TransferIn");
+						CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
+						targetObject = null;
+						_characterAction = CharacterAction.None;
+						//this.enabled=false;
+					}
 				}
 				break;
 
@@ -283,7 +288,8 @@ public class mouseControl : MonoBehaviour {
 		targetLocation = targetObj.transform.position + 2*targetObj.transform.forward;
 		targetLocation = new Vector3(targetLocation.x,0,targetLocation.z);
 				//TODO: TargetRotation;
-		targetRotation = -targetObj.transform.rotation.eulerAngles;
+		targetRotation = Quaternion.LookRotation(new Vector3(targetObj.transform.position.x,0,targetObj.transform.position.z)-targetLocation);
+		//targetRotation.y = 0;
 		targetObject = targetObj;
 		_characterAction = CharacterAction.Dialog;
 	}

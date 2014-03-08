@@ -6,10 +6,15 @@ using System.Collections;
 [CanEditMultipleObjects]
 public class ConversationNodeClassEditor : Editor 
 {
+	private ConversationNodeClass cnc;
+	void Awake(){
+		cnc = (ConversationNodeClass)target;
+	}
+
 
 	public override void OnInspectorGUI ()
 	{
-		ConversationNodeClass cnc = (ConversationNodeClass)target;
+		//GUI.changed = false;
 		cnc.ShowNode = (ConversationNodeClass.show)EditorGUILayout.EnumPopup("Show Node",cnc.ShowNode);
 		switch (cnc.ShowNode)
 		{
@@ -34,10 +39,15 @@ public class ConversationNodeClassEditor : Editor
 			ConversationNodeClass[] aux = new ConversationNodeClass[size];
 			for (int i = 0 ; i < size;i++)
 			{
-				aux[i] = (ConversationNodeClass)EditorGUILayout.ObjectField("Node "+i, cnc.cncArray[i], typeof(ConversationNodeClass), true);
+				if(i<cnc.cncArray.Length)
+					aux[i] = (ConversationNodeClass)EditorGUILayout.ObjectField("Node "+i, cnc.cncArray[i], typeof(ConversationNodeClass), true);
+				else
+					aux[i] = (ConversationNodeClass)EditorGUILayout.ObjectField("Node "+i, null, typeof(ConversationNodeClass), true);
 			}
 			cnc.cncArray = aux;
 		}
+		if(GUI.changed)
+			EditorUtility.SetDirty(cnc);
 		//cnc.fSeconds = EditorGUILayout.FloatField ("fSeconds", cnc.fSeconds);
 		//cnc.cncArray = EditorGUILayout.ObjectField("cncArray",cnc.cncArray,typeof(ConversationNodeClass[]),true);
 	}

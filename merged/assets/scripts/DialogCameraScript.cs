@@ -120,8 +120,9 @@ public class DialogCameraScript : MonoBehaviour {
 			//sortir
 			PreviousNode = null;
 			Debug.Log(Camera.current);
-
-			CCScript.TransferOut();
+			if(CCScript.IsIn())
+				CCScript.TransferOut();
+			this.enabled = false;
 		}
 		if (PreviousNode == null) {
 			
