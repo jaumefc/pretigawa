@@ -9,13 +9,18 @@ public class InventoryControl : MonoBehaviour {
 
 	private bool showInventory = false;
 	private float position = 0;
+	private GameObject selectedObj = null;
 	private readonly float MAX_POSITION = 100;
 	private readonly float MIN_POSITION = 0;
+
+	private float width,height;
 
 	private ArrayList inventoryObjects = new ArrayList();
 
 
 	void Start () {
+		width = Display.main.systemWidth;
+		height = Display.main.systemHeight;
 
 	}
 
@@ -42,11 +47,13 @@ public class InventoryControl : MonoBehaviour {
 		}
 
 		for(int i=0;i<inventoryObjects.Count;i++){
-			Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
-			((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
-				new Rect(-64*(i+2),oldRect.y - (position-oldPosition),oldRect.width,oldRect.height);
-			//Debug.Log(i);
-			//Debug.Log(-64*(i+1));
+			if(selectedObj==null || selectedObj!=((GameObject)inventoryObjects[i])){
+				Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
+				((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
+					new Rect(-64*(i+2),oldRect.y - (position-oldPosition),oldRect.width,oldRect.height);
+				//Debug.Log(i);
+				//Debug.Log(-64*(i+1));
+			}
 		}
 	}
 
@@ -62,6 +69,37 @@ public class InventoryControl : MonoBehaviour {
 
 	public bool Showing() {
 		return showInventory;
+	}
+
+	public GameObject GetSelected(){
+		return selectedObj;
+	}
+
+	public void SetSelected(GameObject obj){
+		selectedObj = obj;
+	}
+
+	//Retorna l'objecte de l'inventari que es troba sota el punter si n'i ha, sino retorna null
+	//mousePos :Posicio del punter
+	public GameObject OverObject(Vector3 mousePos){
+		GameObject retObj = null;
+
+
+
+		Vector3 cPos = Input.mousePosition - new Vector3(width,height,0);
+		for(int i=0;i<inventoryObjects.Count;i++) {
+			Vector3 aPos = new Vector3(((GameObject)inventoryObjects[i]).guiTexture.pixelInset.x+32,
+			                           ((GameObject)inventoryObjects[i]).guiTexture.pixelInset.y+32,0);
+			float aDist = Vector3.Distance(aPos,cPos);
+			if(aDist<32)
+			{
+				retObj = (GameObject)inventoryObjects[i];
+			}
+		}
+
+
+
+		return retObj;
 	}
 
 
