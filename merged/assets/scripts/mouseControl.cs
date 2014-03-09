@@ -27,7 +27,7 @@ public class mouseControl : MonoBehaviour {
 	private CharacterController character;
 	private NavMeshAgent navi;
 	private Vector3 targetLocation;
-	private Vector3 targetRotation;
+	private Quaternion targetRotation;
 	private bool moving = false;
 	private float rotationTarget;
 	private float rotationVelocity;
@@ -120,9 +120,16 @@ public class mouseControl : MonoBehaviour {
 				Touch touch = Input.GetTouch(0);
 				ray = cam.ScreenPointToRay( new Vector3( touch.position.x, touch.position.y ) );
 			}
-				
+			
+			GameObject invObj=null;
+			if(_inventory.Showing()){
+				invObj = _inventory.OverObject(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
+
+				_inventory.SetSelected(invObj);
+			}
+
 			RaycastHit hit;
-			if( Physics.Raycast(ray, out hit) )
+			if( Physics.Raycast(ray, out hit) && invObj==null )
 			{
 				Debug.Log(hit.collider.gameObject);
 				Debug.Log(hit.collider.gameObject.GetComponent<interactuable>());
@@ -142,7 +149,8 @@ public class mouseControl : MonoBehaviour {
 				}
 				else
 				{
-					_inventory.Hide();
+					if(invObj==null)
+						_inventory.Hide();
 					float touchDist = (transform.position - hit.point).magnitude;
 					if( touchDist > minimumDistanceToMove )
 					{
@@ -156,12 +164,40 @@ public class mouseControl : MonoBehaviour {
 		}
 		else if(Input.GetMouseButtonUp(0))
 		{
+			if(_inventory.Showing()){
+				GameObject invObj = _inventory.GetSelected();
+				Vector3 mousePos = new Vector3(Input.mousePosition.x,Input.mousePosition.y,0);
+				GameObject otherObj = _inventory.OverObject(mousePos);
+				if(invObj!=otherObj){
+					if(otherObj!=null){//Estem intentant combinar objectes que son dins l'inventari
+					}else{//Estem intentant combinar amb un objecte de l'escena
+						
+						Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+						RaycastHit hit;
+						if( Physics.Raycast(ray, out hit) ){
+							if(hit.collider.gameObject.GetComponent<interactuable>())
+							{
+								//Cridar a la funcio d combinar objectes
+								Debug.Log("Llamar a funcion de combinar objetos!!!!!");
+							}
+
+						}
+					}
+				}
+				if(invObj){
+					invObj.transform.position = new Vector3(1,1,0);
+					invObj.guiTexture.pixelInset= new Rect(0,18-100,64,64);
+					invObj.guiTexture.color = new Color(0.5f,0.5f,0.5f,0.5f);
+					_inventory.Hide();
+					_inventory.SetSelected(null);
+				}
+			}
 			if(_interactuable!=null) {
 				float cx= Input.mousePosition.x;
 				float cy= Input.mousePosition.y;
 				Vector3 cPos = Input.mousePosition - _interactuable.GetScreenPosition();
 				for(int i=0;i<_interactuable.Actions.Length;i++) {
-					//TODO:Comprovar distancia del puntero al las opciones
+					//Comprovar distancia del puntero al las opciones
 					Vector3 aPos = new Vector3(_interactuable.Actions[i].guiTexture.pixelInset.x+32,
 												_interactuable.Actions[i].guiTexture.pixelInset.y+32,0);
 					 float aDist = Vector3.Distance(aPos,cPos);
@@ -181,6 +217,18 @@ public class mouseControl : MonoBehaviour {
 		}
 		else if(Input.GetMouseButton(0))
 		{
+			GameObject invObj;
+			if(_inventory.Showing()){
+				invObj = _inventory.GetSelected();
+				if(invObj){
+					invObj.transform.position=new Vector3(Input.mousePosition.x/Display.main.systemWidth,Input.mousePosition.y/Display.main.systemHeight,0);
+					invObj.guiTexture.pixelInset = new Rect(-invObj.guiTexture.pixelInset.width/2,
+					                                        -invObj.guiTexture.pixelInset.height/2,
+					                                        invObj.guiTexture.pixelInset.width,
+					                                        invObj.guiTexture.pixelInset.height);
+					invObj.guiTexture.color = new Color(0.7f,0.7f,0.7f,0.5f);
+				}
+			}
 			if(_interactuable!=null) {
 				Ray rray = cam.ScreenPointToRay(Input.mousePosition);
 				RaycastHit rhit;
@@ -251,17 +299,21 @@ public class mouseControl : MonoBehaviour {
 				}
 				break;
 			case CharacterAction.Dialog:
-				Debug.Log("TargetLocation"+targetLocation);
-				Debug.Log("naviLoc="+navi.transform.position);
-				Debug.Log("Dist="+Vector3.Distance(navi.transform.position, targetLocation));
 				Vector3 agentPos = new Vector3(navi.transform.position.x,0,navi.transform.position.z);
 				if(Vector3.Distance(agentPos, targetLocation)<0.1){
-					targetLocation = navi.transform.position;
-					//TODO:targetRotation
-					Debug.Log("TransferIn");
-					CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
-					targetObject = null;
-					_characterAction = CharacterAction.None;
+					targetLocation = agentPos;
+					targetRotation = Quaternion.LookRotation(new Vector3(targetObject.transform.position.x,0,targetObject.transform.position.z)-targetLocation);
+					Debug.Log("TargetRotation="+targetRotation);
+					Debug.Log("CurrRotation="+navi.transform.rotation);
+					if(navi.transform.rotation == targetRotation){
+						Debug.Log("TransferIn");
+						CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
+						targetObject = null;
+						_characterAction = CharacterAction.None;
+					}
+					else{
+						navi.transform.rotation = Quaternion.Lerp(navi.transform.rotation, targetRotation,Time.time * 0.002f);
+					}
 				}
 				break;
 
@@ -282,8 +334,6 @@ public class mouseControl : MonoBehaviour {
 	public void Dialog(GameObject targetObj) {
 		targetLocation = targetObj.transform.position + 2*targetObj.transform.forward;
 		targetLocation = new Vector3(targetLocation.x,0,targetLocation.z);
-				//TODO: TargetRotation;
-		targetRotation = -targetObj.transform.rotation.eulerAngles;
 		targetObject = targetObj;
 		_characterAction = CharacterAction.Dialog;
 	}
