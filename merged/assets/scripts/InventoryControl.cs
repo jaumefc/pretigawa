@@ -45,8 +45,8 @@ public class InventoryControl : MonoBehaviour {
 			Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
 			((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
 				new Rect(-64*(i+2),oldRect.y - (position-oldPosition),oldRect.width,oldRect.height);
-			Debug.Log(i);
-			Debug.Log(-64*(i+1));
+			//Debug.Log(i);
+			//Debug.Log(-64*(i+1));
 		}
 	}
 

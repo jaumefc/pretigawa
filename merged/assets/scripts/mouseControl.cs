@@ -163,7 +163,7 @@ public class mouseControl : MonoBehaviour {
 				float cy= Input.mousePosition.y;
 				Vector3 cPos = Input.mousePosition - _interactuable.GetScreenPosition();
 				for(int i=0;i<_interactuable.Actions.Length;i++) {
-					//TODO:Comprovar distancia del puntero al las opciones
+					//Comprovar distancia del puntero al las opciones
 					Vector3 aPos = new Vector3(_interactuable.Actions[i].guiTexture.pixelInset.x+32,
 												_interactuable.Actions[i].guiTexture.pixelInset.y+32,0);
 					 float aDist = Vector3.Distance(aPos,cPos);
@@ -253,19 +253,20 @@ public class mouseControl : MonoBehaviour {
 				}
 				break;
 			case CharacterAction.Dialog:
-				Debug.Log("TargetRotation="+targetRotation);
-				Debug.Log("CurrRotation="+navi.transform.rotation.eulerAngles);
 				Vector3 agentPos = new Vector3(navi.transform.position.x,0,navi.transform.position.z);
 				if(Vector3.Distance(agentPos, targetLocation)<0.1){
 					targetLocation = agentPos;
-				navi.transform.rotation = Quaternion.Lerp(navi.transform.rotation, targetRotation,Time.time * 0.002f);
-					//TODO:targetRotation
+					targetRotation = Quaternion.LookRotation(new Vector3(targetObject.transform.position.x,0,targetObject.transform.position.z)-targetLocation);
+					Debug.Log("TargetRotation="+targetRotation);
+					Debug.Log("CurrRotation="+navi.transform.rotation);
 					if(navi.transform.rotation == targetRotation){
 						Debug.Log("TransferIn");
 						CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
 						targetObject = null;
 						_characterAction = CharacterAction.None;
-						//this.enabled=false;
+					}
+					else{
+						navi.transform.rotation = Quaternion.Lerp(navi.transform.rotation, targetRotation,Time.time * 0.002f);
 					}
 				}
 				break;
@@ -287,9 +288,6 @@ public class mouseControl : MonoBehaviour {
 	public void Dialog(GameObject targetObj) {
 		targetLocation = targetObj.transform.position + 2*targetObj.transform.forward;
 		targetLocation = new Vector3(targetLocation.x,0,targetLocation.z);
-				//TODO: TargetRotation;
-		targetRotation = Quaternion.LookRotation(new Vector3(targetObj.transform.position.x,0,targetObj.transform.position.z)-targetLocation);
-		//targetRotation.y = 0;
 		targetObject = targetObj;
 		_characterAction = CharacterAction.Dialog;
 	}
