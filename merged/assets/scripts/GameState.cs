@@ -8,7 +8,8 @@ public class GameState {
 	private GameState instance=null;
 
 	//Variables
-	Hashtable variables=new Hashtable();
+	Hashtable variables = new Hashtable();
+
 
 	private GameState(){
 		}
@@ -35,5 +36,30 @@ public class GameState {
 			Debug.LogError ("La variable:[" + var + "] no existeix al GameState");
 	}
 
+	public void GameSave(){
+		string arrayKeys = ""+PlayerPrefs.GetString ("arrayKeys");
+
+		foreach(DictionaryEntry vartemp in variables)
+		{
+			PlayerPrefs.SetString(vartemp.Key.ToString(), vartemp.Value.ToString());
+			arrayKeys += "/"+vartemp.Key;
+			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
+		}
+
+		PlayerPrefs.SetString ("arrayKeys", arrayKeys);
+	}
+
+	public void GameLoad(){
+		string arrayKeys = ""+PlayerPrefs.GetString ("arrayKeys");
+
+		string[] keys = arrayKeys.Split('/');
+
+		foreach (string keyToLoad in keys)
+		{
+			string value = PlayerPrefs.GetString(keyToLoad);
+			variables [keyToLoad] = value;
+			Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
+		}
+	}
 
 }

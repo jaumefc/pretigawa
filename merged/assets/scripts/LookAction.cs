@@ -17,5 +17,8 @@ public class LookAction : Action {
 		DCScript.NextNode = StartNode;
 		DCScript.enabled = true;
 
+		//MissatgePantalla MP = GameObject.Find ("CameraControl").GetComponent<MissatgePantalla> ();
+		//MP.missatge = "It actually looks exactly as any other cube I've seen so far...";
+		//MP.showMessage(4);
 	}
 }
