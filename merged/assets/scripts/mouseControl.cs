@@ -178,7 +178,15 @@ public class mouseControl : MonoBehaviour {
 							if(hit.collider.gameObject.GetComponent<interactuable>())
 							{
 								//Cridar a la funcio d combinar objectes
-								Debug.Log("Llamar a funcion de combinar objetos!!!!!");
+								Debug.Log ("Desti de combinacio: " + hit.collider.gameObject);
+
+								interactuable interDesti = hit.collider.gameObject.GetComponent<interactuable>();
+								bool isGood = interDesti.comprobarInteraccio(invObj);
+
+								if(isGood){
+									Debug.Log("Combinacio Correcta!");
+									Application.LoadLevel ("prova end"); 
+								}
 							}
 
 						}
