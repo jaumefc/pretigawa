@@ -13,6 +13,12 @@ public class interactuable : MonoBehaviour {
 	private float posx;
 	private float posy;
 
+	public GameObject objecteBo;
+
+
+	public erronis[] objectesErronis;
+	public ConversationNodeClass defaultNode;
+	
 	void Start () {
 		width = Display.main.systemWidth;
 		height = Display.main.systemHeight;
@@ -47,4 +53,30 @@ public class interactuable : MonoBehaviour {
 	public Vector3 GetScreenPosition() {
 		return new Vector3(posx,posy,0);
 	}
+	
+	public bool comprobarInteraccio(GameObject origen){
+		DialogCameraScript DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
+
+		Debug.Log ("Origen de combinacio: " + origen);
+
+		ConversationNodeClass nodeALlencar = defaultNode;
+		
+		if(objecteBo==origen)return true;
+		else{
+			foreach(erronis erroni in objectesErronis){
+				foreach(GameObject objecte in erroni.objectes){
+					if(objecte == origen){
+						nodeALlencar = erroni.frase;
+						DCScript.NextNode = nodeALlencar;
+						DCScript.enabled = true;
+						return false;
+					}
+				}
+			}
+			DCScript.NextNode = nodeALlencar;
+			DCScript.enabled = true;
+			return false;
+		}
+	}
+
 }
