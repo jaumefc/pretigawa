@@ -6,7 +6,12 @@ using System.Collections;
 public class interactuable : MonoBehaviour {
 
 	public GameObject[] Actions;
-	public float r = 150;
+
+	public float Radius = 0.2f;
+
+	private float r;
+	private float ratio;
+	private int iconsize;
 
 	private float width;
 	private float height;
@@ -22,7 +27,11 @@ public class interactuable : MonoBehaviour {
 	void Start () {
 		width = Display.main.systemWidth;
 		height = Display.main.systemHeight;
+		//ratio = width/height;
 		HideMenu();
+		r = Radius * Display.main.systemHeight;
+		
+		iconsize = Mathf.Min (Mathf.CeilToInt(height*0.118f), 128);
 	}
 
 	void Update () {
@@ -38,7 +47,7 @@ public class interactuable : MonoBehaviour {
 			float y = r*Mathf.Sin((202.5f-(angle*i))*Mathf.Deg2Rad);
 
 			Actions[i-1].transform.position = new Vector3(posx / width,posy / height,0);
-			Actions[i-1].guiTexture.pixelInset = new Rect(x - 32,y - 32,Actions[i-1].guiTexture.pixelInset.width,Actions[i-1].guiTexture.pixelInset.height);
+			Actions[i-1].guiTexture.pixelInset = new Rect(x - iconsize/2,y - iconsize/2,iconsize,iconsize);
 			Actions[i-1].SetActive(true);
 		}
 	}
