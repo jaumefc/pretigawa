@@ -42,6 +42,8 @@ public class mouseControl : MonoBehaviour {
 	private GizmoDebug gd;
 	private CameraControl CCScript;
 
+	private GameState gs;
+
 	enum CharacterState {
 		Idle = 0,
 		Walking = 1,
@@ -72,6 +74,13 @@ public class mouseControl : MonoBehaviour {
 		_inventory = GetComponent<InventoryControl>();
 		gd = GameObject.FindObjectOfType<GizmoDebug>().GetComponent<GizmoDebug>();
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
+		gs = GameState.GetInstance();
+		thisTransform.Rotate(gs.GetVector3("PlayerRot"));
+		targetLocation = thisTransform.position = gs.GetVector3("PlayerPos");
+
+//		Vector3 prot = gs.GetVector3("PlayerRot");
+//		thisTransform.rotation.eulerAngles.Set(prot.x,prot.y,prot.z);
+
 
 	}
 
@@ -104,7 +113,13 @@ public class mouseControl : MonoBehaviour {
 
 	void ReadInput () {
 		if (Input.GetKeyDown(KeyCode.Escape)) //Exit scene
-			Application.Quit();
+		{
+			gs.SetVector3("PlayerPos",thisTransform.position);
+			gs.SetVector3("PlayerRot",thisTransform.rotation.eulerAngles);
+			gs.SetInt("scene",Application.loadedLevel);
+			gs.GameSave();
+			Application.LoadLevel(0);
+		}
 		if(Input.GetKeyDown(KeyCode.F9)||Input.touchCount==4)//Toggle wired view
 			gd.SetWire(!gd.GetWire());
 		if(Input.GetKeyDown(KeyCode.F10)||Input.touchCount==3)//Toggle gizmos

@@ -40,17 +40,17 @@ public class CameraRenderSettings : MonoBehaviour {
 
 
 		if (gd.GetGizmos ()) {
-						renderGizObj (player, Color.green);
+			renderGizObj (player, Color.green);
 
-						for (int i=0; i<triggers.Length; i++) {
-								renderGizObj (triggers [i], Color.yellow);
-						}
+			for (int i=0; i<triggers.Length; i++) {
+					renderGizObj (triggers [i], Color.yellow);
+			}
 
-						Gizmos.color = Color.blue;
-						for (int i=0; i<interactObjs.Length; i++) {
-								renderGizObj (interactObjs [i].gameObject, Color.blue);
-						}
-				}
+			Gizmos.color = Color.blue;
+			for (int i=0; i<interactObjs.Length; i++) {
+					renderGizObj (interactObjs [i].gameObject, Color.blue);
+			}
+		}
 	}
 
 	private void renderGizObj(GameObject obj, Color clr) {

@@ -139,7 +139,7 @@ public class DialogCameraScript : MonoBehaviour {
 			}
 
 		}
-		int length = 0;
+//		int length = 0;
 //		for (int i=0; i<curNode.cncArray.Length; i++) {
 //		switch(curNode.cncArray[i].ShowNode){
 //			case ConversationNodeClass.show.ALWAYS:length++;break;

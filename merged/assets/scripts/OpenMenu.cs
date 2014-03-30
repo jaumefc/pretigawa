@@ -18,6 +18,7 @@ public class OpenMenu : MonoBehaviour {
 	public float left6, top6, size6;
 
 	public GUIStyle style;
+	private GameState gs;
 
 
 
@@ -33,6 +34,7 @@ public class OpenMenu : MonoBehaviour {
 		
 		style.padding.left = (int)(Screen.height*screenratio / 40);
 		style.padding.right = (int)(Screen.height*screenratio / 40);
+		gs = GameState.GetInstance();
 	}
 	
 
@@ -47,10 +49,13 @@ public class OpenMenu : MonoBehaviour {
 
 		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "New Game", style)) {
 			Debug.Log ("New Game");
+			gs.GameNew();
 			Application.LoadLevel("placa");
 		}
 
 		if (GUI.Button (new Rect (left2 * Screen.width*stylebgratio, top2 * Screen.height, size2 * Screen.height * stylebgratio, size2 * Screen.height), "Load/Save Game", style)) {
+			gs.GameLoad();
+			Application.LoadLevel(gs.GetInt("scene"));
 			Debug.Log ("Load/Save Game");
 		}
 		
