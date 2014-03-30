@@ -13,4 +13,5 @@ pretigawa/
 .DS_Store
 *.apk
 *.app
+*.mat
 *.meta
