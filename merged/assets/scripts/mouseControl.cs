@@ -131,8 +131,8 @@ public class mouseControl : MonoBehaviour {
 			RaycastHit hit;
 			if( Physics.Raycast(ray, out hit) && invObj==null )
 			{
-//				Debug.Log(hit.collider.gameObject);
-//				Debug.Log(hit.collider.gameObject.GetComponent<interactuable>());
+				Debug.Log(hit.collider.gameObject);
+				Debug.Log(hit.collider.gameObject.GetComponent<interactuable>());
 				if(hit.collider.gameObject == gameObject)
 				{
 					_inventory.Toggle();
