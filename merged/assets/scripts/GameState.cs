@@ -137,8 +137,6 @@ public class GameState {
 		AddVector3("PlayerPos",new Vector3(10.0024f,3.67965f,8.96460f));
 		AddVector3("PlayerRot",new Vector3(0.0f,0.0f,0.0f));
 		intVars.Add("scene",4);
-
-
 	}
 
 	/*
@@ -151,26 +149,26 @@ public class GameState {
 		{
 			PlayerPrefs.SetString(vartemp.Key.ToString(), vartemp.Value.ToString());
 			stringKeys += "/"+vartemp.Key;
-			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
+//			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
 		}
 		
 		foreach(DictionaryEntry vartemp in intVars)
 		{
 			PlayerPrefs.SetInt(vartemp.Key.ToString(), int.Parse(vartemp.Value.ToString()));
 			intKeys += "/"+vartemp.Key;
-			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
+//			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
 		}
 		foreach(DictionaryEntry vartemp in floatVars)
 		{
 			PlayerPrefs.SetFloat(vartemp.Key.ToString(), float.Parse(vartemp.Value.ToString()));
 			floatKeys += "/"+vartemp.Key;
-			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
+//			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
 		}
 		foreach(DictionaryEntry vartemp in booleanVars)
 		{
 			PlayerPrefs.SetString(vartemp.Key.ToString(), vartemp.Value.ToString());
 			boolKeys += "/"+vartemp.Key;
-			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
+//			Debug.Log("Guardant: [" + vartemp.Key + "] -> "  + vartemp.Value);
 		}
 
 		PlayerPrefs.SetString ("stringKeys", stringKeys);
@@ -211,7 +209,7 @@ public class GameState {
 			if(keyToLoad!=""){
 				string value = PlayerPrefs.GetString(keyToLoad);
 				stringVars.Add(keyToLoad,value);
-				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
+//				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
 			}
 		}
 		foreach (string keyToLoad in ikeys)
@@ -219,7 +217,7 @@ public class GameState {
 			if(keyToLoad!=""){
 				int value = PlayerPrefs.GetInt(keyToLoad);
 				intVars.Add(keyToLoad,value);
-				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
+//				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
 			}
 		}
 		foreach (string keyToLoad in fkeys)
@@ -227,7 +225,7 @@ public class GameState {
 			if(keyToLoad!=""){
 				float value = PlayerPrefs.GetFloat(keyToLoad);
 				floatVars.Add(keyToLoad,value);
-				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
+//				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
 			}
 		}
 		foreach (string keyToLoad in bkeys)
@@ -235,7 +233,7 @@ public class GameState {
 			if(keyToLoad!=""){
 				bool value = bool.Parse(PlayerPrefs.GetString(keyToLoad));
 				booleanVars.Add(keyToLoad,value);
-				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
+//				Debug.Log("Carregant: [" + keyToLoad + "] -> "  + value);
 			}
 		}
 	}
