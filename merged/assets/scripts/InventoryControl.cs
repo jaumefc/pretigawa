@@ -10,18 +10,21 @@ public class InventoryControl : MonoBehaviour {
 	private bool showInventory = false;
 	private float position = 0;
 	private GameObject selectedObj = null;
-	private readonly float MAX_POSITION = 100;
+//	private readonly float MAX_POSITION = Mathf.Min( Mathf.FloorToInt(Display.main.systemHeight/14.5f), 132);
+	private float MAX_POSITION;
 	private readonly float MIN_POSITION = 0;
 
 	private float width,height;
 
 	private ArrayList inventoryObjects = new ArrayList();
 
+	private int iconsize;
 
 	void Start () {
 		width = Display.main.systemWidth;
 		height = Display.main.systemHeight;
-
+		MAX_POSITION = Mathf.Min( Mathf.FloorToInt(height/8.1f), 132);
+		iconsize = Mathf.Min (Mathf.CeilToInt(height*0.118f), 128);
 	}
 
 	void Update () {
@@ -40,10 +43,15 @@ public class InventoryControl : MonoBehaviour {
 		}
 		GUITexture[] textures = inventoryRootObj.GetComponentsInChildren<GUITexture>();
 
-		for(int i =0;i<textures.Length;i++)
+
+		textures[0].pixelInset = new Rect(textures[0].pixelInset.x,textures[0].pixelInset.y - (position-oldPosition),
+		                                  width,MAX_POSITION);
+
+
+		for(int i =1;i<textures.Length;i++)
 		{
-			textures[i].pixelInset = new Rect(textures[i].pixelInset.x,textures[i].pixelInset.y - (position-oldPosition),
-			                                  textures[i].pixelInset.width,textures[i].pixelInset.height);
+			textures[i].pixelInset = new Rect(textures[i].pixelInset.x, ((MAX_POSITION-iconsize)/2)-oldPosition,
+			                                  iconsize, iconsize);
 		}
 
 		for(int i=0;i<inventoryObjects.Count;i++){
