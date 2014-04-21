@@ -15,8 +15,6 @@ public class HelpScript : MonoBehaviour {
 	public float left6, top6, size6;
 	public float left7, top7, size7;
 
-	public Texture ImgElement;
-	
 	public GUIStyle style;
 	public GUIStyle style2;
 	public GUIStyle style3;
@@ -49,16 +47,10 @@ public class HelpScript : MonoBehaviour {
 		GUI.Button (new Rect (left5 * Screen.width * stylebgratio, top5 * Screen.height, size5 * Screen.height * stylebgratio, size5 * Screen.height),
 		            "Tap on an object or person and release on the action to perform.", style2);
 
-
-		GUI.Button (new Rect (left7 * Screen.width * stylebgratio, top7 * Screen.height, size7 * Screen.height * stylebgratio, size7 * Screen.height),ImgElement, style3);
-
-
-
 		if (GUI.Button (new Rect (left6 * Screen.width * stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), "Next", style)) {
 			Debug.Log ("next");
 			Application.LoadLevel ("prova help2");
 		}
-
 
 		if (Input.GetKeyDown (KeyCode.Escape)){
 			Application.LoadLevel("prova menu");
