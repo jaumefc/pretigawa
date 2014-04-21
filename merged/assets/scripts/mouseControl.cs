@@ -47,9 +47,9 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		gd = GameObject.FindObjectOfType<GizmoDebug>().GetComponent<GizmoDebug>();
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
 		_characterAction = CharacterAction.None;
-		gs = GameState.GetInstance();
-		
-		BroadcastMessage("Load");
+        gs = GameState.GetInstance();
+        //ameObject.Find("root").BroadcastMessage("Start");
+		GameObject.Find("root").BroadcastMessage("Load");
 //		thisTransform.Rotate(gs.GetVector3("PlayerRot"));
 //		navi.Warp(gs.GetVector3("PlayerPos"));
 //		targetLocation = transform.position = gs.GetVector3("PlayerPos");
@@ -75,7 +75,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 //			gs.SetVector3("PlayerRot",thisTransform.rotation.eulerAngles);
 //			gs.SetInt("scene",Application.loadedLevel);
 //			gs.GameSave();
-			BroadcastMessage("Save");
+            GameObject.Find("root").BroadcastMessage("Save");
 			Application.LoadLevel(0);
 		}
 		if(Input.GetKeyDown(KeyCode.F9)||Input.touchCount==4)//Toggle wired view
@@ -109,7 +109,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		case CharacterAction.Take: 
 			if(Vector3.Distance(navi.transform.position, targetLocation)<0.5){
 				targetLocation = navi.transform.position;
-				_inventory.Add(targetObject);
+				_inventory.Add2(targetObject);
 				targetObject = null;
 				_characterAction = CharacterAction.None;
 			}
@@ -163,6 +163,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			{
 				//TODO:Desactivar script camera
 //				targetLocation = thisTransform.position;
+				cam.GetComponent<customLookAt>().enabled=false;
 				_interactuable = hit.collider.gameObject.GetComponent<interactuable>();
 				Vector3 screenPos = cam.WorldToScreenPoint(hit.collider.gameObject.transform.position);
 				_interactuable.ShowMenu(screenPos);
@@ -241,6 +242,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			GameObject.DestroyObject(cRaster);
 			_interactuable.HideMenu();
 			_interactuable = null;
+			cam.GetComponent<customLookAt>().enabled=true;
 		}
 	}
 	
@@ -308,11 +310,19 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 	}
 
 	public void Load(){
-		Debug.Log ("InitLoad::"+this.GetType());
+		Debug.Log ("Loading:"+this.gameObject.name);
 		gs = GameState.GetInstance();
-		thisTransform.Rotate(gs.GetVector3("PlayerRot"));
+        if (!gs.ExistsVector3("PlayerRot"))
+            gs.AddVector3("PlayerRot", new Vector3(0.0f, 0.0f, 0.0f));
+        thisTransform.Rotate(gs.GetVector3("PlayerRot"));
+
+        if (!gs.ExistsVector3("PlayerPos"))
+            gs.AddVector3("PlayerPos", new Vector3(10.0024f, 3.67965f, 8.96460f));
 		navi.Warp(gs.GetVector3("PlayerPos"));
 		targetLocation = transform.position = gs.GetVector3("PlayerPos");
+        if (!gs.ExistsInt("scene"))
+            gs.AddInt("scene", Application.loadedLevel);
+
 		Debug.Log ("EndLoad::"+this.GetType());
 	}
 }

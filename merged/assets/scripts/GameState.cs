@@ -117,14 +117,52 @@ public class GameState {
 			Debug.LogError("La variable Vector3:[" + var + "] no existeix al GameState");
 	}
 
-	private void AddVector3(string var, Vector3 value){
-		if(!floatVars.Contains(var+"X")&&!floatVars.Contains(var+"Y")&&!floatVars.Contains(var+"Z")){
-			floatVars.Add(var+"X",value.x);
-			floatVars.Add(var+"Y",value.y);
-			floatVars.Add(var+"Z",value.z);
-		}
-		else
-			Debug.LogError("Already exists a variable with name: "+var);
+    //TODO:Afegir metodes AddInt, AddString, AddFloat, AddBool
+    public void AddInt(string var, int value)
+    {
+        intVars.Add(var, value);
+    }
+    public void AddFloat(string var, float value)
+    {
+        floatVars.Add(var, value);
+    }
+    public void AddString(string var, string value)
+    {
+        stringVars.Add(var, value);
+    }
+    public void AddBool(string var, bool value)
+    {
+        booleanVars.Add(var, value);
+    }
+
+
+    
+    //Metodes per comprovar si ja existeix la valiable a GameState
+    public bool ExistsInt(string var)
+    {
+        return intVars.ContainsKey(var);
+    }
+    public bool ExistsFloat(string var)
+    {
+        return floatVars.ContainsKey(var);
+    }
+    public bool ExistsString(string var)
+    {
+        return stringVars.ContainsKey(var);
+    }
+    public bool ExistsBool(string var)
+    {
+        return booleanVars.ContainsKey(var);
+    }
+    public bool ExistsVector3(string var)
+    {
+        return ExistsFloat(var + "X") && ExistsFloat(var + "Y") && ExistsFloat(var + "Z");
+    }
+
+	public void AddVector3(string var, Vector3 value){
+        AddFloat(var + "X", value.x);
+        AddFloat(var + "Y", value.y);
+        AddFloat(var + "Z", value.z);
 	}
 	/*
 	 * Carrega el valors per defecte d'una nova partida
@@ -134,9 +172,9 @@ public class GameState {
 		intVars.Clear();
 		floatVars.Clear();
 		booleanVars.Clear();
-		AddVector3("PlayerPos",new Vector3(10.0024f,3.67965f,8.96460f));
-		AddVector3("PlayerRot",new Vector3(0.0f,0.0f,0.0f));
-		intVars.Add("scene",4);
+		//AddVector3("PlayerPos",new Vector3(10.0024f,3.67965f,8.96460f));
+		//AddVector3("PlayerRot",new Vector3(0.0f,0.0f,0.0f));
+		//intVars.Add("scene",4);
 	}
 
 	/*
