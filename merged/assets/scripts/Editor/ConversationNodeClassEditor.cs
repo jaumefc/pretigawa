@@ -32,12 +32,17 @@ public class ConversationNodeClassEditor : Editor
 		cnc.cCharacter = (ConversationNodeClass.costume)EditorGUILayout.EnumPopup ("cCharacter", cnc.cCharacter);
 		cnc.sSpeaker = (ConversationNodeClass.speaker)EditorGUILayout.EnumPopup ("sSpeaker", cnc.sSpeaker);
 		cnc.fSeconds = EditorGUILayout.FloatField ("fSeconds", cnc.fSeconds);
+		//cnc.bIsEnabled = EditorGUILayout.Toggle ("IsEnabled", cnc.bIsEnabled);
+		//cnc.sNextAction = EditorGUILayout.TextField("sNextAction",cnc.sNextAction);
+		//cnc.GOApplied = (GameObject)EditorGUILayout.ObjectField ("GOApplied", cnc.GOApplied, typeof(GameObject),true);
 		cnc.showNodes = EditorGUILayout.Foldout (cnc.showNodes, "Nodes");
+		
+
 		if(cnc.showNodes)
 		{
 			int size = EditorGUILayout.IntField("Size",cnc.cncArray.Length);
 			ConversationNodeClass[] aux = new ConversationNodeClass[size];
-			for (int i = 0 ; i < size;i++)
+			for (int i = 0 ; i < size-1;i++)
 			{
 				if(i<cnc.cncArray.Length)
 					aux[i] = (ConversationNodeClass)EditorGUILayout.ObjectField("Node "+i, cnc.cncArray[i], typeof(ConversationNodeClass), true);

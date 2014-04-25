@@ -15,9 +15,13 @@ public class ConversationNodeClass : MonoBehaviour {
 	public costume cCharacter;
 	public speaker sSpeaker;
 	public float fSeconds = 3;
+	//public bool bIsEnabled = true;
+	//public string sNextAction = null;
+	//public GameObject GOApplied;
 	[HideInInspector]
 	public bool showNodes = false;
 	public ConversationNodeClass[] cncArray;
+
 
 	public bool bIsSelected=false;
 	public bool bIsUsed=false;

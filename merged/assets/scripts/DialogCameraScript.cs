@@ -117,6 +117,14 @@ public class DialogCameraScript : MonoBehaviour {
 						return;
 		if (curNode.cncArray.Length==0){
 			Debug.Log ("Now we are supposed to leave");
+			//check if any action to do
+
+			//if (curNode.sNextAction!=null){
+			//	BroadcastMessage(curNode.sNextAction, curNode.GOApplied);
+			//}
+
+
+
 			//sortir
 			PreviousNode = null;
 			Debug.Log(Camera.current);
@@ -189,7 +197,7 @@ public class DialogCameraScript : MonoBehaviour {
 
 
 
-		//TODO: set as single when selected
+		//TODO: set as single when selected???
 		
 		if(curNode.cncArray.Length>1){
 			if(!IsAnySelected(curNode)){
