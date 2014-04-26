@@ -53,11 +53,11 @@ public class EndScript : MonoBehaviour {
 
 		if (GUI.Button (new Rect (left6 * Screen.width * stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), "Menu", style)) {
 			Debug.Log ("Menu");
-			Application.LoadLevel ("prova menu");
+			Application.LoadLevel ("menu");
 		}
 		
 		if (Input.GetKeyDown (KeyCode.Escape)){
-			Application.LoadLevel("prova menu");
+			Application.LoadLevel("menu");
 		}
 		
 	}

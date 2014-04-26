@@ -45,7 +45,7 @@ public class RestartScript : MonoBehaviour {
 		
 		
 		if (Input.GetKeyDown (KeyCode.Escape)){
-			Application.LoadLevel("prova menu");
+			Application.LoadLevel("menu");
 		}
 		
 	}

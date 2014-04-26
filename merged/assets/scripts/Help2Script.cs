@@ -125,7 +125,7 @@ public class Help2Script : MonoBehaviour {
 
 		if (GUI.Button (new Rect (left7 * Screen.width * stylebgratio, top7 * Screen.height, size7 * Screen.height * stylebgratio, size7 * Screen.height), "Menu", style)) {
 			Debug.Log ("menu");
-			Application.LoadLevel ("prova menu");
+			Application.LoadLevel ("menu");
 		}
 
 
@@ -133,7 +133,7 @@ public class Help2Script : MonoBehaviour {
 
 
 		if (Input.GetKeyDown (KeyCode.Escape)) 
-			Application.LoadLevel("prova menu");
+			Application.LoadLevel("menu");
 		
 	}
 

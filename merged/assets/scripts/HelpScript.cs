@@ -56,12 +56,12 @@ public class HelpScript : MonoBehaviour {
 
 		if (GUI.Button (new Rect (left6 * Screen.width * stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), "Next", style)) {
 			Debug.Log ("next");
-			Application.LoadLevel ("prova help2");
+			Application.LoadLevel ("help2");
 		}
 
 
 		if (Input.GetKeyDown (KeyCode.Escape)){
-			Application.LoadLevel("prova menu");
+			Application.LoadLevel("menu");
 		}
 
 	}

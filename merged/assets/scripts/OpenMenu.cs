@@ -65,12 +65,12 @@ public class OpenMenu : MonoBehaviour {
 		
 		if (GUI.Button (new Rect (left4 * Screen.width*stylebgratio, top4 * Screen.height, size4 * Screen.height * stylebgratio, size4 * Screen.height), "Credits", style)) {
 			Debug.Log ("Credits");
-			Application.LoadLevel("prova credits");
+			Application.LoadLevel("credits");
 		}
 
 		if (GUI.Button (new Rect (left5 * Screen.width*stylebgratio, top5 * Screen.height, size5 * Screen.height * stylebgratio, size5 * Screen.height), "Help", style)) {
 			Debug.Log ("Help");
-			Application.LoadLevel("prova help");
+			Application.LoadLevel("help");
 		}
 
 

@@ -59,12 +59,12 @@ public class ProvaCredits : MonoBehaviour {
 
 		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "Back", style)) {
 			Debug.Log ("Back");
-			Application.LoadLevel("prova menu");
+			Application.LoadLevel("menu");
 		}
 
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			Debug.Log ("Back");
-			Application.LoadLevel("prova menu");
+			Application.LoadLevel("menu");
 		}
 	}
 
