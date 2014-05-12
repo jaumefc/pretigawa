@@ -26,5 +26,21 @@ public class ConversationNodeClass : MonoBehaviour {
 	public bool bIsSelected=false;
 	public bool bIsUsed=false;
 
+	public string preAction;
+	public string postAction;
+
+
+	public GameObject GetRootNode (){
+		GameObject parent = transform.parent.gameObject;
+		if(parent.GetComponent<ConversationTreeClass>())
+			return parent;
+		else  if (parent.GetComponent<ConversationNodeClass>()){
+			ConversationNodeClass cnc = parent.GetComponent<ConversationNodeClass>();
+			return cnc.GetRootNode();
+		}
+		else
+			Debug.LogError("[ConversationNodeClass] No NodeClass o TreeClass in parent object");
+		return null;
+	}
 
 }

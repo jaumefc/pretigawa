@@ -8,6 +8,7 @@ public class BalloonScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		thisTransform = transform;
+//		cam = GameObject.Find ("CreditsCamera").GetComponent<Camera> ();
 		cam = Camera.main;
 	}
 	
