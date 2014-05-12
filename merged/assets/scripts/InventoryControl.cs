@@ -3,6 +3,13 @@ using System.Collections;
 
 //#pragma strict
 
+
+public enum Custom{
+	NAKED,
+	JAPANISH,
+	MS_FORTUNE
+}
+
 public class InventoryControl : MonoBehaviour {
 	public GameObject inventoryRootObj;
 	public int speed;
@@ -10,67 +17,80 @@ public class InventoryControl : MonoBehaviour {
 	private bool showInventory = false;
 	private float position = 0;
 	private GameObject selectedObj = null;
-	private readonly float MAX_POSITION = 100;
+	private float MAX_POSITION;
 	private readonly float MIN_POSITION = 0;
+	private const int MAX_CUSTOMS =7;
 
 	private float width,height;
+	private int iconsize;
 
-	private ArrayList inventoryObjects = new ArrayList();
-    public GameObject[] inventoryObjects1 = new GameObject[11];
-    public GameObject[] inventoryCustoms = new GameObject[3];
+    public GameObject[] inventoryObjects = new GameObject[11];
+    public GameObject[] inventoryCustoms = new GameObject[MAX_CUSTOMS];
+
+	private int currCustomShowed = 0;
+
 
 
 	void Start () {
 		width = Display.main.systemWidth;
 		height = Display.main.systemHeight;
+		MAX_POSITION = Mathf.Min( Mathf.FloorToInt(height/8.1f), 132);
+		iconsize = Mathf.Min (Mathf.CeilToInt(height*0.118f), 128);
 
 	}
 
 	void Update () {
 		float oldPosition = position;
+		//L'inventari s'esta desplegant
 		if(showInventory) {
 			if(position<MAX_POSITION)
 				position = position + speed*Time.deltaTime;
 			else
 				position = MAX_POSITION;
 		}
+		//L'inventari s'oculta
 		else {
 			if(position>MIN_POSITION)
 				position = position - speed*Time.deltaTime;
 			else
 				position = MIN_POSITION;
 		}
+		//Recuperem les textures basiques del inventari, fletxes, background
 		GUITexture[] textures = inventoryRootObj.GetComponentsInChildren<GUITexture>();
         //Pintem elements estatics de la barra d'inventari, fletxes, etc
+		textures[0].pixelInset = new Rect(textures[0].pixelInset.x,textures[0].pixelInset.y - (position-oldPosition),
+		                                  width,MAX_POSITION);
+
+
+		for(int i =1;i<textures.Length;i++)
+		{
+			textures[i].pixelInset = new Rect(textures[i].pixelInset.x, ((MAX_POSITION-iconsize)/2)-oldPosition,
+			                                  iconsize, iconsize);
+		}
+		/*
 		for(int i =0;i<textures.Length;i++)
 		{
 			textures[i].pixelInset = new Rect(textures[i].pixelInset.x,textures[i].pixelInset.y - (position-oldPosition),
 			                                  textures[i].pixelInset.width,textures[i].pixelInset.height);
 		}
-        //Mostrem el objecte que tenim a l'inventari
-        //for(int i=0;i<inventoryObjects.Count;i++){
-        //    if(selectedObj==null || selectedObj!=((GameObject)inventoryObjects[i])){
-        //        Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
-        //        ((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
-        //            new Rect(-64*(i+2),oldRect.y - (position-oldPosition),oldRect.width,oldRect.height);
-        //        //Debug.Log(i);
-        //        //Debug.Log(-64*(i+1));
-        //    }
-        //}
+		*/
 
         //Mostrem el objecte que tenim a l'inventari
 		int k = 0;
-        for (int i = 0; i < inventoryObjects1.Length; i++)
+        for (int i = 0; i < inventoryObjects.Length; i++)
         {
-            if(inventoryObjects1[i]!=null)
-                if (selectedObj == null || selectedObj != ((GameObject)inventoryObjects1[i]))
+            if(inventoryObjects[i]!=null)
+                if (selectedObj == null || selectedObj != ((GameObject)inventoryObjects[i]))
                 {
-                    Rect oldRect = ((GameObject)inventoryObjects1[i]).guiTexture.pixelInset;
-                    ((GameObject)inventoryObjects1[i]).guiTexture.pixelInset =
+                    Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
+                    ((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
                         new Rect(-64 * (k + 2), oldRect.y - (position - oldPosition), oldRect.width, oldRect.height);
 					k++;
                 }
         }
+
+		//Per la disfressa no cal fer res, sempre es mostra una disfresa, aquesta canvia quan es prem el boto de dreta o esquerra
+
 	}
 
 
@@ -103,26 +123,17 @@ public class InventoryControl : MonoBehaviour {
 
 
 		Vector3 cPos = Input.mousePosition - new Vector3(width,height,0);
-//		for(int i=0;i<inventoryObjects.Count;i++) {
-//			Vector3 aPos = new Vector3(((GameObject)inventoryObjects[i]).guiTexture.pixelInset.x+32,
-//			                           ((GameObject)inventoryObjects[i]).guiTexture.pixelInset.y+32,0);
-//			float aDist = Vector3.Distance(aPos,cPos);
-//			if(aDist<32)
-//			{
-//				retObj = (GameObject)inventoryObjects[i];
-//			}
-//		}
 
-		for(int i=0;i<inventoryObjects1.Length;i++){
-			if(inventoryObjects1[i]!=null)
+		for(int i=0;i<inventoryObjects.Length;i++){
+			if(inventoryObjects[i]!=null)
 			{
-				if(inventoryObjects1[i].GetComponent<InventoryObject>().GetState()==InventoryObject.InventoryObjectState.TAKEN){
-					Vector3 aPos = new Vector3(((GameObject)inventoryObjects1[i]).guiTexture.pixelInset.x+32,
-				                           ((GameObject)inventoryObjects1[i]).guiTexture.pixelInset.y+32,0);
+				if(inventoryObjects[i].GetComponent<InventoryObject>().GetState()==InventoryObject.InventoryObjectState.TAKEN){
+					Vector3 aPos = new Vector3(((GameObject)inventoryObjects[i]).guiTexture.pixelInset.x+32,
+				                           ((GameObject)inventoryObjects[i]).guiTexture.pixelInset.y+32,0);
 					float aDist = Vector3.Distance(aPos,cPos);
 					if(aDist<32)
 					{
-						retObj = (GameObject)inventoryObjects1[i];
+						retObj = (GameObject)inventoryObjects[i];
 					}
 				}
 			}
@@ -134,19 +145,9 @@ public class InventoryControl : MonoBehaviour {
 	}
 
 
-
-//	public void Add(GameObject invObj) {
-//		invObj.renderer.enabled=false;
-//		invObj.collider.enabled=false;
-//		invObj.guiTexture.enabled=true;
-//		invObj.guiTexture.transform.position = new Vector3(1,1,0);
-//		invObj.guiTexture.transform.localScale = new Vector3(0,0,1);
-//		inventoryObjects.Add(invObj);
-//	}
-
     public void Add2(GameObject invObj)
     {
-        IEnumerator it = inventoryObjects1.GetEnumerator();
+        IEnumerator it = inventoryObjects.GetEnumerator();
         while(it.MoveNext()){
             GameObject obj = (GameObject)it.Current;
             if (obj.Equals(invObj))
@@ -161,6 +162,59 @@ public class InventoryControl : MonoBehaviour {
         }
 
     }
+
+	/*
+	 *Metode per afegir una disfressa al inventari 
+	 */
+	public void AddCustom(Custom c){
+		//TODO: Afegir, de forma logica, disfressa al inventari
+		//Buscar la disfressa amb el mateix Custom i marcarla com activa
+	}
+
+	/*
+	 * Metode per mostrar la anterior disfressa disponible
+	 */
+	public void PreviousCustom(){
+		for(int i=1;i<MAX_CUSTOMS;i++){
+			int preCustom = (currCustomShowed - i)%MAX_CUSTOMS;
+			InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[preCustom].GetComponent<InventoryCustom>();
+			if(preCustomObject.IsInInventory()){
+				inventoryCustoms[currCustomShowed].guiTexture.enabled = false;
+				currCustomShowed = preCustom;
+				inventoryCustoms[currCustomShowed].guiTexture.enabled = true;
+				if(preCustomObject.IsSelected()){
+					//TODO:Posar marc que denoti que es el seleccionat
+				}
+				break;
+			}
+		}
+	}
+	
+	/*
+	 * Metode per mostrar la seguent disfressa disponible
+	 */
+	public void NextCustom(){
+		for(int i=1;i<MAX_CUSTOMS;i++){
+			int nextCustom = (currCustomShowed + i)%MAX_CUSTOMS;
+			InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[nextCustom].GetComponent<InventoryCustom>();
+			if(preCustomObject.IsInInventory()){
+				inventoryCustoms[currCustomShowed].guiTexture.enabled = false;
+				currCustomShowed = nextCustom;
+				inventoryCustoms[currCustomShowed].guiTexture.enabled = true;
+				if(preCustomObject.IsSelected()){
+					//TODO:Posar marc que denoti que es el seleccionat
+				}
+				break;
+			}
+		}
+	}
+	
+	/*
+	 * Metode per seleccionar la actual disfressa
+	 */
+	public void SelectCustom(){
+
+	}
 
 
 

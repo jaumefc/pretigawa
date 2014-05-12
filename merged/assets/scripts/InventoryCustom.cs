@@ -7,6 +7,7 @@ public class InventoryCustom : MonoBehaviour, ISaveable {
 
     private bool selected;
 	public bool taken = false;
+	public Custom custom;
     private GameState gs;
 
 	// Use this for initialization

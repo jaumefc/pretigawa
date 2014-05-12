@@ -22,8 +22,10 @@ public class ProvaCredits : MonoBehaviour {
 
 	public GUIStyle style;
 	public GUIStyle style2;
+	public GameObject prefab;
 
-
+	GameObject credit;
+	int currCredit = 0;
 
 	void Awake() {	
 		// Store screen ratio
@@ -39,10 +41,41 @@ public class ProvaCredits : MonoBehaviour {
 		style2.padding.left = (int)(Screen.height*screenratio / 35);
 		style2.padding.right = (int)(Screen.height*screenratio / 35);
 
+
+
 	}
 
+	void Start() {
+//		for(int i =0; i < text.Length; i++){
+//			Vector3 pos = new Vector3(prefab.transform.position.x,prefab.transform.position.y-i*3,prefab.transform.position.z);
+//			credit = (GameObject)GameObject.Instantiate(prefab, pos, prefab.transform.rotation);
+//			credit.GetComponentInChildren<TextMesh>().text = text[i];
+//
+//		}
 
+		if (text.Length > 0)
+						ShowNextCredit ();
+	}
 
+	void Update() {
+		if(credit!=null)
+		{
+			Debug.Log(credit.transform.FindChild("Cube").position.y);
+			if(credit.transform.FindChild("Cube").position.y < -3 || credit.transform.FindChild("Cube").position.y > 5)
+			{
+				GameObject.Destroy(credit);
+				if(currCredit < text.Length)
+					ShowNextCredit();
+			}
+		}
+	}
+
+	void ShowNextCredit(){
+		credit = (GameObject)GameObject.Instantiate (prefab);
+		credit.GetComponentInChildren<TextMesh>().text = text[currCredit];
+		currCredit++;
+
+	}
 
 	void OnGUI() {
 
