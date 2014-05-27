@@ -19,8 +19,8 @@ public class CameraControl : MonoBehaviour {
 		cCameraDialog = GameObject.Find ("DialogCamera").camera;
 
 		DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
-		DCTexture = GameObject.Find ("DialogLayout").guiTexture;
-		DCTexture.enabled = false;
+		//DCTexture = GameObject.Find ("DialogLayout").guiTexture;
+		//DCTexture.enabled = false;
 
 
 		cCamera1.enabled = false;
@@ -38,12 +38,13 @@ public class CameraControl : MonoBehaviour {
 		cCamera2 = otherCam;
 		cCameraOriginal = Camera.main;
 		cCameraOriginal.enabled = false;
-		DCTexture.enabled = true;
+		//DCTexture.enabled = true;
 		cCamera1.enabled = true;
 		cCamera2.enabled = true;
 		cCameraDialog.enabled = true;
 		MCScript.enabled=false;
 		DCScript.enabled = true;
+		DCScript.Init ();
 		stateIn = true;
 	}
 
@@ -51,7 +52,7 @@ public class CameraControl : MonoBehaviour {
 		Debug.Log ("Fem el out");
 		Debug.Log (Camera.main);
 		cCameraOriginal.enabled = true;
-		DCTexture.enabled = false;
+		//DCTexture.enabled = false;
 		cCamera1.camera.enabled = false;
 		cCamera2.enabled = false;
 		cCameraDialog.enabled = false;

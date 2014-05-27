@@ -4,7 +4,7 @@ using System.Collections;
 public class erronis : MonoBehaviour {
 
 	public GameObject[] objectes;
-	public ConversationNodeClass frase;
+	public ConversationTreeClass frase;
 
 	void Start () {
 	}

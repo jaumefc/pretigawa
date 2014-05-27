@@ -3,6 +3,15 @@ using System.Collections;
 
 public class DialogCameraScript : MonoBehaviour {
 
+	enum DialogState {INIT, EVAL, SHOW, EXEC, END, NONE};
+	enum ShowState {SHOW,CLICK_WAIT};
+
+	DialogState dialogState;
+	private ShowState showState=ShowState.SHOW;
+
+	private GameObject[] objBallons = new GameObject[4];
+	private Texture texture;
+
 	public GUIStyle style_think;
 	public GUIStyle style_alien;
 	public GUIStyle style_theother;
@@ -10,288 +19,315 @@ public class DialogCameraScript : MonoBehaviour {
 	CameraControl CCScript;
 
 	float ratio = 1f;
-	float previousScreenWidth = 1f;
-	float previousScreenHeight = 1f;
-	
-	bool updatePosition = true;
-	bool updateSize = true;
+
 	float size = 1f;
 	float x = 0.5f;
 	float y = 0.5f;
 
+	float screenratio;
+
 	GameState gs;
-	
+	InventoryControl inventoryControl;
+
+	private AudioSource playerAS;
+
+	[HideInInspector]
+	public ConversationNodeClass CurNode;
+	float gettime = 0;
+
+	IList NodesToShow = new ArrayList();
+	ConversationNodeClass[] NodesToEvaluate;
 
 	
 	// Use this for initialization
 	void Start () {
-		
 		//render init
-		InvokeRepeating("Adjust", 0f, 0.5f);	
-		//gs = GameState.GetInstance ();
-	}
-
-
-	void Awake() {
-		
-		if(guiTexture) {
-			
-			// Store texture ratio
-			ratio = guiTexture.pixelInset.width / guiTexture.pixelInset.height;
-		}
-		guiTexture.enabled = false;
+		gs = GameState.GetInstance ();
+		screenratio = (float)(Screen.width) / (float)(Screen.height);
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
-
-	}
-	
-	
-	
-	
-	
-	// Set new size and offset
-	void Adjust() {
-		
-		// Return if screen size did not change
-		if(previousScreenWidth == Screen.width && previousScreenHeight == Screen.height) {
-			
-			return;	
-		}
-		
-		// Store previous screen dimensions
-		previousScreenWidth = Screen.width;
-		previousScreenHeight = Screen.height;
-		
-		//set font size
+		playerAS = GameObject.Find("Player").GetComponent<AudioSource>();
+		inventoryControl = GameObject.Find ("Player").GetComponent<InventoryControl> ();
 		style_think.fontSize = Mathf.RoundToInt(Screen.height/40 * size);
 		style_alien.fontSize = style_think.fontSize;
 		style_theother.fontSize = style_think.fontSize;
+		texture = Resources.LoadAssetAtPath<Texture> ("Assets/Textures/GUI elements/globus05e.png");
+		for (int i = 0; i<4; i++) 
+		{
+			objBallons[i] = new GameObject("balloon"+i);
+			objBallons[i].AddComponent<GUIText>();
+			objBallons[i].AddComponent<GUITexture>();
+			objBallons[i].transform.position = new Vector3(0.12f + (0.24f * Screen.width * i)/Screen.width,(0.88f * Screen.height)/Screen.height,0);
+			objBallons[i].transform.localScale = new Vector3(0.24f,0.22f,1);
+			objBallons[i].guiTexture.texture = texture;
+			objBallons[i].guiTexture.enabled = false;
+			objBallons[i].guiText.enabled = false;
+			objBallons[i].guiText.fontSize = style_think.fontSize;
+			objBallons[i].guiText.anchor = TextAnchor.MiddleCenter;
+			objBallons[i].guiText.font = style_think.font;
+			objBallons[i].guiText.color = Color.black;
+		}
 
+		//inicialitzar mides bafarada?
+	}
 
-		//set texture size
-		if (guiTexture) {
+	void InitDialog(){
+		
+		//coses iniciar
+		dialogState = DialogState.EVAL;
+	}
+
+	/*
+	 * De tots els node possibles, comprova quins seran els que es mostraran.
+	 * Comprova variables al gameState
+	 */
+	void EvaluateNodes(ConversationNodeClass[] NodeArray){
+		
+		NodesToShow.Clear();
+		
+		if (NodeArray.Length == 1){	//automatic conversation
 			
-			// Set size and position
-			float left = guiTexture.pixelInset.x;
-			float top = guiTexture.pixelInset.y;
-			float width = guiTexture.pixelInset.width;
-			float height = guiTexture.pixelInset.height;
+			CurNode=NodeArray[0];
+			dialogState = DialogState.EXEC;
+			gettime=Time.time;
+			if(CurNode.preAction!=""){
+				CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
+			}
+			if(CurNode.audio){
+				playerAS.PlayOneShot(CurNode.audio);
+			}
+			
+			
+		}
+		else //options to decide
+		{
+			for (int i=0; i<NodeArray.Length; i++){
 
-			if (updateSize && size > 0f) {
+				if(CheckConditional(NodeArray[i]) && CheckCustom(NodeArray[i]))
+				   NodesToShow.Add (NodeArray[i]);
+
+//				if (NodeArray[i].ShowNode==ConversationNodeClass.show.ALWAYS){
+//					NodesToShow.Add (NodeArray[i]);
+//				}
+//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF&&gs.GetBool(NodeArray[i].var)==true){
+//					NodesToShow.Add (NodeArray[i]);
+//				}
+//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF_NOT&&gs.GetBool(NodeArray[i].var)==false){
+//					NodesToShow.Add (NodeArray[i]);
+//				}
 				
-				height = Screen.height * size;
-				width = height * ratio;
 			}
-
-			if (updatePosition) {
-			
-				left = Screen.width * x - width / 2f;
-				top = Screen.height * y - height / 2f;
+			switch (NodesToShow.Count){
+			case 0:
+				dialogState=DialogState.END;
+				break;
+				
+			case 1:
+				dialogState=DialogState.EXEC;
+				gettime=Time.time;
+				CurNode=(ConversationNodeClass)NodesToShow[0];
+				if(CurNode.preAction!=""){
+					CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
+				}
+				if(CurNode.audio){
+					playerAS.PlayOneShot(CurNode.audio);
+				}
+				break;
+				
+			default:
+				dialogState=DialogState.SHOW;
+				ShowNodes(NodesToShow);
+				break;
+				
 			}
-			guiTexture.pixelInset = new Rect (left, top, width, height);
 		}
 	}
-
-
-
-	//Manage conversation
 	
-	[HideInInspector]
-	public ConversationNodeClass NextNode, PreviousNode;
-	float gettime = 0;
-
-	
-	bool IsAnySelected(ConversationNodeClass Node){
-		for (int i=0; i<Node.cncArray.Length; i++){
-			if (Node.cncArray[i].bIsSelected) return true;
+	/*
+	 * Mostra les opcions possibles de dialeg i espera que es seleccioni una d'elles
+	 */
+	void ShowNodes(IList NodesToShow){
+		if (NodesToShow.Count>4){
+			Debug.LogError ("More than 4 available options!");
+			return;
 		}
-		return false;
+		if (showState == ShowState.SHOW) //Es mostren les opcions, i es canvia el subestat d'aquest node perque esperi un clic
+		{
+			for(int i = 0;i<NodesToShow.Count;i++)
+			{
+				objBallons[i].guiTexture.enabled = true;
+				objBallons[i].guiText.text = ((ConversationNodeClass)NodesToShow[i]).sFirstOption;
+				objBallons[i].guiText.enabled = true;
+				showState = ShowState.CLICK_WAIT;
+			}
+		}
+		else if (showState == ShowState.CLICK_WAIT)//Comprova que hi hagi un clic en una de les opcions mostrades
+		{
+			if(Input.GetMouseButtonDown(0))
+			{
+				Vector3 screenPoint = Input.mousePosition;
+				for(int i=0;i<NodesToShow.Count;i++)
+				{
+					if(objBallons[i].guiTexture.HitTest(screenPoint))
+					{
+						Debug.Log (i +" selected");
+						CurNode=(ConversationNodeClass)NodesToShow[i];
+						dialogState=DialogState.EXEC;
+						gettime=Time.time;
+						DisableBalloons();
+						showState = ShowState.SHOW;
+						if(CurNode.preAction!=""){
+							CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
+						}
+						if(CurNode.audio){
+							playerAS.PlayOneShot(CurNode.audio);
+						}
+						break;
+					}
+				}
+			}
+		}
+		//WTF!?!?!?!?! Metode HitTest() del GUITexture!!!!!
 	}
 
+	/*
+	 * Executa el node seleccionat. Sexecuta la accio previa al node, em mostra el node amb la bafarada de parlar
+	 * segons sigui l'alien, l'altre interlocutor o el narrador qui digui la frase. S'executa tambe el clip d'audio
+	 * que pertany a aquell troç de conversa
+	 */
+	void ExecuteNode(ConversationNodeClass Node){
+		float Balloonx;
+		GUIStyle style;
 
-
-
-	void OnGUI() {
-
-		ConversationNodeClass curNode = NextNode;
-		if (curNode == null)
-						return;
-		if (curNode.cncArray.Length==0){
-			Debug.Log ("Now we are supposed to leave");
-			//check if any action to do
-
-			//if (curNode.sNextAction!=null){
-			//	BroadcastMessage(curNode.sNextAction, curNode.GOApplied);
-			//}
-
-
-
-			//sortir
-			PreviousNode = null;
-			Debug.Log(Camera.current);
-			if(CCScript.IsIn())
-				CCScript.TransferOut();
-			this.enabled = false;
+		if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
+			style = style_alien;
+			Balloonx=0.005f;
 		}
-		if (PreviousNode == null) {
-			
-			GUI.Button (new Rect (0.005f * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-			            curNode.sFirstOption, style_alien);
-			if (gettime < curNode.fSeconds) {
-				//curNode.cncArray [0].bIsSelected = false;
-				//NextNode = curNode.cncArray [0];
-				gettime +=Time.deltaTime;
-				return;
+		else
+		{
+			style = style_theother;
+			Balloonx=0.74f;
+		}
+		if (gettime + Node.fSeconds > Time.time /*&& !Input.GetMouseButtonUp(0)*/) {                                                                                                                                                                                                                                                                                                                                                                                                     
+			GUI.Button (new Rect (Balloonx * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
+			            Node.sFirstOption, style);
+		}
+		else 	//Time is over
+		{
+			if (CurNode.cncArray.Length==0){	//EOC
+				dialogState=DialogState.END;
 			}
 			else{
-				gettime =0;
+				dialogState=DialogState.EVAL;
+				NodesToEvaluate=CurNode.cncArray;
 			}
+			if(CurNode.postAction!=""){
+				CurNode.GetRootNode().BroadcastMessage(CurNode.postAction);
+			}
+		}
+	}
+
+	/*
+	 * Finalitza la conversa, para la maqina d'estats de la conversa
+	 */
+	void EndDialog(){
+
+		Debug.Log(Camera.current);
+		if(CCScript.IsIn()){
+			CCScript.TransferOut();
+		}
+		dialogState = DialogState.NONE;
+	}
+
+	/*
+	 *Deshabilita les bafarades de opcions 
+	 */
+	void DisableBalloons()
+	{
+		for (int i = 0; i<4; i++) 
+		{
+			objBallons[i].guiText.enabled = false;
+			objBallons[i].guiTexture.enabled=false;
+		}	
+	}
+
+	void OnGUI() {
+		switch (dialogState) {
+			case DialogState.INIT:
+				InitDialog();
+				break;
+			case DialogState.EVAL:
+				EvaluateNodes(NodesToEvaluate);
+				break;
+			case DialogState.EXEC:
+				ExecuteNode (CurNode);
+				break;
+			case DialogState.SHOW:
+				ShowNodes(NodesToShow);
+				break;
+			case DialogState.END:
+				//executar el que sigui que calgui pel joc!
+				EndDialog();
+				break;
+			case DialogState.NONE:
+				//????
+				break;
+		}
+	}
+
+	/*
+	 * Metode per afegir els nodes principals d'una arbre de conversa.
+	 * Previ a iniciar la conversa
+	 */
+	public void SetRootNodes(ConversationNodeClass[] rootNodes){
+		NodesToEvaluate = rootNodes;
+	}
+
+	/*
+	 * Metode per iniciar la maquina destats, la conversa
+	 */
+	public void Init()
+	{
+		dialogState = DialogState.INIT;
+	}
+
+	bool CheckCustom(ConversationNodeClass node)
+	{
+		bool ret = false;
+		switch (node.cCharacter) {
+		case ConversationNodeClass.costume.ALL:
+			ret = true;
+			break;
+		case ConversationNodeClass.costume.NAKED:
+			if(inventoryControl.GetCurrentCostume()==Custom.NAKED) ret = true;
+			break;
+		case ConversationNodeClass.costume.MS_FORTUNE:
+			if(inventoryControl.GetCurrentCostume()==Custom.MS_FORTUNE ) ret = true;
+			break;
+		case ConversationNodeClass.costume.JAPANESE:
+			if(inventoryControl.GetCurrentCostume()==Custom.JAPANESE ) ret = true;
+			break;
 
 		}
-		int length = 0;
-//		for (int i=0; i<curNode.cncArray.Length; i++) {
-//		switch(curNode.cncArray[i].ShowNode){
-//			case ConversationNodeClass.show.ALWAYS:length++;break;
-//			case ConversationNodeClass.show.IF : break;
-//				//if(gs.GetVariable(curNode.cncArray[i].var))
-//				}
-//		}
+		return ret;
+	}
 
-
-		//Automatic dialog (only one option)
-		if (curNode.cncArray.Length == 1) {
-			if (curNode.cncArray [0].sSpeaker == ConversationNodeClass.speaker.ALIEN) {
-
-				GUI.Button (new Rect (0.005f * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-				            curNode.cncArray [0].sFirstOption, style_alien);
-
-				if (!curNode.cncArray [0].bIsSelected) {
-					Debug.Log ("Automatic Button1");
-					gettime = Time.time;
-					curNode.cncArray [0].bIsSelected = true;
-				
-				}else{
-					if (gettime + curNode.fSeconds < Time.time) {
-						curNode.cncArray [0].bIsSelected = false;
-						NextNode = curNode.cncArray [0];
-						gettime = 0;
-					}
-				}//selected
-			} else if (curNode.cncArray [0].sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
-				GUI.Button (new Rect (0.74f * Screen.width, 0.05f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-				            curNode.cncArray [0].sFirstOption, style_theother);
-
-				if (!curNode.cncArray [0].bIsSelected) {
-					Debug.Log ("Automatic Other");
-					gettime = Time.time;
-					curNode.cncArray [0].bIsSelected = true;
-				
-				} else { 
-					if (gettime + curNode.fSeconds < Time.time) {
-						curNode.cncArray [0].bIsSelected = false;
-						NextNode = curNode.cncArray [0];
-						gettime = 0;
-					}
-				}//selected
-			}//alien or the other
-		}//single option
-
-
-
-		//TODO: set as single when selected???
-		
-		if(curNode.cncArray.Length>1){
-			if(!IsAnySelected(curNode)){
-				if (GUI.Button (new Rect (0.005f*Screen.width, 0.01f*Screen.height, 0.24f*Screen.width, 0.22f*Screen.height), 
-				                curNode.cncArray[0].sFirstOption, style_think)){
-					Debug.Log ("Button1");
-					gettime = Time.time;
-					curNode.cncArray[0].bIsSelected = true;
-				}
-			}else{ //node selected
-				if(curNode.cncArray[0].bIsSelected){
-					GUI.Button (new Rect (0.005f * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-					            curNode.cncArray[0].sFirstOption, style_alien);
-					if (gettime + curNode.fSeconds < Time.time) {
-						curNode.cncArray[0].bIsSelected = false;
-						NextNode = curNode.cncArray[0];
-						gettime = 0;
-					}
-				}
-			}//Button1
-		
-			if(!IsAnySelected(curNode)){
-				if (GUI.Button (new Rect (0.25f*Screen.width, 0.05f*Screen.height, 0.24f*Screen.width, 0.22f*Screen.height), 
-				                curNode.cncArray[1].sFirstOption, style_think)){
-					Debug.Log ("Button2");
-					gettime = Time.time;
-					curNode.cncArray[1].bIsSelected = true;
-				}
-			}else{ //node selected
-				if(curNode.cncArray[1].bIsSelected){
-					GUI.Button (new Rect (0.005f * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-					            curNode.cncArray [1].sFirstOption, style_alien);
-					if (gettime + curNode.fSeconds < Time.time) {
-						curNode.cncArray[1].bIsSelected = false;
-						NextNode = curNode.cncArray[1];
-						gettime = 0;
-					}
-				}
-			}//Button2
-		}//2 options
-
-
-		if(curNode.cncArray.Length>2){
-			if(!IsAnySelected(curNode)){
-				if (GUI.Button (new Rect (0.495f*Screen.width, 0.01f*Screen.height, 0.24f*Screen.width, 0.22f*Screen.height), 
-				                curNode.cncArray[2].sFirstOption, style_think)){
-					Debug.Log ("Button3");
-					gettime = Time.time;
-					curNode.cncArray[2].bIsSelected = true;
-				}
-			}else{ //node selected
-				if(curNode.cncArray[2].bIsSelected){
-					GUI.Button (new Rect (0.005f * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-					            curNode.cncArray [2].sFirstOption, style_alien);
-					if (gettime + curNode.fSeconds < Time.time) {
-						curNode.cncArray [2].bIsSelected = false;
-						NextNode = curNode.cncArray[2];
-						gettime = 0;
-					}
-				}
-			}
-		}//3 options
-
-
-
-		if(curNode.cncArray.Length>3){
-			if(!IsAnySelected(curNode)){
-				if (GUI.Button (new Rect (0.74f*Screen.width, 0.05f*Screen.height, 0.24f*Screen.width, 0.22f*Screen.height), 
-				                curNode.cncArray[3].sFirstOption, style_think)){
-					Debug.Log ("Button4");
-					gettime = Time.time;
-					curNode.cncArray[3].bIsSelected = true;
-				}
-			}else{ //node selected
-				if(curNode.cncArray[3].bIsSelected){
-					GUI.Button (new Rect (0.005f * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
-					            curNode.cncArray [3].sFirstOption, style_alien);
-					if (gettime + curNode.fSeconds < Time.time) {
-						curNode.cncArray [3].bIsSelected = false;
-						NextNode = curNode.cncArray[3];
-						gettime = 0;
-					}
-				}
-			}
-		}//4 options
-		PreviousNode = curNode;
-	}//OnGui
-
-
-
-
+	bool CheckConditional(ConversationNodeClass node)
+	{
+		bool ret = false;
+		if (node.ShowNode==ConversationNodeClass.show.ALWAYS){
+			ret = true;
+		}
+		else if (node.ShowNode==ConversationNodeClass.show.IF&&gs.GetBool(node.var)==true){
+			ret = true;
+		}
+		else if (node.ShowNode==ConversationNodeClass.show.IF_NOT&&gs.GetBool(node.var)==false){
+			ret = true;
+		}
+		return ret;
+	}
 }
 	
-	
+
 	
 	
 	

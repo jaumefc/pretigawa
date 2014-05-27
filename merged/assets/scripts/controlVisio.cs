@@ -3,72 +3,54 @@ using System.Collections;
 
 public class controlVisio : MonoBehaviour {
 
-	private bool checkForVision = false;
+	private bool ignoreIA = false;
+
 	public GameObject Player;
 	private RaycastHit hit;
-
-	private bool imChasing = false;
+	private controlMoviment cm;
+	private bool isOutOfVision = false;
 
 	void Start () {
-	}
-
-	public void hasToCheckForVision(){
-		checkForVision = true;
-	}
-
-	public void stopCheckingForVision(){
-		checkForVision = false;
+		cm = gameObject.GetComponent<controlMoviment> ();
 	}
 
 	void Update () {
+		if (Input.GetKeyDown ("space"))ignoreIA = !ignoreIA;
 
-		if (!checkForVision) {
-			if(imChasing){
-				imChasing = false;
-				controlMoviment contrm = gameObject.GetComponent<controlMoviment> ();
-				contrm.setState(2);
-			}
+		if (ignoreIA) {
+			cm.setState(2);
 			return;
 		}
 
-		MeshCollider mc = GameObject.Find ("pCone2").GetComponent<MeshCollider> ();
-		mc.enabled  = false;
+		Vector3 compareVector = Player.transform.position - transform.position;
+		float angle = Vector3.Angle (compareVector, transform.forward);
+		float distance = compareVector.sqrMagnitude;
 
-		Vector3 newVector = Player.transform.position - transform.position;
-		Ray visionRay = new Ray (transform.position, newVector);
+		if (distance < 100 && angle < 60) {
+			Vector3 eyePosition = new Vector3 (transform.position.x, transform.position.y + 1.0f, transform.position.z);
+			Vector3 PlayerEyePosition = new Vector3 (Player.transform.position.x, Player.transform.position.y + 1.3f, Player.transform.position.z);
 
-		Vector3 eyePosition = new Vector3(transform.position.x, transform.position.y+1.3f, transform.position.z);
-		Vector3 PlayerEyePosition = new Vector3(Player.transform.position.x, Player.transform.position.y+1.3f, Player.transform.position.z);
+			Vector3 newVector = PlayerEyePosition - eyePosition;
+			Ray visionRay = new Ray (eyePosition, newVector);
 
-		controlMoviment cm = gameObject.GetComponent<controlMoviment> ();
-		if (Physics.Raycast (visionRay, out hit)) {
-			Debug.Log (hit.collider.gameObject);
-			if (hit.collider.gameObject == Player) {
-				cm.setTarget(Player);
-				if(!imChasing){
-					cm.setState(1);
-					imChasing = true;
-				}
-			} else {
-				imChasing = false;
-				cm.setState(2);
+			if (Physics.Raycast (visionRay, out hit)) {
+					//Debug.Log (hit.collider.gameObject);
+					if (hit.collider.gameObject == Player) {
+							cm.setTarget (Player);
+							cm.setState (1);
+							return;
+					}
+					cm.setState (2);
 			}
-
-		}else {
-			imChasing = false;
+		} else {
 			cm.setState(2);
+			return;
 		}
-
-		mc.enabled  = true;
 	}
 
-	/*void OnDrawGizmos(){
-		if (!checkForVision)
-			return;
-		Vector3 eyePosition = new Vector3(transform.position.x, transform.position.y+1.3f, transform.position.z);
+	void OnDrawGizmos(){
+		Vector3 eyePosition = new Vector3(transform.position.x, transform.position.y+1.0f, transform.position.z);
 		Vector3 PlayerEyePosition = new Vector3(Player.transform.position.x, Player.transform.position.y+1.3f, Player.transform.position.z);
-		Ray visionRay = new Ray (transform.position, (Player.transform.position - transform.position).normalized);
-		Debug.DrawLine (eyePosition, PlayerEyePosition, Color.red, 0.2f);
-		//Debug.DrawLine (transform.position, (Player.transform.position - transform.position).normalized, Color.green, 0.2f);
-	}*/
+		//Debug.DrawLine (eyePosition, PlayerEyePosition, Color.red, 0.2f);
+	}
 }

@@ -6,7 +6,7 @@ using System.Collections;
 
 public enum Custom{
 	NAKED,
-	JAPANISH,
+	JAPANESE,
 	MS_FORTUNE
 }
 
@@ -19,7 +19,7 @@ public class InventoryControl : MonoBehaviour {
 	private GameObject selectedObj = null;
 	private float MAX_POSITION;
 	private readonly float MIN_POSITION = 0;
-	private const int MAX_CUSTOMS =7;
+	private const int MAX_CUSTOMS =2;
 
 	private float width,height;
 	private int iconsize;
@@ -27,7 +27,11 @@ public class InventoryControl : MonoBehaviour {
     public GameObject[] inventoryObjects = new GameObject[11];
     public GameObject[] inventoryCustoms = new GameObject[MAX_CUSTOMS];
 
-	private int currCustomShowed = 0;
+	private int currCostumeShowed = 0;
+	private int costumeSelected = 0;
+
+	private GameObject btnCLeft, btnCRight, btnILeft, btnIRight;
+	private GameObject playerMesh;
 
 
 
@@ -36,6 +40,16 @@ public class InventoryControl : MonoBehaviour {
 		height = Display.main.systemHeight;
 		MAX_POSITION = Mathf.Min( Mathf.FloorToInt(height/8.1f), 132);
 		iconsize = Mathf.Min (Mathf.CeilToInt(height*0.118f), 128);
+
+		btnCLeft = GameObject.Find("cleft");
+		btnCRight = GameObject.Find("cright");
+		btnILeft = GameObject.Find("ileft");
+		btnIRight = GameObject.Find("iright");
+		playerMesh = GameObject.Find ("bitxoBaixaSmoothUV");
+
+		btnCRight.guiTexture.pixelInset = new Rect ((10+iconsize) * 2, 0, iconsize, iconsize);
+		btnILeft.guiTexture.pixelInset = new Rect (20+iconsize * 3, 0, iconsize, iconsize);
+		btnIRight.guiTexture.pixelInset = new Rect (-iconsize, 0, iconsize, iconsize);
 
 	}
 
@@ -67,6 +81,12 @@ public class InventoryControl : MonoBehaviour {
 			textures[i].pixelInset = new Rect(textures[i].pixelInset.x, ((MAX_POSITION-iconsize)/2)-oldPosition,
 			                                  iconsize, iconsize);
 		}
+		for(int i =0;i<inventoryCustoms.Length;i++)
+		{
+			if(inventoryCustoms[i])
+				inventoryCustoms[i].guiTexture.pixelInset = new Rect(10+iconsize, ((MAX_POSITION-iconsize)/2)-oldPosition,
+			                                  iconsize, iconsize);
+		}
 		/*
 		for(int i =0;i<textures.Length;i++)
 		{
@@ -90,6 +110,14 @@ public class InventoryControl : MonoBehaviour {
         }
 
 		//Per la disfressa no cal fer res, sempre es mostra una disfresa, aquesta canvia quan es prem el boto de dreta o esquerra
+		if(Input.GetMouseButtonDown(0)){
+			if(btnCLeft.guiTexture.HitTest(Input.mousePosition))
+				PreviousCostume();
+			if(btnCRight.guiTexture.HitTest(Input.mousePosition))
+				NextCostume();
+			if(inventoryCustoms[currCostumeShowed].guiTexture.HitTest(Input.mousePosition))
+				SelectCostume();
+		}
 
 	}
 
@@ -166,7 +194,7 @@ public class InventoryControl : MonoBehaviour {
 	/*
 	 *Metode per afegir una disfressa al inventari 
 	 */
-	public void AddCustom(Custom c){
+	public void AddCostume(Custom c){
 		//TODO: Afegir, de forma logica, disfressa al inventari
 		//Buscar la disfressa amb el mateix Custom i marcarla com activa
 	}
@@ -174,18 +202,21 @@ public class InventoryControl : MonoBehaviour {
 	/*
 	 * Metode per mostrar la anterior disfressa disponible
 	 */
-	public void PreviousCustom(){
+	private void PreviousCostume(){
 		for(int i=1;i<MAX_CUSTOMS;i++){
-			int preCustom = (currCustomShowed - i)%MAX_CUSTOMS;
-			InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[preCustom].GetComponent<InventoryCustom>();
-			if(preCustomObject.IsInInventory()){
-				inventoryCustoms[currCustomShowed].guiTexture.enabled = false;
-				currCustomShowed = preCustom;
-				inventoryCustoms[currCustomShowed].guiTexture.enabled = true;
-				if(preCustomObject.IsSelected()){
-					//TODO:Posar marc que denoti que es el seleccionat
+			int preCustom = Mathf.Abs((currCostumeShowed - i)%MAX_CUSTOMS);
+			if(inventoryCustoms[preCustom])
+			{
+				InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[preCustom].GetComponent<InventoryCustom>();
+				if(preCustomObject.IsInInventory()){
+					inventoryCustoms[currCostumeShowed].guiTexture.enabled = false;
+					currCostumeShowed = preCustom;
+					inventoryCustoms[currCostumeShowed].guiTexture.enabled = true;
+					if(preCustomObject.IsSelected()){
+						//TODO:Posar marc que denoti que es el seleccionat
+					}
+					break;
 				}
-				break;
 			}
 		}
 	}
@@ -193,18 +224,21 @@ public class InventoryControl : MonoBehaviour {
 	/*
 	 * Metode per mostrar la seguent disfressa disponible
 	 */
-	public void NextCustom(){
+	private void NextCostume(){
 		for(int i=1;i<MAX_CUSTOMS;i++){
-			int nextCustom = (currCustomShowed + i)%MAX_CUSTOMS;
-			InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[nextCustom].GetComponent<InventoryCustom>();
-			if(preCustomObject.IsInInventory()){
-				inventoryCustoms[currCustomShowed].guiTexture.enabled = false;
-				currCustomShowed = nextCustom;
-				inventoryCustoms[currCustomShowed].guiTexture.enabled = true;
-				if(preCustomObject.IsSelected()){
-					//TODO:Posar marc que denoti que es el seleccionat
+			int nextCustom = (currCostumeShowed + i)%MAX_CUSTOMS;
+			if(inventoryCustoms[nextCustom])
+			{
+				InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[nextCustom].GetComponent<InventoryCustom>();
+				if(preCustomObject.IsInInventory()){
+					inventoryCustoms[currCostumeShowed].guiTexture.enabled = false;
+					currCostumeShowed = nextCustom;
+					inventoryCustoms[currCostumeShowed].guiTexture.enabled = true;
+					if(preCustomObject.IsSelected()){
+						//TODO:Posar marc que denoti que es el seleccionat
+					}
+					break;
 				}
-				break;
 			}
 		}
 	}
@@ -212,8 +246,22 @@ public class InventoryControl : MonoBehaviour {
 	/*
 	 * Metode per seleccionar la actual disfressa
 	 */
-	public void SelectCustom(){
+	private void SelectCostume(){
+		costumeSelected = currCostumeShowed;
+		switch (GetCurrentCostume ()) 
+		{
+		case Custom.JAPANESE:
+			playerMesh.renderer.material.color = Color.yellow;
+			break;
+		case Custom.NAKED:
+			float rgb=150f/256f;
+			playerMesh.renderer.material.color = new Color(rgb,rgb,rgb,1);
+			break;
+		}
+	}
 
+	public Custom GetCurrentCostume(){
+		return inventoryCustoms[costumeSelected].GetComponent<InventoryCustom>().custom;
 	}
 
 

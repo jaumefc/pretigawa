@@ -7,10 +7,10 @@ public class controlMoviment : MonoBehaviour {
 
 	private Transform target;
 	private Vector3 startingPosition;
+	private Quaternion startingRotation;
 	private NavMeshAgent navi;
 
 	private bool hasTarget = false;
-	private bool stopMoving = false;
 
 	private Vector3 thisNextstep;
 
@@ -26,6 +26,7 @@ public class controlMoviment : MonoBehaviour {
 
 	void Start(){
 		startingPosition = transform.position;
+		startingRotation = transform.rotation;
 		navi = GetComponent<NavMeshAgent>();
 	}
 
@@ -74,7 +75,6 @@ public class controlMoviment : MonoBehaviour {
 
 	private void moute(){
 		if (!hasTarget) return;
-		if (stopMoving) return;
 
 		Vector3 movement = Vector3.zero;
 
@@ -101,8 +101,6 @@ public class controlMoviment : MonoBehaviour {
 	}
 
 	private void torna(){
-		if (stopMoving) return;
-
 		Vector3 movement = Vector3.zero;
 
 		navi.SetDestination(startingPosition);
@@ -110,13 +108,13 @@ public class controlMoviment : MonoBehaviour {
 
 		thisNextstep = nextstep;
 
-		movement = nextstep - transform.position;
-		movement.y = 0;
-		
-		float dist = movement.magnitude;
-		if( navi.velocity.sqrMagnitude < 0.5 )
+		Vector3 distance = startingPosition - transform.position;
+		float absDistance = distance.sqrMagnitude;
+
+		if( absDistance <= 1.5 )
 		{
 			_enemyState = enemyState.idle;
+			transform.rotation = startingRotation;
 		}
 		else
 		{

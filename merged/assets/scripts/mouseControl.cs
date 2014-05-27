@@ -25,6 +25,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 
 	private GameState gs;
 	private GUIText test;
+	private GameObject inventoryBack;
 
 
 	enum CharacterAction {
@@ -46,6 +47,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		_inventory = GetComponent<InventoryControl>();
 		gd = GameObject.FindObjectOfType<GizmoDebug>().GetComponent<GizmoDebug>();
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
+		inventoryBack = GameObject.Find("background");
 		_characterAction = CharacterAction.None;
         gs = GameState.GetInstance();
         //ameObject.Find("root").BroadcastMessage("Start");
@@ -152,37 +154,40 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			_inventory.SetSelected(invObj);
 		}
 		
-		RaycastHit hit;
-		if( Physics.Raycast(ray, out hit) && invObj==null )
+		if(!inventoryBack.guiTexture.HitTest(Input.mousePosition))
 		{
-			if(hit.collider.gameObject == gameObject)
+			RaycastHit hit;
+			if( Physics.Raycast(ray, out hit) && invObj==null )
 			{
-				_inventory.Toggle();
-			}
-			else if(hit.collider.gameObject.GetComponent<interactuable>())
-			{
-				//TODO:Desactivar script camera
-//				targetLocation = thisTransform.position;
-				cam.GetComponent<customLookAt>().enabled=false;
-				_interactuable = hit.collider.gameObject.GetComponent<interactuable>();
-				Vector3 screenPos = cam.WorldToScreenPoint(hit.collider.gameObject.transform.position);
-				_interactuable.ShowMenu(screenPos);
-				_raster.particleSystem.Stop();
-				cRaster = (GameObject)GameObject.Instantiate(_raster,hit.collider.gameObject.transform.position,new Quaternion(0,0,0,0));
-				cRaster.SetActive(true);
-				_inventory.Hide();
-			}
-			else
-			{
-				if(invObj==null)
-					_inventory.Hide();
-				float touchDist = (transform.position - hit.point).magnitude;
-				if( touchDist > minimumDistanceToMove )
+				if(hit.collider.gameObject == gameObject)
 				{
-					targetLocation = hit.point;
+					_inventory.Toggle();
 				}
-				Quaternion quat = Quaternion.AngleAxis(270,new Vector3(1,0,0));
-				GameObject.Instantiate(onClickCursor,targetLocation,quat);
+				else if(hit.collider.gameObject.GetComponent<interactuable>())
+				{
+					//TODO:Desactivar script camera
+	//				targetLocation = thisTransform.position;
+					cam.GetComponent<customLookAt>().enabled=false;
+					_interactuable = hit.collider.gameObject.GetComponent<interactuable>();
+					Vector3 screenPos = cam.WorldToScreenPoint(hit.collider.gameObject.transform.position);
+					_interactuable.ShowMenu(screenPos);
+					_raster.particleSystem.Stop();
+					cRaster = (GameObject)GameObject.Instantiate(_raster,hit.collider.gameObject.transform.position,new Quaternion(0,0,0,0));
+					cRaster.SetActive(true);
+					_inventory.Hide();
+				}
+				else
+				{
+					if(invObj==null)
+						_inventory.Hide();
+					float touchDist = (transform.position - hit.point).magnitude;
+					if( touchDist > minimumDistanceToMove )
+					{
+						targetLocation = hit.point;
+					}
+					Quaternion quat = Quaternion.AngleAxis(270,new Vector3(1,0,0));
+					GameObject.Instantiate(onClickCursor,targetLocation,quat);
+				}
 			}
 		}
 	}

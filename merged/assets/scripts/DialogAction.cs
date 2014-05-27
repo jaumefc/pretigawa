@@ -10,6 +10,7 @@ public class DialogAction : Action {
 	DialogCameraScript DCScript;
 	GameObject CharParent;
 	public ConversationNodeClass StartNode;
+	public ConversationTreeClass StartTree;
 	
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,8 @@ public class DialogAction : Action {
 		//Debug.Log ("Fent el transferIn");
 		
 		
-		DCScript.NextNode = StartNode;
+		//DCScript.NextNode = StartNode;
+		DCScript.SetRootNodes(StartTree.rootNodes);
 		
 	}
 }

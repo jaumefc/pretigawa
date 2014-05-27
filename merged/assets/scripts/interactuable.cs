@@ -22,7 +22,7 @@ public class interactuable : MonoBehaviour {
 
 
 	public erronis[] objectesErronis;
-	public ConversationNodeClass defaultNode;
+	public ConversationTreeClass defaultNode;
 	
 	void Start () {
 		width = Display.main.systemWidth;
@@ -68,7 +68,7 @@ public class interactuable : MonoBehaviour {
 
 		Debug.Log ("Origen de combinacio: " + origen);
 
-		ConversationNodeClass nodeALlencar = defaultNode;
+		ConversationTreeClass nodeALlencar = defaultNode;
 		
 		if(objecteBo==origen)return true;
 		else{
@@ -76,13 +76,13 @@ public class interactuable : MonoBehaviour {
 				foreach(GameObject objecte in erroni.objectes){
 					if(objecte == origen){
 						nodeALlencar = erroni.frase;
-						DCScript.NextNode = nodeALlencar;
+						DCScript.SetRootNodes(nodeALlencar.rootNodes);
 						DCScript.enabled = true;
 						return false;
 					}
 				}
 			}
-			DCScript.NextNode = nodeALlencar;
+			DCScript.SetRootNodes(nodeALlencar.rootNodes);
 			DCScript.enabled = true;
 			return false;
 		}

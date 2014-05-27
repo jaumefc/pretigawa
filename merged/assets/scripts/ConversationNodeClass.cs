@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ConversationNodeClass : MonoBehaviour {
 
-	public enum costume {NAKED, JAPANESE, EXTINGUISHER};//add as many as needed, global enum!
+	public enum costume {NAKED, JAPANESE,MS_FORTUNE, EXTINGUISHER, ALL};//add as many as needed, global enum!
 	public enum speaker {ALIEN, THEOTHER};
 	public enum show {ALWAYS,IF, IF_NOT};
 
@@ -15,9 +15,6 @@ public class ConversationNodeClass : MonoBehaviour {
 	public costume cCharacter;
 	public speaker sSpeaker;
 	public float fSeconds = 3;
-	//public bool bIsEnabled = true;
-	//public string sNextAction = null;
-	//public GameObject GOApplied;
 	[HideInInspector]
 	public bool showNodes = false;
 	public ConversationNodeClass[] cncArray;
@@ -28,6 +25,7 @@ public class ConversationNodeClass : MonoBehaviour {
 
 	public string preAction;
 	public string postAction;
+	public AudioClip audio;
 
 
 	public GameObject GetRootNode (){

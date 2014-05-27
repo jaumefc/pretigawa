@@ -1,0 +1,2485 @@
+fileFormatVersion: 2
+guid: 03dc22c9ff9836649a31d64936459798
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: AIGUA
+    100002: arbres00
+    100004: arbres01
+    100006: arbres02
+    100008: arbres03
+    100010: arbres04
+    100012: arbres05
+    100014: arbres06
+    100016: arbres07
+    100018: arbres08
+    100020: arbres09
+    100022: arbres10
+    100024: arbres100
+    100026: arbres101
+    100028: arbres102
+    100030: arbres103
+    100032: arbres104
+    100034: arbres105
+    100036: arbres106
+    100038: arbres107
+    100040: arbres108
+    100042: arbres109
+    100044: arbres11
+    100046: arbres110
+    100048: arbres111
+    100050: arbres112
+    100052: arbres113
+    100054: arbres114
+    100056: arbres115
+    100058: arbres116
+    100060: arbres117
+    100062: arbres118
+    100064: arbres119
+    100066: arbres12
+    100068: arbres120
+    100070: arbres121
+    100072: arbres122
+    100074: arbres123
+    100076: arbres124
+    100078: arbres125
+    100080: arbres126
+    100082: arbres127
+    100084: arbres13
+    100086: arbres14
+    100088: arbres15
+    100090: arbres16
+    100092: arbres17
+    100094: arbres18
+    100096: arbres19
+    100098: arbres20
+    100100: arbres21
+    100102: arbres22
+    100104: arbres23
+    100106: arbres24
+    100108: arbres25
+    100110: arbres26
+    100112: arbres27
+    100114: arbres28
+    100116: arbres29
+    100118: arbres30
+    100120: arbres31
+    100122: arbres32
+    100124: arbres33
+    100126: arbres34
+    100128: arbres35
+    100130: arbres36
+    100132: arbres37
+    100134: arbres38
+    100136: arbres39
+    100138: arbres40
+    100140: arbres41
+    100142: arbres42
+    100144: arbres43
+    100146: arbres44
+    100148: arbres45
+    100150: arbres46
+    100152: arbres47
+    100154: arbres48
+    100156: arbres49
+    100158: arbres50
+    100160: arbres51
+    100162: arbres52
+    100164: arbres53
+    100166: arbres54
+    100168: arbres55
+    100170: arbres56
+    100172: arbres57
+    100174: arbres58
+    100176: arbres59
+    100178: arbres60
+    100180: arbres61
+    100182: arbres62
+    100184: arbres63
+    100186: arbres64
+    100188: arbres65
+    100190: arbres66
+    100192: arbres67
+    100194: arbres68
+    100196: arbres69
+    100198: arbres70
+    100200: arbres71
+    100202: arbres72
+    100204: arbres73
+    100206: arbres74
+    100208: arbres75
+    100210: arbres76
+    100212: arbres77
+    100214: arbres78
+    100216: arbres79
+    100218: arbres80
+    100220: arbres81
+    100222: arbres82
+    100224: arbres83
+    100226: arbres84
+    100228: arbres85
+    100230: arbres86
+    100232: arbres87
+    100234: arbres88
+    100236: arbres89
+    100238: arbres90
+    100240: arbres91
+    100242: arbres92
+    100244: arbres93
+    100246: arbres94
+    100248: arbres95
+    100250: arbres96
+    100252: arbres97
+    100254: arbres98
+    100256: arbres99
+    100258: asfalt
+    100260: Banc_002
+    100262: Banc_003
+    100264: Banc_004
+    100266: Banc_005
+    100268: Banc_006
+    100270: Banc_007
+    100272: Banc_008
+    100274: Banc_009
+    100276: Banc_01
+    100278: Banc_010
+    100280: Banc_011
+    100282: Banc_012
+    100284: Banc_013
+    100286: Banc_014
+    100288: Banc_015
+    100290: Banc_016
+    100292: Banc_017
+    100294: borde lago
+    100296: bordillo
+    100298: bordillo 1
+    100300: bordillo 2
+    100302: bordillo 3
+    100304: bordillo 4
+    100306: bordillo 5
+    100308: carril bici
+    100310: edificis_blocs A
+    100312: edificis_blocs A_01
+    100314: edificis_blocs A_02
+    100316: edificis_blocs B
+    100318: edificis_blocs B_01
+    100320: edificis_blocs C
+    100322: edificis_blocs C_01
+    100324: edificis_blocs D
+    100326: edificis_blocs E
+    100328: edificis_blocs E_01
+    100330: edificis_blocs E_02
+    100332: edificis_blocs E_BAR
+    100334: edificis_blocs E_BAR portes
+    100336: edificis_blocs F
+    100338: edificis_blocs G
+    100340: edificis_blocs G_01
+    100342: edificis_blocs H
+    100344: edificis_blocs H_01
+    100346: escala incendis_edificis A
+    100348: escocell
+    100350: escocell001
+    100352: escocell002
+    100354: escocell003
+    100356: escocell005
+    100358: escocell006
+    100360: escocell007
+    100362: escocell008
+    100364: escocell009
+    100366: escocell010
+    100368: escocell011
+    100370: escocell012
+    100372: escocell013
+    100374: escocell014
+    100376: escocell015
+    100378: escocell016
+    100380: escocell017
+    100382: escocell018
+    100384: escocell019
+    100386: escocell020
+    100388: escocell021
+    100390: escocell022
+    100392: escocell023
+    100394: escocell024
+    100396: escocell025
+    100398: escocell026
+    100400: escocell027
+    100402: escocell028
+    100404: escocell029
+    100406: escocell030
+    100408: escocell031
+    100410: escocell032
+    100412: escocell033
+    100414: escocell034
+    100416: escocell035
+    100418: escocell036
+    100420: escocell037
+    100422: escocell038
+    100424: escocell039
+    100426: escocell040
+    100428: escocell041
+    100430: escocell042
+    100432: escocell043
+    100434: escocell044
+    100436: escocell045
+    100438: escocell046
+    100440: escocell047
+    100442: escocell048
+    100444: escocell049
+    100446: escocell050
+    100448: escocell051
+    100450: escocell052
+    100452: escocell053
+    100454: escocell054
+    100456: escocell055
+    100458: escocell056
+    100460: escocell057
+    100462: escocell058
+    100464: escocell059
+    100466: escocell060
+    100468: escocell061
+    100470: escocell062
+    100472: escocell063
+    100474: escocell064
+    100476: escocell065
+    100478: escocell066
+    100480: escocell067
+    100482: escocell068
+    100484: escocell069
+    100486: escocell070
+    100488: escocell071
+    100490: escocell072
+    100492: escocell073
+    100494: escocell074
+    100496: escocell075
+    100498: escocell076
+    100500: Fanal_002
+    100502: Fanal_003
+    100504: Fanal_004
+    100506: Fanal_005
+    100508: Fanal_006
+    100510: Fanal_007
+    100512: Fanal_008
+    100514: Fanal_009
+    100516: Fanal_01
+    100518: Fanal_010
+    100520: Fanal_011
+    100522: Fanal_012
+    100524: Fanal_013
+    100526: Fanal_014
+    100528: Fanal_015
+    100530: Fanal_016
+    100532: Fanal_017
+    100534: Filament_002
+    100536: Filament_003
+    100538: Filament_004
+    100540: Filament_005
+    100542: Filament_006
+    100544: Filament_007
+    100546: Filament_008
+    100548: Filament_009
+    100550: Filament_01
+    100552: Filament_010
+    100554: Filament_011
+    100556: Filament_012
+    100558: Filament_013
+    100560: Filament_014
+    100562: Filament_015
+    100564: Filament_016
+    100566: Filament_017
+    100568: FilamentDummy_002
+    100570: FilamentDummy_003
+    100572: FilamentDummy_004
+    100574: FilamentDummy_005
+    100576: FilamentDummy_006
+    100578: FilamentDummy_007
+    100580: FilamentDummy_008
+    100582: FilamentDummy_009
+    100584: FilamentDummy_01
+    100586: FilamentDummy_010
+    100588: FilamentDummy_011
+    100590: FilamentDummy_012
+    100592: FilamentDummy_013
+    100594: FilamentDummy_014
+    100596: FilamentDummy_015
+    100598: FilamentDummy_016
+    100600: FilamentDummy_017
+    100602: FINESTRES A
+    100604: finestres A 01
+    100606: finestres A 02
+    100608: FINESTRES B
+    100610: FINESTRES B 01
+    100612: finestres c
+    100614: finestres c 01
+    100616: finestres d
+    100618: finestres e
+    100620: finestres e 01
+    100622: finestres e bar
+    100624: finestres e_02
+    100626: finestres f
+    100628: finestres g
+    100630: finestres g 01
+    100632: finestres h
+    100634: finestres h 01
+    100636: flechas
+    100638: flechas001
+    100640: flechas002
+    100642: flechas003
+    100644: flechas004
+    100646: flechas005
+    100648: fons edificis a
+    100650: fons edificis b
+    100652: fons edificis c
+    100654: fons edificis d
+    100656: gespa
+    100658: gespa 1
+    100660: gespa 2
+    100662: gespa002
+    100664: glorieta
+    100666: glorieta barana
+    100668: glorieta columnas
+    100670: glorieta escales
+    100672: glorieta sostre
+    100674: glorieta sostre b
+    100676: lineas asfalt
+    100678: lineas asfalt carril bici
+    100680: Metro boca barana
+    100682: Metro boca escales
+    100684: Metro boca mur escales
+    100686: paperera_002
+    100688: paperera_003
+    100690: paperera_004
+    100692: paperera_005
+    100694: paperera_006
+    100696: paperera_007
+    100698: paperera_008
+    100700: paperera_009
+    100702: paperera_01
+    100704: paperera_010
+    100706: paperera_011
+    100708: parc tanca
+    100710: parc_casetes
+    100712: parc_columpio
+    100714: Parc_lloro
+    100716: parc_tobogan
+    100718: paviment exterior A
+    100720: paviment exterior B
+    100722: paviment exterior C
+    100724: paviment exterior D
+    100726: paviment exterior E
+    100728: paviment exterior F
+    100730: paviment exterior G
+    100732: paviment exterior H
+    100734: paviment interior vorera
+    100736: //RootNode
+    100738: Plane002
+    100740: Plane003
+    100742: Plane004
+    100744: Plane005
+    100746: Plane006
+    100748: Plane007
+    100750: plastic_Groc
+    100752: pont
+    100754: sagrada familia ok
+    100756: se__al bici
+    100758: se__al bici001
+    100760: se__al bici002
+    100762: se__al bici003
+    100764: se__al bici004
+    100766: se__al bici005
+    100768: semafor petit_002
+    100770: semafor petit_003
+    100772: semafor petit_004
+    100774: semafor petit_005
+    100776: semafor petit_006
+    100778: semafor petit_007
+    100780: semafor petit_008
+    100782: semafor petit_009
+    100784: semafor petit_01
+    100786: semafor petit_010
+    100788: semafor petit_011
+    100790: semafor petit_012
+    100792: semafor petit_013
+    100794: semafor petit_014
+    100796: semafor petit_015
+    100798: semafor petit_016
+    100800: semafor_002
+    100802: semafor_003
+    100804: semafor_004
+    100806: semafor_005
+    100808: semafor_006
+    100810: semafor_007
+    100812: semafor_008
+    100814: semafor_009
+    100816: semafor_01
+    100818: semafor_010
+    100820: semafor_011
+    100822: semafor_012
+    100824: semafor_013
+    100826: semafor_014
+    100828: semafor_015
+    100830: semafor_016
+    100832: sorra terra interior
+    400000: AIGUA
+    400002: arbres00
+    400004: arbres01
+    400006: arbres02
+    400008: arbres03
+    400010: arbres04
+    400012: arbres05
+    400014: arbres06
+    400016: arbres07
+    400018: arbres08
+    400020: arbres09
+    400022: arbres10
+    400024: arbres100
+    400026: arbres101
+    400028: arbres102
+    400030: arbres103
+    400032: arbres104
+    400034: arbres105
+    400036: arbres106
+    400038: arbres107
+    400040: arbres108
+    400042: arbres109
+    400044: arbres11
+    400046: arbres110
+    400048: arbres111
+    400050: arbres112
+    400052: arbres113
+    400054: arbres114
+    400056: arbres115
+    400058: arbres116
+    400060: arbres117
+    400062: arbres118
+    400064: arbres119
+    400066: arbres12
+    400068: arbres120
+    400070: arbres121
+    400072: arbres122
+    400074: arbres123
+    400076: arbres124
+    400078: arbres125
+    400080: arbres126
+    400082: arbres127
+    400084: arbres13
+    400086: arbres14
+    400088: arbres15
+    400090: arbres16
+    400092: arbres17
+    400094: arbres18
+    400096: arbres19
+    400098: arbres20
+    400100: arbres21
+    400102: arbres22
+    400104: arbres23
+    400106: arbres24
+    400108: arbres25
+    400110: arbres26
+    400112: arbres27
+    400114: arbres28
+    400116: arbres29
+    400118: arbres30
+    400120: arbres31
+    400122: arbres32
+    400124: arbres33
+    400126: arbres34
+    400128: arbres35
+    400130: arbres36
+    400132: arbres37
+    400134: arbres38
+    400136: arbres39
+    400138: arbres40
+    400140: arbres41
+    400142: arbres42
+    400144: arbres43
+    400146: arbres44
+    400148: arbres45
+    400150: arbres46
+    400152: arbres47
+    400154: arbres48
+    400156: arbres49
+    400158: arbres50
+    400160: arbres51
+    400162: arbres52
+    400164: arbres53
+    400166: arbres54
+    400168: arbres55
+    400170: arbres56
+    400172: arbres57
+    400174: arbres58
+    400176: arbres59
+    400178: arbres60
+    400180: arbres61
+    400182: arbres62
+    400184: arbres63
+    400186: arbres64
+    400188: arbres65
+    400190: arbres66
+    400192: arbres67
+    400194: arbres68
+    400196: arbres69
+    400198: arbres70
+    400200: arbres71
+    400202: arbres72
+    400204: arbres73
+    400206: arbres74
+    400208: arbres75
+    400210: arbres76
+    400212: arbres77
+    400214: arbres78
+    400216: arbres79
+    400218: arbres80
+    400220: arbres81
+    400222: arbres82
+    400224: arbres83
+    400226: arbres84
+    400228: arbres85
+    400230: arbres86
+    400232: arbres87
+    400234: arbres88
+    400236: arbres89
+    400238: arbres90
+    400240: arbres91
+    400242: arbres92
+    400244: arbres93
+    400246: arbres94
+    400248: arbres95
+    400250: arbres96
+    400252: arbres97
+    400254: arbres98
+    400256: arbres99
+    400258: asfalt
+    400260: Banc_002
+    400262: Banc_003
+    400264: Banc_004
+    400266: Banc_005
+    400268: Banc_006
+    400270: Banc_007
+    400272: Banc_008
+    400274: Banc_009
+    400276: Banc_01
+    400278: Banc_010
+    400280: Banc_011
+    400282: Banc_012
+    400284: Banc_013
+    400286: Banc_014
+    400288: Banc_015
+    400290: Banc_016
+    400292: Banc_017
+    400294: borde lago
+    400296: bordillo
+    400298: bordillo 1
+    400300: bordillo 2
+    400302: bordillo 3
+    400304: bordillo 4
+    400306: bordillo 5
+    400308: carril bici
+    400310: edificis_blocs A
+    400312: edificis_blocs A_01
+    400314: edificis_blocs A_02
+    400316: edificis_blocs B
+    400318: edificis_blocs B_01
+    400320: edificis_blocs C
+    400322: edificis_blocs C_01
+    400324: edificis_blocs D
+    400326: edificis_blocs E
+    400328: edificis_blocs E_01
+    400330: edificis_blocs E_02
+    400332: edificis_blocs E_BAR
+    400334: edificis_blocs E_BAR portes
+    400336: edificis_blocs F
+    400338: edificis_blocs G
+    400340: edificis_blocs G_01
+    400342: edificis_blocs H
+    400344: edificis_blocs H_01
+    400346: escala incendis_edificis A
+    400348: escocell
+    400350: escocell001
+    400352: escocell002
+    400354: escocell003
+    400356: escocell005
+    400358: escocell006
+    400360: escocell007
+    400362: escocell008
+    400364: escocell009
+    400366: escocell010
+    400368: escocell011
+    400370: escocell012
+    400372: escocell013
+    400374: escocell014
+    400376: escocell015
+    400378: escocell016
+    400380: escocell017
+    400382: escocell018
+    400384: escocell019
+    400386: escocell020
+    400388: escocell021
+    400390: escocell022
+    400392: escocell023
+    400394: escocell024
+    400396: escocell025
+    400398: escocell026
+    400400: escocell027
+    400402: escocell028
+    400404: escocell029
+    400406: escocell030
+    400408: escocell031
+    400410: escocell032
+    400412: escocell033
+    400414: escocell034
+    400416: escocell035
+    400418: escocell036
+    400420: escocell037
+    400422: escocell038
+    400424: escocell039
+    400426: escocell040
+    400428: escocell041
+    400430: escocell042
+    400432: escocell043
+    400434: escocell044
+    400436: escocell045
+    400438: escocell046
+    400440: escocell047
+    400442: escocell048
+    400444: escocell049
+    400446: escocell050
+    400448: escocell051
+    400450: escocell052
+    400452: escocell053
+    400454: escocell054
+    400456: escocell055
+    400458: escocell056
+    400460: escocell057
+    400462: escocell058
+    400464: escocell059
+    400466: escocell060
+    400468: escocell061
+    400470: escocell062
+    400472: escocell063
+    400474: escocell064
+    400476: escocell065
+    400478: escocell066
+    400480: escocell067
+    400482: escocell068
+    400484: escocell069
+    400486: escocell070
+    400488: escocell071
+    400490: escocell072
+    400492: escocell073
+    400494: escocell074
+    400496: escocell075
+    400498: escocell076
+    400500: Fanal_002
+    400502: Fanal_003
+    400504: Fanal_004
+    400506: Fanal_005
+    400508: Fanal_006
+    400510: Fanal_007
+    400512: Fanal_008
+    400514: Fanal_009
+    400516: Fanal_01
+    400518: Fanal_010
+    400520: Fanal_011
+    400522: Fanal_012
+    400524: Fanal_013
+    400526: Fanal_014
+    400528: Fanal_015
+    400530: Fanal_016
+    400532: Fanal_017
+    400534: Filament_002
+    400536: Filament_003
+    400538: Filament_004
+    400540: Filament_005
+    400542: Filament_006
+    400544: Filament_007
+    400546: Filament_008
+    400548: Filament_009
+    400550: Filament_01
+    400552: Filament_010
+    400554: Filament_011
+    400556: Filament_012
+    400558: Filament_013
+    400560: Filament_014
+    400562: Filament_015
+    400564: Filament_016
+    400566: Filament_017
+    400568: FilamentDummy_002
+    400570: FilamentDummy_003
+    400572: FilamentDummy_004
+    400574: FilamentDummy_005
+    400576: FilamentDummy_006
+    400578: FilamentDummy_007
+    400580: FilamentDummy_008
+    400582: FilamentDummy_009
+    400584: FilamentDummy_01
+    400586: FilamentDummy_010
+    400588: FilamentDummy_011
+    400590: FilamentDummy_012
+    400592: FilamentDummy_013
+    400594: FilamentDummy_014
+    400596: FilamentDummy_015
+    400598: FilamentDummy_016
+    400600: FilamentDummy_017
+    400602: FINESTRES A
+    400604: finestres A 01
+    400606: finestres A 02
+    400608: FINESTRES B
+    400610: FINESTRES B 01
+    400612: finestres c
+    400614: finestres c 01
+    400616: finestres d
+    400618: finestres e
+    400620: finestres e 01
+    400622: finestres e bar
+    400624: finestres e_02
+    400626: finestres f
+    400628: finestres g
+    400630: finestres g 01
+    400632: finestres h
+    400634: finestres h 01
+    400636: flechas
+    400638: flechas001
+    400640: flechas002
+    400642: flechas003
+    400644: flechas004
+    400646: flechas005
+    400648: fons edificis a
+    400650: fons edificis b
+    400652: fons edificis c
+    400654: fons edificis d
+    400656: gespa
+    400658: gespa 1
+    400660: gespa 2
+    400662: gespa002
+    400664: glorieta
+    400666: glorieta barana
+    400668: glorieta columnas
+    400670: glorieta escales
+    400672: glorieta sostre
+    400674: glorieta sostre b
+    400676: lineas asfalt
+    400678: lineas asfalt carril bici
+    400680: Metro boca barana
+    400682: Metro boca escales
+    400684: Metro boca mur escales
+    400686: paperera_002
+    400688: paperera_003
+    400690: paperera_004
+    400692: paperera_005
+    400694: paperera_006
+    400696: paperera_007
+    400698: paperera_008
+    400700: paperera_009
+    400702: paperera_01
+    400704: paperera_010
+    400706: paperera_011
+    400708: parc tanca
+    400710: parc_casetes
+    400712: parc_columpio
+    400714: Parc_lloro
+    400716: parc_tobogan
+    400718: paviment exterior A
+    400720: paviment exterior B
+    400722: paviment exterior C
+    400724: paviment exterior D
+    400726: paviment exterior E
+    400728: paviment exterior F
+    400730: paviment exterior G
+    400732: paviment exterior H
+    400734: paviment interior vorera
+    400736: //RootNode
+    400738: Plane002
+    400740: Plane003
+    400742: Plane004
+    400744: Plane005
+    400746: Plane006
+    400748: Plane007
+    400750: plastic_Groc
+    400752: pont
+    400754: sagrada familia ok
+    400756: se__al bici
+    400758: se__al bici001
+    400760: se__al bici002
+    400762: se__al bici003
+    400764: se__al bici004
+    400766: se__al bici005
+    400768: semafor petit_002
+    400770: semafor petit_003
+    400772: semafor petit_004
+    400774: semafor petit_005
+    400776: semafor petit_006
+    400778: semafor petit_007
+    400780: semafor petit_008
+    400782: semafor petit_009
+    400784: semafor petit_01
+    400786: semafor petit_010
+    400788: semafor petit_011
+    400790: semafor petit_012
+    400792: semafor petit_013
+    400794: semafor petit_014
+    400796: semafor petit_015
+    400798: semafor petit_016
+    400800: semafor_002
+    400802: semafor_003
+    400804: semafor_004
+    400806: semafor_005
+    400808: semafor_006
+    400810: semafor_007
+    400812: semafor_008
+    400814: semafor_009
+    400816: semafor_01
+    400818: semafor_010
+    400820: semafor_011
+    400822: semafor_012
+    400824: semafor_013
+    400826: semafor_014
+    400828: semafor_015
+    400830: semafor_016
+    400832: sorra terra interior
+    2300000: AIGUA
+    2300002: arbres00
+    2300004: arbres01
+    2300006: arbres02
+    2300008: arbres03
+    2300010: arbres04
+    2300012: arbres05
+    2300014: arbres06
+    2300016: arbres07
+    2300018: arbres08
+    2300020: arbres09
+    2300022: arbres10
+    2300024: arbres100
+    2300026: arbres101
+    2300028: arbres102
+    2300030: arbres103
+    2300032: arbres104
+    2300034: arbres105
+    2300036: arbres106
+    2300038: arbres107
+    2300040: arbres108
+    2300042: arbres109
+    2300044: arbres11
+    2300046: arbres110
+    2300048: arbres111
+    2300050: arbres112
+    2300052: arbres113
+    2300054: arbres114
+    2300056: arbres115
+    2300058: arbres116
+    2300060: arbres117
+    2300062: arbres118
+    2300064: arbres119
+    2300066: arbres12
+    2300068: arbres120
+    2300070: arbres121
+    2300072: arbres122
+    2300074: arbres123
+    2300076: arbres124
+    2300078: arbres125
+    2300080: arbres126
+    2300082: arbres127
+    2300084: arbres13
+    2300086: arbres14
+    2300088: arbres15
+    2300090: arbres16
+    2300092: arbres17
+    2300094: arbres18
+    2300096: arbres19
+    2300098: arbres20
+    2300100: arbres21
+    2300102: arbres22
+    2300104: arbres23
+    2300106: arbres24
+    2300108: arbres25
+    2300110: arbres26
+    2300112: arbres27
+    2300114: arbres28
+    2300116: arbres29
+    2300118: arbres30
+    2300120: arbres31
+    2300122: arbres32
+    2300124: arbres33
+    2300126: arbres34
+    2300128: arbres35
+    2300130: arbres36
+    2300132: arbres37
+    2300134: arbres38
+    2300136: arbres39
+    2300138: arbres40
+    2300140: arbres41
+    2300142: arbres42
+    2300144: arbres43
+    2300146: arbres44
+    2300148: arbres45
+    2300150: arbres46
+    2300152: arbres47
+    2300154: arbres48
+    2300156: arbres49
+    2300158: arbres50
+    2300160: arbres51
+    2300162: arbres52
+    2300164: arbres53
+    2300166: arbres54
+    2300168: arbres55
+    2300170: arbres56
+    2300172: arbres57
+    2300174: arbres58
+    2300176: arbres59
+    2300178: arbres60
+    2300180: arbres61
+    2300182: arbres62
+    2300184: arbres63
+    2300186: arbres64
+    2300188: arbres65
+    2300190: arbres66
+    2300192: arbres67
+    2300194: arbres68
+    2300196: arbres69
+    2300198: arbres70
+    2300200: arbres71
+    2300202: arbres72
+    2300204: arbres73
+    2300206: arbres74
+    2300208: arbres75
+    2300210: arbres76
+    2300212: arbres77
+    2300214: arbres78
+    2300216: arbres79
+    2300218: arbres80
+    2300220: arbres81
+    2300222: arbres82
+    2300224: arbres83
+    2300226: arbres84
+    2300228: arbres85
+    2300230: arbres86
+    2300232: arbres87
+    2300234: arbres88
+    2300236: arbres89
+    2300238: arbres90
+    2300240: arbres91
+    2300242: arbres92
+    2300244: arbres93
+    2300246: arbres94
+    2300248: arbres95
+    2300250: arbres96
+    2300252: arbres97
+    2300254: arbres98
+    2300256: arbres99
+    2300258: asfalt
+    2300260: Banc_002
+    2300262: Banc_003
+    2300264: Banc_004
+    2300266: Banc_005
+    2300268: Banc_006
+    2300270: Banc_007
+    2300272: Banc_008
+    2300274: Banc_009
+    2300276: Banc_01
+    2300278: Banc_010
+    2300280: Banc_011
+    2300282: Banc_012
+    2300284: Banc_013
+    2300286: Banc_014
+    2300288: Banc_015
+    2300290: Banc_016
+    2300292: Banc_017
+    2300294: borde lago
+    2300296: bordillo
+    2300298: bordillo 1
+    2300300: bordillo 2
+    2300302: bordillo 3
+    2300304: bordillo 4
+    2300306: bordillo 5
+    2300308: carril bici
+    2300310: edificis_blocs A
+    2300312: edificis_blocs A_01
+    2300314: edificis_blocs A_02
+    2300316: edificis_blocs B
+    2300318: edificis_blocs B_01
+    2300320: edificis_blocs C
+    2300322: edificis_blocs C_01
+    2300324: edificis_blocs D
+    2300326: edificis_blocs E
+    2300328: edificis_blocs E_01
+    2300330: edificis_blocs E_02
+    2300332: edificis_blocs E_BAR
+    2300334: edificis_blocs E_BAR portes
+    2300336: edificis_blocs F
+    2300338: edificis_blocs G
+    2300340: edificis_blocs G_01
+    2300342: edificis_blocs H
+    2300344: edificis_blocs H_01
+    2300346: escala incendis_edificis A
+    2300348: escocell
+    2300350: escocell001
+    2300352: escocell002
+    2300354: escocell003
+    2300356: escocell005
+    2300358: escocell006
+    2300360: escocell007
+    2300362: escocell008
+    2300364: escocell009
+    2300366: escocell010
+    2300368: escocell011
+    2300370: escocell012
+    2300372: escocell013
+    2300374: escocell014
+    2300376: escocell015
+    2300378: escocell016
+    2300380: escocell017
+    2300382: escocell018
+    2300384: escocell019
+    2300386: escocell020
+    2300388: escocell021
+    2300390: escocell022
+    2300392: escocell023
+    2300394: escocell024
+    2300396: escocell025
+    2300398: escocell026
+    2300400: escocell027
+    2300402: escocell028
+    2300404: escocell029
+    2300406: escocell030
+    2300408: escocell031
+    2300410: escocell032
+    2300412: escocell033
+    2300414: escocell034
+    2300416: escocell035
+    2300418: escocell036
+    2300420: escocell037
+    2300422: escocell038
+    2300424: escocell039
+    2300426: escocell040
+    2300428: escocell041
+    2300430: escocell042
+    2300432: escocell043
+    2300434: escocell044
+    2300436: escocell045
+    2300438: escocell046
+    2300440: escocell047
+    2300442: escocell048
+    2300444: escocell049
+    2300446: escocell050
+    2300448: escocell051
+    2300450: escocell052
+    2300452: escocell053
+    2300454: escocell054
+    2300456: escocell055
+    2300458: escocell056
+    2300460: escocell057
+    2300462: escocell058
+    2300464: escocell059
+    2300466: escocell060
+    2300468: escocell061
+    2300470: escocell062
+    2300472: escocell063
+    2300474: escocell064
+    2300476: escocell065
+    2300478: escocell066
+    2300480: escocell067
+    2300482: escocell068
+    2300484: escocell069
+    2300486: escocell070
+    2300488: escocell071
+    2300490: escocell072
+    2300492: escocell073
+    2300494: escocell074
+    2300496: escocell075
+    2300498: escocell076
+    2300500: Fanal_002
+    2300502: Fanal_003
+    2300504: Fanal_004
+    2300506: Fanal_005
+    2300508: Fanal_006
+    2300510: Fanal_007
+    2300512: Fanal_008
+    2300514: Fanal_009
+    2300516: Fanal_01
+    2300518: Fanal_010
+    2300520: Fanal_011
+    2300522: Fanal_012
+    2300524: Fanal_013
+    2300526: Fanal_014
+    2300528: Fanal_015
+    2300530: Fanal_016
+    2300532: Fanal_017
+    2300534: Filament_002
+    2300536: Filament_003
+    2300538: Filament_004
+    2300540: Filament_005
+    2300542: Filament_006
+    2300544: Filament_007
+    2300546: Filament_008
+    2300548: Filament_009
+    2300550: Filament_01
+    2300552: Filament_010
+    2300554: Filament_011
+    2300556: Filament_012
+    2300558: Filament_013
+    2300560: Filament_014
+    2300562: Filament_015
+    2300564: Filament_016
+    2300566: Filament_017
+    2300568: FINESTRES A
+    2300570: finestres A 01
+    2300572: finestres A 02
+    2300574: FINESTRES B
+    2300576: FINESTRES B 01
+    2300578: finestres c
+    2300580: finestres c 01
+    2300582: finestres d
+    2300584: finestres e
+    2300586: finestres e 01
+    2300588: finestres e bar
+    2300590: finestres e_02
+    2300592: finestres f
+    2300594: finestres g
+    2300596: finestres g 01
+    2300598: finestres h
+    2300600: finestres h 01
+    2300602: flechas
+    2300604: flechas001
+    2300606: flechas002
+    2300608: flechas003
+    2300610: flechas004
+    2300612: flechas005
+    2300614: fons edificis a
+    2300616: fons edificis b
+    2300618: fons edificis c
+    2300620: fons edificis d
+    2300622: gespa
+    2300624: gespa 1
+    2300626: gespa 2
+    2300628: gespa002
+    2300630: glorieta
+    2300632: glorieta barana
+    2300634: glorieta columnas
+    2300636: glorieta escales
+    2300638: glorieta sostre
+    2300640: glorieta sostre b
+    2300642: lineas asfalt
+    2300644: lineas asfalt carril bici
+    2300646: Metro boca barana
+    2300648: Metro boca escales
+    2300650: Metro boca mur escales
+    2300652: paperera_002
+    2300654: paperera_003
+    2300656: paperera_004
+    2300658: paperera_005
+    2300660: paperera_006
+    2300662: paperera_007
+    2300664: paperera_008
+    2300666: paperera_009
+    2300668: paperera_01
+    2300670: paperera_010
+    2300672: paperera_011
+    2300674: parc tanca
+    2300676: parc_casetes
+    2300678: parc_columpio
+    2300680: Parc_lloro
+    2300682: parc_tobogan
+    2300684: paviment exterior A
+    2300686: paviment exterior B
+    2300688: paviment exterior C
+    2300690: paviment exterior D
+    2300692: paviment exterior E
+    2300694: paviment exterior F
+    2300696: paviment exterior G
+    2300698: paviment exterior H
+    2300700: paviment interior vorera
+    2300702: Plane002
+    2300704: Plane003
+    2300706: Plane004
+    2300708: Plane005
+    2300710: Plane006
+    2300712: Plane007
+    2300714: pont
+    2300716: sagrada familia ok
+    2300718: se__al bici
+    2300720: se__al bici001
+    2300722: se__al bici002
+    2300724: se__al bici003
+    2300726: se__al bici004
+    2300728: se__al bici005
+    2300730: semafor petit_002
+    2300732: semafor petit_003
+    2300734: semafor petit_004
+    2300736: semafor petit_005
+    2300738: semafor petit_006
+    2300740: semafor petit_007
+    2300742: semafor petit_008
+    2300744: semafor petit_009
+    2300746: semafor petit_01
+    2300748: semafor petit_010
+    2300750: semafor petit_011
+    2300752: semafor petit_012
+    2300754: semafor petit_013
+    2300756: semafor petit_014
+    2300758: semafor petit_015
+    2300760: semafor petit_016
+    2300762: semafor_002
+    2300764: semafor_003
+    2300766: semafor_004
+    2300768: semafor_005
+    2300770: semafor_006
+    2300772: semafor_007
+    2300774: semafor_008
+    2300776: semafor_009
+    2300778: semafor_01
+    2300780: semafor_010
+    2300782: semafor_011
+    2300784: semafor_012
+    2300786: semafor_013
+    2300788: semafor_014
+    2300790: semafor_015
+    2300792: semafor_016
+    2300794: sorra terra interior
+    3300000: AIGUA
+    3300002: arbres00
+    3300004: arbres01
+    3300006: arbres02
+    3300008: arbres03
+    3300010: arbres04
+    3300012: arbres05
+    3300014: arbres06
+    3300016: arbres07
+    3300018: arbres08
+    3300020: arbres09
+    3300022: arbres10
+    3300024: arbres100
+    3300026: arbres101
+    3300028: arbres102
+    3300030: arbres103
+    3300032: arbres104
+    3300034: arbres105
+    3300036: arbres106
+    3300038: arbres107
+    3300040: arbres108
+    3300042: arbres109
+    3300044: arbres11
+    3300046: arbres110
+    3300048: arbres111
+    3300050: arbres112
+    3300052: arbres113
+    3300054: arbres114
+    3300056: arbres115
+    3300058: arbres116
+    3300060: arbres117
+    3300062: arbres118
+    3300064: arbres119
+    3300066: arbres12
+    3300068: arbres120
+    3300070: arbres121
+    3300072: arbres122
+    3300074: arbres123
+    3300076: arbres124
+    3300078: arbres125
+    3300080: arbres126
+    3300082: arbres127
+    3300084: arbres13
+    3300086: arbres14
+    3300088: arbres15
+    3300090: arbres16
+    3300092: arbres17
+    3300094: arbres18
+    3300096: arbres19
+    3300098: arbres20
+    3300100: arbres21
+    3300102: arbres22
+    3300104: arbres23
+    3300106: arbres24
+    3300108: arbres25
+    3300110: arbres26
+    3300112: arbres27
+    3300114: arbres28
+    3300116: arbres29
+    3300118: arbres30
+    3300120: arbres31
+    3300122: arbres32
+    3300124: arbres33
+    3300126: arbres34
+    3300128: arbres35
+    3300130: arbres36
+    3300132: arbres37
+    3300134: arbres38
+    3300136: arbres39
+    3300138: arbres40
+    3300140: arbres41
+    3300142: arbres42
+    3300144: arbres43
+    3300146: arbres44
+    3300148: arbres45
+    3300150: arbres46
+    3300152: arbres47
+    3300154: arbres48
+    3300156: arbres49
+    3300158: arbres50
+    3300160: arbres51
+    3300162: arbres52
+    3300164: arbres53
+    3300166: arbres54
+    3300168: arbres55
+    3300170: arbres56
+    3300172: arbres57
+    3300174: arbres58
+    3300176: arbres59
+    3300178: arbres60
+    3300180: arbres61
+    3300182: arbres62
+    3300184: arbres63
+    3300186: arbres64
+    3300188: arbres65
+    3300190: arbres66
+    3300192: arbres67
+    3300194: arbres68
+    3300196: arbres69
+    3300198: arbres70
+    3300200: arbres71
+    3300202: arbres72
+    3300204: arbres73
+    3300206: arbres74
+    3300208: arbres75
+    3300210: arbres76
+    3300212: arbres77
+    3300214: arbres78
+    3300216: arbres79
+    3300218: arbres80
+    3300220: arbres81
+    3300222: arbres82
+    3300224: arbres83
+    3300226: arbres84
+    3300228: arbres85
+    3300230: arbres86
+    3300232: arbres87
+    3300234: arbres88
+    3300236: arbres89
+    3300238: arbres90
+    3300240: arbres91
+    3300242: arbres92
+    3300244: arbres93
+    3300246: arbres94
+    3300248: arbres95
+    3300250: arbres96
+    3300252: arbres97
+    3300254: arbres98
+    3300256: arbres99
+    3300258: asfalt
+    3300260: Banc_002
+    3300262: Banc_003
+    3300264: Banc_004
+    3300266: Banc_005
+    3300268: Banc_006
+    3300270: Banc_007
+    3300272: Banc_008
+    3300274: Banc_009
+    3300276: Banc_01
+    3300278: Banc_010
+    3300280: Banc_011
+    3300282: Banc_012
+    3300284: Banc_013
+    3300286: Banc_014
+    3300288: Banc_015
+    3300290: Banc_016
+    3300292: Banc_017
+    3300294: borde lago
+    3300296: bordillo
+    3300298: bordillo 1
+    3300300: bordillo 2
+    3300302: bordillo 3
+    3300304: bordillo 4
+    3300306: bordillo 5
+    3300308: carril bici
+    3300310: edificis_blocs A
+    3300312: edificis_blocs A_01
+    3300314: edificis_blocs A_02
+    3300316: edificis_blocs B
+    3300318: edificis_blocs B_01
+    3300320: edificis_blocs C
+    3300322: edificis_blocs C_01
+    3300324: edificis_blocs D
+    3300326: edificis_blocs E
+    3300328: edificis_blocs E_01
+    3300330: edificis_blocs E_02
+    3300332: edificis_blocs E_BAR
+    3300334: edificis_blocs E_BAR portes
+    3300336: edificis_blocs F
+    3300338: edificis_blocs G
+    3300340: edificis_blocs G_01
+    3300342: edificis_blocs H
+    3300344: edificis_blocs H_01
+    3300346: escala incendis_edificis A
+    3300348: escocell
+    3300350: escocell001
+    3300352: escocell002
+    3300354: escocell003
+    3300356: escocell005
+    3300358: escocell006
+    3300360: escocell007
+    3300362: escocell008
+    3300364: escocell009
+    3300366: escocell010
+    3300368: escocell011
+    3300370: escocell012
+    3300372: escocell013
+    3300374: escocell014
+    3300376: escocell015
+    3300378: escocell016
+    3300380: escocell017
+    3300382: escocell018
+    3300384: escocell019
+    3300386: escocell020
+    3300388: escocell021
+    3300390: escocell022
+    3300392: escocell023
+    3300394: escocell024
+    3300396: escocell025
+    3300398: escocell026
+    3300400: escocell027
+    3300402: escocell028
+    3300404: escocell029
+    3300406: escocell030
+    3300408: escocell031
+    3300410: escocell032
+    3300412: escocell033
+    3300414: escocell034
+    3300416: escocell035
+    3300418: escocell036
+    3300420: escocell037
+    3300422: escocell038
+    3300424: escocell039
+    3300426: escocell040
+    3300428: escocell041
+    3300430: escocell042
+    3300432: escocell043
+    3300434: escocell044
+    3300436: escocell045
+    3300438: escocell046
+    3300440: escocell047
+    3300442: escocell048
+    3300444: escocell049
+    3300446: escocell050
+    3300448: escocell051
+    3300450: escocell052
+    3300452: escocell053
+    3300454: escocell054
+    3300456: escocell055
+    3300458: escocell056
+    3300460: escocell057
+    3300462: escocell058
+    3300464: escocell059
+    3300466: escocell060
+    3300468: escocell061
+    3300470: escocell062
+    3300472: escocell063
+    3300474: escocell064
+    3300476: escocell065
+    3300478: escocell066
+    3300480: escocell067
+    3300482: escocell068
+    3300484: escocell069
+    3300486: escocell070
+    3300488: escocell071
+    3300490: escocell072
+    3300492: escocell073
+    3300494: escocell074
+    3300496: escocell075
+    3300498: escocell076
+    3300500: Fanal_002
+    3300502: Fanal_003
+    3300504: Fanal_004
+    3300506: Fanal_005
+    3300508: Fanal_006
+    3300510: Fanal_007
+    3300512: Fanal_008
+    3300514: Fanal_009
+    3300516: Fanal_01
+    3300518: Fanal_010
+    3300520: Fanal_011
+    3300522: Fanal_012
+    3300524: Fanal_013
+    3300526: Fanal_014
+    3300528: Fanal_015
+    3300530: Fanal_016
+    3300532: Fanal_017
+    3300534: Filament_002
+    3300536: Filament_003
+    3300538: Filament_004
+    3300540: Filament_005
+    3300542: Filament_006
+    3300544: Filament_007
+    3300546: Filament_008
+    3300548: Filament_009
+    3300550: Filament_01
+    3300552: Filament_010
+    3300554: Filament_011
+    3300556: Filament_012
+    3300558: Filament_013
+    3300560: Filament_014
+    3300562: Filament_015
+    3300564: Filament_016
+    3300566: Filament_017
+    3300568: FINESTRES A
+    3300570: finestres A 01
+    3300572: finestres A 02
+    3300574: FINESTRES B
+    3300576: FINESTRES B 01
+    3300578: finestres c
+    3300580: finestres c 01
+    3300582: finestres d
+    3300584: finestres e
+    3300586: finestres e 01
+    3300588: finestres e bar
+    3300590: finestres e_02
+    3300592: finestres f
+    3300594: finestres g
+    3300596: finestres g 01
+    3300598: finestres h
+    3300600: finestres h 01
+    3300602: flechas
+    3300604: flechas001
+    3300606: flechas002
+    3300608: flechas003
+    3300610: flechas004
+    3300612: flechas005
+    3300614: fons edificis a
+    3300616: fons edificis b
+    3300618: fons edificis c
+    3300620: fons edificis d
+    3300622: gespa
+    3300624: gespa 1
+    3300626: gespa 2
+    3300628: gespa002
+    3300630: glorieta
+    3300632: glorieta barana
+    3300634: glorieta columnas
+    3300636: glorieta escales
+    3300638: glorieta sostre
+    3300640: glorieta sostre b
+    3300642: lineas asfalt
+    3300644: lineas asfalt carril bici
+    3300646: Metro boca barana
+    3300648: Metro boca escales
+    3300650: Metro boca mur escales
+    3300652: paperera_002
+    3300654: paperera_003
+    3300656: paperera_004
+    3300658: paperera_005
+    3300660: paperera_006
+    3300662: paperera_007
+    3300664: paperera_008
+    3300666: paperera_009
+    3300668: paperera_01
+    3300670: paperera_010
+    3300672: paperera_011
+    3300674: parc tanca
+    3300676: parc_casetes
+    3300678: parc_columpio
+    3300680: Parc_lloro
+    3300682: parc_tobogan
+    3300684: paviment exterior A
+    3300686: paviment exterior B
+    3300688: paviment exterior C
+    3300690: paviment exterior D
+    3300692: paviment exterior E
+    3300694: paviment exterior F
+    3300696: paviment exterior G
+    3300698: paviment exterior H
+    3300700: paviment interior vorera
+    3300702: Plane002
+    3300704: Plane003
+    3300706: Plane004
+    3300708: Plane005
+    3300710: Plane006
+    3300712: Plane007
+    3300714: pont
+    3300716: sagrada familia ok
+    3300718: se__al bici
+    3300720: se__al bici001
+    3300722: se__al bici002
+    3300724: se__al bici003
+    3300726: se__al bici004
+    3300728: se__al bici005
+    3300730: semafor petit_002
+    3300732: semafor petit_003
+    3300734: semafor petit_004
+    3300736: semafor petit_005
+    3300738: semafor petit_006
+    3300740: semafor petit_007
+    3300742: semafor petit_008
+    3300744: semafor petit_009
+    3300746: semafor petit_01
+    3300748: semafor petit_010
+    3300750: semafor petit_011
+    3300752: semafor petit_012
+    3300754: semafor petit_013
+    3300756: semafor petit_014
+    3300758: semafor petit_015
+    3300760: semafor petit_016
+    3300762: semafor_002
+    3300764: semafor_003
+    3300766: semafor_004
+    3300768: semafor_005
+    3300770: semafor_006
+    3300772: semafor_007
+    3300774: semafor_008
+    3300776: semafor_009
+    3300778: semafor_01
+    3300780: semafor_010
+    3300782: semafor_011
+    3300784: semafor_012
+    3300786: semafor_013
+    3300788: semafor_014
+    3300790: semafor_015
+    3300792: semafor_016
+    3300794: sorra terra interior
+    4300000: edificis_blocs A
+    4300002: FINESTRES A
+    4300004: edificis_blocs D
+    4300006: finestres d
+    4300008: edificis_blocs B
+    4300010: FINESTRES B
+    4300012: edificis_blocs G
+    4300014: finestres g
+    4300016: edificis_blocs F
+    4300018: finestres f
+    4300020: edificis_blocs H
+    4300022: finestres h
+    4300024: edificis_blocs C
+    4300026: finestres c
+    4300028: fons edificis d
+    4300030: semafor_01
+    4300032: semafor petit_01
+    4300034: semafor petit_002
+    4300036: semafor_002
+    4300038: semafor_003
+    4300040: semafor petit_003
+    4300042: semafor_004
+    4300044: semafor petit_004
+    4300046: semafor_005
+    4300048: semafor petit_005
+    4300050: semafor petit_006
+    4300052: semafor_006
+    4300054: semafor petit_007
+    4300056: semafor_007
+    4300058: semafor petit_008
+    4300060: semafor_008
+    4300062: semafor_009
+    4300064: semafor petit_009
+    4300066: semafor_010
+    4300068: semafor petit_010
+    4300070: semafor_011
+    4300072: semafor petit_011
+    4300074: semafor_012
+    4300076: semafor petit_012
+    4300078: semafor_013
+    4300080: semafor petit_013
+    4300082: semafor_014
+    4300084: semafor petit_014
+    4300086: semafor petit_015
+    4300088: semafor_015
+    4300090: semafor_016
+    4300092: semafor petit_016
+    4300094: parc_casetes
+    4300096: parc_columpio
+    4300098: parc tanca
+    4300100: parc_tobogan
+    4300102: Parc_lloro
+    4300104: pont
+    4300106: edificis_blocs E
+    4300108: finestres e
+    4300110: sagrada familia ok
+    4300112: escala incendis_edificis A
+    4300114: Metro boca mur escales
+    4300116: Metro boca barana
+    4300118: edificis_blocs A_01
+    4300120: finestres A 01
+    4300122: edificis_blocs A_02
+    4300124: finestres A 02
+    4300126: edificis_blocs C_01
+    4300128: finestres c 01
+    4300130: edificis_blocs B_01
+    4300132: FINESTRES B 01
+    4300134: edificis_blocs H_01
+    4300136: finestres h 01
+    4300138: edificis_blocs E_01
+    4300140: finestres e 01
+    4300142: edificis_blocs E_02
+    4300144: finestres e_02
+    4300146: edificis_blocs E_BAR
+    4300148: finestres e bar
+    4300150: edificis_blocs E_BAR portes
+    4300152: Metro boca escales
+    4300154: Banc_01
+    4300156: Banc_002
+    4300158: Banc_003
+    4300160: Banc_004
+    4300162: Banc_005
+    4300164: Banc_006
+    4300166: Banc_007
+    4300168: Banc_008
+    4300170: Banc_009
+    4300172: Banc_010
+    4300174: Banc_011
+    4300176: Banc_012
+    4300178: Banc_013
+    4300180: Banc_014
+    4300182: Banc_015
+    4300184: Banc_016
+    4300186: Banc_017
+    4300188: arbres00
+    4300190: arbres01
+    4300192: arbres02
+    4300194: arbres03
+    4300196: arbres04
+    4300198: arbres05
+    4300200: arbres06
+    4300202: arbres07
+    4300204: arbres08
+    4300206: arbres09
+    4300208: arbres10
+    4300210: arbres11
+    4300212: arbres12
+    4300214: arbres13
+    4300216: arbres14
+    4300218: arbres15
+    4300220: arbres16
+    4300222: arbres17
+    4300224: arbres18
+    4300226: arbres19
+    4300228: arbres20
+    4300230: arbres21
+    4300232: arbres22
+    4300234: arbres23
+    4300236: arbres24
+    4300238: arbres25
+    4300240: arbres26
+    4300242: arbres27
+    4300244: arbres28
+    4300246: arbres29
+    4300248: arbres30
+    4300250: arbres31
+    4300252: arbres32
+    4300254: arbres33
+    4300256: arbres34
+    4300258: arbres35
+    4300260: arbres36
+    4300262: arbres37
+    4300264: arbres38
+    4300266: arbres39
+    4300268: arbres40
+    4300270: arbres41
+    4300272: arbres42
+    4300274: arbres43
+    4300276: arbres44
+    4300278: arbres45
+    4300280: arbres46
+    4300282: arbres47
+    4300284: arbres48
+    4300286: arbres49
+    4300288: arbres50
+    4300290: arbres51
+    4300292: arbres52
+    4300294: arbres53
+    4300296: arbres54
+    4300298: arbres55
+    4300300: arbres56
+    4300302: arbres57
+    4300304: arbres58
+    4300306: arbres59
+    4300308: arbres60
+    4300310: arbres61
+    4300312: arbres62
+    4300314: arbres63
+    4300316: arbres64
+    4300318: arbres65
+    4300320: arbres66
+    4300322: arbres67
+    4300324: arbres68
+    4300326: arbres69
+    4300328: arbres70
+    4300330: arbres71
+    4300332: arbres72
+    4300334: arbres73
+    4300336: arbres74
+    4300338: arbres75
+    4300340: arbres76
+    4300342: arbres77
+    4300344: arbres78
+    4300346: arbres79
+    4300348: arbres80
+    4300350: arbres81
+    4300352: arbres82
+    4300354: arbres83
+    4300356: arbres84
+    4300358: arbres85
+    4300360: arbres86
+    4300362: arbres87
+    4300364: arbres88
+    4300366: arbres89
+    4300368: arbres90
+    4300370: arbres91
+    4300372: arbres92
+    4300374: arbres93
+    4300376: arbres94
+    4300378: arbres95
+    4300380: arbres96
+    4300382: arbres97
+    4300384: arbres98
+    4300386: arbres99
+    4300388: arbres100
+    4300390: arbres101
+    4300392: arbres102
+    4300394: arbres103
+    4300396: arbres104
+    4300398: arbres105
+    4300400: arbres106
+    4300402: arbres107
+    4300404: arbres108
+    4300406: arbres109
+    4300408: arbres110
+    4300410: arbres111
+    4300412: arbres112
+    4300414: arbres113
+    4300416: arbres114
+    4300418: arbres115
+    4300420: arbres116
+    4300422: arbres117
+    4300424: arbres118
+    4300426: arbres119
+    4300428: arbres120
+    4300430: arbres121
+    4300432: arbres122
+    4300434: arbres123
+    4300436: arbres124
+    4300438: arbres125
+    4300440: arbres126
+    4300442: arbres127
+    4300444: paviment exterior B
+    4300446: paviment exterior C
+    4300448: paviment exterior D
+    4300450: paviment exterior E
+    4300452: paviment exterior F
+    4300454: paviment exterior G
+    4300456: paviment exterior H
+    4300458: paperera_01
+    4300460: paperera_002
+    4300462: paperera_003
+    4300464: paperera_004
+    4300466: paperera_005
+    4300468: paperera_006
+    4300470: paperera_007
+    4300472: paperera_008
+    4300474: paperera_009
+    4300476: paperera_010
+    4300478: paperera_011
+    4300480: Fanal_01
+    4300482: Filament_01
+    4300484: Fanal_002
+    4300486: Filament_002
+    4300488: Fanal_003
+    4300490: Filament_003
+    4300492: Fanal_004
+    4300494: Filament_004
+    4300496: Fanal_005
+    4300498: Filament_005
+    4300500: Fanal_006
+    4300502: Filament_006
+    4300504: Fanal_007
+    4300506: Filament_007
+    4300508: Fanal_008
+    4300510: Filament_008
+    4300512: Fanal_009
+    4300514: Filament_009
+    4300516: Fanal_010
+    4300518: Filament_010
+    4300520: Fanal_011
+    4300522: Filament_011
+    4300524: Fanal_012
+    4300526: Filament_012
+    4300528: Fanal_013
+    4300530: Filament_013
+    4300532: Fanal_014
+    4300534: Filament_014
+    4300536: Fanal_015
+    4300538: Filament_015
+    4300540: Fanal_016
+    4300542: Filament_016
+    4300544: Fanal_017
+    4300546: Filament_017
+    4300548: edificis_blocs G_01
+    4300550: finestres g 01
+    4300552: fons edificis a
+    4300554: fons edificis b
+    4300556: fons edificis c
+    4300558: glorieta
+    4300560: glorieta columnas
+    4300562: glorieta barana
+    4300564: glorieta sostre b
+    4300566: glorieta sostre
+    4300568: glorieta escales
+    4300570: se__al bici
+    4300572: Plane002
+    4300574: flechas
+    4300576: se__al bici001
+    4300578: flechas001
+    4300580: Plane003
+    4300582: se__al bici002
+    4300584: flechas002
+    4300586: Plane004
+    4300588: se__al bici003
+    4300590: flechas003
+    4300592: Plane005
+    4300594: se__al bici004
+    4300596: flechas004
+    4300598: Plane006
+    4300600: se__al bici005
+    4300602: flechas005
+    4300604: Plane007
+    4300606: escocell011
+    4300608: escocell010
+    4300610: AIGUA
+    4300612: gespa
+    4300614: borde lago
+    4300616: escocell009
+    4300618: escocell008
+    4300620: escocell007
+    4300622: escocell006
+    4300624: escocell005
+    4300626: escocell012
+    4300628: escocell001
+    4300630: escocell002
+    4300632: escocell003
+    4300634: escocell
+    4300636: escocell013
+    4300638: escocell014
+    4300640: escocell015
+    4300642: escocell016
+    4300644: escocell017
+    4300646: escocell018
+    4300648: escocell019
+    4300650: escocell020
+    4300652: escocell021
+    4300654: escocell022
+    4300656: escocell023
+    4300658: escocell024
+    4300660: escocell025
+    4300662: escocell026
+    4300664: escocell027
+    4300666: escocell028
+    4300668: escocell029
+    4300670: escocell030
+    4300672: escocell031
+    4300674: escocell032
+    4300676: escocell033
+    4300678: escocell034
+    4300680: escocell035
+    4300682: escocell036
+    4300684: escocell037
+    4300686: escocell038
+    4300688: escocell039
+    4300690: escocell040
+    4300692: escocell041
+    4300694: escocell042
+    4300696: escocell043
+    4300698: escocell044
+    4300700: escocell045
+    4300702: escocell046
+    4300704: escocell047
+    4300706: escocell048
+    4300708: escocell049
+    4300710: escocell050
+    4300712: escocell051
+    4300714: escocell052
+    4300716: escocell053
+    4300718: escocell054
+    4300720: escocell055
+    4300722: escocell056
+    4300724: escocell057
+    4300726: escocell058
+    4300728: escocell059
+    4300730: escocell060
+    4300732: escocell061
+    4300734: escocell062
+    4300736: escocell063
+    4300738: escocell064
+    4300740: escocell065
+    4300742: escocell066
+    4300744: escocell067
+    4300746: escocell068
+    4300748: escocell069
+    4300750: escocell070
+    4300752: escocell071
+    4300754: escocell072
+    4300756: escocell073
+    4300758: escocell074
+    4300760: escocell075
+    4300762: escocell076
+    4300764: asfalt
+    4300766: gespa
+    4300768: bordillo
+    4300770: paviment exterior A
+    4300772: paviment interior vorera
+    4300774: bordillo
+    4300776: sorra terra interior
+    4300778: carril bici
+    4300780: bordillo
+    4300782: lineas asfalt
+    4300784: lineas asfalt carril bici
+    4300786: gespa002
+    4300788: bordillo
+    4300790: bordillo
+    4300792: bordillo
+    4300794: gespa
+    6400000: AIGUA
+    6400002: arbres00
+    6400004: arbres01
+    6400006: arbres02
+    6400008: arbres03
+    6400010: arbres04
+    6400012: arbres05
+    6400014: arbres06
+    6400016: arbres07
+    6400018: arbres08
+    6400020: arbres09
+    6400022: arbres10
+    6400024: arbres100
+    6400026: arbres101
+    6400028: arbres102
+    6400030: arbres103
+    6400032: arbres104
+    6400034: arbres105
+    6400036: arbres106
+    6400038: arbres107
+    6400040: arbres108
+    6400042: arbres109
+    6400044: arbres11
+    6400046: arbres110
+    6400048: arbres111
+    6400050: arbres112
+    6400052: arbres113
+    6400054: arbres114
+    6400056: arbres115
+    6400058: arbres116
+    6400060: arbres117
+    6400062: arbres118
+    6400064: arbres119
+    6400066: arbres12
+    6400068: arbres120
+    6400070: arbres121
+    6400072: arbres122
+    6400074: arbres123
+    6400076: arbres124
+    6400078: arbres125
+    6400080: arbres126
+    6400082: arbres127
+    6400084: arbres13
+    6400086: arbres14
+    6400088: arbres15
+    6400090: arbres16
+    6400092: arbres17
+    6400094: arbres18
+    6400096: arbres19
+    6400098: arbres20
+    6400100: arbres21
+    6400102: arbres22
+    6400104: arbres23
+    6400106: arbres24
+    6400108: arbres25
+    6400110: arbres26
+    6400112: arbres27
+    6400114: arbres28
+    6400116: arbres29
+    6400118: arbres30
+    6400120: arbres31
+    6400122: arbres32
+    6400124: arbres33
+    6400126: arbres34
+    6400128: arbres35
+    6400130: arbres36
+    6400132: arbres37
+    6400134: arbres38
+    6400136: arbres39
+    6400138: arbres40
+    6400140: arbres41
+    6400142: arbres42
+    6400144: arbres43
+    6400146: arbres44
+    6400148: arbres45
+    6400150: arbres46
+    6400152: arbres47
+    6400154: arbres48
+    6400156: arbres49
+    6400158: arbres50
+    6400160: arbres51
+    6400162: arbres52
+    6400164: arbres53
+    6400166: arbres54
+    6400168: arbres55
+    6400170: arbres56
+    6400172: arbres57
+    6400174: arbres58
+    6400176: arbres59
+    6400178: arbres60
+    6400180: arbres61
+    6400182: arbres62
+    6400184: arbres63
+    6400186: arbres64
+    6400188: arbres65
+    6400190: arbres66
+    6400192: arbres67
+    6400194: arbres68
+    6400196: arbres69
+    6400198: arbres70
+    6400200: arbres71
+    6400202: arbres72
+    6400204: arbres73
+    6400206: arbres74
+    6400208: arbres75
+    6400210: arbres76
+    6400212: arbres77
+    6400214: arbres78
+    6400216: arbres79
+    6400218: arbres80
+    6400220: arbres81
+    6400222: arbres82
+    6400224: arbres83
+    6400226: arbres84
+    6400228: arbres85
+    6400230: arbres86
+    6400232: arbres87
+    6400234: arbres88
+    6400236: arbres89
+    6400238: arbres90
+    6400240: arbres91
+    6400242: arbres92
+    6400244: arbres93
+    6400246: arbres94
+    6400248: arbres95
+    6400250: arbres96
+    6400252: arbres97
+    6400254: arbres98
+    6400256: arbres99
+    6400258: asfalt
+    6400260: Banc_002
+    6400262: Banc_003
+    6400264: Banc_004
+    6400266: Banc_005
+    6400268: Banc_006
+    6400270: Banc_007
+    6400272: Banc_008
+    6400274: Banc_009
+    6400276: Banc_01
+    6400278: Banc_010
+    6400280: Banc_011
+    6400282: Banc_012
+    6400284: Banc_013
+    6400286: Banc_014
+    6400288: Banc_015
+    6400290: Banc_016
+    6400292: Banc_017
+    6400294: borde lago
+    6400296: bordillo
+    6400298: bordillo 1
+    6400300: bordillo 2
+    6400302: bordillo 3
+    6400304: bordillo 4
+    6400306: bordillo 5
+    6400308: carril bici
+    6400310: edificis_blocs A
+    6400312: edificis_blocs A_01
+    6400314: edificis_blocs A_02
+    6400316: edificis_blocs B
+    6400318: edificis_blocs B_01
+    6400320: edificis_blocs C
+    6400322: edificis_blocs C_01
+    6400324: edificis_blocs D
+    6400326: edificis_blocs E
+    6400328: edificis_blocs E_01
+    6400330: edificis_blocs E_02
+    6400332: edificis_blocs E_BAR
+    6400334: edificis_blocs E_BAR portes
+    6400336: edificis_blocs F
+    6400338: edificis_blocs G
+    6400340: edificis_blocs G_01
+    6400342: edificis_blocs H
+    6400344: edificis_blocs H_01
+    6400346: escala incendis_edificis A
+    6400348: escocell
+    6400350: escocell001
+    6400352: escocell002
+    6400354: escocell003
+    6400356: escocell005
+    6400358: escocell006
+    6400360: escocell007
+    6400362: escocell008
+    6400364: escocell009
+    6400366: escocell010
+    6400368: escocell011
+    6400370: escocell012
+    6400372: escocell013
+    6400374: escocell014
+    6400376: escocell015
+    6400378: escocell016
+    6400380: escocell017
+    6400382: escocell018
+    6400384: escocell019
+    6400386: escocell020
+    6400388: escocell021
+    6400390: escocell022
+    6400392: escocell023
+    6400394: escocell024
+    6400396: escocell025
+    6400398: escocell026
+    6400400: escocell027
+    6400402: escocell028
+    6400404: escocell029
+    6400406: escocell030
+    6400408: escocell031
+    6400410: escocell032
+    6400412: escocell033
+    6400414: escocell034
+    6400416: escocell035
+    6400418: escocell036
+    6400420: escocell037
+    6400422: escocell038
+    6400424: escocell039
+    6400426: escocell040
+    6400428: escocell041
+    6400430: escocell042
+    6400432: escocell043
+    6400434: escocell044
+    6400436: escocell045
+    6400438: escocell046
+    6400440: escocell047
+    6400442: escocell048
+    6400444: escocell049
+    6400446: escocell050
+    6400448: escocell051
+    6400450: escocell052
+    6400452: escocell053
+    6400454: escocell054
+    6400456: escocell055
+    6400458: escocell056
+    6400460: escocell057
+    6400462: escocell058
+    6400464: escocell059
+    6400466: escocell060
+    6400468: escocell061
+    6400470: escocell062
+    6400472: escocell063
+    6400474: escocell064
+    6400476: escocell065
+    6400478: escocell066
+    6400480: escocell067
+    6400482: escocell068
+    6400484: escocell069
+    6400486: escocell070
+    6400488: escocell071
+    6400490: escocell072
+    6400492: escocell073
+    6400494: escocell074
+    6400496: escocell075
+    6400498: escocell076
+    6400500: Fanal_002
+    6400502: Fanal_003
+    6400504: Fanal_004
+    6400506: Fanal_005
+    6400508: Fanal_006
+    6400510: Fanal_007
+    6400512: Fanal_008
+    6400514: Fanal_009
+    6400516: Fanal_01
+    6400518: Fanal_010
+    6400520: Fanal_011
+    6400522: Fanal_012
+    6400524: Fanal_013
+    6400526: Fanal_014
+    6400528: Fanal_015
+    6400530: Fanal_016
+    6400532: Fanal_017
+    6400534: Filament_002
+    6400536: Filament_003
+    6400538: Filament_004
+    6400540: Filament_005
+    6400542: Filament_006
+    6400544: Filament_007
+    6400546: Filament_008
+    6400548: Filament_009
+    6400550: Filament_01
+    6400552: Filament_010
+    6400554: Filament_011
+    6400556: Filament_012
+    6400558: Filament_013
+    6400560: Filament_014
+    6400562: Filament_015
+    6400564: Filament_016
+    6400566: Filament_017
+    6400568: FINESTRES A
+    6400570: finestres A 01
+    6400572: finestres A 02
+    6400574: FINESTRES B
+    6400576: FINESTRES B 01
+    6400578: finestres c
+    6400580: finestres c 01
+    6400582: finestres d
+    6400584: finestres e
+    6400586: finestres e 01
+    6400588: finestres e bar
+    6400590: finestres e_02
+    6400592: finestres f
+    6400594: finestres g
+    6400596: finestres g 01
+    6400598: finestres h
+    6400600: finestres h 01
+    6400602: flechas
+    6400604: flechas001
+    6400606: flechas002
+    6400608: flechas003
+    6400610: flechas004
+    6400612: flechas005
+    6400614: fons edificis a
+    6400616: fons edificis b
+    6400618: fons edificis c
+    6400620: fons edificis d
+    6400622: gespa
+    6400624: gespa 1
+    6400626: gespa 2
+    6400628: gespa002
+    6400630: glorieta
+    6400632: glorieta barana
+    6400634: glorieta columnas
+    6400636: glorieta escales
+    6400638: glorieta sostre
+    6400640: glorieta sostre b
+    6400642: lineas asfalt
+    6400644: lineas asfalt carril bici
+    6400646: Metro boca barana
+    6400648: Metro boca escales
+    6400650: Metro boca mur escales
+    6400652: paperera_002
+    6400654: paperera_003
+    6400656: paperera_004
+    6400658: paperera_005
+    6400660: paperera_006
+    6400662: paperera_007
+    6400664: paperera_008
+    6400666: paperera_009
+    6400668: paperera_01
+    6400670: paperera_010
+    6400672: paperera_011
+    6400674: parc tanca
+    6400676: parc_casetes
+    6400678: parc_columpio
+    6400680: Parc_lloro
+    6400682: parc_tobogan
+    6400684: paviment exterior A
+    6400686: paviment exterior B
+    6400688: paviment exterior C
+    6400690: paviment exterior D
+    6400692: paviment exterior E
+    6400694: paviment exterior F
+    6400696: paviment exterior G
+    6400698: paviment exterior H
+    6400700: paviment interior vorera
+    6400702: Plane002
+    6400704: Plane003
+    6400706: Plane004
+    6400708: Plane005
+    6400710: Plane006
+    6400712: Plane007
+    6400714: pont
+    6400716: sagrada familia ok
+    6400718: se__al bici
+    6400720: se__al bici001
+    6400722: se__al bici002
+    6400724: se__al bici003
+    6400726: se__al bici004
+    6400728: se__al bici005
+    6400730: semafor petit_002
+    6400732: semafor petit_003
+    6400734: semafor petit_004
+    6400736: semafor petit_005
+    6400738: semafor petit_006
+    6400740: semafor petit_007
+    6400742: semafor petit_008
+    6400744: semafor petit_009
+    6400746: semafor petit_01
+    6400748: semafor petit_010
+    6400750: semafor petit_011
+    6400752: semafor petit_012
+    6400754: semafor petit_013
+    6400756: semafor petit_014
+    6400758: semafor petit_015
+    6400760: semafor petit_016
+    6400762: semafor_002
+    6400764: semafor_003
+    6400766: semafor_004
+    6400768: semafor_005
+    6400770: semafor_006
+    6400772: semafor_007
+    6400774: semafor_008
+    6400776: semafor_009
+    6400778: semafor_01
+    6400780: semafor_010
+    6400782: semafor_011
+    6400784: semafor_012
+    6400786: semafor_013
+    6400788: semafor_014
+    6400790: semafor_015
+    6400792: semafor_016
+    6400794: sorra terra interior
+    7400000: 01_Escenari Plaza_19_ex
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
