@@ -8,7 +8,7 @@ using System.Collections;
 public class InventoryObject : MonoBehaviour, ISaveable {
 
     private GameState gs;
-    private InventoryObjectState state = InventoryObjectState.UNTAKEN;
+    public InventoryObjectState state = InventoryObjectState.UNTAKEN;
 
     public enum InventoryObjectState
     {
@@ -43,16 +43,16 @@ public class InventoryObject : MonoBehaviour, ISaveable {
 
 		switch(state){
 		case InventoryObjectState.TAKEN:
-			gameObject.renderer.enabled = false;
-			gameObject.collider.enabled = false;
+			if(gameObject.renderer)gameObject.renderer.enabled = false;
+			if(gameObject.collider)gameObject.collider.enabled = false;
 			gameObject.guiTexture.enabled = true;
 			gameObject.guiTexture.transform.localPosition = new Vector3(1, 1, 1);
 			gameObject.guiTexture.transform.localScale = new Vector3(0, 0, 1);
 			//gameObject.GetComponent<InventoryObject>().SetState(InventoryObject.InventoryObjectState.TAKEN);
 			break;
 		case InventoryObjectState.USED:
-			gameObject.renderer.enabled = false;
-			gameObject.collider.enabled = false;
+			if(gameObject.renderer)gameObject.renderer.enabled = false;
+			if(gameObject.collider)gameObject.collider.enabled = false;
 			gameObject.guiTexture.enabled = false;
 			break;
 		default: break;
@@ -68,6 +68,7 @@ public class InventoryObject : MonoBehaviour, ISaveable {
 
     public void SetState(InventoryObjectState state)
     {
-        this.state = state;
+		this.state = state;
+		gs.SetInt(this.name,(int)state);
     }
 }

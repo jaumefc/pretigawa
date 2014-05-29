@@ -77,12 +77,14 @@ public class interactuable : MonoBehaviour {
 					if(objecte == origen){
 						nodeALlencar = erroni.frase;
 						DCScript.SetRootNodes(nodeALlencar.rootNodes);
+						DCScript.Init();
 						DCScript.enabled = true;
 						return false;
 					}
 				}
 			}
 			DCScript.SetRootNodes(nodeALlencar.rootNodes);
+			DCScript.Init();
 			DCScript.enabled = true;
 			return false;
 		}

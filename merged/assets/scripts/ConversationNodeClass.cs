@@ -25,7 +25,7 @@ public class ConversationNodeClass : MonoBehaviour {
 
 	public string preAction;
 	public string postAction;
-	public AudioClip audio;
+	public AudioClip clipAudio;
 
 
 	public GameObject GetRootNode (){

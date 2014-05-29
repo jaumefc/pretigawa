@@ -60,7 +60,7 @@ public class ProvaCredits : MonoBehaviour {
 	void Update() {
 		if(credit!=null)
 		{
-			Debug.Log(credit.transform.FindChild("Cube").position.y);
+//			Debug.Log(credit.transform.FindChild("Cube").position.y);
 			if(credit.transform.FindChild("Cube").position.y < -3 || credit.transform.FindChild("Cube").position.y > 5)
 			{
 				GameObject.Destroy(credit);
@@ -83,10 +83,10 @@ public class ProvaCredits : MonoBehaviour {
 
 		posy += (float)(Time.deltaTime * vy);
 		
-		for (int i=0; i<text.Length; i++) {
-			GUI.Button (new Rect (cleft * Screen.width, ((csize * Screen.height) - (posy * Screen.height) +
-			          (i*delay * Screen.height) ), csize * Screen.height * stylebgratio2, csize * Screen.height), text [i], style2);
-		}
+//		for (int i=0; i<text.Length; i++) {
+//			GUI.Button (new Rect (cleft * Screen.width, ((csize * Screen.height) - (posy * Screen.height) +
+//			          (i*delay * Screen.height) ), csize * Screen.height * stylebgratio2, csize * Screen.height), text [i], style2);
+//		}
 
 
 

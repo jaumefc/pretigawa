@@ -225,7 +225,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			}
 			if(invObj){
 				invObj.transform.position = new Vector3(1,1,0);
-				invObj.guiTexture.pixelInset= new Rect(0,18-100,64,64);
+				invObj.guiTexture.pixelInset= new Rect(0,-_inventory.iconsize,_inventory.iconsize,_inventory.iconsize);
 				invObj.guiTexture.color = new Color(0.5f,0.5f,0.5f,0.5f);
 				_inventory.Hide();
 				_inventory.SetSelected(null);
@@ -236,10 +236,14 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			Vector3 cPos = Input.mousePosition - _interactuable.GetScreenPosition();
 			for(int i=0;i<_interactuable.Actions.Length;i++) {
 				//Comprovar distancia del puntero al las opciones
-				Vector3 aPos = new Vector3(_interactuable.Actions[i].guiTexture.pixelInset.x+32,
-				                           _interactuable.Actions[i].guiTexture.pixelInset.y+32,0);
-				float aDist = Vector3.Distance(aPos,cPos);
-				if(aDist<32)
+//				Vector3 aPos = new Vector3(_interactuable.Actions[i].guiTexture.pixelInset.x+_inventory.iconsize/2,
+//				                           _interactuable.Actions[i].guiTexture.pixelInset.y+32,0);
+//				float aDist = Vector3.Distance(aPos,cPos);
+//				if(aDist<32)
+//				{
+//					_interactuable.Actions[i].GetComponent<Action>().Do();
+//				}
+				if(_interactuable.Actions[i].guiTexture.HitTest(Input.mousePosition))
 				{
 					_interactuable.Actions[i].GetComponent<Action>().Do();
 				}
@@ -256,9 +260,9 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		if(_inventory.Showing()){
 			invObj = _inventory.GetSelected();
 			if(invObj){
-				invObj.transform.position=new Vector3(Input.mousePosition.x/Display.main.systemWidth,Input.mousePosition.y/Display.main.systemHeight,0);
-				invObj.guiTexture.pixelInset = new Rect(-invObj.guiTexture.pixelInset.width/2,
-				                                        -invObj.guiTexture.pixelInset.height/2,
+//				invObj.transform.position=new Vector3(Input.mousePosition.x/Screen.width,Input.mousePosition.y/Screen.height,0);
+				invObj.guiTexture.pixelInset = new Rect(-invObj.guiTexture.pixelInset.width/2-(Screen.width-Input.mousePosition.x),
+				                                        -invObj.guiTexture.pixelInset.height/2-(Screen.height-Input.mousePosition.y),
 				                                        invObj.guiTexture.pixelInset.width,
 				                                        invObj.guiTexture.pixelInset.height);
 				invObj.guiTexture.color = new Color(0.7f,0.7f,0.7f,0.5f);
@@ -273,10 +277,18 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			
 			Vector3 cPos = Input.mousePosition - _interactuable.GetScreenPosition();
 			for(int i=0;i<_interactuable.Actions.Length;i++) {
-				Vector3 aPos = new Vector3(_interactuable.Actions[i].guiTexture.pixelInset.x+32,
-				                           _interactuable.Actions[i].guiTexture.pixelInset.y+32,0);
-				float aDist = Vector3.Distance(aPos,cPos);
-				if(aDist<32)
+//				Vector3 aPos = new Vector3(_interactuable.Actions[i].guiTexture.pixelInset.x+32,
+//				                           _interactuable.Actions[i].guiTexture.pixelInset.y+32,0);
+//				float aDist = Vector3.Distance(aPos,cPos);
+//				if(aDist<32)
+//				{
+//					_interactuable.Actions[i].guiTexture.color = new Color(0.7f,0.7f,0.7f,0.5f);
+//				}
+//				else
+//				{
+//					_interactuable.Actions[i].guiTexture.color = new Color(0.5f,0.5f,0.5f,0.5f);
+//				}
+				if(_interactuable.Actions[i].guiTexture.HitTest(Input.mousePosition))
 				{
 					_interactuable.Actions[i].guiTexture.color = new Color(0.7f,0.7f,0.7f,0.5f);
 				}

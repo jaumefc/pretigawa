@@ -6,7 +6,7 @@ public class MissatgePantalla:MonoBehaviour {
 	public Texture2D textura;
 	public string missatge;
 	private bool hasToShow = false;
-	private int timeToShow = 3;
+//	private int timeToShow = 3;
 
 	void OnGUI () {
 

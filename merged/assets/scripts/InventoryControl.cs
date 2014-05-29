@@ -22,9 +22,9 @@ public class InventoryControl : MonoBehaviour {
 	private const int MAX_CUSTOMS =2;
 
 	private float width,height;
-	private int iconsize;
+	public int iconsize;
 
-    public GameObject[] inventoryObjects = new GameObject[11];
+    public GameObject[] inventoryObjects = new GameObject[13];
     public GameObject[] inventoryCustoms = new GameObject[MAX_CUSTOMS];
 
 	private int currCostumeShowed = 0;
@@ -87,24 +87,19 @@ public class InventoryControl : MonoBehaviour {
 				inventoryCustoms[i].guiTexture.pixelInset = new Rect(10+iconsize, ((MAX_POSITION-iconsize)/2)-oldPosition,
 			                                  iconsize, iconsize);
 		}
-		/*
-		for(int i =0;i<textures.Length;i++)
-		{
-			textures[i].pixelInset = new Rect(textures[i].pixelInset.x,textures[i].pixelInset.y - (position-oldPosition),
-			                                  textures[i].pixelInset.width,textures[i].pixelInset.height);
-		}
-		*/
 
         //Mostrem el objecte que tenim a l'inventari
 		int k = 0;
         for (int i = 0; i < inventoryObjects.Length; i++)
         {
             if(inventoryObjects[i]!=null)
-                if (selectedObj == null || selectedObj != ((GameObject)inventoryObjects[i]))
+				if (inventoryObjects[i].GetComponent<InventoryObject>().state == InventoryObject.InventoryObjectState.TAKEN)
                 {
-                    Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
-                    ((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
-                        new Rect(-64 * (k + 2), oldRect.y - (position - oldPosition), oldRect.width, oldRect.height);
+					if(!((GameObject)inventoryObjects[i]).Equals(selectedObj)){
+	                    Rect oldRect = ((GameObject)inventoryObjects[i]).guiTexture.pixelInset;
+	                    ((GameObject)inventoryObjects[i]).guiTexture.pixelInset =
+	                        new Rect(-iconsize * (k + 2), oldRect.y - (position - oldPosition), iconsize, iconsize);
+					}
 					k++;
                 }
         }
@@ -148,27 +143,15 @@ public class InventoryControl : MonoBehaviour {
 	public GameObject OverObject(Vector3 mousePos){
 		GameObject retObj = null;
 
-
-
-		Vector3 cPos = Input.mousePosition - new Vector3(width,height,0);
-
 		for(int i=0;i<inventoryObjects.Length;i++){
 			if(inventoryObjects[i]!=null)
 			{
 				if(inventoryObjects[i].GetComponent<InventoryObject>().GetState()==InventoryObject.InventoryObjectState.TAKEN){
-					Vector3 aPos = new Vector3(((GameObject)inventoryObjects[i]).guiTexture.pixelInset.x+32,
-				                           ((GameObject)inventoryObjects[i]).guiTexture.pixelInset.y+32,0);
-					float aDist = Vector3.Distance(aPos,cPos);
-					if(aDist<32)
-					{
+					if(inventoryObjects[i].guiTexture.HitTest(Input.mousePosition))
 						retObj = (GameObject)inventoryObjects[i];
-					}
 				}
 			}
 		}
-
-
-
 		return retObj;
 	}
 
@@ -180,8 +163,8 @@ public class InventoryControl : MonoBehaviour {
             GameObject obj = (GameObject)it.Current;
             if (obj.Equals(invObj))
             {
-                obj.renderer.enabled = false;
-                obj.collider.enabled = false;
+                if(obj.renderer)obj.renderer.enabled = false;
+                if(obj.collider)obj.collider.enabled = false;
                 obj.guiTexture.enabled = true;
                 obj.guiTexture.transform.localPosition = new Vector3(1, 1, 1);
                 obj.guiTexture.transform.localScale = new Vector3(0, 0, 1);
@@ -212,8 +195,11 @@ public class InventoryControl : MonoBehaviour {
 					inventoryCustoms[currCostumeShowed].guiTexture.enabled = false;
 					currCostumeShowed = preCustom;
 					inventoryCustoms[currCostumeShowed].guiTexture.enabled = true;
-					if(preCustomObject.IsSelected()){
+					if(currCostumeShowed == costumeSelected){
 						//TODO:Posar marc que denoti que es el seleccionat
+					}
+					else{
+						//TODO:Treure marc
 					}
 					break;
 				}
@@ -234,8 +220,11 @@ public class InventoryControl : MonoBehaviour {
 					inventoryCustoms[currCostumeShowed].guiTexture.enabled = false;
 					currCostumeShowed = nextCustom;
 					inventoryCustoms[currCostumeShowed].guiTexture.enabled = true;
-					if(preCustomObject.IsSelected()){
+					if(currCostumeShowed == costumeSelected){
 						//TODO:Posar marc que denoti que es el seleccionat
+					}
+					else{
+						//TODO:Treure marc
 					}
 					break;
 				}
@@ -248,16 +237,18 @@ public class InventoryControl : MonoBehaviour {
 	 */
 	private void SelectCostume(){
 		costumeSelected = currCostumeShowed;
-		switch (GetCurrentCostume ()) 
-		{
-		case Custom.JAPANESE:
-			playerMesh.renderer.material.color = Color.yellow;
-			break;
-		case Custom.NAKED:
-			float rgb=150f/256f;
-			playerMesh.renderer.material.color = new Color(rgb,rgb,rgb,1);
-			break;
-		}
+//		switch (GetCurrentCostume ()) 
+//		{
+//		case Custom.JAPANESE:
+//			playerMesh.renderer.material.color = Color.yellow;
+//			playerMesh.renderer.material.mainTexture = inventoryCustoms[costumeSelected].GetComponent<InventoryCustom>().texCostume;
+//			break;
+//		case Custom.NAKED:
+//			float rgb=150f/256f;
+//			playerMesh.renderer.material.color = new Color(rgb,rgb,rgb,1);
+//			break;
+//		}
+		playerMesh.renderer.material.mainTexture = inventoryCustoms[costumeSelected].GetComponent<InventoryCustom>().texCostume;
 	}
 
 	public Custom GetCurrentCostume(){

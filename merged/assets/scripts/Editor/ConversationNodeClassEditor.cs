@@ -35,7 +35,7 @@ public class ConversationNodeClassEditor : Editor
 
 		cnc.preAction = EditorGUILayout.TextField("PreAction",cnc.preAction);
 		cnc.postAction = EditorGUILayout.TextField("PostAction",cnc.postAction);
-		cnc.audio = (AudioClip)EditorGUILayout.ObjectField("Audio",cnc.audio,typeof(AudioClip),true);
+		cnc.clipAudio = (AudioClip)EditorGUILayout.ObjectField("Audio",cnc.clipAudio,typeof(AudioClip),true);
 
 		cnc.showNodes = EditorGUILayout.Foldout (cnc.showNodes, "Nodes");
 		

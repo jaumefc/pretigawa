@@ -4,6 +4,7 @@ using System.Collections;
 public class controlMoviment : MonoBehaviour {
 	
 	public float speed;
+	public ParticleSystem pinyuParticles;
 
 	private Transform target;
 	private Vector3 startingPosition;
@@ -11,6 +12,8 @@ public class controlMoviment : MonoBehaviour {
 	private NavMeshAgent navi;
 
 	private bool hasTarget = false;
+	private Animation animations;
+	private bool imAttacking = false;
 
 	private Vector3 thisNextstep;
 
@@ -22,12 +25,14 @@ public class controlMoviment : MonoBehaviour {
 		die = 4,
 	}
 
-	enemyState _enemyState;
+	private enemyState _enemyState;
 
 	void Start(){
+		setState (0);
 		startingPosition = transform.position;
 		startingRotation = transform.rotation;
 		navi = GetComponent<NavMeshAgent>();
+		animations = GetComponent<Animation>();
 	}
 
 	public void setState (int state){
@@ -47,20 +52,22 @@ public class controlMoviment : MonoBehaviour {
 	}
 
 	void Update () {
-
 		switch (_enemyState) {
 			case enemyState.idle:
 			break;
 
 			case enemyState.move:
-				moute();
+				if(!imAttacking)
+					moute();
 			break;
 
 			case enemyState.getBack:
-				torna ();
+				if(!imAttacking)
+					torna ();
 			break;
 
 			case enemyState.attack:
+				animations.CrossFade("Attack");
 			break;
 
 			case enemyState.die:
@@ -82,12 +89,18 @@ public class controlMoviment : MonoBehaviour {
 		Vector3 nextstep = navi.nextPosition;
 		movement = nextstep - transform.position;
 		movement.y = 0;
-		
-		float dist = movement.magnitude;
 
 		if( navi.velocity.sqrMagnitude < 0.5 )
 		{
-			_enemyState = enemyState.idle;
+			Vector3 distance = target.position - transform.position;
+			float absDistance = distance.sqrMagnitude;
+			if(absDistance <= 2.5){
+				imAttacking = true;
+				_enemyState = enemyState.attack;
+				Invoke("checkAttack", 1.0f);
+			}else{
+				_enemyState = enemyState.idle;
+			}
 		}
 		else
 		{
@@ -120,6 +133,39 @@ public class controlMoviment : MonoBehaviour {
 		{
 			movement = movement.normalized * speed;
 			_enemyState = enemyState.move;
+		}
+	}
+
+	public bool imAtHome(){
+		Vector3 distance = startingPosition - transform.position;
+		float absDistance = distance.sqrMagnitude;
+		if (absDistance <= 1.5)
+						return true;
+
+		return false;
+	}
+
+	public bool checkingForVision(){
+		if (_enemyState != enemyState.attack)
+						return true;
+		return false;
+	}
+
+	private void stopParticles(){
+		pinyuParticles.Stop ();
+	}
+
+	private void checkAttack(){
+		Vector3 distance = target.position - transform.position;
+		float absDistance = distance.sqrMagnitude;
+		if (absDistance < 4) {
+			Invoke ("checkAttack", 1.0f);
+			pinyuParticles.Play();
+			Invoke ("stopParticles", 2.0f);
+		}
+		else {
+			_enemyState = enemyState.move;
+			imAttacking = false;
 		}
 	}
 

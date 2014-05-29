@@ -18,11 +18,11 @@ public class DialogCameraScript : MonoBehaviour {
 
 	CameraControl CCScript;
 
-	float ratio = 1f;
+//	float ratio = 1f;
 
 	float size = 1f;
-	float x = 0.5f;
-	float y = 0.5f;
+//	float x = 0.5f;
+//	float y = 0.5f;
 
 	float screenratio;
 
@@ -50,14 +50,14 @@ public class DialogCameraScript : MonoBehaviour {
 		style_think.fontSize = Mathf.RoundToInt(Screen.height/40 * size);
 		style_alien.fontSize = style_think.fontSize;
 		style_theother.fontSize = style_think.fontSize;
-		texture = Resources.LoadAssetAtPath<Texture> ("Assets/Textures/GUI elements/globus05e.png");
+		texture = Resources.LoadAssetAtPath<Texture> ("Assets/Textures/GUI elements/G07.png");
 		for (int i = 0; i<4; i++) 
 		{
 			objBallons[i] = new GameObject("balloon"+i);
 			objBallons[i].AddComponent<GUIText>();
 			objBallons[i].AddComponent<GUITexture>();
-			objBallons[i].transform.position = new Vector3(0.12f + (0.24f * Screen.width * i)/Screen.width,(0.88f * Screen.height)/Screen.height,0);
-			objBallons[i].transform.localScale = new Vector3(0.24f,0.22f,1);
+			objBallons[i].transform.position = new Vector3(0.12f + (0.24f * Screen.width * i)/Screen.width,(0.78f * Screen.height)/Screen.height,0);
+			objBallons[i].transform.localScale = new Vector3(0.24f,0.44f,1);
 			objBallons[i].guiTexture.texture = texture;
 			objBallons[i].guiTexture.enabled = false;
 			objBallons[i].guiText.enabled = false;
@@ -92,8 +92,8 @@ public class DialogCameraScript : MonoBehaviour {
 			if(CurNode.preAction!=""){
 				CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
 			}
-			if(CurNode.audio){
-				playerAS.PlayOneShot(CurNode.audio);
+			if(CurNode.clipAudio){
+				playerAS.PlayOneShot(CurNode.clipAudio);
 			}
 			
 			
@@ -129,7 +129,7 @@ public class DialogCameraScript : MonoBehaviour {
 					CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
 				}
 				if(CurNode.audio){
-					playerAS.PlayOneShot(CurNode.audio);
+					playerAS.PlayOneShot(CurNode.clipAudio);
 				}
 				break;
 				
@@ -179,7 +179,7 @@ public class DialogCameraScript : MonoBehaviour {
 							CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
 						}
 						if(CurNode.audio){
-							playerAS.PlayOneShot(CurNode.audio);
+							playerAS.PlayOneShot(CurNode.clipAudio);
 						}
 						break;
 					}
@@ -208,7 +208,7 @@ public class DialogCameraScript : MonoBehaviour {
 			Balloonx=0.74f;
 		}
 		if (gettime + Node.fSeconds > Time.time /*&& !Input.GetMouseButtonUp(0)*/) {                                                                                                                                                                                                                                                                                                                                                                                                     
-			GUI.Button (new Rect (Balloonx * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.22f * Screen.height), 
+			GUI.Button (new Rect (Balloonx * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.44f * Screen.height), 
 			            Node.sFirstOption, style);
 		}
 		else 	//Time is over
