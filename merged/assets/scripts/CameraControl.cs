@@ -13,7 +13,7 @@ public class CameraControl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		cCamera1 = GameObject.Find ("Player").GetComponentInChildren<Camera> ();
+		//cCamera1 = GameObject.Find ("Player").GetComponentInChildren<Camera> ();
 		MCScript = GameObject.Find("Player").GetComponent<mouseControl>();
 		//cCamera2 = GameObject.Find ("Camera2").camera;
 		cCameraDialog = GameObject.Find ("DialogCamera").camera;
@@ -23,7 +23,7 @@ public class CameraControl : MonoBehaviour {
 		//DCTexture.enabled = false;
 
 
-		cCamera1.enabled = false;
+		//cCamera1.enabled = false;
 		//cCamera2.enabled = false;
 		cCameraDialog.enabled = false;
 		DCScript.enabled = false;
@@ -39,7 +39,7 @@ public class CameraControl : MonoBehaviour {
 		cCameraOriginal = Camera.main;
 		cCameraOriginal.enabled = false;
 		//DCTexture.enabled = true;
-		cCamera1.enabled = true;
+		//cCamera1.enabled = true;
 		cCamera2.enabled = true;
 		cCameraDialog.enabled = true;
 		MCScript.enabled=false;
@@ -53,7 +53,7 @@ public class CameraControl : MonoBehaviour {
 		Debug.Log (Camera.main);
 		cCameraOriginal.enabled = true;
 		//DCTexture.enabled = false;
-		cCamera1.camera.enabled = false;
+		//cCamera1.camera.enabled = false;
 		cCamera2.enabled = false;
 		cCameraDialog.enabled = false;
 		MCScript.enabled=true;

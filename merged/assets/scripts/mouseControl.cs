@@ -121,9 +121,9 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		case CharacterAction.Dialog:
 			Vector3 agentPos = new Vector3(navi.transform.position.x,0,navi.transform.position.z);
 			//Si el Player esta 2 unitats davant del seu interlocutor, ha de girar fins estar cara a cara amb ell
-			if(Vector3.Distance(agentPos, targetLocation)<0.1){
+			if(Vector3.Distance(agentPos, targetLocation)<0.3){
 				targetLocation = agentPos;
-				targetRotation = Quaternion.LookRotation(new Vector3(targetObject.transform.position.x,0,targetObject.transform.position.z)-targetLocation);
+				targetRotation = Quaternion.LookRotation(new Vector3(targetObject.transform.position.x-1,0,targetObject.transform.position.z)-targetLocation);
 				//Si el Player mira cara a cara el seu interlocutor, es fa el transfer de camera, sino gira fins mirar el seu interlocutor
 				if(navi.transform.rotation == targetRotation){
 					CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
