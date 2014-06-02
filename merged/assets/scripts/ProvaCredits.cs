@@ -12,23 +12,16 @@ public class ProvaCredits : MonoBehaviour {
 	public string[] text;
 
 
-	public GUIStyle style;
 	public GameObject prefab;
 
 	GameObject credit;
 	int currCredit = 0;
 
+	public Texture2D image;
+
 	void Awake() {	
 		// Store screen ratio
-
-		stylebgratio=(float)(style.normal.background.width)/(float)(style.normal.background.height);
-
-		//set font size
-		style.fontSize = Mathf.RoundToInt (Screen.height / 25);
-
-
-
-
+		stylebgratio=(float)(image.width)/(float)(image.height);
 	}
 
 	void Start() {
@@ -65,7 +58,11 @@ public class ProvaCredits : MonoBehaviour {
 
 	void OnGUI() {
 
-		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "Back", style)) {
+
+		GUI.skin.button.normal.background = (Texture2D) image;
+		GUI.skin.button.hover.background = (Texture2D) image;
+		GUI.skin.button.active.background = (Texture2D) image;
+		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "Back")) {
 			Debug.Log ("Back");
 			Application.LoadLevel("menu");
 		}

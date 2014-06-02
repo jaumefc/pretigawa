@@ -12,6 +12,6 @@ public class SpinningPlanet : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.Rotate (Vector3.right * Time.deltaTime*speed);
+		this.transform.Rotate (Vector3.forward * Time.deltaTime*speed);
 	}
 }
