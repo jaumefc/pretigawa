@@ -13,3 +13,5 @@ pretigawa/
 .DS_Store
 *.apk
 *.app
+merged/assets/placa.unity
+merged/assets/scripts/triggerCamera.cs

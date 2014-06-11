@@ -56,7 +56,7 @@ public class DialogCameraScript : MonoBehaviour {
 			objBallons[i] = new GameObject("balloon"+i);
 			objBallons[i].AddComponent<GUIText>();
 			objBallons[i].AddComponent<GUITexture>();
-			objBallons[i].transform.position = new Vector3(0.12f + (0.24f * Screen.width * i)/Screen.width,(0.78f * Screen.height)/Screen.height,0);
+			objBallons[i].transform.position = new Vector3(0.12f + (0.24f * Screen.width * i)/Screen.width,(0.78f * Screen.height)/Screen.height,-1);
 			objBallons[i].transform.localScale = new Vector3(0.24f,0.44f,1);
 			objBallons[i].guiTexture.texture = texture;
 			objBallons[i].guiTexture.enabled = false;
@@ -128,7 +128,7 @@ public class DialogCameraScript : MonoBehaviour {
 				if(CurNode.preAction!=""){
 					CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
 				}
-				if(CurNode.audio){
+				if(CurNode.clipAudio){
 					playerAS.PlayOneShot(CurNode.clipAudio);
 				}
 				break;
@@ -178,7 +178,7 @@ public class DialogCameraScript : MonoBehaviour {
 						if(CurNode.preAction!=""){
 							CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
 						}
-						if(CurNode.audio){
+						if(CurNode.clipAudio){
 							playerAS.PlayOneShot(CurNode.clipAudio);
 						}
 						break;

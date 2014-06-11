@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 414de305cb6f40d41a14b4797f41c23e
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: Bitxo_
     100002: Bitxo_Hair
@@ -92,6 +92,8 @@ ModelImporter:
     100172: Point009
     100174: rightEye
     100176: rightEyeIris
+    100178: Point003
+    100180: Point004
     400000: Bitxo_
     400002: Bitxo_Hair
     400004: Bitxo_Head
@@ -181,6 +183,8 @@ ModelImporter:
     400172: Point009
     400174: rightEye
     400176: rightEyeIris
+    400178: Point003
+    400180: Point004
     2300000: leftEye
     2300002: leftEyeIris
     2300004: rightEye
@@ -1698,4 +1702,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
+  additionalBone: 0
   userData: 
