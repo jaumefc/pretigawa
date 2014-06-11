@@ -39,18 +39,18 @@ public class OpenMenu : MonoBehaviour {
 
 	void OnGUI() {
 
-		GUI.skin.button.fontSize = Mathf.RoundToInt (Screen.height / 25);
-		GUI.skin.button.padding.left = (int)(Screen.height*screenratio / 40);
-		GUI.skin.button.padding.right = (int)(Screen.height*screenratio / 40);
+		GUI.skin.button.fontSize = Mathf.RoundToInt (Screen.height / 23);
+		GUI.skin.button.padding.left = (int)(Screen.height*screenratio / 50);
+		GUI.skin.button.padding.right = (int)(Screen.height*screenratio / 50);
 		GUI.skin.button.normal.textColor = Color.black;
-		GUI.skin.button.hover.textColor = Color.black;
+		GUI.skin.button.hover.textColor = Color.white;
 		GUI.skin.button.active.textColor = Color.white;
 
 
 		GUI.skin.button.normal.background = (Texture2D) image1;
 		GUI.skin.button.hover.background = (Texture2D) image1;
 		GUI.skin.button.active.background = (Texture2D) image1;
-		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "New Game")) {
+		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "New\nGame")) {
 			Debug.Log ("New Game");
 			gs.GameNew();
 			Application.LoadLevel("placa");

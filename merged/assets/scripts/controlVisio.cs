@@ -12,6 +12,7 @@ public class controlVisio : MonoBehaviour {
 	private Animation animations;
 
 	void Start () {
+		Player = GameObject.Find ("Player");
 		cm = gameObject.GetComponent<controlMoviment> ();
 		animations = GetComponent<Animation>();
 	}

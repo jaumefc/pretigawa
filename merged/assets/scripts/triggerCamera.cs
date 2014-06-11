@@ -9,6 +9,7 @@ public class triggerCamera : MonoBehaviour {
 
 	void Start () {
 		//trigger = this.transform.FindChild("Trigger").gameObject;
+		mainChar = GameObject.Find ("Player");
 
 		HystCamera = mainChar.GetComponent<HysteresisCamAssigned>();
 		HystCamera.CurrCam.tag = "MainCamera";

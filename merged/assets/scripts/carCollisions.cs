@@ -16,6 +16,7 @@ public class carCollisions : MonoBehaviour {
 	private float timeJump;
 
 	void Start () {
+		mainChar = GameObject.Find ("Player");
 		cc = mainChar.GetComponent<CapsuleCollider>();
 		na = mainChar.GetComponent<NavMeshAgent>();
 		mc = mainChar.GetComponent<mouseControl>();
