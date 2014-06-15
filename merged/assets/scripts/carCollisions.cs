@@ -8,7 +8,6 @@ public class carCollisions : MonoBehaviour {
 	private NavMeshAgent na;
 	private mouseControl mc;
 	private CharacterController chc;
-	public cotxesRespawn cr;
 	public ParticleSystem pinyoParticles;
 	
 	private bool hasBumped = false;
@@ -24,9 +23,6 @@ public class carCollisions : MonoBehaviour {
 	}
 
 	void Update () {
-		if (Input.GetKeyDown ("f")) {
-			cr.enabled = true;
-		}
 
 		if(Time.realtimeSinceStartup - timeJump > 0.1 && hasBumped){
 			goingToFall = true;
@@ -38,17 +34,6 @@ public class carCollisions : MonoBehaviour {
 
 			Invoke("resetScene", 2.5f);
 			pinyoParticles.Play();
-			/*
-			Color originalColor = mainChar.renderer.material.color;
-			mainChar.renderer.material.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.0f);
-			*/
-			/* Tongo per no morir en cas de ser atropellat
-			na.enabled = true;
-			mc.enabled = true;
-			chc.enabled = true;
-			cc.enabled = false;
-			goingToFall = false;
-			*/
 		}
 	}
 

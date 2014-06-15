@@ -4,7 +4,7 @@ using System.Collections;
 public class triggerCamera : MonoBehaviour {
 
 	//private GameObject trigger;
-	public GameObject mainChar;
+	private GameObject mainChar;
 	HysteresisCamAssigned HystCamera;
 
 	void Start () {

@@ -8,9 +8,11 @@ public class cotxesRespawn : MonoBehaviour {
 	private bool isRotating = false;
 	private string rotationTriggered;
 	private Quaternion startingAngle;
+	private int rndForce;
 	
 	void Start () {
 		rigidbody.AddRelativeForce (1000, 0, 0);
+		rndForce = (int)(Random.Range(200.0f, 1000.0f));
 	}
 
 	void Update (){
@@ -27,7 +29,7 @@ public class cotxesRespawn : MonoBehaviour {
 				rigidbody.velocity = new Vector3(0,0,0);
 				rigidbody.angularVelocity = Vector3.zero;
 				
-				rigidbody.AddRelativeForce(1000, 0, 0);
+				rigidbody.AddRelativeForce(rndForce, 0, 0);
 				isRotating = false;
 			}
 		}
@@ -60,7 +62,7 @@ public class cotxesRespawn : MonoBehaviour {
 			transform.rotation = targetPosition.rotation;
 
 			rigidbody.velocity = new Vector3(0,0,0);
-			int rndForce = (int)(Random.Range(500.0f, 900.0f));
+			rndForce = (int)(Random.Range(200.0f, 1000.0f));
 			rigidbody.AddRelativeForce(rndForce, 0, 0);
 		}
 	}
