@@ -66,7 +66,7 @@ public class sniperGameplayController : MonoBehaviour {
 		GameObject dardoCopia = Instantiate (dardo, snipingDirection.position, snipingDirection.rotation) as GameObject;
 
 		//Time.timeScale = 0.3f;
-		Debug.Log (Time.timeScale);
+		//Debug.Log (Time.timeScale);
 		var locVel = dardoCopia.transform.TransformDirection(new Vector3(0, 0, 5));
 		dardoCopia.rigidbody.velocity = locVel;
 		dardoCopia.rigidbody.angularVelocity = -locVel;
