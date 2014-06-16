@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b7c1ab1a533e7428bd08a1219998ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 9
+  speed: 9.5
 --- !u!23 &511134667
 Renderer:
   m_ObjectHideFlags: 0
@@ -281,6 +281,7 @@ GameObject:
   - 124: {fileID: 758227426}
   - 81: {fileID: 758227425}
   - 114: {fileID: 758227427}
+  - 82: {fileID: 758227430}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -520,7 +521,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 30
-  field of view: 7.4000001
+  field of view: 8.39999962
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -542,6 +543,64 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!82 &758227430
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 758227424}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 26efc34a70f34b248a011ec014016032, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &813454152
 Prefab:
   m_ObjectHideFlags: 0
@@ -1705,7 +1764,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1325803296}
   m_LocalRotation: {x: .143314496, y: -.742497504, z: .654191911, w: .0138324136}
-  m_LocalPosition: {x: -.782460034, y: -.384893209, z: 12.7963009}
+  m_LocalPosition: {x: -.909057677, y: -.318893343, z: 12.7963009}
   m_LocalScale: {x: .194908977, y: .194908977, z: .194908977}
   m_Children: []
   m_Father: {fileID: 0}

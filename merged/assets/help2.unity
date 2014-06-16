@@ -85,6 +85,7 @@ GameObject:
   - 20: {fileID: 1027349975}
   - 124: {fileID: 1027349974}
   - 81: {fileID: 1027349973}
+  - 82: {fileID: 1027349976}
   m_Layer: 0
   m_Name: HelpCamera
   m_TagString: Untagged
@@ -136,7 +137,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 30
-  field of view: 7.4000001
+  field of view: 8.39999962
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -147,6 +148,64 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
   m_OcclusionCulling: 0
+--- !u!82 &1027349976
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027349971}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 26efc34a70f34b248a011ec014016032, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1270561442
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,19 +376,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2a3d9d981ffd6478d16759e8bb333c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left1: .219999999
+  left1: .189999998
   top1: .119999997
-  size1: .409999996
-  left2: .0399999991
+  size1: .379999995
+  left2: .00999999978
   top2: .400000006
-  left3: .5
+  left3: .439999998
   top3: .00999999978
-  left4: .289999992
+  left4: .200000003
   top4: .600000024
-  left5: .589999974
-  top5: .370000005
-  left6: .75999999
-  top6: .00999999978
+  left5: .5
+  top5: .430000007
+  left6: .730000019
+  top6: .159999996
   left7: .860000014
   top7: .74000001
   size7: .189999998
@@ -386,7 +445,7 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Font: {fileID: 0}
-    m_FontSize: 36
+    m_FontSize: 11
     m_FontStyle: 0
     m_Alignment: 4
     m_WordWrap: 1
@@ -445,7 +504,7 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Font: {fileID: 0}
-    m_FontSize: 45
+    m_FontSize: 14
     m_FontStyle: 0
     m_Alignment: 4
     m_WordWrap: 0
