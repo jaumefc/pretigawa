@@ -3,7 +3,7 @@ using System.Collections;
 
 public class goUpstairs : UseAction {
 
-	public GameObject mainChar;
+	private GameObject mainChar;
 	public ParticleSystem teleportParticles;
 
 	public void Start(){
