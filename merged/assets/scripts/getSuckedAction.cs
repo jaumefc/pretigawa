@@ -3,11 +3,12 @@ using System.Collections;
 
 public class getSuckedAction : UseAction {
 
-	public InventoryCustom ICjapanese;
+	public InventoryCustom ICustom;
+	public string sDestroy;
 
 	public override void Do () {
-		ICjapanese.taken = true;
-		Destroy(GameObject.Find("japones2"));
+		ICustom.taken = true;
+		Destroy(GameObject.Find(sDestroy));
 		Debug.Log("Got Sucked !");
 	}
 }

@@ -6,6 +6,10 @@ public class goTirolina : UseAction {
 	public GameObject mainChar;
 	public ParticleSystem teleportParticles;
 
+	public void Start(){
+		mainChar = GameObject.Find ("Player");
+	}
+
 	public override void Do () {
 		teleportParticles.Play();
 		Invoke("teleportAmunt", 0.75f);

@@ -7,7 +7,10 @@ public class dardoTrigger : MonoBehaviour {
 
 	private GameObject hasCollidedWith;
 
+	private GameObject SoundContainer;
+
 	void Start () {
+		SoundContainer = GameObject.Find ("BalloonSound");
 	}
 	
 
@@ -19,6 +22,7 @@ public class dardoTrigger : MonoBehaviour {
 
 		if (other.gameObject.name.StartsWith ("globus")) {
 			GameObject explosio = Instantiate (explosioGlobus, other.gameObject.transform.position, other.gameObject.transform.rotation) as GameObject;
+			SoundContainer.audio.Play();
 			Destroy (hasCollidedWith);
 		} else if(hasCollidedWith.name != "SniperGameplay" && hasCollidedWith.name != "dardoCollider"){
 			gameObject.rigidbody.velocity = Vector3.zero;

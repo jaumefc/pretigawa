@@ -44,19 +44,21 @@ public class sniperGameplayController : MonoBehaviour {
 			if(Input.GetMouseButtonDown(0)){
 				if(!isShooting)shoot();
 			}
-		} else {
-			mc.enabled = true;
-			chc.enabled = true;
-
-			GameObject.Find ("CameraSniper").camera.enabled = false;
-			triggeredCams.SetActive (true);
-			guisniper.SetActive(false);
-		}
+		} 
 		if (Input.GetKey ("h")) {
 
 			if(Time.realtimeSinceStartup - changeTime > 0.1f){
 				changeTime = Time.realtimeSinceStartup;
 				isSniperGameplay = !isSniperGameplay;
+
+				if(!isSniperGameplay){
+					mc.enabled = true;
+					chc.enabled = true;
+					
+					GameObject.Find ("CameraSniper").camera.enabled = false;
+					triggeredCams.SetActive (true);
+					guisniper.SetActive(false);
+				}
 			}
 		}
 	}

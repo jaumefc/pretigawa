@@ -5,17 +5,24 @@ public class BalloonScript : MonoBehaviour {
 
 	private Transform thisTransform;
 	private Camera cam;
+	private GameObject SoundContainer;
 	// Use this for initialization
 	void Start () {
 		thisTransform = transform;
 //		cam = GameObject.Find ("CreditsCamera").GetComponent<Camera> ();
 		cam = Camera.main;
+		SoundContainer = GameObject.Find ("BalloonSound");
 	}
+
+
+
 	
 	// Update is called once per frame
 	void Update () {
-		if (rayCollision ())
-						Destroy (gameObject);
+		if (rayCollision ()){
+			SoundContainer.audio.Play();
+			Destroy (gameObject);
+		}
 	}
 
 	bool rayCollision(){

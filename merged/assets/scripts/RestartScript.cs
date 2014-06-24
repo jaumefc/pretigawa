@@ -35,7 +35,7 @@ public class RestartScript : MonoBehaviour {
 		
 		
 		GUI.Button (new Rect (left1 * Screen.width * stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height),
-		            "You looked kind of suspicious...", style2);
+		            "Next time, try to be more careful...", style2);
 				
 
 		if (GUI.Button (new Rect (left2 * Screen.width * stylebgratio, top2 * Screen.height, size2 * Screen.height * stylebgratio, size2 * Screen.height), "Back to Game", style)) {

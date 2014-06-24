@@ -3,8 +3,9 @@ using System.Collections;
 
 public class goUpstairs : UseAction {
 
-	private GameObject mainChar;
+	private GameObject mainChar; 
 	public ParticleSystem teleportParticles;
+
 
 	public void Start(){
 		mainChar = GameObject.Find ("Player");
