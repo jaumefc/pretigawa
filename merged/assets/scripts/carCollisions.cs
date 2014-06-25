@@ -13,9 +13,12 @@ public class carCollisions : MonoBehaviour {
 	private bool hasBumped = false;
 	private bool goingToFall = false;
 	private float timeJump;
+	private GameObject SoundContainer;
 
 	void Start () {
 		mainChar = GameObject.Find ("Player");
+		SoundContainer = GameObject.Find ("CarSound2");
+
 		cc = mainChar.GetComponent<CapsuleCollider>();
 		na = mainChar.GetComponent<NavMeshAgent>();
 		mc = mainChar.GetComponent<mouseControl>();
@@ -43,6 +46,7 @@ public class carCollisions : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 		if (other.gameObject == mainChar) {
+			SoundContainer.audio.Play();
 			cc.enabled = true;
 			na.enabled = false;
 			mc.enabled = false;
