@@ -9,8 +9,13 @@ public class cotxesRespawn : MonoBehaviour {
 	private string rotationTriggered;
 	private Quaternion startingAngle;
 	private int rndForce;
-	
+	private GameObject mainChar;
+	private GameObject SoundContainer;
+
 	void Start () {
+		mainChar = GameObject.Find ("Player");
+		SoundContainer = GameObject.Find ("CarSound");
+
 		rigidbody.AddRelativeForce (1000, 0, 0);
 		rndForce = (int)(Random.Range(200.0f, 1000.0f));
 	}
@@ -36,6 +41,10 @@ public class cotxesRespawn : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other){
+		if (other.gameObject == mainChar) {
+			//SoundContainer.audio.Play();
+		}
+
 		if (other.gameObject.name.Contains ("sqVertex")) {
 			int posOrNeg = 1;
 			int isGoingToRotate = Random.Range(0, 3);

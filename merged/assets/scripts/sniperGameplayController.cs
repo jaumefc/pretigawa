@@ -20,8 +20,16 @@ public class sniperGameplayController : MonoBehaviour {
 	private bool isShooting = false;
 	private float changeTime = 0.0f;
 
+	private GameObject SoundBreath;
+	private GameObject SoundShoot;
+	private GameObject SoundReload;
+
 	void Start () {
 		mainChar = GameObject.Find ("Player");
+		SoundBreath = GameObject.Find ("soundBreath");
+		SoundShoot = GameObject.Find ("soundShoot");
+		SoundReload = GameObject.Find ("soundReload");
+
 		mc = mainChar.GetComponent<mouseControl>();
 		chc = mainChar.GetComponent<CharacterController>();
 	}
@@ -52,6 +60,8 @@ public class sniperGameplayController : MonoBehaviour {
 				isSniperGameplay = !isSniperGameplay;
 
 				if(!isSniperGameplay){
+					SoundBreath.audio.Stop();
+
 					mc.enabled = true;
 					chc.enabled = true;
 					
@@ -59,19 +69,29 @@ public class sniperGameplayController : MonoBehaviour {
 					triggeredCams.SetActive (true);
 					guisniper.SetActive(false);
 				}
+
+				else{
+					SoundBreath.audio.Play();
+				}
 			}
 		}
 	}
 
 	private void shoot(){
-		//isShooting = true;
+		isShooting = true;
+		SoundBreath.audio.Stop();
+		SoundShoot.audio.Play();
+		Invoke ("reload", 1.0f);
 		GameObject dardoCopia = Instantiate (dardo, snipingDirection.position, snipingDirection.rotation) as GameObject;
 
-		//Time.timeScale = 0.3f;
-		//Debug.Log (Time.timeScale);
 		var locVel = dardoCopia.transform.TransformDirection(new Vector3(0, 0, 5));
 		dardoCopia.rigidbody.velocity = locVel;
 		dardoCopia.rigidbody.angularVelocity = -locVel;
+	}
+
+	private void reload(){
+		SoundReload.audio.Play();
+		isShooting = false;
 	}
 
 }
