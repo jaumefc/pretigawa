@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: CN2cc7
+  m_Name: CJ2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18,7 +18,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100002
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: CN2cc6
+  m_Name: CJ1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
   m_Layer: 0
-  m_Name: CN2cc5
+  m_Name: CN3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ GameObject:
   - 4: {fileID: 400006}
   - 114: {fileID: 11400006}
   m_Layer: 0
-  m_Name: CN2cc4
+  m_Name: CN2cc2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 400008}
   - 114: {fileID: 11400008}
   m_Layer: 0
-  m_Name: CN2cc3
+  m_Name: CN2ax25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 400010}
   - 114: {fileID: 11400010}
   m_Layer: 0
-  m_Name: CN2cc2
+  m_Name: CN2cb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 400012}
   - 114: {fileID: 11400012}
   m_Layer: 0
-  m_Name: CN2cb2
+  m_Name: CN2aa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,15 +114,16 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100014
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400014}
   - 114: {fileID: 11400014}
+  - 114: {fileID: 11400016}
   m_Layer: 0
-  m_Name: CN2ca2
+  m_Name: SniperDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,9 +137,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400016}
-  - 114: {fileID: 11400016}
+  - 114: {fileID: 11400018}
   m_Layer: 0
-  m_Name: CN2cb
+  m_Name: CN7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,9 +153,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400018}
-  - 114: {fileID: 11400018}
+  - 114: {fileID: 11400020}
   m_Layer: 0
-  m_Name: CN2cc
+  m_Name: CN5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -168,9 +169,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400020}
-  - 114: {fileID: 11400020}
+  - 114: {fileID: 11400022}
   m_Layer: 0
-  m_Name: CN1c3
+  m_Name: CN1a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,9 +185,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400022}
-  - 114: {fileID: 11400022}
+  - 114: {fileID: 11400024}
   m_Layer: 0
-  m_Name: CN2ca
+  m_Name: CN4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,9 +201,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400024}
-  - 114: {fileID: 11400024}
+  - 114: {fileID: 11400026}
   m_Layer: 0
-  m_Name: CN2ax3
+  m_Name: CN2cc5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,9 +217,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400026}
-  - 114: {fileID: 11400026}
+  - 114: {fileID: 11400028}
   m_Layer: 0
-  m_Name: CN2ax27
+  m_Name: CN2cc3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,9 +233,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400028}
-  - 114: {fileID: 11400028}
+  - 114: {fileID: 11400030}
   m_Layer: 0
-  m_Name: CN2ax26
+  m_Name: CN2cc7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -248,9 +249,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400030}
-  - 114: {fileID: 11400030}
+  - 114: {fileID: 11400032}
   m_Layer: 0
-  m_Name: CN2ax25
+  m_Name: CN2ca2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264,9 +265,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400032}
-  - 114: {fileID: 11400032}
+  - 114: {fileID: 11400034}
   m_Layer: 0
-  m_Name: CN2ax23
+  m_Name: CN9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,9 +281,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400034}
-  - 114: {fileID: 11400034}
+  - 114: {fileID: 11400036}
   m_Layer: 0
-  m_Name: CN2ax22
+  m_Name: CN2ca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -296,9 +297,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400036}
-  - 114: {fileID: 11400036}
+  - 114: {fileID: 11400038}
   m_Layer: 0
-  m_Name: CN2ax21
+  m_Name: CN2ax22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,9 +313,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400038}
-  - 114: {fileID: 11400038}
+  - 114: {fileID: 11400040}
   m_Layer: 0
-  m_Name: CN2ax24
+  m_Name: CN2ax3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,9 +329,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400040}
-  - 114: {fileID: 11400040}
+  - 114: {fileID: 11400042}
   m_Layer: 0
-  m_Name: CN2aa
+  m_Name: CJ2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,9 +345,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400042}
-  - 114: {fileID: 11400042}
+  - 114: {fileID: 11400044}
   m_Layer: 0
-  m_Name: CN2ac
+  m_Name: CN6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -360,9 +361,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400044}
-  - 114: {fileID: 11400044}
+  - 114: {fileID: 11400046}
   m_Layer: 0
-  m_Name: CN2ab
+  m_Name: CN1c3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,9 +377,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400046}
-  - 114: {fileID: 11400046}
+  - 114: {fileID: 11400048}
   m_Layer: 0
-  m_Name: CN1z
+  m_Name: CN2ax23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,9 +393,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400048}
-  - 114: {fileID: 11400048}
+  - 114: {fileID: 11400050}
   m_Layer: 0
-  m_Name: CN1c2
+  m_Name: CN1a2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,9 +409,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400050}
-  - 114: {fileID: 11400050}
+  - 114: {fileID: 11400052}
   m_Layer: 0
-  m_Name: CN1c
+  m_Name: CN1c2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -424,9 +425,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400052}
-  - 114: {fileID: 11400052}
+  - 114: {fileID: 11400054}
   m_Layer: 0
-  m_Name: CN1a
+  m_Name: CN2cc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,9 +441,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400054}
-  - 114: {fileID: 11400054}
+  - 114: {fileID: 11400056}
   m_Layer: 0
-  m_Name: CN1a2
+  m_Name: CN2ax24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -450,15 +451,15 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100056
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400056}
-  - 114: {fileID: 11400056}
+  - 114: {fileID: 11400058}
   m_Layer: 0
-  m_Name: CNI9
+  m_Name: CJ1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -472,9 +473,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400058}
-  - 114: {fileID: 11400058}
+  - 114: {fileID: 11400060}
   m_Layer: 0
-  m_Name: CNI8
+  m_Name: CN2cc4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,9 +489,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400060}
-  - 114: {fileID: 11400060}
+  - 114: {fileID: 11400062}
   m_Layer: 0
-  m_Name: CNI7
+  m_Name: CN1z
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,9 +505,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400062}
-  - 114: {fileID: 11400062}
+  - 114: {fileID: 11400064}
   m_Layer: 0
-  m_Name: CNI6
+  m_Name: CN1c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,9 +521,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400064}
-  - 114: {fileID: 11400064}
+  - 114: {fileID: 11400066}
   m_Layer: 0
-  m_Name: CNI5
+  m_Name: CN2ax26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -536,9 +537,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400066}
-  - 114: {fileID: 11400066}
+  - 114: {fileID: 11400068}
   m_Layer: 0
-  m_Name: CNI4
+  m_Name: CN2ac
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,16 +547,15 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100068
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400068}
   - 114: {fileID: 11400070}
-  - 114: {fileID: 11400068}
   m_Layer: 0
-  m_Name: SniperDialog
+  m_Name: CN8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,7 +563,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100070
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -571,7 +571,7 @@ GameObject:
   - 4: {fileID: 400070}
   - 114: {fileID: 11400072}
   m_Layer: 0
-  m_Name: CNI1
+  m_Name: CN2ax21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100072
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -587,7 +587,7 @@ GameObject:
   - 4: {fileID: 400072}
   - 114: {fileID: 11400074}
   m_Layer: 0
-  m_Name: CNI2
+  m_Name: CN1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ GameObject:
   - 4: {fileID: 400074}
   - 114: {fileID: 11400076}
   m_Layer: 0
-  m_Name: CNI3
+  m_Name: CN2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -611,7 +611,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100076
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -619,7 +619,7 @@ GameObject:
   - 4: {fileID: 400076}
   - 114: {fileID: 11400078}
   m_Layer: 0
-  m_Name: CJ1
+  m_Name: CN2cc6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -635,7 +635,39 @@ GameObject:
   - 4: {fileID: 400078}
   - 114: {fileID: 11400080}
   m_Layer: 0
-  m_Name: CJ2
+  m_Name: CN2ax27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100080
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400080}
+  - 114: {fileID: 11400082}
+  m_Layer: 0
+  m_Name: CN2cb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100082
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400082}
+  - 114: {fileID: 11400084}
+  m_Layer: 0
+  m_Name: CN2ab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -651,18 +683,19 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400010}
+  m_Father: {fileID: 400002}
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -.581035972, z: 0, w: .81387794}
+  m_LocalPosition: {x: 43.5905151, y: -12.2368774, z: 68.3600235}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400010}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 400014}
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 1
@@ -672,8 +705,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400010}
+  m_Children:
+  - {fileID: 400022}
+  m_Father: {fileID: 400074}
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 1
@@ -683,8 +717,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400010}
+  m_Children:
+  - {fileID: 400026}
+  - {fileID: 400058}
+  - {fileID: 400024}
+  - {fileID: 400028}
+  - {fileID: 400076}
+  m_Father: {fileID: 400052}
 --- !u!4 &400008
 Transform:
   m_ObjectHideFlags: 1
@@ -695,7 +734,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400010}
+  m_Father: {fileID: 400066}
 --- !u!4 &400010
 Transform:
   m_ObjectHideFlags: 1
@@ -706,12 +745,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400008}
-  - {fileID: 400006}
-  - {fileID: 400004}
-  - {fileID: 400000}
-  - {fileID: 400002}
-  m_Father: {fileID: 400018}
+  - {fileID: 400080}
+  m_Father: {fileID: 400044}
 --- !u!4 &400012
 Transform:
   m_ObjectHideFlags: 1
@@ -722,7 +757,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400016}
+  m_Father: {fileID: 400048}
 --- !u!4 &400014
 Transform:
   m_ObjectHideFlags: 1
@@ -732,8 +767,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400022}
+  m_Children:
+  - {fileID: 400056}
+  - {fileID: 400002}
+  - {fileID: 400072}
+  m_Father: {fileID: 0}
 --- !u!4 &400016
 Transform:
   m_ObjectHideFlags: 1
@@ -744,8 +782,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400012}
-  m_Father: {fileID: 400020}
+  - {fileID: 400068}
+  m_Father: {fileID: 400042}
 --- !u!4 &400018
 Transform:
   m_ObjectHideFlags: 1
@@ -756,8 +794,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400010}
-  m_Father: {fileID: 400020}
+  - {fileID: 400042}
+  m_Father: {fileID: 400022}
 --- !u!4 &400020
 Transform:
   m_ObjectHideFlags: 1
@@ -768,10 +806,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400022}
-  - {fileID: 400018}
-  - {fileID: 400016}
-  m_Father: {fileID: 400048}
+  - {fileID: 400048}
+  m_Father: {fileID: 400032}
 --- !u!4 &400022
 Transform:
   m_ObjectHideFlags: 1
@@ -782,8 +818,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400014}
-  m_Father: {fileID: 400020}
+  - {fileID: 400018}
+  m_Father: {fileID: 400004}
 --- !u!4 &400024
 Transform:
   m_ObjectHideFlags: 1
@@ -794,7 +830,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400026}
+  m_Father: {fileID: 400006}
 --- !u!4 &400026
 Transform:
   m_ObjectHideFlags: 1
@@ -804,9 +840,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400024}
-  m_Father: {fileID: 400042}
+  m_Children: []
+  m_Father: {fileID: 400006}
 --- !u!4 &400028
 Transform:
   m_ObjectHideFlags: 1
@@ -817,7 +852,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400042}
+  m_Father: {fileID: 400006}
 --- !u!4 &400030
 Transform:
   m_ObjectHideFlags: 1
@@ -828,7 +863,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400042}
+  m_Father: {fileID: 400034}
 --- !u!4 &400032
 Transform:
   m_ObjectHideFlags: 1
@@ -838,8 +873,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400042}
+  m_Children:
+  - {fileID: 400020}
+  - {fileID: 400062}
+  - {fileID: 400060}
+  m_Father: {fileID: 400068}
 --- !u!4 &400034
 Transform:
   m_ObjectHideFlags: 1
@@ -849,8 +887,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400042}
+  m_Children:
+  - {fileID: 400030}
+  m_Father: {fileID: 400044}
 --- !u!4 &400036
 Transform:
   m_ObjectHideFlags: 1
@@ -861,7 +900,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400042}
+  m_Father: {fileID: 400066}
 --- !u!4 &400038
 Transform:
   m_ObjectHideFlags: 1
@@ -872,7 +911,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400042}
+  m_Father: {fileID: 400078}
 --- !u!4 &400040
 Transform:
   m_ObjectHideFlags: 1
@@ -883,7 +922,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400054}
+  m_Father: {fileID: 400056}
 --- !u!4 &400042
 Transform:
   m_ObjectHideFlags: 1
@@ -894,14 +933,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400036}
-  - {fileID: 400034}
-  - {fileID: 400032}
-  - {fileID: 400038}
-  - {fileID: 400030}
-  - {fileID: 400028}
-  - {fileID: 400026}
-  m_Father: {fileID: 400054}
+  - {fileID: 400016}
+  m_Father: {fileID: 400018}
 --- !u!4 &400044
 Transform:
   m_ObjectHideFlags: 1
@@ -911,8 +944,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400054}
+  m_Children:
+  - {fileID: 400034}
+  - {fileID: 400052}
+  - {fileID: 400010}
+  m_Father: {fileID: 400050}
 --- !u!4 &400046
 Transform:
   m_ObjectHideFlags: 1
@@ -923,7 +959,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400056}
+  m_Father: {fileID: 400066}
 --- !u!4 &400048
 Transform:
   m_ObjectHideFlags: 1
@@ -934,8 +970,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400020}
-  m_Father: {fileID: 400050}
+  - {fileID: 400012}
+  - {fileID: 400082}
+  - {fileID: 400066}
+  m_Father: {fileID: 400020}
 --- !u!4 &400050
 Transform:
   m_ObjectHideFlags: 1
@@ -946,8 +984,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400048}
-  m_Father: {fileID: 400056}
+  - {fileID: 400044}
+  m_Father: {fileID: 400062}
 --- !u!4 &400052
 Transform:
   m_ObjectHideFlags: 1
@@ -958,8 +996,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400054}
-  m_Father: {fileID: 400056}
+  - {fileID: 400006}
+  m_Father: {fileID: 400044}
 --- !u!4 &400054
 Transform:
   m_ObjectHideFlags: 1
@@ -969,11 +1007,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400040}
-  - {fileID: 400044}
-  - {fileID: 400042}
-  m_Father: {fileID: 400052}
+  m_Children: []
+  m_Father: {fileID: 400066}
 --- !u!4 &400056
 Transform:
   m_ObjectHideFlags: 1
@@ -984,10 +1019,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400052}
-  - {fileID: 400050}
-  - {fileID: 400046}
-  m_Father: {fileID: 400058}
+  - {fileID: 400040}
+  m_Father: {fileID: 400014}
 --- !u!4 &400058
 Transform:
   m_ObjectHideFlags: 1
@@ -997,9 +1030,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400056}
-  m_Father: {fileID: 400060}
+  m_Children: []
+  m_Father: {fileID: 400006}
 --- !u!4 &400060
 Transform:
   m_ObjectHideFlags: 1
@@ -1009,9 +1041,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400058}
-  m_Father: {fileID: 400062}
+  m_Children: []
+  m_Father: {fileID: 400032}
 --- !u!4 &400062
 Transform:
   m_ObjectHideFlags: 1
@@ -1022,8 +1053,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400060}
-  m_Father: {fileID: 400064}
+  - {fileID: 400050}
+  m_Father: {fileID: 400032}
 --- !u!4 &400064
 Transform:
   m_ObjectHideFlags: 1
@@ -1033,8 +1064,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400062}
+  m_Children: []
   m_Father: {fileID: 400066}
 --- !u!4 &400066
 Transform:
@@ -1046,8 +1076,14 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 400070}
+  - {fileID: 400036}
+  - {fileID: 400046}
+  - {fileID: 400054}
+  - {fileID: 400008}
   - {fileID: 400064}
-  m_Father: {fileID: 400074}
+  - {fileID: 400078}
+  m_Father: {fileID: 400048}
 --- !u!4 &400068
 Transform:
   m_ObjectHideFlags: 1
@@ -1058,9 +1094,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400076}
-  - {fileID: 400070}
-  m_Father: {fileID: 0}
+  - {fileID: 400032}
+  m_Father: {fileID: 400016}
 --- !u!4 &400070
 Transform:
   m_ObjectHideFlags: 1
@@ -1068,11 +1103,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .389863491, z: 0}
-  m_LocalScale: {x: .653337181, y: .653337181, z: .653337181}
-  m_Children:
-  - {fileID: 400072}
-  m_Father: {fileID: 400068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400066}
 --- !u!4 &400072
 Transform:
   m_ObjectHideFlags: 1
@@ -1080,11 +1114,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: .389863491, z: 0}
+  m_LocalScale: {x: .653337181, y: .653337181, z: .653337181}
   m_Children:
   - {fileID: 400074}
-  m_Father: {fileID: 400070}
+  m_Father: {fileID: 400014}
 --- !u!4 &400074
 Transform:
   m_ObjectHideFlags: 1
@@ -1095,7 +1129,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400066}
+  - {fileID: 400004}
   m_Father: {fileID: 400072}
 --- !u!4 &400076
 Transform:
@@ -1106,9 +1140,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400078}
-  m_Father: {fileID: 400068}
+  m_Children: []
+  m_Father: {fileID: 400006}
 --- !u!4 &400078
 Transform:
   m_ObjectHideFlags: 1
@@ -1118,14 +1151,412 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400038}
+  m_Father: {fileID: 400066}
+--- !u!4 &400080
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400076}
+  m_Father: {fileID: 400010}
+--- !u!4 &400082
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400048}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Watashi wa nihongo ga dekimasen (I don't speak Japanese)
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 8300000, guid: 71a9f1fb72b26d24cab90928df0dc693, type: 3}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Konnichiwa!
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 0
+  fSeconds: 1
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400000}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 8300000, guid: 0c785099ab49b954da9a7daae3c9d831, type: 3}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: "I climbed all the way up \nhere, and I'm proud of it!"
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400024}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Hot you said? Hmmm...
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400028}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: The same week he found me with his daughter, I mean
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400066}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: "The waitress is really smart,\nI've had a very interesting \nconversation
+    with her"
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400082}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'You must really hate children
+
+    to end up in a job like this'
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400072}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootNodes:
+  - {fileID: 11400074}
+  - {fileID: 11400058}
+  useDialgogCamera: 1
+  style: 0
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab44b2beb119c2942b1f895c61dcaaa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: So is that your job?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400070}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'I''m glad you understand me.
+
+    What are you doing here?'
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400044}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'Are you sure you left the army
+
+    just to make children cry?'
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400050}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'You''re right my fatty friend,
+
+    it must have been quite
+
+    an effort to climb TWO floors'
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400020}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: And why don't you do to meet her now?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400078}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: What do you think?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400060}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1145,171 +1576,12 @@ MonoBehaviour:
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400002
+--- !u!114 &11400032
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: I can't leave my position without knowing it will be worth the effort.
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400000}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: And why don't you do to meet her now?
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400002}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: I can't see her properly from here. Maybe I'll go there tomorrow to
-    see it with my own eyes.
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400004}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: What do you think?
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400006}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Hot you said? Hmmm...
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400008}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400012
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Yeah... Smart... No thanks.
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400022}
-  - {fileID: 11400016}
-  - {fileID: 11400018}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400014
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100014}
+  m_GameObject: {fileID: 100030}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1324,73 +1596,20 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400022}
-  - {fileID: 11400016}
-  - {fileID: 11400018}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400016
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: "The waitress is really smart,\nI've had a very interesting \nconversation
-    with her"
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400012}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: The girl serving is HOT
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
+  - {fileID: 11400036}
   - {fileID: 11400010}
+  - {fileID: 11400054}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400020
+--- !u!114 &11400034
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100020}
+  m_GameObject: {fileID: 100032}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1398,7 +1617,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: You should go
+  sFirstOption: 'Seriously? I mean, they are
+
+    young humans...'
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
@@ -1406,19 +1627,19 @@ MonoBehaviour:
   showNodes: 1
   cncArray:
   - {fileID: 11400022}
-  - {fileID: 11400016}
-  - {fileID: 11400018}
+  - {fileID: 11400064}
+  - {fileID: 11400062}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400022
+--- !u!114 &11400036
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100022}
+  m_GameObject: {fileID: 100034}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1435,18 +1656,44 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400014}
+  - {fileID: 11400032}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400024
+--- !u!114 &11400038
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100024}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: The same week
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400048}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1461,21 +1708,21 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400052}
-  - {fileID: 11400050}
+  - {fileID: 11400022}
+  - {fileID: 11400064}
   - {fileID: 0}
-  - {fileID: 11400046}
+  - {fileID: 11400062}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400026
+--- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100026}
+  m_GameObject: {fileID: 100040}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1483,25 +1730,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Together
+  sFirstOption: Watashi wa nihongo ga dekimasen
   sSecondOption: 
-  cCharacter: 0
+  cCharacter: 1
   sSpeaker: 1
   fSeconds: 3
   showNodes: 1
-  cncArray:
-  - {fileID: 11400024}
+  cncArray: []
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400028
+--- !u!114 &11400044
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100028}
+  m_GameObject: {fileID: 100042}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1509,25 +1755,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Both of his daughters, actually
+  sFirstOption: "What I'm paid to do. Burst \nthe children's balloons. It's\na great
+    technique so the toy\nshop increases its sells."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400026}
+  - {fileID: 11400018}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400030
+--- !u!114 &11400046
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100030}
+  m_GameObject: {fileID: 100044}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1535,25 +1782,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: The same week he found me with his daughter, I mean
+  sFirstOption: You should go
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
+  sSpeaker: 0
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400028}
+  - {fileID: 11400036}
+  - {fileID: 11400010}
+  - {fileID: 11400054}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400032
+--- !u!114 &11400048
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100032}
+  m_GameObject: {fileID: 100046}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1568,18 +1817,18 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400038}
+  - {fileID: 11400056}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400034
+--- !u!114 &11400050
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100034}
+  m_GameObject: {fileID: 100048}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1587,25 +1836,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: The same week
+  sFirstOption: Why do you think I did it?
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400032}
+  - {fileID: 11400012}
+  - {fileID: 11400084}
+  - {fileID: 11400068}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400036
+--- !u!114 &11400052
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100036}
+  m_GameObject: {fileID: 100050}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1613,79 +1864,210 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: In his own bed
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400034}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400038
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: The same week
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400030}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400040
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'You must really hate children
-
-    to end up in a job like this'
+  sFirstOption: Not yet, I started working here yesterday, so I didn't have time to
+    recognize the territory.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400036}
+  - {fileID: 11400046}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400042
+--- !u!114 &11400054
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100042}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: The girl serving is HOT
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400006}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: The same week
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400008}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Konnichiwa!
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400042}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: I can't see her properly from here. Maybe I'll go there tomorrow to
+    see it with my own eyes.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400026}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Forget it
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'Have you already been in the square''s
+
+    little bar?'
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400052}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Both of his daughters, actually
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400080}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100066}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1706,213 +2088,18 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400036}
+  - {fileID: 11400072}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400044
+--- !u!114 &11400070
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'I bet you were kicked out
-
-    of the army'
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400036}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400046
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Forget it
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray: []
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400048
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Not yet, I started working here yesterday, so I didn't have time to
-    recognize the territory.
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400020}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400050
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'Have you already been in the square''s
-
-    little bar?'
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400048}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400052
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'Are you sure you left the army
-
-    just to make children cry?'
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400054}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400054
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Why do you think I did it?
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400040}
-  - {fileID: 11400044}
-  - {fileID: 11400042}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400056
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'Seriously? I mean, they are
-
-    young humans...'
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400058
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100058}
+  m_GameObject: {fileID: 100068}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1935,150 +2122,12 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400056}
+  - {fileID: 11400034}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400060
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: So is that your job?
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400058}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400062
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: "What I'm paid to do. Burst \nthe children's balloons. It's\na great
-    technique so the toy\nshop increases its sells."
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400060}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'I''m glad you understand me.
-
-    What are you doing here?'
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400062}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400066
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: 'You''re right my fatty friend,
-
-    it must have been quite
-
-    an effort to climb TWO floors'
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400064}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400068
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab44b2beb119c2942b1f895c61dcaaa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400070
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootNodes:
-  - {fileID: 11400072}
-  - {fileID: 11400078}
-  useDialgogCamera: 1
-  style: 0
 --- !u!114 &11400072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2092,14 +2141,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Fffff... I'm the king of the world!
+  sFirstOption: In his own bed
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 0
+  sSpeaker: 1
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400074}
+  - {fileID: 11400038}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -2118,10 +2167,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: "Hey kid, be quiet.\nThere's people trying to \nconcentrate!"
+  sFirstOption: Fffff... I'm the king of the world!
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
+  sSpeaker: 0
   fSeconds: 3
   showNodes: 1
   cncArray:
@@ -2144,14 +2193,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: "I climbed all the way up \nhere, and I'm proud of it!"
+  sFirstOption: "Hey kid, be quiet.\nThere's people trying to \nconcentrate!"
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 0
+  sSpeaker: 1
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400066}
+  - {fileID: 11400004}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -2170,14 +2219,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Konnichiwa!
+  sFirstOption: I can't leave my position without knowing it will be worth the effort.
   sSecondOption: 
-  cCharacter: 1
-  sSpeaker: 0
+  cCharacter: 0
+  sSpeaker: 1
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400080}
+  - {fileID: 11400030}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -2196,13 +2245,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Watashi wa nihongo ga dekimasen
+  sFirstOption: Together
   sSecondOption: 
-  cCharacter: 1
+  cCharacter: 0
   sSpeaker: 1
   fSeconds: 3
   showNodes: 1
-  cncArray: []
+  cncArray:
+  - {fileID: 11400040}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Yeah... Smart... No thanks.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400036}
+  - {fileID: 11400010}
+  - {fileID: 11400054}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'I bet you were kicked out
+
+    of the army'
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400072}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -2217,6 +2323,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100068}
+  m_RootGameObject: {fileID: 100014}
   m_IsPrefabParent: 1
   m_IsExploded: 1

@@ -19,7 +19,7 @@ public class InventoryControl : MonoBehaviour {
 	private GameObject selectedObj = null;
 	private float MAX_POSITION;
 	private readonly float MIN_POSITION = 0;
-	private const int MAX_CUSTOMS =2;
+	private const int MAX_CUSTOMS =3;
 
 	private float width,height;
 	public int iconsize;
@@ -187,7 +187,7 @@ public class InventoryControl : MonoBehaviour {
 	 */
 	private void PreviousCostume(){
 		for(int i=1;i<MAX_CUSTOMS;i++){
-			int preCustom = Mathf.Abs((currCostumeShowed - i)%MAX_CUSTOMS);
+			int preCustom = Mathf.Abs((currCostumeShowed - i + MAX_CUSTOMS)%MAX_CUSTOMS);
 			if(inventoryCustoms[preCustom])
 			{
 				InventoryCustom preCustomObject = (InventoryCustom)inventoryCustoms[preCustom].GetComponent<InventoryCustom>();

@@ -5,6 +5,7 @@ public class goUpstairs : UseAction {
 
 	private GameObject mainChar; 
 	public ParticleSystem teleportParticles;
+	public GameObject talkto;
 
 
 	public void Start(){
