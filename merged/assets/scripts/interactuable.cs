@@ -70,7 +70,9 @@ public class interactuable : MonoBehaviour {
 
 		ConversationTreeClass nodeALlencar = defaultNode;
 		
-		if(objecteBo==origen)return true;
+		if(objecteBo==origen){
+			return true;
+		}
 		else{
 			foreach(erronis erroni in objectesErronis){
 				foreach(GameObject objecte in erroni.objectes){

@@ -216,7 +216,8 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 							
 							if(isGood){
 								//Debug.Log("Combinacio Correcta!");
-								Application.LoadLevel ("end"); 
+								Destroy(interDesti);
+								//Application.LoadLevel ("end"); 
 							}
 						}
 						
