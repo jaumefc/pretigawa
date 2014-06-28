@@ -530,6 +530,8 @@ ModelImporter:
     101048: toon lines 2
     101050: vorera
     101052: vorera 1
+    101054: edificis_blocs E_lines_MeshPart0
+    101056: edificis_blocs E_lines_MeshPart1
     400000: AIGUA
     400002: ARBRES
     400004: arbres lines00
@@ -1057,6 +1059,8 @@ ModelImporter:
     401048: toon lines 2
     401050: vorera
     401052: vorera 1
+    401054: edificis_blocs E_lines_MeshPart0
+    401056: edificis_blocs E_lines_MeshPart1
     2300000: AIGUA
     2300002: arbres lines00
     2300004: arbres lines01
@@ -1534,6 +1538,8 @@ ModelImporter:
     2300948: terra interior
     2300950: vorera
     2300952: vorera 1
+    2300954: edificis_blocs E_lines_MeshPart0
+    2300956: edificis_blocs E_lines_MeshPart1
     3300000: AIGUA
     3300002: arbres lines00
     3300004: arbres lines01
@@ -2011,6 +2017,8 @@ ModelImporter:
     3300948: terra interior
     3300950: vorera
     3300952: vorera 1
+    3300954: edificis_blocs E_lines_MeshPart0
+    3300956: edificis_blocs E_lines_MeshPart1
     4300000: edificis_blocs A
     4300002: cel sky
     4300004: edificis_blocs D
@@ -2488,6 +2496,8 @@ ModelImporter:
     4300948: Box005
     4300950: porta bar
     4300952: edificis_blocs E_lines
+    4300954: edificis_blocs E_lines_MeshPart0
+    4300956: edificis_blocs E_lines_MeshPart1
     6400000: AIGUA
     6400002: arbres lines00
     6400004: arbres lines01
@@ -2965,6 +2975,8 @@ ModelImporter:
     6400948: terra interior
     6400950: vorera
     6400952: vorera 1
+    6400954: edificis_blocs E_lines_MeshPart0
+    6400956: edificis_blocs E_lines_MeshPart1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -2989,7 +3001,7 @@ ModelImporter:
     addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     weldVertices: 1

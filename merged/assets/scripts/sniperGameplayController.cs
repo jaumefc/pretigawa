@@ -36,23 +36,33 @@ public class sniperGameplayController : MonoBehaviour {
 	
 	void Update () {
 		if (isSniperGameplay) {
-			mc.enabled = false;
-			chc.enabled = false;
+				mc.enabled = false;
+				chc.enabled = false;
 
-			GameObject.Find ("CameraSniper").camera.enabled = true;
-			triggeredCams.SetActive (false);
-			guisniper.SetActive(true);
+				GameObject.Find ("CameraSniper").camera.enabled = true;
+				triggeredCams.SetActive (false);
+				guisniper.SetActive (true);
 
-			if(moreZoom) sniperZoom.fieldOfView = 6;
-			else sniperZoom.fieldOfView = 12;
+				if (moreZoom)
+						sniperZoom.fieldOfView = 6;
+				else
+						sniperZoom.fieldOfView = 12;
 
-			if(Input.GetMouseButtonDown(1)){
-				moreZoom = !moreZoom;
-			}
-			if(Input.GetMouseButtonDown(0)){
-				if(!isShooting)shoot();
-			}
-		} 
+				if (Input.GetMouseButtonDown (1)) {
+						moreZoom = !moreZoom;
+				}
+				if (Input.GetMouseButtonDown (0)) {
+						if (!isShooting)
+								shoot ();
+				}
+		} else {
+			mc.enabled = true;
+			chc.enabled = true;
+
+			GameObject.Find("CameraSniper").camera.enabled = false;
+			triggeredCams.SetActive(true);
+			guisniper.SetActive(false);
+		}
 		if (Input.GetKey ("h")) {
 
 			if(Time.realtimeSinceStartup - changeTime > 0.1f){

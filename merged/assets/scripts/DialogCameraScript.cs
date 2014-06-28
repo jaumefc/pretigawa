@@ -50,7 +50,7 @@ public class DialogCameraScript : MonoBehaviour {
 		style_think.fontSize = Mathf.RoundToInt(Screen.height/40 * size);
 		style_alien.fontSize = style_think.fontSize;
 		style_theother.fontSize = style_think.fontSize;
-		texture = Resources.LoadAssetAtPath<Texture> ("Assets/Textures/GUI elements/G07.png");
+		texture = Resources.Load<Texture> ("Textures/GUI_elements/G07");
 		for (int i = 0; i<4; i++) 
 		{
 			objBallons[i] = new GameObject("balloon"+i);
