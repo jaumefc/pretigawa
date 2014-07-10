@@ -9,7 +9,7 @@ public class ProvaCredits : MonoBehaviour {
 
 	public float left1, top1, size1;
 
-	public string[] text;
+	public Texture[] text;
 
 
 	public GameObject prefab;
@@ -51,7 +51,12 @@ public class ProvaCredits : MonoBehaviour {
 
 	void ShowNextCredit(){
 		credit = (GameObject)GameObject.Instantiate (prefab);
-		credit.GetComponentInChildren<TextMesh>().text = text[currCredit];
+	//	credit.GetComponentInChildren<TextMesh>().text = text[currCredit];
+		Renderer boardRend = credit.transform.FindChild("Cube").GetComponent<Renderer>();
+		if(boardRend.material.HasProperty("_decalTexture"))
+		{
+			boardRend.material.SetTexture("_decalTexture",text[currCredit]);
+		}
 		currCredit++;
 
 	}
