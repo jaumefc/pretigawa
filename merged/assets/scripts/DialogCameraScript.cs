@@ -15,6 +15,7 @@ public class DialogCameraScript : MonoBehaviour {
 	public GUIStyle style_think;
 	public GUIStyle style_alien;
 	public GUIStyle style_theother;
+	public GUIStyle style_narrator;
 
 	CameraControl CCScript;
 
@@ -195,20 +196,28 @@ public class DialogCameraScript : MonoBehaviour {
 	 * que pertany a aquell troç de conversa
 	 */
 	void ExecuteNode(ConversationNodeClass Node){
-		float Balloonx;
-		GUIStyle style;
+		float Balloonx, Balloony, Balloondx, Balloondy;
+		GUIStyle style = style_narrator;
+		
+		Balloonx = 0.005f;
+		Balloony = 0.01f;
+
+		Balloondx = 0.24f;
+		Balloondy = 0.44f;
 
 		if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
 			style = style_alien;
-			Balloonx=0.005f;
-		}
-		else
-		{
+		} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
 			style = style_theother;
-			Balloonx=0.74f;
+			Balloonx = 0.74f;
+		} else if (Node.sSpeaker == ConversationNodeClass.speaker.NARRATOR) {
+			style = style_narrator;
+			//Balloondx = Balloondx*2;
+			//Balloony = 0.7f;
+			//Balloondy = 0.2f;
 		}
 		if (gettime + Node.fSeconds > Time.time /*&& !Input.GetMouseButtonUp(0)*/) {                                                                                                                                                                                                                                                                                                                                                                                                     
-			GUI.Button (new Rect (Balloonx * Screen.width, 0.01f * Screen.height, 0.24f * Screen.width, 0.44f * Screen.height), 
+			GUI.Button (new Rect (Balloonx * Screen.width, Balloony * Screen.height, Balloondx * Screen.width, Balloondy * Screen.height), 
 			            Node.sFirstOption, style);
 		}
 		else 	//Time is over
@@ -236,6 +245,7 @@ public class DialogCameraScript : MonoBehaviour {
 			CCScript.TransferOut();
 		}
 		dialogState = DialogState.NONE;
+		this.enabled = false;
 	}
 
 	/*
@@ -287,6 +297,7 @@ public class DialogCameraScript : MonoBehaviour {
 	 */
 	public void Init()
 	{
+		this.enabled = true;
 		dialogState = DialogState.INIT;
 	}
 

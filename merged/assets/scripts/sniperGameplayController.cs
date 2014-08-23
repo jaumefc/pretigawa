@@ -56,7 +56,7 @@ public class sniperGameplayController : MonoBehaviour {
 								shoot ();
 				}
 		} else {
-			mc.enabled = true;
+			//mc.enabled = true;
 			chc.enabled = true;
 
 			GameObject.Find("CameraSniper").camera.enabled = false;

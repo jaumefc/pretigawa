@@ -26,7 +26,7 @@ public class CameraControl : MonoBehaviour {
 		//cCamera1.enabled = false;
 		//cCamera2.enabled = false;
 		cCameraDialog.enabled = false;
-		DCScript.enabled = false;
+		//DCScript.enabled = false;
 		stateIn = false;
 	}
 	
@@ -43,7 +43,7 @@ public class CameraControl : MonoBehaviour {
 		cCamera2.enabled = true;
 		cCameraDialog.enabled = true;
 		MCScript.enabled=false;
-		DCScript.enabled = true;
+		//DCScript.enabled = true;
 		DCScript.Init ();
 		stateIn = true;
 	}
