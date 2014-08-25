@@ -84,7 +84,7 @@ public class DialogCameraScript : MonoBehaviour {
 	void EvaluateNodes(ConversationNodeClass[] NodeArray){
 		
 		NodesToShow.Clear();
-		
+		if(NodeArray != null)		
 		if (NodeArray.Length == 1){	//automatic conversation
 			
 			CurNode=NodeArray[0];

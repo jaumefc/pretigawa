@@ -4,8 +4,9 @@ using System.Collections;
 public class sniperGameplayController : MonoBehaviour {
 
 	public GameObject triggeredCams;
-	public GameObject guisniper;
 	public Camera sniperZoom;
+
+	public GameObject sniperGameplay;
 
 	public Transform snipingDirection;
 	public GameObject dardo;
@@ -36,13 +37,7 @@ public class sniperGameplayController : MonoBehaviour {
 	
 	void Update () {
 		if (isSniperGameplay) {
-				mc.enabled = false;
-				chc.enabled = false;
-
-				GameObject.Find ("CameraSniper").camera.enabled = true;
-				triggeredCams.SetActive (false);
-				guisniper.SetActive (true);
-
+				
 				if (moreZoom)
 						sniperZoom.fieldOfView = 6;
 				else
@@ -55,14 +50,8 @@ public class sniperGameplayController : MonoBehaviour {
 						if (!isShooting)
 								shoot ();
 				}
-		} else {
-			//mc.enabled = true;
-			chc.enabled = true;
-
-			GameObject.Find("CameraSniper").camera.enabled = false;
-			triggeredCams.SetActive(true);
-			guisniper.SetActive(false);
 		}
+
 		if (Input.GetKey ("h")) {
 
 			if(Time.realtimeSinceStartup - changeTime > 0.1f){
@@ -77,10 +66,18 @@ public class sniperGameplayController : MonoBehaviour {
 					
 					GameObject.Find ("CameraSniper").camera.enabled = false;
 					triggeredCams.SetActive (true);
-					guisniper.SetActive(false);
+					sniperGameplay.SetActive(false);
 				}
 
 				else{
+					sniperGameplay.SetActive(true);
+					
+					mc.enabled = false;
+					chc.enabled = false;
+					
+					GameObject.Find ("CameraSniper").camera.enabled = true;
+					triggeredCams.SetActive (false);
+
 					SoundBreath.audio.Play();
 				}
 			}

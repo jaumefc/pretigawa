@@ -158,7 +158,7 @@ public class controlMoviment : MonoBehaviour {
 	private void checkAttack(){
 		Vector3 distance = target.position - transform.position;
 		float absDistance = distance.sqrMagnitude;
-		if (absDistance < 4) {
+		if (absDistance < 3) {
 			Invoke ("checkAttack", 1.0f);
 			pinyuParticles.Play();
 			Invoke ("stopParticles", 2.0f);

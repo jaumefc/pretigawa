@@ -9,7 +9,9 @@ public class carCollisions : MonoBehaviour {
 	private mouseControl mc;
 	private CharacterController chc;
 	public ParticleSystem pinyoParticles;
-	
+
+	private DontGoThroughThings dgtt;
+
 	private bool hasBumped = false;
 	private bool goingToFall = false;
 	private float timeJump;
@@ -23,6 +25,7 @@ public class carCollisions : MonoBehaviour {
 		na = mainChar.GetComponent<NavMeshAgent>();
 		mc = mainChar.GetComponent<mouseControl>();
 		chc = mainChar.GetComponent<CharacterController>();
+		dgtt = mainChar.GetComponent<DontGoThroughThings> ();
 	}
 
 	void Update () {
@@ -47,20 +50,26 @@ public class carCollisions : MonoBehaviour {
 	void OnTriggerEnter (Collider other){
 		if (other.gameObject == mainChar) {
 			SoundContainer.audio.Play();
-			cc.enabled = true;
-			na.enabled = false;
-			mc.enabled = false;
-			chc.enabled = false;
-
-			int rndNum = (int)(Random.Range(-50.0f, 50.0f));
-			int rndNum2 = (int)(Random.Range(-50.0f, 50.0f));
-			int rndNum3 = (int)(Random.Range(-50.0f, 50.0f));
-			mainChar.rigidbody.AddRelativeTorque(rndNum, rndNum2, rndNum3);
-			mainChar.rigidbody.velocity = new Vector3 (0, 10, 0);
-
-			hasBumped = true;
-			timeJump = Time.realtimeSinceStartup;
+			dgtt.resetStats();
+			dgtt.enabled = true;
+			Invoke("runOver", 0.2f);
 		}
+	}
+
+	private void runOver(){
+		cc.enabled = true;
+		na.enabled = false;
+		mc.enabled = false;
+		chc.enabled = false;
+		
+		int rndNum = (int)(Random.Range(-50.0f, 50.0f));
+		int rndNum2 = (int)(Random.Range(-50.0f, 50.0f));
+		int rndNum3 = (int)(Random.Range(-50.0f, 50.0f));
+		mainChar.rigidbody.AddRelativeTorque(rndNum, rndNum2, rndNum3);
+		mainChar.rigidbody.velocity = new Vector3 (0, 10, 0);
+		
+		hasBumped = true;
+		timeJump = Time.realtimeSinceStartup;
 	}
 
 	bool checkAltitude(){
