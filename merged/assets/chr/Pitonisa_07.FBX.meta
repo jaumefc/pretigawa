@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: b90b4424b0b6e8c4ea808401b35e362c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Humanoiderig
+    100002: Humanoiderigcabeza
+    100004: HumanoiderigcabezaGizmo
+    100006: Humanoiderigcuello1
+    100008: Humanoiderigcuello2
+    100010: Humanoiderigcuello2Gizmo
+    100012: HumanoiderigHub001
+    100014: HumanoiderigHub001Gizmo
+    100016: HumanoiderigLArm1
+    100018: HumanoiderigLArm1Gizmo
+    100020: HumanoiderigLArm2
+    100022: HumanoiderigLArm2Gizmo
+    100024: HumanoiderigLArmCollarbone
+    100026: HumanoiderigLArmIKTarget
+    100028: HumanoiderigLArmPalm
+    100030: HumanoiderigLArmPalmGizmo
+    100032: HumanoiderigLLeg1
+    100034: HumanoiderigLLegAnkle
+    100036: HumanoiderigLLegDigit11
+    100038: HumanoiderigLLegPlatform
+    100040: HumanoiderigPecho
+    100042: HumanoiderigPechoGizmo
+    100044: HumanoiderigRArm
+    100046: HumanoiderigRArm1
+    100048: HumanoiderigRArm1Gizmo
+    100050: HumanoiderigRArm2
+    100052: HumanoiderigRArm2Gizmo
+    100054: HumanoiderigRArmCollarbone
+    100056: HumanoiderigRArmPalm
+    100058: HumanoiderigRArmPalmGizmo
+    100060: HumanoiderigRLeg1
+    100062: HumanoiderigRLegAnkle
+    100064: HumanoiderigRLegDigit11
+    100066: HumanoiderigRLegPlatform
+    100068: HumanoiderigSpine1
+    100070: HumanoiderigSpine2
+    100072: HumanoiderigSpine2Gizmo
+    100074: HumanoiderigSpine3
+    100076: HumanoiderigSpine3Gizmo
+    100078: JapoRigcabezaGizmo
+    100080: JapoRigHub001Gizmo
+    100082: JapoRigLArm1Gizmo
+    100084: JapoRigLArm2Gizmo
+    100086: JapoRigLArmPalmGizmo
+    100088: JapoRigPechoGizmo
+    100090: JapoRigRArm1Gizmo
+    100092: JapoRigRArm2Gizmo
+    100094: JapoRigRArmPalmGizmo
+    100096: Pitonisa ojo der
+    100098: Pitonisa ojo izq
+    100100: Pitonisa_
+    100102: //RootNode
+    400000: Humanoiderig
+    400002: Humanoiderigcabeza
+    400004: HumanoiderigcabezaGizmo
+    400006: Humanoiderigcuello1
+    400008: Humanoiderigcuello2
+    400010: Humanoiderigcuello2Gizmo
+    400012: HumanoiderigHub001
+    400014: HumanoiderigHub001Gizmo
+    400016: HumanoiderigLArm1
+    400018: HumanoiderigLArm1Gizmo
+    400020: HumanoiderigLArm2
+    400022: HumanoiderigLArm2Gizmo
+    400024: HumanoiderigLArmCollarbone
+    400026: HumanoiderigLArmIKTarget
+    400028: HumanoiderigLArmPalm
+    400030: HumanoiderigLArmPalmGizmo
+    400032: HumanoiderigLLeg1
+    400034: HumanoiderigLLegAnkle
+    400036: HumanoiderigLLegDigit11
+    400038: HumanoiderigLLegPlatform
+    400040: HumanoiderigPecho
+    400042: HumanoiderigPechoGizmo
+    400044: HumanoiderigRArm
+    400046: HumanoiderigRArm1
+    400048: HumanoiderigRArm1Gizmo
+    400050: HumanoiderigRArm2
+    400052: HumanoiderigRArm2Gizmo
+    400054: HumanoiderigRArmCollarbone
+    400056: HumanoiderigRArmPalm
+    400058: HumanoiderigRArmPalmGizmo
+    400060: HumanoiderigRLeg1
+    400062: HumanoiderigRLegAnkle
+    400064: HumanoiderigRLegDigit11
+    400066: HumanoiderigRLegPlatform
+    400068: HumanoiderigSpine1
+    400070: HumanoiderigSpine2
+    400072: HumanoiderigSpine2Gizmo
+    400074: HumanoiderigSpine3
+    400076: HumanoiderigSpine3Gizmo
+    400078: JapoRigcabezaGizmo
+    400080: JapoRigHub001Gizmo
+    400082: JapoRigLArm1Gizmo
+    400084: JapoRigLArm2Gizmo
+    400086: JapoRigLArmPalmGizmo
+    400088: JapoRigPechoGizmo
+    400090: JapoRigRArm1Gizmo
+    400092: JapoRigRArm2Gizmo
+    400094: JapoRigRArmPalmGizmo
+    400096: Pitonisa ojo der
+    400098: Pitonisa ojo izq
+    400100: Pitonisa_
+    400102: //RootNode
+    2300000: Pitonisa ojo der
+    2300002: Pitonisa ojo izq
+    3300000: Pitonisa ojo der
+    3300002: Pitonisa ojo izq
+    4300000: Pitonisa_
+    4300002: Pitonisa ojo izq
+    4300004: Pitonisa ojo der
+    7400000: Mans
+    7400002: Parlar
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Pitonisa_
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Mans
+      takeName: Pitonisa_07_ex
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Humanoiderig
+        weight: 1
+      - path: HumanoiderigcabezaGizmo
+        weight: 1
+      - path: Humanoiderigcuello2Gizmo
+        weight: 1
+      - path: HumanoiderigHub001
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigLLeg1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigLLeg1/HumanoiderigLLegAnkle
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigLLeg1/HumanoiderigLLegAnkle/HumanoiderigLLegDigit11
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigRLeg1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigRLeg1/HumanoiderigRLegAnkle
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigRLeg1/HumanoiderigRLegAnkle/HumanoiderigRLegDigit11
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2/Humanoiderigcabeza
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2/Humanoiderigcabeza/Pitonisa
+          ojo der
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2/Humanoiderigcabeza/Pitonisa
+          ojo izq
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone/HumanoiderigLArm1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone/HumanoiderigLArm1/HumanoiderigLArm2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone/HumanoiderigLArm1/HumanoiderigLArm2/HumanoiderigLArmPalm
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone/HumanoiderigRArm1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone/HumanoiderigRArm1/HumanoiderigRArm2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone/HumanoiderigRArm1/HumanoiderigRArm2/HumanoiderigRArmPalm
+        weight: 1
+      - path: HumanoiderigHub001Gizmo
+        weight: 1
+      - path: HumanoiderigLArm1Gizmo
+        weight: 1
+      - path: HumanoiderigLArm2Gizmo
+        weight: 1
+      - path: HumanoiderigLArmIKTarget
+        weight: 1
+      - path: HumanoiderigLArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigLLegPlatform
+        weight: 1
+      - path: HumanoiderigPechoGizmo
+        weight: 1
+      - path: HumanoiderigRArm
+        weight: 1
+      - path: HumanoiderigRArm1Gizmo
+        weight: 1
+      - path: HumanoiderigRArm2Gizmo
+        weight: 1
+      - path: HumanoiderigRArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigRLegPlatform
+        weight: 1
+      - path: HumanoiderigSpine2Gizmo
+        weight: 1
+      - path: HumanoiderigSpine3Gizmo
+        weight: 1
+      - path: JapoRigcabezaGizmo
+        weight: 1
+      - path: JapoRigHub001Gizmo
+        weight: 1
+      - path: JapoRigLArm1Gizmo
+        weight: 1
+      - path: JapoRigLArm2Gizmo
+        weight: 1
+      - path: JapoRigLArmPalmGizmo
+        weight: 1
+      - path: JapoRigPechoGizmo
+        weight: 1
+      - path: JapoRigRArm1Gizmo
+        weight: 1
+      - path: JapoRigRArm2Gizmo
+        weight: 1
+      - path: JapoRigRArmPalmGizmo
+        weight: 1
+      - path: Pitonisa_
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Parlar
+      takeName: Pitonisa_07_ex
+      firstFrame: 100
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Humanoiderig
+        weight: 1
+      - path: HumanoiderigcabezaGizmo
+        weight: 1
+      - path: Humanoiderigcuello2Gizmo
+        weight: 1
+      - path: HumanoiderigHub001
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigLLeg1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigLLeg1/HumanoiderigLLegAnkle
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigLLeg1/HumanoiderigLLegAnkle/HumanoiderigLLegDigit11
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigRLeg1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigRLeg1/HumanoiderigRLegAnkle
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigRLeg1/HumanoiderigRLegAnkle/HumanoiderigRLegDigit11
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2/Humanoiderigcabeza
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2/Humanoiderigcabeza/Pitonisa
+          ojo der
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/Humanoiderigcuello1/Humanoiderigcuello2/Humanoiderigcabeza/Pitonisa
+          ojo izq
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone/HumanoiderigLArm1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone/HumanoiderigLArm1/HumanoiderigLArm2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigLArmCollarbone/HumanoiderigLArm1/HumanoiderigLArm2/HumanoiderigLArmPalm
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone/HumanoiderigRArm1
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone/HumanoiderigRArm1/HumanoiderigRArm2
+        weight: 1
+      - path: HumanoiderigHub001/HumanoiderigSpine1/HumanoiderigSpine2/HumanoiderigSpine3/HumanoiderigPecho/HumanoiderigRArmCollarbone/HumanoiderigRArm1/HumanoiderigRArm2/HumanoiderigRArmPalm
+        weight: 1
+      - path: HumanoiderigHub001Gizmo
+        weight: 1
+      - path: HumanoiderigLArm1Gizmo
+        weight: 1
+      - path: HumanoiderigLArm2Gizmo
+        weight: 1
+      - path: HumanoiderigLArmIKTarget
+        weight: 1
+      - path: HumanoiderigLArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigLLegPlatform
+        weight: 1
+      - path: HumanoiderigPechoGizmo
+        weight: 1
+      - path: HumanoiderigRArm
+        weight: 1
+      - path: HumanoiderigRArm1Gizmo
+        weight: 1
+      - path: HumanoiderigRArm2Gizmo
+        weight: 1
+      - path: HumanoiderigRArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigRLegPlatform
+        weight: 1
+      - path: HumanoiderigSpine2Gizmo
+        weight: 1
+      - path: HumanoiderigSpine3Gizmo
+        weight: 1
+      - path: JapoRigcabezaGizmo
+        weight: 1
+      - path: JapoRigHub001Gizmo
+        weight: 1
+      - path: JapoRigLArm1Gizmo
+        weight: 1
+      - path: JapoRigLArm2Gizmo
+        weight: 1
+      - path: JapoRigLArmPalmGizmo
+        weight: 1
+      - path: JapoRigPechoGizmo
+        weight: 1
+      - path: JapoRigRArm1Gizmo
+        weight: 1
+      - path: JapoRigRArm2Gizmo
+        weight: 1
+      - path: JapoRigRArmPalmGizmo
+        weight: 1
+      - path: Pitonisa_
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
