@@ -91,7 +91,7 @@ public class sniperGameplayController : MonoBehaviour {
 		Invoke ("reload", 1.0f);
 		GameObject dardoCopia = Instantiate (dardo, snipingDirection.position, snipingDirection.rotation) as GameObject;
 
-		var locVel = dardoCopia.transform.TransformDirection(new Vector3(0, 0, 5));
+		var locVel = dardoCopia.transform.TransformDirection(new Vector3(0, 0, 10));
 		dardoCopia.rigidbody.velocity = locVel;
 		dardoCopia.rigidbody.angularVelocity = -locVel;
 	}

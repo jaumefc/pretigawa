@@ -12,6 +12,8 @@ public class cotxesRespawn : MonoBehaviour {
 	private GameObject mainChar;
 	private GameObject SoundContainer;
 
+	private bool hasEndedTurning = true;
+
 	void Start () {
 		mainChar = GameObject.Find ("Player");
 		SoundContainer = GameObject.Find ("CarSound");
@@ -36,6 +38,7 @@ public class cotxesRespawn : MonoBehaviour {
 				
 				rigidbody.AddRelativeForce(rndForce, 0, 0);
 				isRotating = false;
+				hasEndedTurning = true;
 			}
 		}
 	}
@@ -46,17 +49,20 @@ public class cotxesRespawn : MonoBehaviour {
 		}
 
 		if (other.gameObject.name.Contains ("sqVertex")) {
-			int posOrNeg = 1;
-			int isGoingToRotate = Random.Range(0, 3);
-			if(isGoingToRotate == 0)return;
-			else if(isGoingToRotate == 2) posOrNeg = -1;
-			
-			tempVel = rigidbody.velocity;
-			rigidbody.velocity = new Vector3(0,0,0);
-			rotationTriggered = other.gameObject.name.Substring(other.gameObject.name.Length - 1, 1);
-			startingAngle = transform.rotation;
-			rigidbody.AddRelativeTorque(0, 200*(posOrNeg), 0);
-			isRotating = true;
+			if(hasEndedTurning){
+				int posOrNeg = 1;
+				int isGoingToRotate = Random.Range(0, 3);
+				if(isGoingToRotate == 0)return;
+				else if(isGoingToRotate == 2) posOrNeg = -1;
+				
+				tempVel = rigidbody.velocity;
+				rigidbody.velocity = new Vector3(0,0,0);
+				rotationTriggered = other.gameObject.name.Substring(other.gameObject.name.Length - 1, 1);
+				startingAngle = transform.rotation;
+				rigidbody.AddRelativeTorque(0, 200*(posOrNeg), 0);
+				isRotating = true;
+				hasEndedTurning = false;
+			}
 		}
 		
 		if (other.gameObject.name.Contains ("trCar")) {
