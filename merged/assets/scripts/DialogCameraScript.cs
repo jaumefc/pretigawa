@@ -17,7 +17,7 @@ public class DialogCameraScript : MonoBehaviour {
 	public GUIStyle style_alien;
 	public GUIStyle style_theother;
 	public GUIStyle style_narrator;
-	
+
 	CameraControl CCScript;
 	
 	//	float ratio = 1f;
@@ -204,10 +204,11 @@ public class DialogCameraScript : MonoBehaviour {
 		
 		Balloonx = 0.005f;
 		Balloony = 0.01f;
-		
+
 		Balloondx = 0.24f;
 		Balloondy = 0.44f;
-		
+
+
 		if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
 			style = style_alien;
 		} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
@@ -220,7 +221,9 @@ public class DialogCameraScript : MonoBehaviour {
 			//Balloony = 0.7f;
 			//Balloondy = 0.2f;
 		}
-		if (gettime + Node.fSeconds > Time.time && !(Input.GetMouseButtonUp(0) && skip)) {                                                                                                                                                                                                                                                                                                                                                                                                     
+
+   		if (gettime + Node.fSeconds > Time.time && !(Input.GetMouseButtonUp(0) && skip)) {                                                                                                                                                                                                                                                                                                                                                                                                     
+
 			GUI.Button (new Rect (Balloonx * Screen.width, Balloony * Screen.height, Balloondx * Screen.width, Balloondy * Screen.height), 
 			            Node.sFirstOption, style);
 			if(Input.GetMouseButtonDown(0)){
