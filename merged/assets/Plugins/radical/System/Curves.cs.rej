@@ -1,0 +1,76 @@
+diff a/merged/assets/Plugins/radical/System/Curves.cs b/merged/assets/Plugins/radical/System/Curves.cs	(rejected hunks)
+@@ -179,7 +179,7 @@
+ 
+ public static class Spline
+ {
+-	public static Vector3 Interp(Path pts, float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
++	public static Vector3 Interp(Path pts, float t, EasingType ease , bool easeIn, bool easeOut)
+ 	{
+ 		t = Ease(t, ease, easeIn, easeOut);
+ 		
+@@ -211,7 +211,7 @@
+ 		
+ 	}
+ 	
+-	private static float Ease(float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
++	private static float Ease(float t, EasingType ease , bool easeIn , bool easeOut )
+ 	{
+ 		t = Mathf.Clamp01(t);
+ 		if(easeIn && easeOut)
+@@ -227,7 +227,7 @@
+ 		return t;
+ 	}
+ 	
+-	public static Vector3 InterpConstantSpeed(Path pts, float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
++	public static Vector3 InterpConstantSpeed(Path pts, float t, EasingType ease , bool easeIn , bool easeOut )
+ 	{
+ 		t = Ease(t, ease, easeIn, easeOut);
+ 		
+@@ -259,7 +259,7 @@
+ 		
+ 	}
+ 	
+-	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition,  float maxSpeed=1f, float smoothnessFactor=100, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
++	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition,  float maxSpeed, float smoothnessFactor, EasingType ease, bool easeIn, bool easeOut)
+ 	{
+ 		maxSpeed *= Time.deltaTime;
+ 		pathPosition = Mathf.Clamp01(pathPosition);
+@@ -279,22 +279,22 @@
+ 		return currentPosition;
+ 	}
+ 	
+-	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition, ref Quaternion rotation,  float maxSpeed=1f, float smoothnessFactor=100, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
++	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition, ref Quaternion rotation,  float maxSpeed, float smoothnessFactor, EasingType ease, bool easeIn, bool easeOut)
+ 	{
+ 		var result = MoveOnPath(pts, currentPosition, ref pathPosition, maxSpeed, smoothnessFactor, ease, easeIn, easeOut);
+ 		rotation =  result.Equals(currentPosition) ? Quaternion.identity : Quaternion.LookRotation(result - currentPosition);
+ 		return result;
+ 	}
+ 	
+-	public static Quaternion RotationBetween(Path pts, float t1, float t2, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
++	public static Quaternion RotationBetween(Path pts, float t1, float t2, EasingType ease, bool easeIn, bool easeOut)
+ 	{
+ 		return Quaternion.LookRotation(Interp(pts, t2, ease, easeIn, easeOut) - Interp(pts, t1, ease, easeIn, easeOut));
+ 	}
+ 	
+ 	
+-	public static Vector3 Velocity(Path pts, float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true) 
++	public static Vector3 Velocity(Path pts, float t, EasingType ease, bool easeIn, bool easeOut) 
+ 	{
+-		t = Ease(t);
++		t = Ease(t, ease , easeIn, easeOut);
+ 		if(pts.Length == 0)
+ 		{
+ 			return Vector3.zero;
+@@ -326,9 +326,9 @@
+ 		return (new Vector3[] { path[0] }).Concat(path).Concat(new Vector3[] { path[path.Length-1]}).ToArray();
+ 	}
+ 		
+-	public static void GizmoDraw(Vector3[] pts, float t,EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true) {
++	public static void GizmoDraw(Vector3[] pts, float t,EasingType ease, bool easeIn, bool easeOut) {
+ 		Gizmos.color = Color.white;
+-		Vector3 prevPt = Interp(pts, 0);
++		Vector3 prevPt = Interp(pts, t, ease , easeIn, easeOut);
+ 		
+ 		for (int i = 1; i <= 20; i++) {
+ 			float pm = (float) i / 20f;
