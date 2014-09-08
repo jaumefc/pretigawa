@@ -139,6 +139,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 	}
 	
 	private void MouseButtonDown(){
+		if(cam == null)cam = Camera.main;
 		Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 		int count = Input.touchCount;	
 		if( count == 1 )
