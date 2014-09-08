@@ -37,7 +37,7 @@ public static class QuadBez {
 		Gizmos.DrawLine(pos, pos + Velocity(st,en,ctrl,t));
 	}
 	
-
+	
 }
 
 
@@ -51,7 +51,7 @@ public static class CubicBez {
 	public static Vector3 Velocity(Vector3 st, Vector3 en, Vector3 ctrl1, Vector3 ctrl2,float t) {
 		return (-3f * st + 9f * ctrl1 - 9f * ctrl2 + 3f * en) * t * t
 			+  (6f * st - 12f * ctrl1 + 6f * ctrl2) * t
-			-  3f * st + 3f * ctrl1;
+				-  3f * st + 3f * ctrl1;
 	}
 	
 	
@@ -78,13 +78,13 @@ public static class CubicBez {
 
 
 public static class CRSpline {
-
+	
 	
 	public static Vector3 Interp(Vector3[] pts, float t) {
 		int numSections = pts.Length - 3;
 		int currPt = Mathf.Min(Mathf.FloorToInt(t * (float) numSections), numSections - 1);
 		float u = t * (float) numSections - (float) currPt;
-				
+		
 		Vector3 a = pts[currPt];
 		Vector3 b = pts[currPt + 1];
 		Vector3 c = pts[currPt + 2];
@@ -95,7 +95,7 @@ public static class CRSpline {
 			+ (2f * a - 5f * b + 4f * c - d) * (u * u)
 			+ (-a + c) * u
 			+ 2f * b
-		);
+			);
 	}
 	
 	public static Vector3 InterpConstantSpeed(Vector3[] pts, float t) {
@@ -136,7 +136,7 @@ public static class CRSpline {
 			+ (2f * a - 5f * b + 4f * c - d) * (float)(u * u)
 			+ (-a + c) * (float)u
 			+ 2f * b
-		);
+			);
 		
 	}
 	
@@ -144,14 +144,14 @@ public static class CRSpline {
 		int numSections = pts.Length - 3;
 		int currPt = Mathf.Min(Mathf.FloorToInt(t * (float) numSections), numSections - 1);
 		float u = t * (float) numSections - (float) currPt;
-				
+		
 		Vector3 a = pts[currPt];
 		Vector3 b = pts[currPt + 1];
 		Vector3 c = pts[currPt + 2];
 		Vector3 d = pts[currPt + 3];
-
+		
 		return 1.5f * (-a + 3f * b - 3f * c + d) * (u * u)
-				+ (2f * a -5f * b + 4f * c - d) * u
+			+ (2f * a -5f * b + 4f * c - d) * u
 				+ .5f * c - .5f * a;
 	}
 	
@@ -179,7 +179,7 @@ public class Interesting
 
 public static class Spline
 {
-	public static Vector3 Interp(Path pts, float t, EasingType ease , bool easeIn, bool easeOut)
+	public static Vector3 Interp(Path pts, float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
 	{
 		t = Ease(t, ease, easeIn, easeOut);
 		
@@ -211,7 +211,7 @@ public static class Spline
 		
 	}
 	
-	private static float Ease(float t, EasingType ease , bool easeIn , bool easeOut )
+	private static float Ease(float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
 	{
 		t = Mathf.Clamp01(t);
 		if(easeIn && easeOut)
@@ -227,7 +227,7 @@ public static class Spline
 		return t;
 	}
 	
-	public static Vector3 InterpConstantSpeed(Path pts, float t, EasingType ease , bool easeIn , bool easeOut )
+	public static Vector3 InterpConstantSpeed(Path pts, float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
 	{
 		t = Ease(t, ease, easeIn, easeOut);
 		
@@ -259,7 +259,7 @@ public static class Spline
 		
 	}
 	
-	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition,  float maxSpeed, float smoothnessFactor, EasingType ease, bool easeIn, bool easeOut)
+	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition,  float maxSpeed=1f, float smoothnessFactor=100, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
 	{
 		maxSpeed *= Time.deltaTime;
 		pathPosition = Mathf.Clamp01(pathPosition);
@@ -279,22 +279,22 @@ public static class Spline
 		return currentPosition;
 	}
 	
-	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition, ref Quaternion rotation,  float maxSpeed, float smoothnessFactor, EasingType ease, bool easeIn, bool easeOut)
+	public static Vector3 MoveOnPath(Path pts, Vector3 currentPosition, ref float pathPosition, ref Quaternion rotation,  float maxSpeed=1f, float smoothnessFactor=100, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
 	{
 		var result = MoveOnPath(pts, currentPosition, ref pathPosition, maxSpeed, smoothnessFactor, ease, easeIn, easeOut);
 		rotation =  result.Equals(currentPosition) ? Quaternion.identity : Quaternion.LookRotation(result - currentPosition);
 		return result;
 	}
 	
-	public static Quaternion RotationBetween(Path pts, float t1, float t2, EasingType ease, bool easeIn, bool easeOut)
+	public static Quaternion RotationBetween(Path pts, float t1, float t2, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true)
 	{
 		return Quaternion.LookRotation(Interp(pts, t2, ease, easeIn, easeOut) - Interp(pts, t1, ease, easeIn, easeOut));
 	}
 	
 	
-	public static Vector3 Velocity(Path pts, float t, EasingType ease, bool easeIn, bool easeOut) 
+	public static Vector3 Velocity(Path pts, float t, EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true) 
 	{
-		t = Ease(t, ease , easeIn, easeOut);
+		t = Ease(t);
 		if(pts.Length == 0)
 		{
 			return Vector3.zero;
@@ -325,10 +325,10 @@ public static class Spline
 	{
 		return (new Vector3[] { path[0] }).Concat(path).Concat(new Vector3[] { path[path.Length-1]}).ToArray();
 	}
-		
-	public static void GizmoDraw(Vector3[] pts, float t,EasingType ease, bool easeIn, bool easeOut) {
+	
+	public static void GizmoDraw(Vector3[] pts, float t,EasingType ease = EasingType.Linear, bool easeIn = true, bool easeOut = true) {
 		Gizmos.color = Color.white;
-		Vector3 prevPt = Interp(pts, t, ease , easeIn, easeOut);
+		Vector3 prevPt = Interp(pts, 0);
 		
 		for (int i = 1; i <= 20; i++) {
 			float pm = (float) i / 20f;
@@ -393,6 +393,5 @@ public static class Spline
 		
 		
 	}
-
+	
 }
-

@@ -34,7 +34,7 @@ public class pathController : MonoBehaviour {
 		if (!goPath)return;
 
 		velocitat += acceleracio / 100;
-		//transform.position = Spline.MoveOnPath(path, transform.position, ref t, velocitat);
+		transform.position = Spline.MoveOnPath(path, transform.position, ref t, velocitat);
 
 		if (target) {
 			Quaternion rotation = Quaternion.LookRotation (target.position - transform.position);
