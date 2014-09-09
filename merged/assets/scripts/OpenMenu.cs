@@ -53,7 +53,7 @@ public class OpenMenu : MonoBehaviour {
 		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "New\nGame")) {
 			Debug.Log ("New Game");
 			gs.GameNew();
-			Application.LoadLevel("placa");
+			Application.LoadLevel("placa_tutorial");
 		}
 
 		GUI.skin.button.normal.background = (Texture2D) image2;
@@ -61,7 +61,11 @@ public class OpenMenu : MonoBehaviour {
 		GUI.skin.button.active.background = (Texture2D) image2;
 		if (GUI.Button (new Rect (left2 * Screen.width*stylebgratio, top2 * Screen.height, size2 * Screen.height * stylebgratio, size2 * Screen.height), "Load/Save\nGame")) {
 			gs.GameLoad();
-			Application.LoadLevel(gs.GetInt("scene"));
+			//modificacio build jesus
+
+			//Application.LoadLevel(gs.GetInt("scene"));
+
+			Application.LoadLevel("placa");
 			Debug.Log ("Load/Save Game");
 		}
 
