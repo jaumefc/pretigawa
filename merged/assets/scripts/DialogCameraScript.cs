@@ -2,44 +2,44 @@
 using System.Collections;
 
 public class DialogCameraScript : MonoBehaviour {
-	
+
 	enum DialogState {INIT, EVAL, SHOW, EXEC, END, NONE};
 	enum ShowState {SHOW,CLICK_WAIT};
-	
+
 	DialogState dialogState;
 	private ShowState showState=ShowState.SHOW;
-	
+
 	private GameObject[] objBallons = new GameObject[4];
 	private Texture texture;
 	private bool skip = false;
-	
+
 	public GUIStyle style_think;
 	public GUIStyle style_alien;
 	public GUIStyle style_theother;
 	public GUIStyle style_narrator;
 
 	CameraControl CCScript;
-	
-	//	float ratio = 1f;
-	
-	float size = 1f;
-	//	float x = 0.5f;
-	//	float y = 0.5f;
-	
+
+//	float ratio = 1f;
+
+	float size = 2.5f;
+//	float x = 0.5f;
+//	float y = 0.5f;
+
 	float screenratio;
-	
+
 	GameState gs;
 	InventoryControl inventoryControl;
-	
+
 	private AudioSource playerAS;
-	
+
 	[HideInInspector]
 	public ConversationNodeClass CurNode;
 	float gettime = 0;
-	
+
 	IList NodesToShow = new ArrayList();
 	ConversationNodeClass[] NodesToEvaluate;
-	
+	ConversationTreeClass cTree;
 	
 	// Use this for initialization
 	void Start () {
@@ -53,7 +53,7 @@ public class DialogCameraScript : MonoBehaviour {
 		style_alien.fontSize = style_think.fontSize;
 		style_theother.fontSize = style_think.fontSize;
 		style_narrator.fontSize = style_think.fontSize;
-		texture = Resources.Load<Texture> ("Textures/GUI_elements/G07");
+		texture = Resources.Load<Texture> ("Textures/GUI_elements/thinkGreen");
 		for (int i = 0; i<4; i++) 
 		{
 			objBallons[i] = new GameObject("balloon"+i);
@@ -69,16 +69,16 @@ public class DialogCameraScript : MonoBehaviour {
 			objBallons[i].guiText.font = style_think.font;
 			objBallons[i].guiText.color = Color.black;
 		}
-		
+
 		//inicialitzar mides bafarada?
 	}
-	
+
 	void InitDialog(){
 		
 		//coses iniciar
 		dialogState = DialogState.EVAL;
 	}
-	
+
 	/*
 	 * De tots els node possibles, comprova quins seran els que es mostraran.
 	 * Comprova variables al gameState
@@ -104,19 +104,19 @@ public class DialogCameraScript : MonoBehaviour {
 		else //options to decide
 		{
 			for (int i=0; i<NodeArray.Length; i++){
-				
+
 				if(CheckConditional(NodeArray[i]) && CheckCustom(NodeArray[i]))
-					NodesToShow.Add (NodeArray[i]);
-				
-				//				if (NodeArray[i].ShowNode==ConversationNodeClass.show.ALWAYS){
-				//					NodesToShow.Add (NodeArray[i]);
-				//				}
-				//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF&&gs.GetBool(NodeArray[i].var)==true){
-				//					NodesToShow.Add (NodeArray[i]);
-				//				}
-				//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF_NOT&&gs.GetBool(NodeArray[i].var)==false){
-				//					NodesToShow.Add (NodeArray[i]);
-				//				}
+				   NodesToShow.Add (NodeArray[i]);
+
+//				if (NodeArray[i].ShowNode==ConversationNodeClass.show.ALWAYS){
+//					NodesToShow.Add (NodeArray[i]);
+//				}
+//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF&&gs.GetBool(NodeArray[i].var)==true){
+//					NodesToShow.Add (NodeArray[i]);
+//				}
+//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF_NOT&&gs.GetBool(NodeArray[i].var)==false){
+//					NodesToShow.Add (NodeArray[i]);
+//				}
 				
 			}
 			switch (NodesToShow.Count){
@@ -192,7 +192,7 @@ public class DialogCameraScript : MonoBehaviour {
 		}
 		//WTF!?!?!?!?! Metode HitTest() del GUITexture!!!!!
 	}
-	
+
 	/*
 	 * Executa el node seleccionat. Sexecuta la accio previa al node, em mostra el node amb la bafarada de parlar
 	 * segons sigui l'alien, l'altre interlocutor o el narrador qui digui la frase. S'executa tambe el clip d'audio
@@ -208,7 +208,6 @@ public class DialogCameraScript : MonoBehaviour {
 		Balloondx = 0.24f;
 		Balloondy = 0.44f;
 
-
 		if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
 			style = style_alien;
 		} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
@@ -221,12 +220,10 @@ public class DialogCameraScript : MonoBehaviour {
 			//Balloony = 0.7f;
 			//Balloondy = 0.2f;
 		}
-
-   		if (gettime + Node.fSeconds > Time.time && !(Input.GetMouseButtonUp(0) && skip)) {                                                                                                                                                                                                                                                                                                                                                                                                     
-
+		if (gettime + Node.fSeconds > Time.time && !(Input.GetMouseButtonUp(0) && skip)) {                                                                                                                                                                                                                                                                                                                                                                                                     
 			GUI.Button (new Rect (Balloonx * Screen.width, Balloony * Screen.height, Balloondx * Screen.width, Balloondy * Screen.height), 
 			            Node.sFirstOption, style);
-			if(Input.GetMouseButtonDown(0)){
+			if(Input.GetMouseButtonDown(0) && cTree.allowSkip){
 				skip=true;
 			}
 		}
@@ -246,12 +243,12 @@ public class DialogCameraScript : MonoBehaviour {
 			}
 		}
 	}
-	
+
 	/*
 	 * Finalitza la conversa, para la maqina d'estats de la conversa
 	 */
 	void EndDialog(){
-		
+
 		Debug.Log(Camera.current);
 		if(CCScript.IsIn()){
 			CCScript.TransferOut();
@@ -259,7 +256,7 @@ public class DialogCameraScript : MonoBehaviour {
 		dialogState = DialogState.NONE;
 		this.enabled = false;
 	}
-	
+
 	/*
 	 *Deshabilita les bafarades de opcions 
 	 */
@@ -271,39 +268,44 @@ public class DialogCameraScript : MonoBehaviour {
 			objBallons[i].guiTexture.enabled=false;
 		}	
 	}
-	
+
 	void OnGUI() {
 		switch (dialogState) {
-		case DialogState.INIT:
-			InitDialog();
-			break;
-		case DialogState.EVAL:
-			EvaluateNodes(NodesToEvaluate);
-			break;
-		case DialogState.EXEC:
-			ExecuteNode (CurNode);
-			break;
-		case DialogState.SHOW:
-			ShowNodes(NodesToShow);
-			break;
-		case DialogState.END:
-			//executar el que sigui que calgui pel joc!
-			EndDialog();
-			break;
-		case DialogState.NONE:
-			//????
-			break;
+			case DialogState.INIT:
+				InitDialog();
+				break;
+			case DialogState.EVAL:
+				EvaluateNodes(NodesToEvaluate);
+				break;
+			case DialogState.EXEC:
+				ExecuteNode (CurNode);
+				break;
+			case DialogState.SHOW:
+				ShowNodes(NodesToShow);
+				break;
+			case DialogState.END:
+				//executar el que sigui que calgui pel joc!
+				EndDialog();
+				break;
+			case DialogState.NONE:
+				//????
+				break;
 		}
 	}
-	
+
 	/*
 	 * Metode per afegir els nodes principals d'una arbre de conversa.
 	 * Previ a iniciar la conversa
 	 */
-	public void SetRootNodes(ConversationNodeClass[] rootNodes){
+	private void SetRootNodes(ConversationNodeClass[] rootNodes){
 		NodesToEvaluate = rootNodes;
 	}
-	
+
+	public void SetConvesationTree(ConversationTreeClass tree){
+		cTree = tree;
+		SetRootNodes (cTree.rootNodes);
+	}
+
 	/*
 	 * Metode per iniciar la maquina destats, la conversa
 	 */
@@ -312,7 +314,12 @@ public class DialogCameraScript : MonoBehaviour {
 		this.enabled = true;
 		dialogState = DialogState.INIT;
 	}
-	
+
+	public void Init(ConversationTreeClass tree){
+		SetConvesationTree (tree);
+		Init();
+	}
+
 	bool CheckCustom(ConversationNodeClass node)
 	{
 		bool ret = false;
@@ -329,11 +336,11 @@ public class DialogCameraScript : MonoBehaviour {
 		case ConversationNodeClass.costume.JAPANESE:
 			if(inventoryControl.GetCurrentCostume()==Custom.JAPANESE ) ret = true;
 			break;
-			
+
 		}
 		return ret;
 	}
-	
+
 	bool CheckConditional(ConversationNodeClass node)
 	{
 		bool ret = false;
@@ -349,8 +356,8 @@ public class DialogCameraScript : MonoBehaviour {
 		return ret;
 	}
 }
+	
 
-
-
-
-
+	
+	
+	

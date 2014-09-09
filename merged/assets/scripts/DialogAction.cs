@@ -30,7 +30,8 @@ public class DialogAction : Action {
 		
 		
 		//DCScript.NextNode = StartNode;
-		DCScript.SetRootNodes(StartTree.rootNodes);
+		//DCScript.SetRootNodes(StartTree.rootNodes);
+		DCScript.SetConvesationTree (StartTree);
 		
 	}
 }

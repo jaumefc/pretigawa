@@ -100,15 +100,17 @@ public class interactuable : MonoBehaviour {
 				foreach(GameObject objecte in erroni.objectes){
 					if(objecte == origen){
 						nodeALlencar = erroni.frase;
-						DCScript.SetRootNodes(nodeALlencar.rootNodes);
-						DCScript.Init();
+						//DCScript.SetRootNodes(nodeALlencar.rootNodes);
+						//DCScript.Init();
+						DCScript.Init(nodeALlencar);
 						DCScript.enabled = true;
 						return false;
 					}
 				}
 			}
-			DCScript.SetRootNodes(nodeALlencar.rootNodes);
-			DCScript.Init();
+			//DCScript.SetRootNodes(nodeALlencar.rootNodes);
+			//DCScript.Init();
+			DCScript.Init(nodeALlencar);
 			DCScript.enabled = true;
 			return false;
 		}

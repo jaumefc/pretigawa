@@ -106,8 +106,8 @@ public class TutorialScript : MonoBehaviour {
 		}
 		else if (varEstat==Estat.STARTTUTORIAL){
 			Debug.Log(varEstat);
-			DCScript.SetRootNodes(StartTree.rootNodes);
-			DCScript.Init();
+			//DCScript.SetRootNodes(StartTree.rootNodes);
+			DCScript.Init(StartTree);
 			varEstat=Estat.EMPTY;
 
 		}

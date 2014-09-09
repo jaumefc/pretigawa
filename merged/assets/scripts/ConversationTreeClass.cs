@@ -11,7 +11,10 @@ public class ConversationTreeClass : MonoBehaviour {
 
 	public ConversationNodeClass[] rootNodes;
 	public bool useDialgogCamera = true;
+	public bool allowSkip = true;
 	public ConverationStyle style = ConverationStyle.BAFARADA;
+	public Camera alienCam;
+	public Camera otherCam;
 
 
 

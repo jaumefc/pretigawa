@@ -13,8 +13,8 @@ public class TriggerDialog : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		if(other == GameObject.Find ("Player").collider){
-			DCScript.SetRootNodes(StartTree.rootNodes);
-			DCScript.Init();
+			//DCScript.SetRootNodes(StartTree.rootNodes);
+			DCScript.Init(StartTree);
 		}
 	}
 }

@@ -14,7 +14,8 @@ public class LookAction : Action {
 
 	public override void Do () {
 		Debug.Log("LookAction is selected");
-		DCScript.SetRootNodes(StartTree.rootNodes);
+		//DCScript.SetRootNodes(StartTree.rootNodes);
+		DCScript.Init (StartTree);
 
 		//MissatgePantalla MP = GameObject.Find ("CameraControl").GetComponent<MissatgePantalla> ();
 		//MP.missatge = "It actually looks exactly as any other cube I've seen so far...";
