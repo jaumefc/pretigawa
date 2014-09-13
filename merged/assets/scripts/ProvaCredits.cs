@@ -53,9 +53,13 @@ public class ProvaCredits : MonoBehaviour {
 		credit = (GameObject)GameObject.Instantiate (prefab);
 	//	credit.GetComponentInChildren<TextMesh>().text = text[currCredit];
 		Renderer boardRend = credit.transform.FindChild("Cube").GetComponent<Renderer>();
-		if(boardRend.material.HasProperty("_decalTexture"))
+//		Material mat = new Material(Shader.Find("Decal"));
+		//mat.CopyPropertiesFromMaterial(boardRend.material);
+//		mat.SetTexture ("_DecalTex", text [currCredit]);
+//		boardRend.material = mat;
+		if(boardRend.material.HasProperty("_DecalTex"))
 		{
-			boardRend.material.SetTexture("_decalTexture",text[currCredit]);
+			boardRend.material.SetTexture("_DecalTex",text[currCredit]);
 		}
 		currCredit++;
 
