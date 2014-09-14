@@ -32,22 +32,28 @@ public class interactuable : MonoBehaviour {
 		Renderer [] renderers = gameObject.GetComponentsInChildren<Renderer>();
 		for(int i =0; i< renderers.Length;i++){
 			//Afegim el material per fer outliner
-			Material[] mats = new Material[renderers[i].materials.Length+1];
-			renderers[i].materials.CopyTo(mats,0);
-			mats.SetValue(outMaterial,renderers[i].materials.Length);
-			renderers[i].materials = mats;
-			//Afegim animacio
-			renderers[i].gameObject.AddComponent<Animation>();
-			renderers[i].gameObject.animation.wrapMode = WrapMode.Loop;
-			renderers[i].gameObject.animation.playAutomatically = true;
-			renderers[i].gameObject.animation.clip = anim;
-//			renderers[i].gameObject.animation.AddClip(anim,"oultine");
-			renderers[i].gameObject.animation.Play();
-			renderers[i].gameObject.AddComponent<Animator>();
-			Animator controller = renderers[i].gameObject.GetComponent<Animator>();
-			controller.runtimeAnimatorController = animControl;
+//			Material[] mats = new Material[renderers[i].materials.Length+1];
+//			renderers[i].materials.CopyTo(mats,0);
+//			mats.SetValue(outMaterial,renderers[i].materials.Length);
+//			renderers[i].materials = mats;
+//			//Afegim animacio
+//			renderers[i].gameObject.AddComponent<Animation>();
+//			renderers[i].gameObject.animation.wrapMode = WrapMode.Loop;
+//			renderers[i].gameObject.animation.playAutomatically = true;
+//			renderers[i].gameObject.animation.clip = anim;
+////			renderers[i].gameObject.animation.AddClip(anim,"oultine");
+//			renderers[i].gameObject.animation.Play();
+//			renderers[i].gameObject.AddComponent<Animator>();
+//			Animator controller = renderers[i].gameObject.GetComponent<Animator>();
+//			controller.runtimeAnimatorController = animControl;
 			//renderers[i].gameObject.
 			//renderers[i].gameObject.animation.AddClip//
+			/////
+			/// 
+			Material mat = new Material(Shader.Find("VertexLit Funky"));
+			mat.SetTexture("_MainTex",renderers[i].material.GetTexture("_MainTex"));
+			renderers[i].material = mat;
+			/////
 		}
 		width = Display.main.systemWidth;
 		height = Display.main.systemHeight;
