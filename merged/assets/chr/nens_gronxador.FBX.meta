@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: e074e68dee93c374899e509dae1257f4
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    0: 
+    100000: JapoRigcabezaGizmo
+    100002: JapoRigcabezaGizmo001
+    100004: JapoRigHub001Gizmo
+    100006: JapoRigHub001Gizmo001
+    100008: JapoRigLArm1Gizmo
+    100010: JapoRigLArm1Gizmo001
+    100012: JapoRigLArm2Gizmo
+    100014: JapoRigLArm2Gizmo001
+    100016: JapoRigLArmPalmGizmo
+    100018: JapoRigLArmPalmGizmo001
+    100020: JapoRigPechoGizmo
+    100022: JapoRigPechoGizmo001
+    100024: JapoRigRArm1Gizmo
+    100026: JapoRigRArm1Gizmo001
+    100028: JapoRigRArm2Gizmo
+    100030: JapoRigRArm2Gizmo001
+    100032: JapoRigRArmPalmGizmo
+    100034: JapoRigRArmPalmGizmo001
+    100036: nen gronxador a
+    100038: nen gronxador a 1
+    100040: nen gronxador b
+    100042: nen gronxador b 1
+    100044: Nenrig
+    100046: Nenrig001
+    100048: Nenrigcabeza
+    100050: Nenrigcabeza001
+    100052: Nenrigcuello003
+    100054: Nenrigcuello004
+    100056: Nenrigcuello1
+    100058: Nenrigcuello2
+    100060: NenrigHub001
+    100062: NenrigHub002
+    100064: NenrigLArm003
+    100066: NenrigLArm004
+    100068: NenrigLArm1
+    100070: NenrigLArm2
+    100072: NenrigLArmCollarbone
+    100074: NenrigLArmCollarbone001
+    100076: NenrigLArmIKTarget
+    100078: NenrigLArmIKTarget001
+    100080: NenrigLArmPalm
+    100082: NenrigLArmPalm001
+    100084: NenrigLLeg002
+    100086: NenrigLLeg1
+    100088: NenrigLLegAnkle
+    100090: NenrigLLegAnkle001
+    100092: NenrigLLegDigit012
+    100094: NenrigLLegDigit11
+    100096: NenrigLLegPlatform
+    100098: NenrigLLegPlatform001
+    100100: NenrigPecho
+    100102: NenrigPecho001
+    100104: NenrigRArm
+    100106: NenrigRArm003
+    100108: NenrigRArm004
+    100110: NenrigRArm005
+    100112: NenrigRArm1
+    100114: NenrigRArm2
+    100116: NenrigRArmCollarbone
+    100118: NenrigRArmCollarbone001
+    100120: NenrigRArmPalm
+    100122: NenrigRArmPalm001
+    100124: NenrigRLeg002
+    100126: NenrigRLeg1
+    100128: NenrigRLegAnkle
+    100130: NenrigRLegAnkle001
+    100132: NenrigRLegDigit012
+    100134: NenrigRLegDigit11
+    100136: NenrigRLegPlatform
+    100138: NenrigRLegPlatform001
+    100140: NenrigSpine004
+    100142: NenrigSpine005
+    100144: NenrigSpine006
+    100146: NenrigSpine1
+    100148: NenrigSpine2
+    100150: NenrigSpine3
+    100152: //RootNode
+    100154: parc_columpio_balanci A
+    100156: parc_columpio_balanci B
+    400000: JapoRigcabezaGizmo
+    400002: JapoRigcabezaGizmo001
+    400004: JapoRigHub001Gizmo
+    400006: JapoRigHub001Gizmo001
+    400008: JapoRigLArm1Gizmo
+    400010: JapoRigLArm1Gizmo001
+    400012: JapoRigLArm2Gizmo
+    400014: JapoRigLArm2Gizmo001
+    400016: JapoRigLArmPalmGizmo
+    400018: JapoRigLArmPalmGizmo001
+    400020: JapoRigPechoGizmo
+    400022: JapoRigPechoGizmo001
+    400024: JapoRigRArm1Gizmo
+    400026: JapoRigRArm1Gizmo001
+    400028: JapoRigRArm2Gizmo
+    400030: JapoRigRArm2Gizmo001
+    400032: JapoRigRArmPalmGizmo
+    400034: JapoRigRArmPalmGizmo001
+    400036: nen gronxador a
+    400038: nen gronxador a 1
+    400040: nen gronxador b
+    400042: nen gronxador b 1
+    400044: Nenrig
+    400046: Nenrig001
+    400048: Nenrigcabeza
+    400050: Nenrigcabeza001
+    400052: Nenrigcuello003
+    400054: Nenrigcuello004
+    400056: Nenrigcuello1
+    400058: Nenrigcuello2
+    400060: NenrigHub001
+    400062: NenrigHub002
+    400064: NenrigLArm003
+    400066: NenrigLArm004
+    400068: NenrigLArm1
+    400070: NenrigLArm2
+    400072: NenrigLArmCollarbone
+    400074: NenrigLArmCollarbone001
+    400076: NenrigLArmIKTarget
+    400078: NenrigLArmIKTarget001
+    400080: NenrigLArmPalm
+    400082: NenrigLArmPalm001
+    400084: NenrigLLeg002
+    400086: NenrigLLeg1
+    400088: NenrigLLegAnkle
+    400090: NenrigLLegAnkle001
+    400092: NenrigLLegDigit012
+    400094: NenrigLLegDigit11
+    400096: NenrigLLegPlatform
+    400098: NenrigLLegPlatform001
+    400100: NenrigPecho
+    400102: NenrigPecho001
+    400104: NenrigRArm
+    400106: NenrigRArm003
+    400108: NenrigRArm004
+    400110: NenrigRArm005
+    400112: NenrigRArm1
+    400114: NenrigRArm2
+    400116: NenrigRArmCollarbone
+    400118: NenrigRArmCollarbone001
+    400120: NenrigRArmPalm
+    400122: NenrigRArmPalm001
+    400124: NenrigRLeg002
+    400126: NenrigRLeg1
+    400128: NenrigRLegAnkle
+    400130: NenrigRLegAnkle001
+    400132: NenrigRLegDigit012
+    400134: NenrigRLegDigit11
+    400136: NenrigRLegPlatform
+    400138: NenrigRLegPlatform001
+    400140: NenrigSpine004
+    400142: NenrigSpine005
+    400144: NenrigSpine006
+    400146: NenrigSpine1
+    400148: NenrigSpine2
+    400150: NenrigSpine3
+    400152: //RootNode
+    400154: parc_columpio_balanci A
+    400156: parc_columpio_balanci B
+    2300000: //RootNode
+    2300002: parc_columpio_balanci A
+    2300004: parc_columpio_balanci B
+    2300008: //RootNode
+    3300000: //RootNode
+    3300002: parc_columpio_balanci A
+    3300004: parc_columpio_balanci B
+    3300008: parc_columpio
+    4300000: parc_columpio
+    4300002: nen gronxador a 1
+    4300004: nen gronxador b
+    4300006: parc_columpio_balanci A
+    4300008: nen gronxador a
+    4300010: parc_columpio_balanci B
+    7400000: nens_04_columpio 03
+    11100000: //RootNode
+    13700000: nen gronxador a 1
+    13700002: nen gronxador b 1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: 0
+    animationPositionError: 0
+    animationScaleError: 0
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: nens_04_columpio 03
+      takeName: nens_04_columpio 03
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: parc_columpio_balanci A
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigcabezaGizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigHub001Gizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigLArm1Gizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigLArm2Gizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigLArmPalmGizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigPechoGizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigRArm1Gizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigRArm2Gizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/JapoRigRArmPalmGizmo001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/nen gronxador a 1
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/Nenrig001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigLLeg002
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigLLeg002/NenrigLLegAnkle001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigLLeg002/NenrigLLegAnkle001/NenrigLLegDigit012
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigRLeg002
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigRLeg002/NenrigRLegAnkle001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigRLeg002/NenrigRLegAnkle001/NenrigRLegDigit012
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/Nenrigcuello003
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/Nenrigcuello003/Nenrigcuello004
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/Nenrigcuello003/Nenrigcuello004/Nenrigcabeza001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigLArmCollarbone001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigLArmCollarbone001/NenrigLArm003
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigLArmCollarbone001/NenrigLArm003/NenrigLArm004
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigLArmCollarbone001/NenrigLArm003/NenrigLArm004/NenrigLArmPalm001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigRArmCollarbone001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigRArmCollarbone001/NenrigRArm003
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigRArmCollarbone001/NenrigRArm003/NenrigRArm004
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigHub002/NenrigSpine004/NenrigSpine005/NenrigSpine006/NenrigPecho001/NenrigRArmCollarbone001/NenrigRArm003/NenrigRArm004/NenrigRArmPalm001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigLArmIKTarget001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigLLegPlatform001
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigRArm005
+        weight: 1
+      - path: parc_columpio_balanci A/nen gronxador a/NenrigRLegPlatform001
+        weight: 1
+      - path: parc_columpio_balanci B
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigcabezaGizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigHub001Gizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigLArm1Gizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigLArm2Gizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigLArmPalmGizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigPechoGizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigRArm1Gizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigRArm2Gizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/JapoRigRArmPalmGizmo
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/nen gronxador b 1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/Nenrig
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigLLeg1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigLLeg1/NenrigLLegAnkle
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigLLeg1/NenrigLLegAnkle/NenrigLLegDigit11
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigRLeg1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigRLeg1/NenrigRLegAnkle
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigRLeg1/NenrigRLegAnkle/NenrigRLegDigit11
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/Nenrigcuello1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/Nenrigcuello1/Nenrigcuello2
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/Nenrigcuello1/Nenrigcuello2/Nenrigcabeza
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigLArmCollarbone
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigLArmCollarbone/NenrigLArm1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigLArmCollarbone/NenrigLArm1/NenrigLArm2
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigLArmCollarbone/NenrigLArm1/NenrigLArm2/NenrigLArmPalm
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigRArmCollarbone
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigRArmCollarbone/NenrigRArm1
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigRArmCollarbone/NenrigRArm1/NenrigRArm2
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigHub001/NenrigSpine1/NenrigSpine2/NenrigSpine3/NenrigPecho/NenrigRArmCollarbone/NenrigRArm1/NenrigRArm2/NenrigRArmPalm
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigLArmIKTarget
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigLLegPlatform
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigRArm
+        weight: 1
+      - path: parc_columpio_balanci B/nen gronxador b/NenrigRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

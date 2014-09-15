@@ -13,6 +13,10 @@ public class absorcioEffect : MonoBehaviour {
 	public ParticleSystem explosioFase2;
 	public Rigidbody thisRigidBody;
 
+	private bool started = false;
+
+	public GameObject target;
+
 	void Start () {
 		pathcontroller = GetComponent<pathController> ();
 		conoObj = effecteCono.gameObject;
@@ -20,7 +24,10 @@ public class absorcioEffect : MonoBehaviour {
 
 	void Update () {
 		if ((Input.GetKey ("h"))) {
-			startAbsorcio();
+			if(!started){
+				started = true;
+				startAbsorcio();
+			}
 		}
 	}
 
@@ -44,6 +51,7 @@ public class absorcioEffect : MonoBehaviour {
 	}
 
 	private void gopath(){
+		target.SetActive (false);
 		pathcontroller.goPath = true;
 	}
 
@@ -58,6 +66,7 @@ public class absorcioEffect : MonoBehaviour {
 		thisRigidBody.angularVelocity = Vector3.zero;
 		conoObj.rigidbody.angularVelocity = Vector3.zero;
 		transform.position = startingPosition;
+		started = false;
 	}
 
 }
