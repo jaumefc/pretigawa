@@ -4,16 +4,18 @@ using System.Collections;
 public class controlMoviment : MonoBehaviour {
 	
 	public float speed;
-	public ParticleSystem pinyuParticles;
 
+	private GameObject player;
 	private Transform target;
 	private Vector3 startingPosition;
 	private Quaternion startingRotation;
 	private NavMeshAgent navi;
 
+	private lifeController playerLife;
 	private bool hasTarget = false;
 	private Animation animations;
 	private bool imAttacking = false;
+	private bool checkingAttack = false;
 
 	private Vector3 thisNextstep;
 
@@ -33,6 +35,8 @@ public class controlMoviment : MonoBehaviour {
 		startingRotation = transform.rotation;
 		navi = GetComponent<NavMeshAgent>();
 		animations = GetComponent<Animation>();
+		player = GameObject.Find("Player");
+		playerLife = player.GetComponent<lifeController> ();
 	}
 
 	public void setState (int state){
@@ -67,7 +71,13 @@ public class controlMoviment : MonoBehaviour {
 			break;
 
 			case enemyState.attack:
-				animations.CrossFade("Attack");
+				if(!checkingAttack && playerLife.life>0){
+					checkingAttack = true;
+					StartCoroutine(checkAttack(animations.animation["Attack"].length));
+				}else if(playerLife.life <= 0){
+					setState(2);
+				}else
+					animations.CrossFade("Attack");
 			break;
 
 			case enemyState.die:
@@ -97,7 +107,7 @@ public class controlMoviment : MonoBehaviour {
 			if(absDistance <= 2.5){
 				imAttacking = true;
 				_enemyState = enemyState.attack;
-				Invoke("checkAttack", 1.0f);
+				//Invoke("checkAttack", 1.0f);
 			}else{
 				_enemyState = enemyState.idle;
 			}
@@ -151,15 +161,13 @@ public class controlMoviment : MonoBehaviour {
 		return false;
 	}
 
-	private void stopParticles(){
-		pinyuParticles.Stop ();
-	}
-
+		/*
 	private void checkAttack(){
 		Vector3 distance = target.position - transform.position;
 		float absDistance = distance.sqrMagnitude;
 		if (absDistance < 3) {
-			Invoke ("checkAttack", 1.0f);
+			player.GetComponent<lifeController>().takeOutLife(2.5f);
+			Invoke ("checkAttack", 0.5f);
 			pinyuParticles.Play();
 			Invoke ("stopParticles", 2.0f);
 		}
@@ -167,6 +175,22 @@ public class controlMoviment : MonoBehaviour {
 			_enemyState = enemyState.move;
 			imAttacking = false;
 		}
-	}
+	}*/
 
+	IEnumerator checkAttack(float time)
+	{
+		yield return new WaitForSeconds(time);
+		
+		Vector3 distance = target.position - transform.position;
+		float absDistance = distance.sqrMagnitude;
+		if (absDistance < 3) {
+			player.GetComponent<lifeController>().takeOutLife(2.5f);
+		}
+		else {
+			_enemyState = enemyState.move;
+			imAttacking = false;
+		}
+
+		checkingAttack = false;
+	}
 }
