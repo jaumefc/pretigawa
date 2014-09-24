@@ -6,6 +6,8 @@ public class absorcioEffect : MonoBehaviour {
 	private Vector3 startingPosition;
 	private pathController pathcontroller;
 	private GameObject conoObj;
+	private GameObject pathObj;
+	private GameObject mainChar;
 
 	public ParticleSystem effecteCobertura;
 	public ParticleSystem effecteBrillo;
@@ -19,7 +21,10 @@ public class absorcioEffect : MonoBehaviour {
 
 	void Start () {
 		pathcontroller = GetComponent<pathController> ();
-		conoObj = effecteCono.gameObject;
+		mainChar = GameObject.Find ("Player");
+		pathObj = GameObject.Find ("PartsAbsorcions");
+		conoObj = GameObject.Find ("ConoAbsorcio");
+		effecteCono = conoObj.GetComponent<ParticleSystem> ();
 	}
 
 	void Update () {
