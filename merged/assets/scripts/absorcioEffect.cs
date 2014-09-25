@@ -11,33 +11,47 @@ public class absorcioEffect : MonoBehaviour {
 
 	public ParticleSystem effecteCobertura;
 	public ParticleSystem effecteBrillo;
-	public ParticleSystem effecteCono;
+	private ParticleSystem effecteCono;
 	public ParticleSystem explosioFase2;
-	public Rigidbody thisRigidBody;
+	private Rigidbody thisRigidBody;
 
 	private bool started = false;
+	private GameObject target;
 
-	public GameObject target;
+	private bool goingTowardsTarget = false;
 
 	void Start () {
+	}
+
+	void Update () {
+		if (target == null || goingTowardsTarget == false) return;
+
+		Vector3 vectorMoviment = (target.transform.position - mainChar.transform.position);
+		if (vectorMoviment.magnitude < 6) {
+			mainChar.GetComponent<mouseControl> ().GoTo (mainChar.transform.position);
+			if (!started) startAbsorcio ();
+		}
+		else {
+				mainChar.GetComponent<mouseControl> ().GoTo (target.transform.position);
+		}
+	}
+
+	public void tryStartAbsorcio(GameObject absTarget){
+		target = absTarget;
 		pathcontroller = GetComponent<pathController> ();
 		mainChar = GameObject.Find ("Player");
 		pathObj = GameObject.Find ("PartsAbsorcions");
 		conoObj = GameObject.Find ("ConoAbsorcio");
+		thisRigidBody = GetComponent<Rigidbody> ();
+		pathcontroller.path [0] = mainChar.transform.FindChild("PartsAbsorcions");
 		effecteCono = conoObj.GetComponent<ParticleSystem> ();
-	}
 
-	void Update () {
-		if ((Input.GetKey ("h"))) {
-			if(!started){
-				started = true;
-				startAbsorcio();
-			}
-		}
+		goingTowardsTarget = true;
 	}
 
 	public void startAbsorcio(){
-
+		started = true;
+		goingTowardsTarget = false;
 		thisRigidBody.angularVelocity = new Vector3 (0, 1, 0);
 		startingPosition = transform.position;
 		effecteCobertura.Play ();
@@ -51,27 +65,33 @@ public class absorcioEffect : MonoBehaviour {
 		effecteCobertura.Stop ();
 		effecteBrillo.Stop ();
 		explosioFase2.Play ();
+		animationControl ac = mainChar.GetComponent<animationControl> ();
+		ac.enabled = false;
+		Animation anims = mainChar.GetComponent<Animation> ();
+		anims.Play ("Absorbir");
+		effecteCono.Stop ();
 		Invoke ("gopath", 1);
-		Invoke ("resetEffect", 2.6f);
+		Invoke ("destroyInstance", 2.6f);
 	}
 
 	private void gopath(){
-		target.SetActive (false);
+		if(target != null)target.SetActive (false);
 		pathcontroller.goPath = true;
 	}
 
-	private void resetEffect(){
+	private void destroyInstance(){
 		pathcontroller.goPath = false;
 		pathcontroller.reset ();
 		effecteCobertura.Stop ();
 		effecteBrillo.Stop ();
-		effecteCono.Stop ();
 		explosioFase2.Stop ();
 		thisRigidBody.velocity = Vector3.zero;
 		thisRigidBody.angularVelocity = Vector3.zero;
-		conoObj.rigidbody.angularVelocity = Vector3.zero;
 		transform.position = startingPosition;
 		started = false;
+		animationControl ac = mainChar.GetComponent<animationControl> ();
+		ac.enabled = true;
+		Destroy (gameObject);
 	}
 
 }
