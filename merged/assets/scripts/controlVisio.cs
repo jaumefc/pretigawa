@@ -5,11 +5,12 @@ public class controlVisio : MonoBehaviour {
 
 	private bool ignoreIA = false;
 
-	public GameObject Player;
+	private GameObject Player;
 	private RaycastHit hit;
 	private controlMoviment cm;
 	private bool firstTimeSeen = true;
 	private Animation animations;
+	private float lastTimeSeen = 0.0f;
 
 	void Start () {
 		Player = GameObject.Find ("Player");
@@ -44,10 +45,16 @@ public class controlVisio : MonoBehaviour {
 					if (Physics.Raycast (visionRay, out hit)) {
 							if (hit.collider.gameObject == Player) {
 									if(firstTimeSeen){
+										cm.setTarget(gameObject);
 										animations.CrossFade("Angry");
 										Invoke("sawHim", 3);
 										return;
 									}else{
+										if((Time.realtimeSinceStartup - lastTimeSeen) > 10.0f && cm.getTarget() != Player){
+											AudioSource metalAlert = GetComponent<AudioSource>();
+											metalAlert.Play();
+											lastTimeSeen = Time.realtimeSinceStartup;
+										}
 										cm.setTarget (Player);
 										cm.setState (1);
 										return;
@@ -56,7 +63,8 @@ public class controlVisio : MonoBehaviour {
 							cm.setState (2);
 					}
 			} else if(cm.imAtHome() == false){
-				cm.setState (2);
+				if(cm.hasTarget == false)
+					cm.setState (2);
 				return;
 			}else{
 				firstTimeSeen = true;

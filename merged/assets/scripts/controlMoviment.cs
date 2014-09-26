@@ -12,10 +12,13 @@ public class controlMoviment : MonoBehaviour {
 	private NavMeshAgent navi;
 
 	private lifeController playerLife;
-	private bool hasTarget = false;
+	public bool hasTarget = false;
 	private Animation animations;
 	private bool imAttacking = false;
 	private bool checkingAttack = false;
+
+	private bool boringIdle = false;
+	private float lastTimeIdle = 0.0f;
 
 	private Vector3 thisNextstep;
 
@@ -55,9 +58,29 @@ public class controlMoviment : MonoBehaviour {
 		hasTarget = true;
 	}
 
+	private void selectRandomDestination(){
+		GameObject[] poses = GameObject.FindGameObjectsWithTag ("PlacaPos");
+		int rndPos = Random.Range (0, 9);
+		setTarget(poses [rndPos]);
+		_enemyState = enemyState.move;
+		moute ();
+		lastTimeIdle = 0.0f;
+	}
+
 	void Update () {
 		switch (_enemyState) {
 			case enemyState.idle:
+				if(lastTimeIdle == 0.0f)
+					lastTimeIdle = Time.realtimeSinceStartup;
+
+				if(boringIdle){
+					boringIdle = false;
+					selectRandomDestination();
+				}else{
+					if((Time.realtimeSinceStartup - lastTimeIdle) > 5.0f){
+						boringIdle = true;
+					}
+				}
 			break;
 
 			case enemyState.move:
@@ -100,14 +123,13 @@ public class controlMoviment : MonoBehaviour {
 		movement = nextstep - transform.position;
 		movement.y = 0;
 
-		if( navi.velocity.sqrMagnitude < 0.5 )
+		if( navi.velocity.sqrMagnitude < 0.5)
 		{
 			Vector3 distance = target.position - transform.position;
 			float absDistance = distance.sqrMagnitude;
-			if(absDistance <= 2.5){
+			if(absDistance <= 2.5 && (target.transform.position == player.transform.position)){
 				imAttacking = true;
 				_enemyState = enemyState.attack;
-				//Invoke("checkAttack", 1.0f);
 			}else{
 				_enemyState = enemyState.idle;
 			}
@@ -117,10 +139,10 @@ public class controlMoviment : MonoBehaviour {
 			movement = movement.normalized * speed;
 			_enemyState = enemyState.move;
 		}
+	}
 
-
-		//float step = speed * Time.deltaTime;
-		//transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+	public GameObject getTarget(){
+		return target.gameObject;
 	}
 
 	private void torna(){
@@ -160,22 +182,6 @@ public class controlMoviment : MonoBehaviour {
 						return true;
 		return false;
 	}
-
-		/*
-	private void checkAttack(){
-		Vector3 distance = target.position - transform.position;
-		float absDistance = distance.sqrMagnitude;
-		if (absDistance < 3) {
-			player.GetComponent<lifeController>().takeOutLife(2.5f);
-			Invoke ("checkAttack", 0.5f);
-			pinyuParticles.Play();
-			Invoke ("stopParticles", 2.0f);
-		}
-		else {
-			_enemyState = enemyState.move;
-			imAttacking = false;
-		}
-	}*/
 
 	IEnumerator checkAttack(float time)
 	{
