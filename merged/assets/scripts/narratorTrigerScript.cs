@@ -19,4 +19,11 @@ public class narratorTrigerScript : MonoBehaviour {
 			DCScript.Init(StartTree);
 		}
 	}
+
+	void OnTriggerExit(Collider other){
+		if(other == GameObject.Find ("Player").collider){
+			//DCScript.SetRootNodes(StartTree.rootNodes);
+			Destroy(this.gameObject);
+		}
+	}
 }

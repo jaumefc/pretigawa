@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 550d97ae8bbb0354a9ef7b91ec97fbd0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: beta
+    100002: //RootNode
+    100004: betaBody
+    100006: betaEyeBall
+    100008: betaHead
+    100010: betaIris
+    100012: betaLArm1
+    100014: betaLArm2
+    100016: betaLArmCollarbone
+    100018: betaLArmDigit11
+    100020: betaLArmDigit12
+    100022: betaLArmDigit21
+    100024: betaLArmDigit22
+    100026: betaLArmDigit23
+    100028: betaLArmDigit31
+    100030: betaLArmDigit32
+    100032: betaLArmDigit33
+    100034: betaLArmDigit41
+    100036: betaLArmDigit42
+    100038: betaLArmDigit43
+    100040: betaLArmPalm
+    100042: betaLLeg1
+    100044: betaLLeg2
+    100046: betaLLegAnkle
+    100048: betaLLegDigit11
+    100050: betaLLegPlatform
+    100052: betaMouth
+    100054: betaPelvis
+    100056: betaRArm1
+    100058: betaRArm2
+    100060: betaRArmCollarbone
+    100062: betaRArmDigit11
+    100064: betaRArmDigit12
+    100066: betaRArmDigit21
+    100068: betaRArmDigit22
+    100070: betaRArmDigit23
+    100072: betaRArmDigit31
+    100074: betaRArmDigit32
+    100076: betaRArmDigit33
+    100078: betaRArmDigit41
+    100080: betaRArmDigit42
+    100082: betaRArmDigit43
+    100084: betaRArmPalm
+    100086: betaRLeg1
+    100088: betaRLeg2
+    100090: betaRLegAnkle
+    100092: betaRLegDigit11
+    100094: betaRLegPlatform
+    100096: betaSpine1
+    100098: betaSpine2
+    100100: betaSpine3
+    100102: betaSpine4
+    100104: betaTail1
+    100106: Point001
+    100108: Point002
+    400000: beta
+    400002: //RootNode
+    400004: betaBody
+    400006: betaEyeBall
+    400008: betaHead
+    400010: betaIris
+    400012: betaLArm1
+    400014: betaLArm2
+    400016: betaLArmCollarbone
+    400018: betaLArmDigit11
+    400020: betaLArmDigit12
+    400022: betaLArmDigit21
+    400024: betaLArmDigit22
+    400026: betaLArmDigit23
+    400028: betaLArmDigit31
+    400030: betaLArmDigit32
+    400032: betaLArmDigit33
+    400034: betaLArmDigit41
+    400036: betaLArmDigit42
+    400038: betaLArmDigit43
+    400040: betaLArmPalm
+    400042: betaLLeg1
+    400044: betaLLeg2
+    400046: betaLLegAnkle
+    400048: betaLLegDigit11
+    400050: betaLLegPlatform
+    400052: betaMouth
+    400054: betaPelvis
+    400056: betaRArm1
+    400058: betaRArm2
+    400060: betaRArmCollarbone
+    400062: betaRArmDigit11
+    400064: betaRArmDigit12
+    400066: betaRArmDigit21
+    400068: betaRArmDigit22
+    400070: betaRArmDigit23
+    400072: betaRArmDigit31
+    400074: betaRArmDigit32
+    400076: betaRArmDigit33
+    400078: betaRArmDigit41
+    400080: betaRArmDigit42
+    400082: betaRArmDigit43
+    400084: betaRArmPalm
+    400086: betaRLeg1
+    400088: betaRLeg2
+    400090: betaRLegAnkle
+    400092: betaRLegDigit11
+    400094: betaRLegPlatform
+    400096: betaSpine1
+    400098: betaSpine2
+    400100: betaSpine3
+    400102: betaSpine4
+    400104: betaTail1
+    400106: Point001
+    400108: Point002
+    2300000: betaEyeBall
+    2300002: betaIris
+    3300000: betaEyeBall
+    3300002: betaIris
+    4300000: betaMouth
+    4300002: betaEyeBall
+    4300004: betaIris
+    4300006: betaBody
+    7400000: Idle
+    7400002: Walk
+    7400004: Talk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: betaBody
+    13700002: betaMouth
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 239
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: beta
+        weight: 1
+      - path: betaBody
+        weight: 1
+      - path: betaLLegPlatform
+        weight: 1
+      - path: betaMouth
+        weight: 1
+      - path: betaPelvis
+        weight: 1
+      - path: betaPelvis/betaLLeg1
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2/betaLLegAnkle
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2/betaLLegAnkle/betaLLegDigit11
+        weight: 1
+      - path: betaPelvis/betaRLeg1
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2/betaRLegAnkle
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2/betaRLegAnkle/betaRLegDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaEyeBall
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit11/betaLArmDigit12
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21/betaLArmDigit22
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21/betaLArmDigit22/betaLArmDigit23
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31/betaLArmDigit32
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31/betaLArmDigit32/betaLArmDigit33
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41/betaLArmDigit42
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41/betaLArmDigit42/betaLArmDigit43
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit11/betaRArmDigit12
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21/betaRArmDigit22
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21/betaRArmDigit22/betaRArmDigit23
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31/betaRArmDigit32
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31/betaRArmDigit32/betaRArmDigit33
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41/betaRArmDigit42
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41/betaRArmDigit42/betaRArmDigit43
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point001
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point001/betaIris
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point002
+        weight: 1
+      - path: betaPelvis/betaTail1
+        weight: 1
+      - path: betaRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 339
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: beta
+        weight: 1
+      - path: betaBody
+        weight: 1
+      - path: betaLLegPlatform
+        weight: 1
+      - path: betaMouth
+        weight: 1
+      - path: betaPelvis
+        weight: 1
+      - path: betaPelvis/betaLLeg1
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2/betaLLegAnkle
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2/betaLLegAnkle/betaLLegDigit11
+        weight: 1
+      - path: betaPelvis/betaRLeg1
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2/betaRLegAnkle
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2/betaRLegAnkle/betaRLegDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaEyeBall
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit11/betaLArmDigit12
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21/betaLArmDigit22
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21/betaLArmDigit22/betaLArmDigit23
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31/betaLArmDigit32
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31/betaLArmDigit32/betaLArmDigit33
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41/betaLArmDigit42
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41/betaLArmDigit42/betaLArmDigit43
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit11/betaRArmDigit12
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21/betaRArmDigit22
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21/betaRArmDigit22/betaRArmDigit23
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31/betaRArmDigit32
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31/betaRArmDigit32/betaRArmDigit33
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41/betaRArmDigit42
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41/betaRArmDigit42/betaRArmDigit43
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point001
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point001/betaIris
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point002
+        weight: 1
+      - path: betaPelvis/betaTail1
+        weight: 1
+      - path: betaRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Talk
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 639
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: beta
+        weight: 1
+      - path: betaBody
+        weight: 1
+      - path: betaLLegPlatform
+        weight: 1
+      - path: betaMouth
+        weight: 1
+      - path: betaPelvis
+        weight: 1
+      - path: betaPelvis/betaLLeg1
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2/betaLLegAnkle
+        weight: 1
+      - path: betaPelvis/betaLLeg1/betaLLeg2/betaLLegAnkle/betaLLegDigit11
+        weight: 1
+      - path: betaPelvis/betaRLeg1
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2/betaRLegAnkle
+        weight: 1
+      - path: betaPelvis/betaRLeg1/betaRLeg2/betaRLegAnkle/betaRLegDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaEyeBall
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit11/betaLArmDigit12
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21/betaLArmDigit22
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit21/betaLArmDigit22/betaLArmDigit23
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31/betaLArmDigit32
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit31/betaLArmDigit32/betaLArmDigit33
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41/betaLArmDigit42
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaLArmCollarbone/betaLArm1/betaLArm2/betaLArmPalm/betaLArmDigit41/betaLArmDigit42/betaLArmDigit43
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit11
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit11/betaRArmDigit12
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21/betaRArmDigit22
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit21/betaRArmDigit22/betaRArmDigit23
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31/betaRArmDigit32
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit31/betaRArmDigit32/betaRArmDigit33
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41/betaRArmDigit42
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/betaRArmCollarbone/betaRArm1/betaRArm2/betaRArmPalm/betaRArmDigit41/betaRArmDigit42/betaRArmDigit43
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point001
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point001/betaIris
+        weight: 1
+      - path: betaPelvis/betaSpine1/betaSpine2/betaSpine3/betaSpine4/betaHead/Point002
+        weight: 1
+      - path: betaPelvis/betaTail1
+        weight: 1
+      - path: betaRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

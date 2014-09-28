@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ConversationNodeClass : MonoBehaviour {
 
-	public enum costume {NAKED, JAPANESE,MS_FORTUNE, EXTINGUISHER, ALL};//add as many as needed, global enum!
+	public enum costume {NAKED, JAPANESE, MS_FORTUNE, POLICEMAN, ALL};//add as many as needed, global enum!
 	public enum speaker {ALIEN, THEOTHER, NARRATOR};
 	public enum show {ALWAYS,IF, IF_NOT};
 

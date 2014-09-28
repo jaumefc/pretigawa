@@ -15,7 +15,7 @@ public class ConversationScriptWaitress : MonoBehaviour {
 		shot = GameObject.Find ("shot");
 		ic = player.GetComponent<InventoryControl> ();
 		if(!gs.ExistsBool("RecipeFirstTime"))
-			gs.AddBool ("RecipeFirstTime", true);;
+			gs.AddBool ("RecipeFirstTime", true);
 	}
 	
 	// Update is called once per frame

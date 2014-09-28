@@ -81,6 +81,7 @@ public class TutorialScript : MonoBehaviour {
 				mainChar.transform.rotation=posIni3.transform.rotation;
 				varEstat=Estat.ESCALATING;
 				iniTime=Time.time;
+				posIni2.audio.Play();
 			}
 		}
 		else if (varEstat==Estat.ESCALATING){
@@ -90,6 +91,7 @@ public class TutorialScript : MonoBehaviour {
 			else if (mainChar.transform.position==posTut.transform.position){
 				varEstat=Estat.ROTATING;
 				iniTime=Time.time;
+				posTut.audio.Play();
 			}
 
 
@@ -99,7 +101,6 @@ public class TutorialScript : MonoBehaviour {
 				mainChar.transform.rotation= Quaternion.Lerp(posIni3.transform.rotation,posTut.transform.rotation,(Time.time-iniTime) * time3tutrot);
 			}
 			else if (mainChar.transform.rotation==posTut.transform.rotation){
-				Debug.Log("lalalala");
 				varEstat=Estat.STARTTUTORIAL;
 			}
 

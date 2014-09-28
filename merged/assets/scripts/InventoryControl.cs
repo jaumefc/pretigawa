@@ -7,7 +7,8 @@ using System.Collections;
 public enum Custom{
 	NAKED,
 	JAPANESE,
-	MS_FORTUNE
+	MS_FORTUNE,
+	POLICEMAN
 }
 
 public class InventoryControl : MonoBehaviour {
@@ -19,7 +20,7 @@ public class InventoryControl : MonoBehaviour {
 	private GameObject selectedObj = null;
 	private float MAX_POSITION;
 	private readonly float MIN_POSITION = 0;
-	private const int MAX_CUSTOMS =3;
+	private const int MAX_CUSTOMS =4;
 
 	private float width,height;
 	public int iconsize;

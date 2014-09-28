@@ -19,6 +19,7 @@ public class interactuable : MonoBehaviour {
 	private float posy;
 
 	public GameObject objecteBo;
+	public ConversationTreeClass arbreBo;
 
 
 	public erronis[] objectesErronis;
@@ -100,7 +101,11 @@ public class interactuable : MonoBehaviour {
 
 		ConversationTreeClass nodeALlencar = defaultNode;
 		
-		if(objecteBo==origen)return true;
+		if(objecteBo==origen){
+			DCScript.Init(arbreBo);
+		//	DCScript.enabled = true;
+			return true;
+		}
 		else{
 			foreach(erronis erroni in objectesErronis){
 				foreach(GameObject objecte in erroni.objectes){

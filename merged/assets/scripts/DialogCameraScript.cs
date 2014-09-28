@@ -22,7 +22,7 @@ public class DialogCameraScript : MonoBehaviour {
 
 //	float ratio = 1f;
 
-	float size = 2.5f;
+	public float size;
 //	float x = 0.5f;
 //	float y = 0.5f;
 
@@ -66,6 +66,8 @@ public class DialogCameraScript : MonoBehaviour {
 			objBallons[i].guiText.enabled = false;
 			objBallons[i].guiText.fontSize = style_think.fontSize;
 			objBallons[i].guiText.anchor = TextAnchor.MiddleCenter;
+			objBallons[i].guiText.alignment = TextAlignment.Center;
+			objBallons[i].guiText.pixelOffset=new Vector2 (0,10);
 			objBallons[i].guiText.font = style_think.font;
 			objBallons[i].guiText.color = Color.black;
 		}

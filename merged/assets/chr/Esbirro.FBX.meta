@@ -1,0 +1,1043 @@
+fileFormatVersion: 2
+guid: f7fa83eb31467a34fb66cfb7f0aa2c9b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Esbirro
+    100002: //RootNode
+    100004: Esbirro Rig_01
+    100006: Esbirro Rig_01L2
+    100008: Esbirro Rig_01LArmCollarbone
+    100010: Esbirro Rig_01LArmForearm
+    100012: Esbirro Rig_01LArmForearmGizmo
+    100014: Esbirro Rig_01LArmIKTarget
+    100016: Esbirro Rig_01LArmPalm
+    100018: Esbirro Rig_01LArmPalmGizmo
+    100020: Esbirro Rig_01LArmUpperarm
+    100022: Esbirro Rig_01LArmUpperarmGizmo
+    100024: Esbirro Rig_01LDigit11
+    100026: Esbirro Rig_01LFoot
+    100028: Esbirro Rig_01LPlatform
+    100030: Esbirro Rig_01LThigh
+    100032: Esbirro Rig_01LThighGizmo
+    100034: Esbirro Rig_01PalmBone001
+    100036: Esbirro Rig_01PalmBone001 1
+    100038: Esbirro Rig_01PalmBone001Gizmo
+    100040: Esbirro Rig_01PalmBone001Gizmo 1
+    100042: Esbirro Rig_01PalmBone002
+    100044: Esbirro Rig_01PalmBone002 1
+    100046: Esbirro Rig_01PalmBone002Bone001
+    100048: Esbirro Rig_01PalmBone002Bone001 1
+    100050: Esbirro Rig_01PalmBone002Bone001Gizmo
+    100052: Esbirro Rig_01PalmBone002Bone001Gizmo 1
+    100054: Esbirro Rig_01PalmBone002Gizmo
+    100056: Esbirro Rig_01PalmBone002Gizmo 1
+    100058: Esbirro Rig_01Pelvis
+    100060: Esbirro Rig_01PelvisGizmo
+    100062: Esbirro Rig_01RArm
+    100064: Esbirro Rig_01RArmCollarbone
+    100066: Esbirro Rig_01RArmForearm
+    100068: Esbirro Rig_01RArmForearmGizmo
+    100070: Esbirro Rig_01RArmPalm
+    100072: Esbirro Rig_01RArmPalmGizmo
+    100074: Esbirro Rig_01RArmUpperarm
+    100076: Esbirro Rig_01RArmUpperarmGizmo
+    100078: Esbirro Rig_01Ribcage
+    100080: Esbirro Rig_01Ribcage001
+    100082: Esbirro Rig_01Ribcage001Bone001
+    100084: Esbirro Rig_01Ribcage001Bone001Gizmo
+    100086: Esbirro Rig_01Ribcage001Bone002
+    100088: Esbirro Rig_01Ribcage001Bone003
+    100090: Esbirro Rig_01Ribcage001Bone004
+    100092: Esbirro Rig_01Ribcage001Bone004Bone001
+    100094: Esbirro Rig_01Ribcage001Bone004Bone001 1
+    100096: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo
+    100098: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo 1
+    100100: Esbirro Rig_01Ribcage001Bone005
+    100102: Esbirro Rig_01Ribcage001Bone005Bone001
+    100104: Esbirro Rig_01Ribcage001Bone005Bone001 1
+    100106: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo
+    100108: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo 1
+    100110: Esbirro Rig_01Ribcage001Gizmo
+    100112: Esbirro Rig_01RibcageGizmo
+    100114: Esbirro Rig_01RLeg2
+    100116: Esbirro Rig_01RLegDigit11
+    100118: Esbirro Rig_01RLegFoot
+    100120: Esbirro Rig_01RLegPlatform
+    100122: Esbirro Rig_01RLegThigh
+    100124: Esbirro Rig_01RLegThighGizmo
+    100126: Esbirro Rig_01Spine1
+    100128: Esbirro Rig_01Spine1 1
+    100130: Esbirro Rig_01Spine2
+    100132: Esbirro Rig_01Spine2 1
+    400000: //RootNode
+    400002: Esbirro
+    400004: Esbirro Rig_01
+    400006: Esbirro Rig_01L2
+    400008: Esbirro Rig_01LArmCollarbone
+    400010: Esbirro Rig_01LArmForearm
+    400012: Esbirro Rig_01LArmForearmGizmo
+    400014: Esbirro Rig_01LArmIKTarget
+    400016: Esbirro Rig_01LArmPalm
+    400018: Esbirro Rig_01LArmPalmGizmo
+    400020: Esbirro Rig_01LArmUpperarm
+    400022: Esbirro Rig_01LArmUpperarmGizmo
+    400024: Esbirro Rig_01LDigit11
+    400026: Esbirro Rig_01LFoot
+    400028: Esbirro Rig_01LPlatform
+    400030: Esbirro Rig_01LThigh
+    400032: Esbirro Rig_01LThighGizmo
+    400034: Esbirro Rig_01PalmBone001
+    400036: Esbirro Rig_01PalmBone001 1
+    400038: Esbirro Rig_01PalmBone001Gizmo
+    400040: Esbirro Rig_01PalmBone001Gizmo 1
+    400042: Esbirro Rig_01PalmBone002
+    400044: Esbirro Rig_01PalmBone002 1
+    400046: Esbirro Rig_01PalmBone002Bone001
+    400048: Esbirro Rig_01PalmBone002Bone001 1
+    400050: Esbirro Rig_01PalmBone002Bone001Gizmo
+    400052: Esbirro Rig_01PalmBone002Bone001Gizmo 1
+    400054: Esbirro Rig_01PalmBone002Gizmo
+    400056: Esbirro Rig_01PalmBone002Gizmo 1
+    400058: Esbirro Rig_01Pelvis
+    400060: Esbirro Rig_01PelvisGizmo
+    400062: Esbirro Rig_01RArm
+    400064: Esbirro Rig_01RArmCollarbone
+    400066: Esbirro Rig_01RArmForearm
+    400068: Esbirro Rig_01RArmForearmGizmo
+    400070: Esbirro Rig_01RArmPalm
+    400072: Esbirro Rig_01RArmPalmGizmo
+    400074: Esbirro Rig_01RArmUpperarm
+    400076: Esbirro Rig_01RArmUpperarmGizmo
+    400078: Esbirro Rig_01Ribcage
+    400080: Esbirro Rig_01Ribcage001
+    400082: Esbirro Rig_01Ribcage001Bone001
+    400084: Esbirro Rig_01Ribcage001Bone001Gizmo
+    400086: Esbirro Rig_01Ribcage001Bone002
+    400088: Esbirro Rig_01Ribcage001Bone003
+    400090: Esbirro Rig_01Ribcage001Bone004
+    400092: Esbirro Rig_01Ribcage001Bone004Bone001
+    400094: Esbirro Rig_01Ribcage001Bone004Bone001 1
+    400096: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo
+    400098: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo 1
+    400100: Esbirro Rig_01Ribcage001Bone005
+    400102: Esbirro Rig_01Ribcage001Bone005Bone001
+    400104: Esbirro Rig_01Ribcage001Bone005Bone001 1
+    400106: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo
+    400108: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo 1
+    400110: Esbirro Rig_01Ribcage001Gizmo
+    400112: Esbirro Rig_01RibcageGizmo
+    400114: Esbirro Rig_01RLeg2
+    400116: Esbirro Rig_01RLegDigit11
+    400118: Esbirro Rig_01RLegFoot
+    400120: Esbirro Rig_01RLegPlatform
+    400122: Esbirro Rig_01RLegThigh
+    400124: Esbirro Rig_01RLegThighGizmo
+    400126: Esbirro Rig_01Spine1
+    400128: Esbirro Rig_01Spine1 1
+    400130: Esbirro Rig_01Spine2
+    400132: Esbirro Rig_01Spine2 1
+    4300000: Esbirro
+    7400000: Idle
+    7400002: Pedrusco
+    7400004: Walk
+    7400006: Talk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Esbirro
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Esbirro_13_ex
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Esbirro
+        weight: 1
+      - path: Esbirro Rig_01
+        weight: 1
+      - path: Esbirro Rig_01LArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmIKTarget
+        weight: 1
+      - path: Esbirro Rig_01LArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LPlatform
+        weight: 1
+      - path: Esbirro Rig_01LThighGizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot/Esbirro
+          Rig_01LDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot/Esbirro Rig_01RLegDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002/Esbirro
+          Rig_01PalmBone002Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1/Esbirro
+          Rig_01PalmBone002Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002/Esbirro Rig_01Ribcage001Bone005Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003/Esbirro Rig_01Ribcage001Bone004Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004/Esbirro Rig_01Ribcage001Bone004Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005/Esbirro Rig_01Ribcage001Bone005Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01PelvisGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArm
+        weight: 1
+      - path: Esbirro Rig_01RArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01RibcageGizmo
+        weight: 1
+      - path: Esbirro Rig_01RLegPlatform
+        weight: 1
+      - path: Esbirro Rig_01RLegThighGizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Esbirro_13_ex
+      firstFrame: 105
+      lastFrame: 139
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Esbirro
+        weight: 1
+      - path: Esbirro Rig_01
+        weight: 1
+      - path: Esbirro Rig_01LArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmIKTarget
+        weight: 1
+      - path: Esbirro Rig_01LArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LPlatform
+        weight: 1
+      - path: Esbirro Rig_01LThighGizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot/Esbirro
+          Rig_01LDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot/Esbirro Rig_01RLegDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002/Esbirro
+          Rig_01PalmBone002Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1/Esbirro
+          Rig_01PalmBone002Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002/Esbirro Rig_01Ribcage001Bone005Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003/Esbirro Rig_01Ribcage001Bone004Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004/Esbirro Rig_01Ribcage001Bone004Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005/Esbirro Rig_01Ribcage001Bone005Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01PelvisGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArm
+        weight: 1
+      - path: Esbirro Rig_01RArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01RibcageGizmo
+        weight: 1
+      - path: Esbirro Rig_01RLegPlatform
+        weight: 1
+      - path: Esbirro Rig_01RLegThighGizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pedrusco
+      takeName: Esbirro_13_ex
+      firstFrame: 139
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Esbirro
+        weight: 1
+      - path: Esbirro Rig_01
+        weight: 1
+      - path: Esbirro Rig_01LArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmIKTarget
+        weight: 1
+      - path: Esbirro Rig_01LArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LPlatform
+        weight: 1
+      - path: Esbirro Rig_01LThighGizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot/Esbirro
+          Rig_01LDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot/Esbirro Rig_01RLegDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002/Esbirro
+          Rig_01PalmBone002Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1/Esbirro
+          Rig_01PalmBone002Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002/Esbirro Rig_01Ribcage001Bone005Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003/Esbirro Rig_01Ribcage001Bone004Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004/Esbirro Rig_01Ribcage001Bone004Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005/Esbirro Rig_01Ribcage001Bone005Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01PelvisGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArm
+        weight: 1
+      - path: Esbirro Rig_01RArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01RibcageGizmo
+        weight: 1
+      - path: Esbirro Rig_01RLegPlatform
+        weight: 1
+      - path: Esbirro Rig_01RLegThighGizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Talk
+      takeName: Esbirro_13_ex
+      firstFrame: 245
+      lastFrame: 275
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Esbirro
+        weight: 1
+      - path: Esbirro Rig_01
+        weight: 1
+      - path: Esbirro Rig_01LArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmIKTarget
+        weight: 1
+      - path: Esbirro Rig_01LArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01LPlatform
+        weight: 1
+      - path: Esbirro Rig_01LThighGizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo
+        weight: 1
+      - path: Esbirro Rig_01PalmBone002Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01LThigh/Esbirro Rig_01L2/Esbirro Rig_01LFoot/Esbirro
+          Rig_01LDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01RLegThigh/Esbirro Rig_01RLeg2/Esbirro
+          Rig_01RLegFoot/Esbirro Rig_01RLegDigit11
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01LArmCollarbone/Esbirro Rig_01LArmUpperarm/Esbirro
+          Rig_01LArmForearm/Esbirro Rig_01LArmPalm/Esbirro Rig_01PalmBone002/Esbirro
+          Rig_01PalmBone002Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01RArmCollarbone/Esbirro Rig_01RArmUpperarm/Esbirro
+          Rig_01RArmForearm/Esbirro Rig_01RArmPalm/Esbirro Rig_01PalmBone002 1/Esbirro
+          Rig_01PalmBone002Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone002/Esbirro Rig_01Ribcage001Bone005Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone003/Esbirro Rig_01Ribcage001Bone004Bone001
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone004/Esbirro Rig_01Ribcage001Bone004Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005
+        weight: 1
+      - path: Esbirro Rig_01Pelvis/Esbirro Rig_01Spine1/Esbirro Rig_01Spine2/Esbirro
+          Rig_01Ribcage/Esbirro Rig_01Spine1 1/Esbirro Rig_01Spine2 1/Esbirro Rig_01Ribcage001/Esbirro
+          Rig_01Ribcage001Bone005/Esbirro Rig_01Ribcage001Bone005Bone001 1
+        weight: 1
+      - path: Esbirro Rig_01PelvisGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArm
+        weight: 1
+      - path: Esbirro Rig_01RArmForearmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmPalmGizmo
+        weight: 1
+      - path: Esbirro Rig_01RArmUpperarmGizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone004Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Bone005Bone001Gizmo 1
+        weight: 1
+      - path: Esbirro Rig_01Ribcage001Gizmo
+        weight: 1
+      - path: Esbirro Rig_01RibcageGizmo
+        weight: 1
+      - path: Esbirro Rig_01RLegPlatform
+        weight: 1
+      - path: Esbirro Rig_01RLegThighGizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
