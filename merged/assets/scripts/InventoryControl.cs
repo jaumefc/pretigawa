@@ -237,8 +237,16 @@ public class InventoryControl : MonoBehaviour {
 	 * Metode per seleccionar la actual disfressa
 	 */
 	private void SelectCostume(){
+
+		if (currCostumeShowed != costumeSelected) {
+			ParticleSystem pd = transform.Find("PartsDisfressa").GetComponent<ParticleSystem>();
+			pd.Play();
+			Invoke("changeCostume", 1.0f);
+		}
+
 		costumeSelected = currCostumeShowed;
 		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
+
 		switch (GetCurrentCostume ()) 
 		{
 		case Custom.JAPANESE:
@@ -258,6 +266,9 @@ public class InventoryControl : MonoBehaviour {
 			}
 			break; 
 		}
+	}
+
+	private void changeCostume(){
 		playerMesh.renderer.material.mainTexture = inventoryCustoms[costumeSelected].GetComponent<InventoryCustom>().texCostume;
 	}
 
