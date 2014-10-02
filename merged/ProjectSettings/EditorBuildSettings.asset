@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: assets/menu.unity
-  - enabled: 0
+  - enabled: 1
     path: assets/credits.unity
-  - enabled: 0
+  - enabled: 1
     path: assets/help.unity
-  - enabled: 0
+  - enabled: 1
     path: assets/help2.unity
   - enabled: 1
     path: assets/placa.unity
-  - enabled: 0
+  - enabled: 1
     path: assets/restart.unity
-  - enabled: 0
+  - enabled: 1
     path: assets/end.unity
-  - enabled: 0
+  - enabled: 1
     path: assets/placa_tutorial.unity

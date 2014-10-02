@@ -94,13 +94,17 @@ public class controlMoviment : MonoBehaviour {
 			break;
 
 			case enemyState.attack:
-				if(!checkingAttack && playerLife.life>0){
-					checkingAttack = true;
-					StartCoroutine(checkAttack(animations.animation["Attack"].length));
-				}else if(playerLife.life <= 0){
-					setState(2);
-				}else
-					animations.CrossFade("Attack");
+				if(GetComponent<controlVisio>().getIA()){
+					if(!checkingAttack && playerLife.life>0){
+						checkingAttack = true;
+						StartCoroutine(checkAttack(animations.animation["Attack"].length));
+					}else if(playerLife.life <= 0){
+						setState(2);
+					}else
+						animations.CrossFade("Attack");
+				}else{
+					_enemyState = enemyState.idle;
+				}
 			break;
 
 			case enemyState.die:

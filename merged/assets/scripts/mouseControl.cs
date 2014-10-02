@@ -200,6 +200,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			GameObject invObj = _inventory.GetSelected();
 			Vector3 mousePos = new Vector3(Input.mousePosition.x,Input.mousePosition.y,0);
 			GameObject otherObj = _inventory.OverObject(mousePos);
+
 			if(invObj!=otherObj){
 				if(otherObj!=null){//Estem intentant combinar objectes que son dins l'inventari
 				}else{//Estem intentant combinar amb un objecte de l'escena
@@ -217,7 +218,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 							
 							if(isGood){
 								//Debug.Log("Combinacio Correcta!");
-								Destroy(interDesti);
+								//Destroy(interDesti);
 								//Application.LoadLevel ("end"); 
 							}
 						}

@@ -101,12 +101,12 @@ public class interactuable : MonoBehaviour {
 
 		ConversationTreeClass nodeALlencar = defaultNode;
 		
-		if(objecteBo==origen){
+		if(objecteBo!=null && origen!=null && objecteBo==origen){
 			DCScript.Init(arbreBo);
 		//	DCScript.enabled = true;
 			return true;
 		}
-		else{
+		else if(objectesErronis.Length > 0){
 			foreach(erronis erroni in objectesErronis){
 				foreach(GameObject objecte in erroni.objectes){
 					if(objecte == origen){
@@ -125,6 +125,7 @@ public class interactuable : MonoBehaviour {
 			DCScript.enabled = true;
 			return false;
 		}
+		return false;
 	}
 
 }

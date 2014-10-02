@@ -22,12 +22,19 @@ public class controlVisio : MonoBehaviour {
 		ignoreIA = !ignoreIA;
 	}
 
-	void Update () {
+	public void iaOff(){
+		ignoreIA = true;
+	}
 
-		if (ignoreIA) {
-			cm.setState (2);
-			return;
-		}
+	public void iaOn(){
+		ignoreIA = false;
+	}
+
+	public bool getIA(){
+		return !ignoreIA;
+	}
+
+	void Update () {
 
 		if (cm.checkingForVision () == true) {
 
@@ -35,7 +42,7 @@ public class controlVisio : MonoBehaviour {
 			float angle = Vector3.Angle (compareVector, transform.forward);
 			float distance = compareVector.sqrMagnitude;
 
-			if (distance < 100 && angle < 60) {
+			if (distance < 100 && angle < 60 && !ignoreIA) {
 					Vector3 eyePosition = new Vector3 (transform.position.x, transform.position.y + 1.0f, transform.position.z);
 					Vector3 PlayerEyePosition = new Vector3 (Player.transform.position.x, Player.transform.position.y + 1.3f, Player.transform.position.z);
 
