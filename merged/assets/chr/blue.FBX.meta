@@ -1,17 +1,152 @@
 fileFormatVersion: 2
-guid: 0af5379480cc96d4ab127c458f5c0622
+guid: 8908d5959cf848444bddd04d37861dac
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: blue
+    100000: Blue
+    100002: //RootNode
+    100004: blueBody
+    100006: Bluechest
+    100008: blueEyeball
+    100010: blueEyeIris
+    100012: Bluehead
+    100014: BlueLArm1
+    100016: BlueLArm2
+    100018: BlueLArmCollarbone
+    100020: BlueLArmDigit11
+    100022: BlueLArmDigit12
+    100024: BlueLArmDigit21
+    100026: BlueLArmDigit22
+    100028: BlueLArmDigit23
+    100030: BlueLArmDigit31
+    100032: BlueLArmDigit32
+    100034: BlueLArmDigit33
+    100036: BlueLArmDigit41
+    100038: BlueLArmDigit42
+    100040: BlueLArmDigit43
+    100042: BlueLArmPalm
+    100044: BlueLLeg1
+    100046: BlueLLeg2
+    100048: BlueLLegAnkle
+    100050: BlueLLegDigit11
+    100052: BlueLLegPlatform
+    100054: blueMouth
+    100056: BlueNeck1
+    100058: BlueNeck2
+    100060: BlueNeck3
+    100062: BlueNeck4
+    100064: BluePelvis
+    100066: BlueRArm1
+    100068: BlueRArm2
+    100070: BlueRArmCollarbone
+    100072: BlueRArmDigit11
+    100074: BlueRArmDigit12
+    100076: BlueRArmDigit21
+    100078: BlueRArmDigit22
+    100080: BlueRArmDigit23
+    100082: BlueRArmDigit31
+    100084: BlueRArmDigit32
+    100086: BlueRArmDigit33
+    100088: BlueRArmDigit41
+    100090: BlueRArmDigit42
+    100092: BlueRArmDigit43
+    100094: BlueRArmPalm
+    100096: BlueRLeg1
+    100098: BlueRLeg2
+    100100: BlueRLegAnkle
+    100102: BlueRLegDigit11
+    100104: BlueRLegPlatform
+    100106: BlueSpine1
+    100108: BlueSpine2
+    100110: BlueSpine3
+    100112: BlueSpine4
+    100114: Bluetail1
+    100116: Bluetail2
+    100118: Bluetail3
+    100120: Particle View 001
+    100122: Point001
+    100124: Point002
+    400000: Blue
+    400002: //RootNode
+    400004: blueBody
+    400006: Bluechest
+    400008: blueEyeball
+    400010: blueEyeIris
+    400012: Bluehead
+    400014: BlueLArm1
+    400016: BlueLArm2
+    400018: BlueLArmCollarbone
+    400020: BlueLArmDigit11
+    400022: BlueLArmDigit12
+    400024: BlueLArmDigit21
+    400026: BlueLArmDigit22
+    400028: BlueLArmDigit23
+    400030: BlueLArmDigit31
+    400032: BlueLArmDigit32
+    400034: BlueLArmDigit33
+    400036: BlueLArmDigit41
+    400038: BlueLArmDigit42
+    400040: BlueLArmDigit43
+    400042: BlueLArmPalm
+    400044: BlueLLeg1
+    400046: BlueLLeg2
+    400048: BlueLLegAnkle
+    400050: BlueLLegDigit11
+    400052: BlueLLegPlatform
+    400054: blueMouth
+    400056: BlueNeck1
+    400058: BlueNeck2
+    400060: BlueNeck3
+    400062: BlueNeck4
+    400064: BluePelvis
+    400066: BlueRArm1
+    400068: BlueRArm2
+    400070: BlueRArmCollarbone
+    400072: BlueRArmDigit11
+    400074: BlueRArmDigit12
+    400076: BlueRArmDigit21
+    400078: BlueRArmDigit22
+    400080: BlueRArmDigit23
+    400082: BlueRArmDigit31
+    400084: BlueRArmDigit32
+    400086: BlueRArmDigit33
+    400088: BlueRArmDigit41
+    400090: BlueRArmDigit42
+    400092: BlueRArmDigit43
+    400094: BlueRArmPalm
+    400096: BlueRLeg1
+    400098: BlueRLeg2
+    400100: BlueRLegAnkle
+    400102: BlueRLegDigit11
+    400104: BlueRLegPlatform
+    400106: BlueSpine1
+    400108: BlueSpine2
+    400110: BlueSpine3
+    400112: BlueSpine4
+    400114: Bluetail1
+    400116: Bluetail2
+    400118: Bluetail3
+    400120: Particle View 001
+    400122: Point001
+    400124: Point002
+    2300000: blueEyeball
+    2300002: blueEyeIris
+    3300000: blueEyeball
+    3300002: blueEyeIris
+    4300000: blueMouth
+    4300002: blueBody
+    4300004: blueEyeIris
+    4300006: blueEyeball
+    7400000: Walk
+    7400002: Idle
+    7400004: Talk
     9500000: //RootNode
+    11100000: //RootNode
+    13700000: blueBody
+    13700002: blueMouth
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 2
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -23,7 +158,463 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Blue
+        weight: 1
+      - path: blueBody
+        weight: 1
+      - path: BlueLLegPlatform
+        weight: 1
+      - path: blueMouth
+        weight: 1
+      - path: BluePelvis
+        weight: 1
+      - path: BluePelvis/BlueLLeg1
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2/BlueLLegAnkle
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2/BlueLLegAnkle/BlueLLegDigit11
+        weight: 1
+      - path: BluePelvis/BlueRLeg1
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2/BlueRLegAnkle
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2/BlueRLegAnkle/BlueRLegDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit11/BlueLArmDigit12
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21/BlueLArmDigit22
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21/BlueLArmDigit22/BlueLArmDigit23
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31/BlueLArmDigit32
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31/BlueLArmDigit32/BlueLArmDigit33
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41/BlueLArmDigit42
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41/BlueLArmDigit42/BlueLArmDigit43
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/blueEyeball
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point001
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point001/blueEyeIris
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point002
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit11/BlueRArmDigit12
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21/BlueRArmDigit22
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21/BlueRArmDigit22/BlueRArmDigit23
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31/BlueRArmDigit32
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31/BlueRArmDigit32/BlueRArmDigit33
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41/BlueRArmDigit42
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41/BlueRArmDigit42/BlueRArmDigit43
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/Bluetail1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/Bluetail2
+        weight: 1
+      - path: BluePelvis/Bluetail3
+        weight: 1
+      - path: BlueRLegPlatform
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 339
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Blue
+        weight: 1
+      - path: blueBody
+        weight: 1
+      - path: BlueLLegPlatform
+        weight: 1
+      - path: blueMouth
+        weight: 1
+      - path: BluePelvis
+        weight: 1
+      - path: BluePelvis/BlueLLeg1
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2/BlueLLegAnkle
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2/BlueLLegAnkle/BlueLLegDigit11
+        weight: 1
+      - path: BluePelvis/BlueRLeg1
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2/BlueRLegAnkle
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2/BlueRLegAnkle/BlueRLegDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit11/BlueLArmDigit12
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21/BlueLArmDigit22
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21/BlueLArmDigit22/BlueLArmDigit23
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31/BlueLArmDigit32
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31/BlueLArmDigit32/BlueLArmDigit33
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41/BlueLArmDigit42
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41/BlueLArmDigit42/BlueLArmDigit43
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/blueEyeball
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point001
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point001/blueEyeIris
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point002
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit11/BlueRArmDigit12
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21/BlueRArmDigit22
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21/BlueRArmDigit22/BlueRArmDigit23
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31/BlueRArmDigit32
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31/BlueRArmDigit32/BlueRArmDigit33
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41/BlueRArmDigit42
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41/BlueRArmDigit42/BlueRArmDigit43
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/Bluetail1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/Bluetail2
+        weight: 1
+      - path: BluePelvis/Bluetail3
+        weight: 1
+      - path: BlueRLegPlatform
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Talk
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 639
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Blue
+        weight: 1
+      - path: blueBody
+        weight: 1
+      - path: BlueLLegPlatform
+        weight: 1
+      - path: blueMouth
+        weight: 1
+      - path: BluePelvis
+        weight: 1
+      - path: BluePelvis/BlueLLeg1
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2/BlueLLegAnkle
+        weight: 1
+      - path: BluePelvis/BlueLLeg1/BlueLLeg2/BlueLLegAnkle/BlueLLegDigit11
+        weight: 1
+      - path: BluePelvis/BlueRLeg1
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2/BlueRLegAnkle
+        weight: 1
+      - path: BluePelvis/BlueRLeg1/BlueRLeg2/BlueRLegAnkle/BlueRLegDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit11/BlueLArmDigit12
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21/BlueLArmDigit22
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit21/BlueLArmDigit22/BlueLArmDigit23
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31/BlueLArmDigit32
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit31/BlueLArmDigit32/BlueLArmDigit33
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41/BlueLArmDigit42
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueLArmCollarbone/BlueLArm1/BlueLArm2/BlueLArmPalm/BlueLArmDigit41/BlueLArmDigit42/BlueLArmDigit43
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/blueEyeball
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point001
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point001/blueEyeIris
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueNeck1/BlueNeck2/BlueNeck3/BlueNeck4/Bluehead/Point002
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit11
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit11/BlueRArmDigit12
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21/BlueRArmDigit22
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit21/BlueRArmDigit22/BlueRArmDigit23
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31/BlueRArmDigit32
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit31/BlueRArmDigit32/BlueRArmDigit33
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41/BlueRArmDigit42
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/BlueRArmCollarbone/BlueRArm1/BlueRArm2/BlueRArmPalm/BlueRArmDigit41/BlueRArmDigit42/BlueRArmDigit43
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/BlueSpine4/Bluechest/Bluetail1
+        weight: 1
+      - path: BluePelvis/BlueSpine1/BlueSpine2/BlueSpine3/Bluetail2
+        weight: 1
+      - path: BluePelvis/Bluetail3
+        weight: 1
+      - path: BlueRLegPlatform
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -59,5 +650,5 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   userData: 
