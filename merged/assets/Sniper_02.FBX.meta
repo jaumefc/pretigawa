@@ -1,0 +1,1428 @@
+fileFormatVersion: 2
+guid: 8f97e0a0ec4e9554e87fe53ebb59d859
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Rifle Sniper
+    100002: Sniper ok
+    100004: Sniper Rig_
+    100006: Sniper Rig_AnkleBone001
+    100008: Sniper Rig_AnkleBone001 1
+    100010: Sniper Rig_AnkleBone001Gizmo
+    100012: Sniper Rig_AnkleBone001Gizmo 1
+    100014: Sniper Rig_Head
+    100016: Sniper Rig_HeadBone001
+    100018: Sniper Rig_HeadBone001Gizmo
+    100020: Sniper Rig_HeadGizmo
+    100022: Sniper Rig_LCollarbone
+    100024: Sniper Rig_LForearm
+    100026: Sniper Rig_LForearmGizmo
+    100028: Sniper Rig_LLeg1
+    100030: Sniper Rig_LLeg2
+    100032: Sniper Rig_LLegAnkle
+    100034: Sniper Rig_LLegPlatform
+    100036: Sniper Rig_LPalm
+    100038: Sniper Rig_LPalmGizmo
+    100040: Sniper Rig_LUpperarm
+    100042: Sniper Rig_LUpperarmGizmo
+    100044: Sniper Rig_Neck1
+    100046: Sniper Rig_Neck2
+    100048: Sniper Rig_PalmBone001
+    100050: Sniper Rig_PalmBone001 1
+    100052: Sniper Rig_PalmBone001Gizmo
+    100054: Sniper Rig_PalmBone001Gizmo 1
+    100056: Sniper Rig_PalmBone002
+    100058: Sniper Rig_PalmBone002 1
+    100060: Sniper Rig_PalmBone002Bone001
+    100062: Sniper Rig_PalmBone002Bone001 1
+    100064: Sniper Rig_PalmBone002Bone001Gizmo
+    100066: Sniper Rig_PalmBone002Bone001Gizmo 1
+    100068: Sniper Rig_PalmBone002Gizmo
+    100070: Sniper Rig_PalmBone002Gizmo 1
+    100072: Sniper Rig_Pelvis
+    100074: Sniper Rig_PelvisGizmo
+    100076: Sniper Rig_RArmCollarbone
+    100078: Sniper Rig_RArmForearm
+    100080: Sniper Rig_RArmForearmGizmo
+    100082: Sniper Rig_RArmPalm
+    100084: Sniper Rig_RArmPalmGizmo
+    100086: Sniper Rig_RArmUpperarm
+    100088: Sniper Rig_RArmUpperarmGizmo
+    100090: Sniper Rig_Ribcage
+    100092: Sniper Rig_RibcageGizmo
+    100094: Sniper Rig_RLeg1
+    100096: Sniper Rig_RLeg2
+    100098: Sniper Rig_RLegAnkle
+    100100: Sniper Rig_RLegPlatform
+    100102: Sniper Rig_Spine1
+    100104: Sniper Rig_Spine2
+    100106: Sniper Rig_Spine3
+    100108: //RootNode
+    100110: Sniper_cigarreta
+    100112: Sniper_ojo derecho
+    100114: Sniper_ojo izquierdo
+    400000: Rifle Sniper
+    400002: Sniper ok
+    400004: Sniper Rig_
+    400006: Sniper Rig_AnkleBone001
+    400008: Sniper Rig_AnkleBone001 1
+    400010: Sniper Rig_AnkleBone001Gizmo
+    400012: Sniper Rig_AnkleBone001Gizmo 1
+    400014: Sniper Rig_Head
+    400016: Sniper Rig_HeadBone001
+    400018: Sniper Rig_HeadBone001Gizmo
+    400020: Sniper Rig_HeadGizmo
+    400022: Sniper Rig_LCollarbone
+    400024: Sniper Rig_LForearm
+    400026: Sniper Rig_LForearmGizmo
+    400028: Sniper Rig_LLeg1
+    400030: Sniper Rig_LLeg2
+    400032: Sniper Rig_LLegAnkle
+    400034: Sniper Rig_LLegPlatform
+    400036: Sniper Rig_LPalm
+    400038: Sniper Rig_LPalmGizmo
+    400040: Sniper Rig_LUpperarm
+    400042: Sniper Rig_LUpperarmGizmo
+    400044: Sniper Rig_Neck1
+    400046: Sniper Rig_Neck2
+    400048: Sniper Rig_PalmBone001
+    400050: Sniper Rig_PalmBone001 1
+    400052: Sniper Rig_PalmBone001Gizmo
+    400054: Sniper Rig_PalmBone001Gizmo 1
+    400056: Sniper Rig_PalmBone002
+    400058: Sniper Rig_PalmBone002 1
+    400060: Sniper Rig_PalmBone002Bone001
+    400062: Sniper Rig_PalmBone002Bone001 1
+    400064: Sniper Rig_PalmBone002Bone001Gizmo
+    400066: Sniper Rig_PalmBone002Bone001Gizmo 1
+    400068: Sniper Rig_PalmBone002Gizmo
+    400070: Sniper Rig_PalmBone002Gizmo 1
+    400072: Sniper Rig_Pelvis
+    400074: Sniper Rig_PelvisGizmo
+    400076: Sniper Rig_RArmCollarbone
+    400078: Sniper Rig_RArmForearm
+    400080: Sniper Rig_RArmForearmGizmo
+    400082: Sniper Rig_RArmPalm
+    400084: Sniper Rig_RArmPalmGizmo
+    400086: Sniper Rig_RArmUpperarm
+    400088: Sniper Rig_RArmUpperarmGizmo
+    400090: Sniper Rig_Ribcage
+    400092: Sniper Rig_RibcageGizmo
+    400094: Sniper Rig_RLeg1
+    400096: Sniper Rig_RLeg2
+    400098: Sniper Rig_RLegAnkle
+    400100: Sniper Rig_RLegPlatform
+    400102: Sniper Rig_Spine1
+    400104: Sniper Rig_Spine2
+    400106: Sniper Rig_Spine3
+    400108: //RootNode
+    400110: Sniper_cigarreta
+    400112: Sniper_ojo derecho
+    400114: Sniper_ojo izquierdo
+    2300000: Rifle Sniper
+    2300002: Sniper_cigarreta
+    2300004: Sniper_ojo derecho
+    2300006: Sniper_ojo izquierdo
+    3300000: Rifle Sniper
+    3300002: Sniper_cigarreta
+    3300004: Sniper_ojo derecho
+    3300006: Sniper_ojo izquierdo
+    4300000: Sniper ok
+    4300002: Sniper_cigarreta
+    4300004: Sniper_ojo izquierdo
+    4300006: Sniper_ojo derecho
+    4300008: Rifle Sniper
+    7400000: Idle
+    7400002: Walk
+    7400004: Talk
+    7400006: IdleToAim
+    7400008: Shoot
+    7400010: AimToIdle
+    7400012: AimAndShoot
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Sniper ok
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Francotirador_14_ex
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Francotirador_14_ex
+      firstFrame: 55
+      lastFrame: 98
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Talk
+      takeName: Francotirador_14_ex
+      firstFrame: 100
+      lastFrame: 130
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleToAim
+      takeName: Francotirador_14_ex
+      firstFrame: 135
+      lastFrame: 152
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Francotirador_14_ex
+      firstFrame: 152
+      lastFrame: 176
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AimToIdle
+      takeName: Francotirador_14_ex
+      firstFrame: 176
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AimAndShoot
+      takeName: Francotirador_14_ex
+      firstFrame: 135
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rifle Sniper
+        weight: 1
+      - path: Sniper ok
+        weight: 1
+      - path: Sniper Rig_
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_AnkleBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_HeadBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_HeadGizmo
+        weight: 1
+      - path: Sniper Rig_LForearmGizmo
+        weight: 1
+      - path: Sniper Rig_LLegPlatform
+        weight: 1
+      - path: Sniper Rig_LPalmGizmo
+        weight: 1
+      - path: Sniper Rig_LUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Bone001Gizmo 1
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo
+        weight: 1
+      - path: Sniper Rig_PalmBone002Gizmo 1
+        weight: 1
+      - path: Sniper Rig_Pelvis
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_LLeg1/Sniper Rig_LLeg2/Sniper Rig_LLegAnkle/Sniper
+          Rig_AnkleBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_RLeg1/Sniper Rig_RLeg2/Sniper Rig_RLegAnkle/Sniper
+          Rig_AnkleBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_LCollarbone/Sniper Rig_LUpperarm/Sniper Rig_LForearm/Sniper
+          Rig_LPalm/Sniper Rig_PalmBone002/Sniper Rig_PalmBone002Bone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper Rig_HeadBone001/Sniper_cigarreta
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          derecho
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_Neck1/Sniper Rig_Neck2/Sniper Rig_Head/Sniper_ojo
+          izquierdo
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone001 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1
+        weight: 1
+      - path: Sniper Rig_Pelvis/Sniper Rig_Spine1/Sniper Rig_Spine2/Sniper Rig_Spine3/Sniper
+          Rig_Ribcage/Sniper Rig_RArmCollarbone/Sniper Rig_RArmUpperarm/Sniper Rig_RArmForearm/Sniper
+          Rig_RArmPalm/Sniper Rig_PalmBone002 1/Sniper Rig_PalmBone002Bone001 1
+        weight: 1
+      - path: Sniper Rig_PelvisGizmo
+        weight: 1
+      - path: Sniper Rig_RArmForearmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmPalmGizmo
+        weight: 1
+      - path: Sniper Rig_RArmUpperarmGizmo
+        weight: 1
+      - path: Sniper Rig_RibcageGizmo
+        weight: 1
+      - path: Sniper Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
