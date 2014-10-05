@@ -6,8 +6,8 @@ public class TutorialScript : MonoBehaviour {
 
 	private GameObject mainChar;
 	private NavMeshAgent navi;
-	private enum Estat {FALLING, ESCALATING, ROTATING, STARTTUTORIAL, EMPTY};
-	private Estat varEstat=Estat.FALLING;
+	private enum Estat {TRAVELLING, WAITING, FALLING, ESCALATING, ROTATING, STARTTUTORIAL, EMPTY};
+	private Estat varEstat=Estat.TRAVELLING;
 
 	//activate/deactivate player
 	private CharacterController CharControler;
@@ -24,8 +24,8 @@ public class TutorialScript : MonoBehaviour {
 	public ConversationTreeClass StartTree;
 
 
-	public GameObject posIni, posIni2, posIni3, posTut;
-	public float time12, time3tutpos, time3tutrot;
+	public GameObject posIni, posIni2, posIni3, posTut, posCamTut, posCamIni;
+	public float timetravel, timewait, time12, time3tutpos, time3tutrot;
 	public Camera TutorialCamera;
 
 
@@ -71,10 +71,26 @@ public class TutorialScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (varEstat==Estat.FALLING){
+		if (varEstat==Estat.TRAVELLING){
+			if (TutorialCamera.transform.position!=posCamTut.transform.position){
+				TutorialCamera.transform.position= Vector3.Lerp(posCamIni.transform.position,posCamTut.transform.position,Time.time * timetravel);
+				TutorialCamera.transform.rotation= Quaternion.Lerp(posCamIni.transform.rotation,posCamTut.transform.rotation,Time.time * timetravel);
+			}
+			else if (TutorialCamera.transform.position==posCamTut.transform.position){
+				varEstat=Estat.WAITING;
+				iniTime=Time.time;
+			}
+		}
+		else if (varEstat==Estat.WAITING){
+			if (iniTime + timetravel > Time.time)
+			varEstat=Estat.FALLING;
+			iniTime=Time.time;
+		}
+
+			else if (varEstat==Estat.FALLING){
 			if (mainChar.transform.position!=posIni2.transform.position){
-				mainChar.transform.position= Vector3.Lerp(posIni.transform.position,posIni2.transform.position,Time.time * time12);
-				mainChar.transform.rotation= Quaternion.Lerp(posIni.transform.rotation,posIni2.transform.rotation,Time.time * time12);
+				mainChar.transform.position= Vector3.Lerp(posIni.transform.position,posIni2.transform.position,(Time.time-iniTime) * time12);
+				mainChar.transform.rotation= Quaternion.Lerp(posIni.transform.rotation,posIni2.transform.rotation,(Time.time-iniTime) * time12);
 			}
 			else if (mainChar.transform.position==posIni2.transform.position){
 				mainChar.transform.position=posIni3.transform.position;

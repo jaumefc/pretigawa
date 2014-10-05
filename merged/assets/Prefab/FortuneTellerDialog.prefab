@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: CJ1
+  m_Name: CP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18,7 +18,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100002
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: CJ2
+  m_Name: CP1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,16 +34,15 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100004
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
-  - 114: {fileID: 11400006}
   m_Layer: 0
-  m_Name: FortuneTellerDialog
+  m_Name: CJ4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,15 +50,15 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100006
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400006}
-  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400006}
   m_Layer: 0
-  m_Name: CN1
+  m_Name: CJ3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,9 +72,89 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: CN3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
   - 114: {fileID: 11400010}
   m_Layer: 0
+  m_Name: CJ2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: CJ1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: CN1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400016}
+  m_Layer: 0
   m_Name: CN2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: FortuneTellerDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,20 +169,20 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400002}
-  m_Father: {fileID: 400004}
+  m_Children: []
+  m_Father: {fileID: 400002}
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400000}
+  m_LocalRotation: {x: 0, y: 3.83780247e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863968, z: 0}
+  m_LocalScale: {x: .653336883, y: .653337002, z: .653336942}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 400018}
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 1
@@ -113,33 +192,93 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400000}
-  - {fileID: 400006}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 400006}
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .389863491, z: 0}
-  m_LocalScale: {x: .653337181, y: .653337181, z: .653337181}
+  m_LocalRotation: {x: 0, y: 4.05354029e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400008}
-  m_Father: {fileID: 400004}
+  - {fileID: 400004}
+  m_Father: {fileID: 400010}
 --- !u!4 &400008
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 4.05354029e-07, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 400006}
+  m_Father: {fileID: 400016}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400006}
+  m_Father: {fileID: 400012}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400010}
+  m_Father: {fileID: 400018}
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863491, z: 0}
+  m_LocalScale: {x: .653337181, y: .653337181, z: .653337181}
+  m_Children:
+  - {fileID: 400016}
+  m_Father: {fileID: 400018}
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400008}
+  m_Father: {fileID: 400014}
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: -.418706745, z: 0, w: .908121526}
+  m_LocalPosition: {x: .413835138, y: .872367144, z: -.0951829031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400012}
+  - {fileID: 400014}
+  - {fileID: 400002}
+  m_Father: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -153,19 +292,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Konnichiwa!!
+  sFirstOption: No, I don't drive, dear.
   sSecondOption: 
-  cCharacter: 1
-  sSpeaker: 0
+  cCharacter: 0
+  sSpeaker: 1
   fSeconds: 3
   showNodes: 1
-  cncArray:
-  - {fileID: 11400002}
+  cncArray: []
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 8300000, guid: 0c785099ab49b954da9a7daae3c9d831, type: 3}
+  clipAudio: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -179,13 +317,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Baka!!
+  sFirstOption: Is it yours the flowered car on the square?
   sSecondOption: 
-  cCharacter: 1
-  sSpeaker: 1
+  cCharacter: 3
+  sSpeaker: 0
   fSeconds: 3
   showNodes: 1
-  cncArray: []
+  cncArray:
+  - {fileID: 11400000}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -199,26 +338,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 100004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rootNodes:
-  - {fileID: 11400008}
-  - {fileID: 11400000}
-  useDialgogCamera: 1
-  style: 0
+  ShowNode: 0
+  var: 
+  sFirstOption: (Yes, you can even learn languages playing this game)
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
 --- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab44b2beb119c2942b1f895c61dcaaa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -231,20 +368,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Hi!
+  sFirstOption: (In an informal way)
   sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
+  cCharacter: 1
+  sSpeaker: 1
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400010}
+  - {fileID: 11400004}
   bIsSelected: 0
   bIsUsed: 0
-  preAction: TestPreAtion
-  postAction: TestPostAction
+  preAction: 
+  postAction: 
   clipAudio: {fileID: 0}
---- !u!114 &11400010
+--- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -257,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Blessings and goodnight.
+  sFirstOption: I know why you're here, so go on, sweetheart.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
@@ -269,6 +406,129 @@ MonoBehaviour:
   preAction: 
   postAction: 
   clipAudio: {fileID: 0}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Atashi nihongo dekinaino (I don't speak Japanese)
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400006}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Konnichiwa!
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 0
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400010}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 8300000, guid: 0c785099ab49b954da9a7daae3c9d831, type: 3}
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Do or do not. There is no try.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400016}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: What do you mean?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 3
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400008}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 0}
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootNodes:
+  - {fileID: 11400014}
+  - {fileID: 11400012}
+  useDialgogCamera: 1
+  allowSkip: 1
+  style: 0
+  alienCam: {fileID: 0}
+  otherCam: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -278,6 +538,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100004}
+  m_RootGameObject: {fileID: 100018}
   m_IsPrefabParent: 1
   m_IsExploded: 1
