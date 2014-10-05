@@ -22504,7 +22504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8566de1a61c4a84896fcdcf0f8e8aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 2060218908}
 --- !u!114 &1046019473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22517,7 +22516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  pinyuParticles: {fileID: 581639178}
+  hasTarget: 0
 --- !u!111 &1046019474
 Animation:
   m_ObjectHideFlags: 0
@@ -35327,7 +35326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8566de1a61c4a84896fcdcf0f8e8aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 2060218908}
 --- !u!114 &1497779043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35340,7 +35338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  pinyuParticles: {fileID: 581639178}
+  hasTarget: 0
 --- !u!111 &1497779044
 Animation:
   m_ObjectHideFlags: 0
@@ -40046,6 +40044,7 @@ MonoBehaviour:
   - {fileID: 927917023}
   Radius: .200000003
   objecteBo: {fileID: 0}
+  arbreBo: {fileID: 0}
   objectesErronis: []
   defaultNode: {fileID: 0}
 --- !u!136 &1771106869
@@ -40107,7 +40106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8566de1a61c4a84896fcdcf0f8e8aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 2060218908}
 --- !u!114 &1771106873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40120,7 +40118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  pinyuParticles: {fileID: 581639178}
+  hasTarget: 0
 --- !u!111 &1771106874
 Animation:
   m_ObjectHideFlags: 0
@@ -44581,10 +44579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effecteCobertura: {fileID: 157252905}
   effecteBrillo: {fileID: 700725593}
-  effecteCono: {fileID: 1125360433}
   explosioFase2: {fileID: 1082877969}
-  thisRigidBody: {fileID: 1965072888}
-  target: {fileID: 1771106866}
 --- !u!54 &1965072888
 Rigidbody:
   m_ObjectHideFlags: 0

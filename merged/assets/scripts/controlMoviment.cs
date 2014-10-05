@@ -97,7 +97,8 @@ public class controlMoviment : MonoBehaviour {
 				if(GetComponent<controlVisio>().getIA()){
 					if(!checkingAttack && playerLife.life>0){
 						checkingAttack = true;
-						StartCoroutine(checkAttack(animations.animation["Attack"].length));
+						StartCoroutine(checkAttack(animations.animation["Attack"].length-animations.animation["Attack"].length/4));
+						StartCoroutine(animationEnded(animations.animation["Attack"].length));
 					}else if(playerLife.life <= 0){
 						setState(2);
 					}else
@@ -200,7 +201,11 @@ public class controlMoviment : MonoBehaviour {
 			_enemyState = enemyState.move;
 			imAttacking = false;
 		}
+	}
 
+	IEnumerator animationEnded(float time)
+	{
+		yield return new WaitForSeconds(time);
 		checkingAttack = false;
 	}
 }

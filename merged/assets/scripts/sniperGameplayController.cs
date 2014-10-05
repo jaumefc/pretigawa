@@ -60,7 +60,7 @@ public class sniperGameplayController : MonoBehaviour {
 
 				if(!isSniperGameplay){
 					SoundBreath.audio.Stop();
-
+					mainChar.audio.volume = 1.0f;
 					mc.enabled = true;
 					chc.enabled = true;
 					
@@ -78,6 +78,7 @@ public class sniperGameplayController : MonoBehaviour {
 					GameObject.Find ("CameraSniper").camera.enabled = true;
 					triggeredCams.SetActive (false);
 
+					mainChar.audio.volume = 0.25f;
 					SoundBreath.audio.Play();
 				}
 			}
@@ -88,16 +89,23 @@ public class sniperGameplayController : MonoBehaviour {
 		isShooting = true;
 		SoundBreath.audio.Stop();
 		SoundShoot.audio.Play();
-		Invoke ("reload", 1.0f);
+		Invoke ("reload", 0.75f);
+		CancelInvoke ("audioHeart");
+		Invoke ("audioHeart", 2.5f);
 		GameObject dardoCopia = Instantiate (dardo, snipingDirection.position, snipingDirection.rotation) as GameObject;
 
-		var locVel = dardoCopia.transform.TransformDirection(new Vector3(0, 0, 10));
+		var locVel = dardoCopia.transform.TransformDirection(new Vector3(0, 0, 20));
 		dardoCopia.rigidbody.velocity = locVel;
 		dardoCopia.rigidbody.angularVelocity = -locVel;
 	}
 
+	private void audioHeart(){
+		SoundBreath.audio.Play();
+	}
+
 	private void reload(){
 		SoundReload.audio.Play();
+
 		isShooting = false;
 	}
 

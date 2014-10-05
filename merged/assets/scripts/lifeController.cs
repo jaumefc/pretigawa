@@ -34,11 +34,11 @@ public class lifeController : MonoBehaviour {
 
 	public void takeOutLife(float lifeToTake){
 		if (imDead)return;
-
 		CancelInvoke ("startRegen");
 		regenerating = false;
 		life -= lifeToTake;
 		pinyuParticles.Play ();
+		transform.FindChild("audioPinyu").audio.Play();
 
 		if (life <= 0) {
 			characterDie ();
