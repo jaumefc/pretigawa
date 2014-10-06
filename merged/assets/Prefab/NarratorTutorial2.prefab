@@ -69,7 +69,10 @@ MonoBehaviour:
   rootNodes:
   - {fileID: 11400002}
   useDialgogCamera: 0
-  style: 0
+  allowSkip: 1
+  style: 2
+  alienCam: {fileID: 0}
+  otherCam: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -86,15 +89,15 @@ MonoBehaviour:
   sFirstOption: He decided to go inside the bar.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 2.4000001
   showNodes: 1
   cncArray: []
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 7e44030ddf454884fb3970df5f9a5dd4, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

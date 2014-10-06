@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1 &100000
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: CT24
+  m_Name: CT1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: CT23
+  m_Name: CT16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
   m_Layer: 0
-  m_Name: CT13
+  m_Name: CT17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ GameObject:
   - 4: {fileID: 400006}
   - 114: {fileID: 11400006}
   m_Layer: 0
-  m_Name: CT15
+  m_Name: CT6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ GameObject:
   - 4: {fileID: 400008}
   - 114: {fileID: 11400008}
   m_Layer: 0
-  m_Name: CT18
+  m_Name: CT20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - 4: {fileID: 400010}
   - 114: {fileID: 11400010}
   m_Layer: 0
-  m_Name: CT16
+  m_Name: CT22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ GameObject:
   - 4: {fileID: 400012}
   - 114: {fileID: 11400012}
   m_Layer: 0
-  m_Name: CT20
+  m_Name: CT10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +122,7 @@ GameObject:
   - 4: {fileID: 400014}
   - 114: {fileID: 11400014}
   m_Layer: 0
-  m_Name: CT12
+  m_Name: CT5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,7 +138,7 @@ GameObject:
   - 4: {fileID: 400016}
   - 114: {fileID: 11400016}
   m_Layer: 0
-  m_Name: CT21
+  m_Name: CT8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - 4: {fileID: 400018}
   - 114: {fileID: 11400018}
   m_Layer: 0
-  m_Name: CT17
+  m_Name: CT7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -170,7 +170,7 @@ GameObject:
   - 4: {fileID: 400020}
   - 114: {fileID: 11400020}
   m_Layer: 0
-  m_Name: CT11
+  m_Name: CT13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ GameObject:
   - 4: {fileID: 400022}
   - 114: {fileID: 11400022}
   m_Layer: 0
-  m_Name: CT19
+  m_Name: CT12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -202,7 +202,7 @@ GameObject:
   - 4: {fileID: 400024}
   - 114: {fileID: 11400024}
   m_Layer: 0
-  m_Name: CT25
+  m_Name: CT15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   - 4: {fileID: 400026}
   - 114: {fileID: 11400026}
   m_Layer: 0
-  m_Name: CT22
+  m_Name: CT21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 400028}
   - 114: {fileID: 11400028}
   m_Layer: 0
-  m_Name: CT14
+  m_Name: CT24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,7 +242,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100030
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -250,7 +250,7 @@ GameObject:
   - 4: {fileID: 400030}
   - 114: {fileID: 11400030}
   m_Layer: 0
-  m_Name: CT1
+  m_Name: CT2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -266,7 +266,7 @@ GameObject:
   - 4: {fileID: 400032}
   - 114: {fileID: 11400032}
   m_Layer: 0
-  m_Name: CT6
+  m_Name: CT23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ GameObject:
   - 4: {fileID: 400034}
   - 114: {fileID: 11400034}
   m_Layer: 0
-  m_Name: CT10
+  m_Name: CT4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -298,7 +298,7 @@ GameObject:
   - 4: {fileID: 400036}
   - 114: {fileID: 11400036}
   m_Layer: 0
-  m_Name: CT5
+  m_Name: CT25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,7 +314,7 @@ GameObject:
   - 4: {fileID: 400038}
   - 114: {fileID: 11400038}
   m_Layer: 0
-  m_Name: CT8
+  m_Name: CT9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -330,7 +330,7 @@ GameObject:
   - 4: {fileID: 400040}
   - 114: {fileID: 11400040}
   m_Layer: 0
-  m_Name: CT7
+  m_Name: CT18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,7 +346,7 @@ GameObject:
   - 4: {fileID: 400042}
   - 114: {fileID: 11400042}
   m_Layer: 0
-  m_Name: CT2
+  m_Name: CT14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,15 +354,16 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100044
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400044}
+  - 114: {fileID: 11400046}
   - 114: {fileID: 11400044}
   m_Layer: 0
-  m_Name: CT4
+  m_Name: NarratorTutorial1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -376,9 +377,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400046}
-  - 114: {fileID: 11400046}
+  - 114: {fileID: 11400048}
   m_Layer: 0
-  m_Name: CT9
+  m_Name: CT11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,16 +387,15 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100048
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400048}
   - 114: {fileID: 11400050}
-  - 114: {fileID: 11400048}
   m_Layer: 0
-  m_Name: NarratorTutorial1
+  m_Name: CT3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -411,7 +411,7 @@ GameObject:
   - 4: {fileID: 400050}
   - 114: {fileID: 11400052}
   m_Layer: 0
-  m_Name: CT3
+  m_Name: CT19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,12 +423,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -.581035972, z: 0, w: .81387794}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400024}
-  m_Father: {fileID: 400002}
+  - {fileID: 400030}
+  m_Father: {fileID: 400044}
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
@@ -439,8 +439,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400000}
-  m_Father: {fileID: 400026}
+  - {fileID: 400004}
+  m_Father: {fileID: 400024}
 --- !u!4 &400004
 Transform:
   m_ObjectHideFlags: 1
@@ -451,8 +451,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400028}
-  m_Father: {fileID: 400014}
+  - {fileID: 400040}
+  m_Father: {fileID: 400002}
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 1
@@ -463,8 +463,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400010}
-  m_Father: {fileID: 400028}
+  - {fileID: 400018}
+  m_Father: {fileID: 400014}
 --- !u!4 &400008
 Transform:
   m_ObjectHideFlags: 1
@@ -475,8 +475,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400022}
-  m_Father: {fileID: 400018}
+  - {fileID: 400026}
+  m_Father: {fileID: 400050}
 --- !u!4 &400010
 Transform:
   m_ObjectHideFlags: 1
@@ -487,8 +487,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400018}
-  m_Father: {fileID: 400006}
+  - {fileID: 400032}
+  m_Father: {fileID: 400026}
 --- !u!4 &400012
 Transform:
   m_ObjectHideFlags: 1
@@ -499,8 +499,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400016}
-  m_Father: {fileID: 400022}
+  - {fileID: 400046}
+  m_Father: {fileID: 400038}
 --- !u!4 &400014
 Transform:
   m_ObjectHideFlags: 1
@@ -511,8 +511,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400004}
-  m_Father: {fileID: 400020}
+  - {fileID: 400006}
+  m_Father: {fileID: 400034}
 --- !u!4 &400016
 Transform:
   m_ObjectHideFlags: 1
@@ -523,8 +523,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400026}
-  m_Father: {fileID: 400012}
+  - {fileID: 400038}
+  m_Father: {fileID: 400018}
 --- !u!4 &400018
 Transform:
   m_ObjectHideFlags: 1
@@ -535,8 +535,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400008}
-  m_Father: {fileID: 400010}
+  - {fileID: 400016}
+  m_Father: {fileID: 400006}
 --- !u!4 &400020
 Transform:
   m_ObjectHideFlags: 1
@@ -547,8 +547,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400014}
-  m_Father: {fileID: 400034}
+  - {fileID: 400042}
+  m_Father: {fileID: 400022}
 --- !u!4 &400022
 Transform:
   m_ObjectHideFlags: 1
@@ -559,8 +559,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400012}
-  m_Father: {fileID: 400008}
+  - {fileID: 400020}
+  m_Father: {fileID: 400046}
 --- !u!4 &400024
 Transform:
   m_ObjectHideFlags: 1
@@ -570,8 +570,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400000}
+  m_Children:
+  - {fileID: 400002}
+  m_Father: {fileID: 400042}
 --- !u!4 &400026
 Transform:
   m_ObjectHideFlags: 1
@@ -582,8 +583,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400002}
-  m_Father: {fileID: 400016}
+  - {fileID: 400010}
+  m_Father: {fileID: 400008}
 --- !u!4 &400028
 Transform:
   m_ObjectHideFlags: 1
@@ -594,20 +595,20 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400006}
-  m_Father: {fileID: 400004}
+  - {fileID: 400036}
+  m_Father: {fileID: 400032}
 --- !u!4 &400030
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100030}
-  m_LocalRotation: {x: 0, y: -.581035972, z: 0, w: .81387794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400042}
-  m_Father: {fileID: 400048}
+  - {fileID: 400048}
+  m_Father: {fileID: 400000}
 --- !u!4 &400032
 Transform:
   m_ObjectHideFlags: 1
@@ -618,8 +619,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400040}
-  m_Father: {fileID: 400036}
+  - {fileID: 400028}
+  m_Father: {fileID: 400010}
 --- !u!4 &400034
 Transform:
   m_ObjectHideFlags: 1
@@ -630,8 +631,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400020}
-  m_Father: {fileID: 400046}
+  - {fileID: 400014}
+  m_Father: {fileID: 400048}
 --- !u!4 &400036
 Transform:
   m_ObjectHideFlags: 1
@@ -641,9 +642,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400032}
-  m_Father: {fileID: 400044}
+  m_Children: []
+  m_Father: {fileID: 400028}
 --- !u!4 &400038
 Transform:
   m_ObjectHideFlags: 1
@@ -654,8 +654,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400046}
-  m_Father: {fileID: 400040}
+  - {fileID: 400012}
+  m_Father: {fileID: 400016}
 --- !u!4 &400040
 Transform:
   m_ObjectHideFlags: 1
@@ -666,8 +666,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400038}
-  m_Father: {fileID: 400032}
+  - {fileID: 400050}
+  m_Father: {fileID: 400004}
 --- !u!4 &400042
 Transform:
   m_ObjectHideFlags: 1
@@ -678,20 +678,20 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400050}
-  m_Father: {fileID: 400030}
+  - {fileID: 400024}
+  m_Father: {fileID: 400020}
 --- !u!4 &400044
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100044}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: .581035972, z: 0, w: .81387794}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400036}
-  m_Father: {fileID: 400050}
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
 --- !u!4 &400046
 Transform:
   m_ObjectHideFlags: 1
@@ -702,20 +702,20 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400034}
-  m_Father: {fileID: 400038}
+  - {fileID: 400022}
+  m_Father: {fileID: 400012}
 --- !u!4 &400048
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
-  m_LocalRotation: {x: 0, y: .581035972, z: 0, w: .81387794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400030}
-  m_Father: {fileID: 0}
+  - {fileID: 400034}
+  m_Father: {fileID: 400030}
 --- !u!4 &400050
 Transform:
   m_ObjectHideFlags: 1
@@ -726,8 +726,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400044}
-  m_Father: {fileID: 400042}
+  - {fileID: 400008}
+  m_Father: {fileID: 400040}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -741,19 +741,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Great! Thanks a lot!
+  sFirstOption: Here we have our little hero, the heir of a royal family lost in a
+    strange land.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 5.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400024}
+  - {fileID: 11400030}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: eb7c449c85a1313498c4ac02616d2610, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -767,20 +768,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: "\u2026 Ok... Let me show you the square and then I'll let you try
-    to find your friends, maybe they do remember something..."
+  sFirstOption: Oh, man!
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
+  sSpeaker: 1
+  fSeconds: 1.60000002
   showNodes: 1
   cncArray:
-  - {fileID: 11400000}
+  - {fileID: 11400004}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 456f6e3adabb9a8419d459f87b8db4ca, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -794,19 +794,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: And the spaceship?
+  sFirstOption: Oh man? Is that all you have to say? Stupid! The ship was equipped
+    with a source of energy still unknown in the Earth!
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 8.60000038
   showNodes: 1
   cncArray:
-  - {fileID: 11400028}
+  - {fileID: 11400040}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 6a01eb938105ba04bb80c6516061a888, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -820,19 +821,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Do you still have the key, don't you?
+  sFirstOption: Ah, ah
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
+  sSpeaker: 1
+  fSeconds: 1
   showNodes: 1
   cncArray:
-  - {fileID: 11400010}
+  - {fileID: 11400018}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: a62b03e2c5a829040993ba85392ace0d, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -846,19 +847,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: You were not even supposed to land here! Let's hope nobody finds it...
+  sFirstOption: The narrator of your adventure, but you can call me God if you want
+    to, babe. I'll be your guide.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 6
   showNodes: 1
   cncArray:
-  - {fileID: 11400022}
+  - {fileID: 11400026}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 994bd9b179ca92d4cb796ff5f2b63dde, type: 3}
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -872,19 +874,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Oh, man!
+  sFirstOption: Hey! There's no need to offend!
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  fSeconds: 2.29999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400018}
+  - {fileID: 11400032}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 40f40455cd9794c44a95b42516bd855d, type: 3}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -898,20 +900,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: The narrator of your adventure, but you can call me God if you want
-    to, babe. I'll be your guide.
+  sFirstOption: Yes, yes... I remember we came with my father's new ship, Beta managed
+    to convince him.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
+  sSpeaker: 1
+  fSeconds: 5.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400016}
+  - {fileID: 11400048}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: f929f4ff0463b15409c17fe1a0a02279, type: 3}
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -925,19 +927,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: By the way, where is he? And my brother?
+  sFirstOption: Do you remember what you did yesterday?
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 1.79999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400004}
+  - {fileID: 11400006}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 5d0f3f158f88a95498f04e347f191007, type: 3}
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -951,19 +953,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: And your babysitter, as far as I can see.
+  sFirstOption: OK... Thanks a million, but do not shout any more, my head is exploding...
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
+  sSpeaker: 1
+  fSeconds: 7.5999999
   showNodes: 1
   cncArray:
-  - {fileID: 11400026}
+  - {fileID: 11400038}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 738a934aa5e0c5f41929c8239fe63443, type: 3}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -977,20 +979,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Oh man? Is that all you have to say? Stupid! The ship was equipped
-    with a source of energy still unknown in the Earth!
+  sFirstOption: I will tell you something, just to let you know the BIG PROBLEM you
+    got yourself into.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 5.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400008}
+  - {fileID: 11400016}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: eae040c7c5d530c4c8f24213f4a4748c, type: 3}
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1004,19 +1006,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: He's the best best man in the whole universe.
+  sFirstOption: And the spaceship?
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 1.29999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400014}
+  - {fileID: 11400042}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 16bd506cd60600d48bbec6baed967614, type: 3}
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1030,19 +1032,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Yeah... You're right... And... By the way, who are you exactly? God?
+  sFirstOption: By the way, where is he? And my brother?
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  fSeconds: 3.4000001
   showNodes: 1
   cncArray:
-  - {fileID: 11400012}
+  - {fileID: 11400020}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 0455c78883806b04aacc954096670771, type: 3}
 --- !u!114 &11400024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1056,19 +1058,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Green woke up in a strange place and he didn't even remember how he
-    arrived there. He walked around a little and found himself in front of a bar.
+  sFirstOption: Do you still have the key, don't you?
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 1.79999995
   showNodes: 1
-  cncArray: []
+  cncArray:
+  - {fileID: 11400002}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
-  postAction: EnableAll
-  clipAudio: {fileID: 0}
+  postAction: 
+  clipAudio: {fileID: 8300000, guid: 838d8e9ad5fc3f54eac986873e342874, type: 3}
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1082,19 +1084,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Hey! There's no need to offend!
+  sFirstOption: And your babysitter, as far as I can see.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 2.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400002}
+  - {fileID: 11400010}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 69cc9d3964ccfef47aec9e2dfb7c963e, type: 3}
 --- !u!114 &11400028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1108,19 +1110,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Ahm...
+  sFirstOption: Great! Thanks a lot!
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  fSeconds: 1.29999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400006}
+  - {fileID: 11400036}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 5b604848fd05fdc42b7e90022d20cc3a, type: 3}
 --- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1134,20 +1136,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Here we have our little hero, the heir of a royal family lost in a
-    strange land.
+  sFirstOption: I'm trying to give this situation an epic touch, but waking up after
+    the whole night partying hard is anything but epic. You! Green! Wake up!
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 9.10000038
   showNodes: 1
   cncArray:
-  - {fileID: 11400042}
+  - {fileID: 11400050}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 2deb81b6d4f27814f81c913f741ef79f, type: 3}
 --- !u!114 &11400032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1161,19 +1163,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Ah, ah
+  sFirstOption: "\u2026 Ok... Let me show you the square and then I'll let you try
+    to find your friends, maybe they do remember something..."
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 7.19999981
   showNodes: 1
   cncArray:
-  - {fileID: 11400040}
+  - {fileID: 11400028}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 9ceb9896f162eac4f9a2cca17a73543a, type: 3}
 --- !u!114 &11400034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1187,20 +1190,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Yes, yes... I remember we came with my father's new ship, Beta managed
-    to convince him.
+  sFirstOption: Lazy bum! Come on!
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 1.60000002
   showNodes: 1
   cncArray:
-  - {fileID: 11400020}
+  - {fileID: 11400014}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 1c307b2f282cce246ae7f1d74fce70fb, type: 3}
 --- !u!114 &11400036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1214,19 +1216,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Do you remember what you did yesterday?
+  sFirstOption: Green woke up in a strange place and he didn't even remember how he
+    arrived there. He walked around a little and found himself in front of a bar.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 13.3999996
   showNodes: 1
-  cncArray:
-  - {fileID: 11400032}
+  cncArray: []
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
+  postAction: EnableAll
+  clipAudio: {fileID: 8300000, guid: 293857ba35aa8a84a88a48422e460154, type: 3}
 --- !u!114 &11400038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1240,19 +1242,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: OK... Thanks a million, but do not shout any more, my head is exploding...
+  sFirstOption: You came yesterday with your friends for your stag party. Do you remember
+    you're getting married in two days, at least?
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 6.30000019
   showNodes: 1
   cncArray:
-  - {fileID: 11400046}
+  - {fileID: 11400012}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 6893fc67ebe69de49b53bd76b43cefc4, type: 3}
 --- !u!114 &11400040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1266,20 +1269,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: I will tell you something, just to let you know the BIG PROBLEM you
-    got yourself into.
+  sFirstOption: You were not even supposed to land here! Let's hope nobody finds it...
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
-  fSeconds: 3
+  fSeconds: 4.69999981
   showNodes: 1
   cncArray:
-  - {fileID: 11400038}
+  - {fileID: 11400052}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8df6a574747885e4fa7dff06bca5b34a, type: 3}
 --- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1293,20 +1295,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: I'm trying to give this situation an epic touch, but waking up after
-    the whole night partying hard is anything but epic. You! Green! Wake up!
+  sFirstOption: Ahm...
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
+  sSpeaker: 1
+  fSeconds: 2.20000005
   showNodes: 1
   cncArray:
-  - {fileID: 11400052}
+  - {fileID: 11400024}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: b442e934e1b2a8e46897b5e178bc43d4, type: 3}
 --- !u!114 &11400044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1315,25 +1316,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 100044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Script: {fileID: 11500000, guid: 65a2c0413b5a68547922f6adbf0a5139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Lazy bum! Come on!
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400036}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
+  cams: {fileID: 0}
 --- !u!114 &11400046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootNodes:
+  - {fileID: 11400000}
+  useDialgogCamera: 0
+  allowSkip: 1
+  style: 0
+  alienCam: {fileID: 0}
+  otherCam: {fileID: 0}
+--- !u!114 &11400048
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1346,56 +1351,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: You came yesterday with your friends for your stag party. Do you remember
-    you're getting married in two days, at least?
+  sFirstOption: He's the best best man in the whole universe.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
+  sSpeaker: 1
+  fSeconds: 3.20000005
   showNodes: 1
   cncArray:
-  - {fileID: 11400034}
+  - {fileID: 11400022}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
---- !u!114 &11400048
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65a2c0413b5a68547922f6adbf0a5139, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cams: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 4a0be15819557954780a5a755bd75c36, type: 3}
 --- !u!114 &11400050
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootNodes:
-  - {fileID: 11400030}
-  useDialgogCamera: 0
-  allowSkip: 1
-  style: 0
-  alienCam: {fileID: 0}
-  otherCam: {fileID: 0}
---- !u!114 &11400052
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100050}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
@@ -1410,12 +1384,38 @@ MonoBehaviour:
   fSeconds: 3
   showNodes: 1
   cncArray:
-  - {fileID: 11400044}
+  - {fileID: 11400034}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 86c6360111413f646a41da4ff329ca99, type: 3}
+--- !u!114 &11400052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Yeah... You're right... And... By the way, who are you exactly? God?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  fSeconds: 6.30000019
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400008}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 8300000, guid: 11cf6b91bb4382e4ca393192330e959c, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -1425,6 +1425,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100048}
+  m_RootGameObject: {fileID: 100044}
   m_IsPrefabParent: 1
   m_IsExploded: 1

@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: CT32
+  m_Name: NarratorTutorial8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18,7 +18,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100002
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: CT33
+  m_Name: CT32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,7 +34,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &100004
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
   m_Layer: 0
-  m_Name: NarratorTutorial8
+  m_Name: CT33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54,22 +54,23 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: -.581035972, z: 0, w: .81387794}
+  m_LocalRotation: {x: 0, y: .581035972, z: 0, w: .81387794}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
-  m_Father: {fileID: 400004}
+  m_Father: {fileID: 0}
 --- !u!4 &400002
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -.581035972, z: 0, w: .81387794}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 400004}
   m_Father: {fileID: 400000}
 --- !u!4 &400004
 Transform:
@@ -77,12 +78,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_LocalRotation: {x: 0, y: .581035972, z: 0, w: .81387794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400000}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 400002}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -91,25 +91,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowNode: 0
-  var: 
-  sFirstOption: Oh, man! What the hell happened? What have you done? Spit it out!
-    Look at your stuff and maybe he's with your things.
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 2
-  fSeconds: 3
-  showNodes: 1
-  cncArray:
+  rootNodes:
   - {fileID: 11400002}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: 
-  clipAudio: {fileID: 0}
+  useDialgogCamera: 0
+  allowSkip: 1
+  style: 2
+  alienCam: {fileID: 0}
+  otherCam: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,19 +114,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: I only have an extinguisher and a picture of myself, let me see if
-    I have something else.
+  sFirstOption: Oh, man! What the hell happened? What have you done? Spit it out!
+    Look at your stuff and maybe he's with your things.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 7.5
   showNodes: 1
-  cncArray: []
+  cncArray:
+  - {fileID: 11400004}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 2ef2f7f13157edf4dbe24004d748418c, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,16 +136,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 100004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rootNodes:
-  - {fileID: 11400000}
-  useDialgogCamera: 0
-  allowSkip: 1
-  style: 2
-  alienCam: {fileID: 0}
-  otherCam: {fileID: 0}
+  ShowNode: 0
+  var: 
+  sFirstOption: I only have an extinguisher and a picture of myself, let me see if
+    I have something else.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  fSeconds: 5.4000001
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  clipAudio: {fileID: 8300000, guid: 6b80ff5dc08788f4e96ea8795ec18fa8, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -163,6 +163,6 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 100004}
+  m_RootGameObject: {fileID: 100000}
   m_IsPrefabParent: 1
   m_IsExploded: 1

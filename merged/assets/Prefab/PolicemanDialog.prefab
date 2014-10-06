@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: CI1a
+  m_Name: C1a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: CI1b
+  m_Name: C1b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
   m_Layer: 0
-  m_Name: CI1x4
+  m_Name: C1x4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ GameObject:
   - 4: {fileID: 400012}
   - 114: {fileID: 11400014}
   m_Layer: 0
-  m_Name: CI1x5
+  m_Name: C1x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ GameObject:
   - 4: {fileID: 400014}
   - 114: {fileID: 11400016}
   m_Layer: 0
-  m_Name: CI1x
+  m_Name: C1x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -139,7 +139,7 @@ GameObject:
   - 4: {fileID: 400016}
   - 114: {fileID: 11400018}
   m_Layer: 0
-  m_Name: CI1x6
+  m_Name: C1x6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ GameObject:
   - 4: {fileID: 400018}
   - 114: {fileID: 11400020}
   m_Layer: 0
-  m_Name: CI1x2
+  m_Name: C1x2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,7 +171,7 @@ GameObject:
   - 4: {fileID: 400020}
   - 114: {fileID: 11400022}
   m_Layer: 0
-  m_Name: CI1x7
+  m_Name: C1x7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,7 +187,7 @@ GameObject:
   - 4: {fileID: 400022}
   - 114: {fileID: 11400024}
   m_Layer: 0
-  m_Name: CI1c
+  m_Name: C1c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,7 +203,7 @@ GameObject:
   - 4: {fileID: 400024}
   - 114: {fileID: 11400026}
   m_Layer: 0
-  m_Name: CI1x3
+  m_Name: C1x3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 4.69999981
   showNodes: 1
   cncArray:
   - {fileID: 11400016}
@@ -390,7 +390,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 1b2169f41473e2a49a3b1d096ad19482, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -404,12 +404,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: "\rI'm still a little drunk, \r\r\n\r\nI'm having problems to\r \r\nspeak
+  sFirstOption: "\rI'm still a little drunk, \r\r\nI'm having problems to\r \r\nspeak
     properly."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 6
   showNodes: 1
   cncArray:
   - {fileID: 11400016}
@@ -417,7 +417,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 7a715a28930a4fd419679b80940a8baa, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -435,7 +435,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 2.20000005
   showNodes: 1
   cncArray:
   - {fileID: 11400014}
@@ -443,7 +443,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 6507cfb948adeb7478cd7fb7a41e76d6, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -461,7 +461,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 3.70000005
   showNodes: 1
   cncArray:
   - {fileID: 11400008}
@@ -469,7 +469,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: e0743691d6eb6894298e2f0e0743f393, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -497,7 +497,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 4f3def902488c9b41906b3b4f82b67e3, type: 3}
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16167c16cd3fcdb41ba5e17e18205001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartTree: {fileID: 0}
+  AfterTree: {fileID: 0}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -545,7 +545,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 1
+  fSeconds: 3.5
   showNodes: 1
   cncArray:
   - {fileID: 11400018}
@@ -553,7 +553,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: f21c697beba735941830e6e9195ffbb6, type: 3}
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -571,7 +571,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 1
+  fSeconds: 2
   showNodes: 1
   cncArray:
   - {fileID: 11400020}
@@ -579,7 +579,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 16d78bed0741b51479918dd13852efcc, type: 3}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -597,7 +597,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 2.79999995
   showNodes: 1
   cncArray:
   - {fileID: 11400022}
@@ -605,7 +605,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 47dc943c044f6b5419e6446b7ae08f70, type: 3}
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -623,7 +623,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 4.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400026}
@@ -631,7 +631,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 87f184f095a7e314d85a8002f53be87e, type: 3}
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -649,14 +649,14 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 1
+  fSeconds: 3.79999995
   showNodes: 1
   cncArray: []
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: ReturnToTutorial
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 3e6fcf32b2912f54dbfc5c90ae206877, type: 3}
 --- !u!114 &11400024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -674,7 +674,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 1
+  fSeconds: 2.9000001
   showNodes: 1
   cncArray:
   - {fileID: 11400016}
@@ -682,7 +682,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 5ee73a4a17b3a664888c87fecf1a0d15, type: 3}
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -700,7 +700,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 1
+  fSeconds: 3.4000001
   showNodes: 1
   cncArray:
   - {fileID: 11400004}
@@ -708,7 +708,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: dc47640b49679c5498c94e89db80bdf5, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

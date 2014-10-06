@@ -72,15 +72,15 @@ MonoBehaviour:
     to leave.
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 0
-  fSeconds: 3
+  sSpeaker: 2
+  fSeconds: 6
   showNodes: 1
   cncArray: []
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 97d1182e643944144a9d23b316355b53, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -95,7 +95,10 @@ MonoBehaviour:
   rootNodes:
   - {fileID: 11400000}
   useDialgogCamera: 0
-  style: 0
+  allowSkip: 1
+  style: 2
+  alienCam: {fileID: 0}
+  otherCam: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
