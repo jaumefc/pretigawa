@@ -20,6 +20,10 @@ public class particleChange : MonoBehaviour {
 		int rnd = Random.Range (0, 10);
 		ps.renderer.material = materials[rnd] as Material;
 
-		Invoke ("canviaParticula", 2.0f);
+		Invoke ("canviaParticula", 3.0f);
+	}
+
+	private void waitTime(){
+		Invoke ("canviaParticula", 1.0f);
 	}
 }
