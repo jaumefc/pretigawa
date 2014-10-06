@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraControl : MonoBehaviour {
 
 	Camera cCamera1, cCamera2, cCameraDialog, cCameraOriginal;
-	DialogCameraScript DCScript;
+	//DialogCameraScript DCScript;
 	GUITexture DCTexture;
 	bool stateIn;
 	mouseControl MCScript;
@@ -18,7 +18,7 @@ public class CameraControl : MonoBehaviour {
 		//cCamera2 = GameObject.Find ("Camera2").camera;
 		cCameraDialog = GameObject.Find ("DialogCamera").camera;
 
-		DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
+		//DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
 		//DCTexture = GameObject.Find ("DialogLayout").guiTexture;
 		//DCTexture.enabled = false;
 
@@ -36,15 +36,28 @@ public class CameraControl : MonoBehaviour {
 		Debug.Log ("Fem el In");
 		Debug.Log (Camera.current);
 		cCamera2 = otherCam;
-		cCameraOriginal = Camera.main;
-		cCameraOriginal.enabled = false;
+		foreach(Camera cam in Camera.allCameras){
+			cam.enabled = false;
+		}
+//		cCameraOriginal = Camera.main;
+//		if(cCameraOriginal!=null){
+//			cCameraOriginal.enabled = false;
+//		}
+//		else{
+//			cCameraOriginal = Camera.current;
+//			cCameraOriginal.enabled = false;
+//		}
+//		if(cCameraOriginal==null)
+//		{
+//			cCameraOriginal = Camera.main;
+//		}
 		//DCTexture.enabled = true;
 		//cCamera1.enabled = true;
 		cCamera2.enabled = true;
-		cCameraDialog.enabled = true;
+		//cCameraDialog.enabled = true;
 		MCScript.enabled=false;
 		//DCScript.enabled = true;
-		DCScript.Init ();
+		//DCScript.Init ();
 		stateIn = true;
 	}
 
@@ -55,7 +68,7 @@ public class CameraControl : MonoBehaviour {
 		//DCTexture.enabled = false;
 		//cCamera1.camera.enabled = false;
 		cCamera2.enabled = false;
-		cCameraDialog.enabled = false;
+		//cCameraDialog.enabled = false;
 		MCScript.enabled=true;
 		stateIn = false;
 		//DCScript.enabled = false;

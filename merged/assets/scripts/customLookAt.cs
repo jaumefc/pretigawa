@@ -7,7 +7,7 @@ public class customLookAt : MonoBehaviour {
 	private Transform tPlayer;
 
 	
-	private float damping = 0.5f;
+	public float damping = 0.5f;
 	private bool smooth = true;
 	// Use this for initialization
 	void Start () {

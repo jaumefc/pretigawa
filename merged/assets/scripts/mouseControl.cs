@@ -22,6 +22,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 	private GameObject cRaster;
 	private GizmoDebug gd;
 	private CameraControl CCScript;
+	private DialogCameraScript DCScript;
 
 	private GameState gs;
 	private GUIText test;
@@ -47,6 +48,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		_inventory = GetComponent<InventoryControl>();
 		gd = GameObject.FindObjectOfType<GizmoDebug>().GetComponent<GizmoDebug>();
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
+		DCScript = GameObject.Find("DialogLayout").GetComponent<DialogCameraScript>();;
 		inventoryBack = GameObject.Find("background");
 		_characterAction = CharacterAction.None;
         gs = GameState.GetInstance();
@@ -126,7 +128,8 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 				targetRotation = Quaternion.LookRotation(new Vector3(targetObject.transform.position.x-1,0,targetObject.transform.position.z)-targetLocation);
 				//Si el Player mira cara a cara el seu interlocutor, es fa el transfer de camera, sino gira fins mirar el seu interlocutor
 				if(navi.transform.rotation == targetRotation){
-					CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
+					//CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
+					DCScript.Init();
 					targetObject = null;
 					_characterAction = CharacterAction.None;
 				}

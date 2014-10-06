@@ -157,6 +157,7 @@ public class DialogCameraScript : MonoBehaviour {
 		}
 		if (showState == ShowState.SHOW) //Es mostren les opcions, i es canvia el subestat d'aquest node perque esperi un clic
 		{
+			showCam((ConversationNodeClass)NodesToShow[0]);
 			for(int i = 0;i<NodesToShow.Count;i++)
 			{
 				objBallons[i].guiTexture.enabled = true;
@@ -210,6 +211,7 @@ public class DialogCameraScript : MonoBehaviour {
 		Balloondx = 0.24f;
 		Balloondy = 0.44f;
 
+		showCam(Node);
 		if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
 			style = style_alien;
 		} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
@@ -356,6 +358,25 @@ public class DialogCameraScript : MonoBehaviour {
 			ret = true;
 		}
 		return ret;
+	}
+
+	void showCam(ConversationNodeClass node){
+		if(cTree.useDialogCamera)
+		{
+			if(node.sSpeaker == ConversationNodeClass.speaker.ALIEN && cTree.alienCam!=null)
+			{
+				CCScript.TransferIn(cTree.alienCam);
+			}
+			else if(node.sSpeaker == ConversationNodeClass.speaker.THEOTHER && cTree.otherCam!=null)
+			{
+				CCScript.TransferIn(cTree.otherCam);
+			}else{
+				if(cTree.generalCam!=null)
+					CCScript.TransferIn(cTree.generalCam);
+				else
+					Debug.LogError("Use camera is active, but any camera is asigned!!");
+			}
+		}
 	}
 }
 	
