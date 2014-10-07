@@ -10,6 +10,7 @@ public class sniperGameplayController : MonoBehaviour {
 
 	public Transform snipingDirection;
 	public GameObject dardo;
+	public ParticleSystem fxShoot;
 
 	private GameObject mainChar;
 	private CapsuleCollider cc;
@@ -51,42 +52,44 @@ public class sniperGameplayController : MonoBehaviour {
 								shoot ();
 				}
 		}
+	}
 
-		if (Input.GetKey ("h")) {
+	public bool isActive(){
+		return isSniperGameplay;
+	}
 
-			if(Time.realtimeSinceStartup - changeTime > 0.1f){
-				changeTime = Time.realtimeSinceStartup;
-				isSniperGameplay = !isSniperGameplay;
+	public void setActive(bool isActive){
 
-				if(!isSniperGameplay){
-					SoundBreath.audio.Stop();
-					mainChar.audio.volume = 1.0f;
-					mc.enabled = true;
-					chc.enabled = true;
-					
-					GameObject.Find ("CameraSniper").camera.enabled = false;
-					triggeredCams.SetActive (true);
-					sniperGameplay.SetActive(false);
-				}
+		isSniperGameplay = isActive;
 
-				else{
-					sniperGameplay.SetActive(true);
-					
-					mc.enabled = false;
-					chc.enabled = false;
-					
-					GameObject.Find ("CameraSniper").camera.enabled = true;
-					triggeredCams.SetActive (false);
-
-					mainChar.audio.volume = 0.25f;
-					SoundBreath.audio.Play();
-				}
-			}
+		if(!isSniperGameplay){
+			SoundBreath.audio.Stop();
+			mainChar.audio.volume = 1.0f;
+			mc.enabled = true;
+			chc.enabled = true;
+			
+			GameObject.Find ("CameraSniper").camera.enabled = false;
+			triggeredCams.SetActive (true);
+			sniperGameplay.SetActive(false);
+		}
+		
+		else{
+			sniperGameplay.SetActive(true);
+			
+			mc.enabled = false;
+			chc.enabled = false;
+			
+			GameObject.Find ("CameraSniper").camera.enabled = true;
+			triggeredCams.SetActive (false);
+			
+			mainChar.audio.volume = 0.25f;
+			SoundBreath.audio.Play();
 		}
 	}
 
 	private void shoot(){
 		isShooting = true;
+		fxShoot.Play ();
 		SoundBreath.audio.Stop();
 		SoundShoot.audio.Play();
 		Invoke ("reload", 0.75f);

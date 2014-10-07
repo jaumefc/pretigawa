@@ -138,8 +138,12 @@ ModelImporter:
     4300000: Enemic_
     4300002: ojo der
     4300004: ojo iz
-    7400000: Enemic dolent_33_ex
+    7400000: Idle
+    7400002: Walk
+    7400004: Speak
+    7400006: Yell
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Enemic_
   materials:
     importMaterials: 1
@@ -155,7 +159,647 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Enemic dolent_33_ex
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemic_
+        weight: 1
+      - path: Mio2_EnemicRig_
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaderGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaIzqGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_LLegPierna_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+          1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_RLegPiernaDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo iz
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejader
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejaIzq
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der 1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_IKTarget
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_LPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_AnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_Platform
+        weight: 1
+      - path: Mio2_EnemicRig_Pecho_002Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoDigit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoLPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmDigit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPierna2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaAnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaPlatform
+        weight: 1
+      - path: Mio2_EnemicRig_Spine2Gizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Enemic dolent_33_ex
+      firstFrame: 100
+      lastFrame: 135
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemic_
+        weight: 1
+      - path: Mio2_EnemicRig_
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaderGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaIzqGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_LLegPierna_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+          1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_RLegPiernaDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo iz
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejader
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejaIzq
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der 1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_IKTarget
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_LPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_AnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_Platform
+        weight: 1
+      - path: Mio2_EnemicRig_Pecho_002Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoDigit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoLPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmDigit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPierna2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaAnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaPlatform
+        weight: 1
+      - path: Mio2_EnemicRig_Spine2Gizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Speak
+      takeName: Enemic dolent_33_ex
+      firstFrame: 140
+      lastFrame: 165
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemic_
+        weight: 1
+      - path: Mio2_EnemicRig_
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaderGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaIzqGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_LLegPierna_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+          1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_RLegPiernaDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo iz
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejader
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejaIzq
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der 1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_IKTarget
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_LPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_AnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_Platform
+        weight: 1
+      - path: Mio2_EnemicRig_Pecho_002Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoDigit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoLPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmDigit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPierna2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaAnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaPlatform
+        weight: 1
+      - path: Mio2_EnemicRig_Spine2Gizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Yell
+      takeName: Enemic dolent_33_ex
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemic_
+        weight: 1
+      - path: Mio2_EnemicRig_
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaderGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_CabezaOrejaIzqGizmo
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_LLegPierna_1/Mio2_EnemicRig_LLegPierna_2/Mio2_EnemicRig_LLegPierna_AnkleTobillo_/Mio2_EnemicRig_LLegPierna_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_AnkleTobillo_Bone001
+          1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_RLegPierna1/Mio2_EnemicRig_RLegPierna2/Mio2_EnemicRig_RLegPiernaAnkleTobillo_/Mio2_EnemicRig_RLegPiernaDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_LArmBrazo_Collarbone/Mio2_EnemicRig_LArmBrazo_1/Mio2_EnemicRig_LArmBrazo_2/Mio2_EnemicRig_LArmBrazo_LPalmMano_/Mio2_EnemicRig_LArmBrazo_Digit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit11
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_RArmBrazoCollarbone/Mio2_EnemicRig_RArmBrazo1/Mio2_EnemicRig_RArmBrazo2/Mio2_EnemicRig_RArmBrazoLPalmMano_/Mio2_EnemicRig_RArmBrazoDigit21
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Dummy
+          ojos/ojo iz
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejader
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_CabezaOrejaIzq
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001/Mio2_EnemicRig_Spine1/Mio2_EnemicRig_Spine2/Mio2_EnemicRig_Spine3/Mio2_EnemicRig_Pecho_002/Mio2_EnemicRig_Spinecuello1/Mio2_EnemicRig_Spinecuello2/Mio2_EnemicRig_Cabeza/Mio2_EnemicRig_ojo
+          der 1
+        weight: 1
+      - path: Mio2_EnemicRig_Hub_Pelvis_001Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_Digit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_IKTarget
+        weight: 1
+      - path: Mio2_EnemicRig_LArmBrazo_LPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_AnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_LLegPierna_Platform
+        weight: 1
+      - path: Mio2_EnemicRig_Pecho_002Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm1Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArm2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoDigit11Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmBrazoLPalmMano_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RArmDigit21Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPierna2Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaAnkleTobillo_Gizmo
+        weight: 1
+      - path: Mio2_EnemicRig_RLegPiernaPlatform
+        weight: 1
+      - path: Mio2_EnemicRig_Spine2Gizmo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -191,5 +835,5 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   userData: 
