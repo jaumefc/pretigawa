@@ -1310,7 +1310,7 @@ GameObject:
   - 198: {fileID: 192315744}
   - 199: {fileID: 192315743}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: FXEstrelles1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12699,7 +12699,7 @@ GameObject:
   - 198: {fileID: 1869540521}
   - 199: {fileID: 1869540520}
   m_Layer: 0
-  m_Name: GameObject2
+  m_Name: FXEstrelles2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
