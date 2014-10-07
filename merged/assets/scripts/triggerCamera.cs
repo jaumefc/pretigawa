@@ -47,7 +47,7 @@ public class triggerCamera : MonoBehaviour {
 
 	void OnTriggerExit(Collider other)
 	{
-		if (other.gameObject == mainChar)
+		if (other.gameObject == mainChar && HystCamera.enabled)
 		{
 
 			HystCamera.CurrCam.enabled = false;

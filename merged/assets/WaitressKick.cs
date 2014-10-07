@@ -19,6 +19,7 @@ public class WaitressKick : MonoBehaviour {
 	public Transform Target2;
 	public Camera boardCam;
 	public Camera flyCam;
+	public Camera alienCam;
 	public float firingAngle1 = 45.0f;
 	public float firingAngle2 = -45.0f;
 	public float gravity = 9.8f;
@@ -63,7 +64,6 @@ public class WaitressKick : MonoBehaviour {
 			case 0:showBoardCam();break;
 			case 1:showGreenCam();break;
 			case 2:showParabolicCam();break;
-			case 3:activateAllObjects();break;
 		}
 
 		/*
@@ -170,7 +170,7 @@ public class WaitressKick : MonoBehaviour {
 	void showBoardCam(){
 		if(Time.timeSinceLevelLoad-initState>3){
 			state = 1;
-			//ccontrol.TransferIn(mainChar)
+			ccontrol.TransferIn(alienCam);
 			initState = Time.timeSinceLevelLoad;
 			Debug.Log(state);
 		}
@@ -184,12 +184,12 @@ public class WaitressKick : MonoBehaviour {
 			initState = Time.timeSinceLevelLoad;
 
 
-			CharControler.enabled=false;
+			//CharControler.enabled=false;
 			MouControl.enabled=false;
 			NMAgent.enabled=false;
 			AnimControl.enabled=false;
 			HCAssigned.enabled=false;
-			CapCollider.enabled = false;
+			//CapCollider.enabled = false;
 			
 			
 			// Move projectile to the position of throwing object + add some offset if needed.
@@ -248,8 +248,6 @@ public class WaitressKick : MonoBehaviour {
 
 	}
 
-	void activateAllObjects(){
-	}
 }
 
 
