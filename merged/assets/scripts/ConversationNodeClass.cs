@@ -25,6 +25,7 @@ public class ConversationNodeClass : MonoBehaviour {
 
 	public string preAction;
 	public string postAction;
+	public playAnimation scriptAnimacio;
 	public AudioClip clipAudio;
 
 

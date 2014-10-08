@@ -97,6 +97,9 @@ public class DialogCameraScript : MonoBehaviour {
 			if(CurNode.preAction!=""){
 				CurNode.GetRootNode().BroadcastMessage(CurNode.preAction);
 			}
+			if(CurNode.scriptAnimacio){
+				CurNode.scriptAnimacio.playIt();
+			}
 			if(CurNode.clipAudio){
 				playerAS.PlayOneShot(CurNode.clipAudio);
 			}

@@ -6,6 +6,7 @@ public class sagradaFamiliaCrash : MonoBehaviour {
 
 	GameObject player;
 	public Animation anim;
+	public ParticleSystem efecteTrencat;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,7 @@ public class sagradaFamiliaCrash : MonoBehaviour {
 		if(other == player.collider)
 		{
 			anim.animation.Play();
+			efecteTrencat.Play();
 			this.enabled = false;
 		}
 	}
