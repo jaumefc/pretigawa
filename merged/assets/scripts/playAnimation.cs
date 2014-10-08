@@ -6,6 +6,7 @@ public class playAnimation : MonoBehaviour {
 	public GameObject characterToPlayIt;
 	public AnimationClip animacio;
 
+	public playAnimation previousAnim;
 	public AnimationClip goBackToAnimation;
 
 	private Animation anims;
@@ -15,6 +16,7 @@ public class playAnimation : MonoBehaviour {
 
 	public void playIt(){
 		if (characterToPlayIt != null && animacio != null) {
+			if(previousAnim!=null)previousAnim.StopAllCoroutines();
 			anims = characterToPlayIt.GetComponent<Animation>();
 			anims.Play(animacio.name);
 			StartCoroutine(backToIdle(animacio.length));
