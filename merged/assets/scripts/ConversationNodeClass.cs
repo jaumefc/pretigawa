@@ -6,6 +6,7 @@ public class ConversationNodeClass : MonoBehaviour {
 	public enum costume {NAKED, JAPANESE, MS_FORTUNE, POLICEMAN, ALL};//add as many as needed, global enum!
 	public enum speaker {ALIEN, THEOTHER, NARRATOR};
 	public enum show {ALWAYS,IF, IF_NOT};
+	public enum valign {TOP, BOTTOM};
 
 	//information
 	public show ShowNode = show.ALWAYS;
@@ -14,6 +15,7 @@ public class ConversationNodeClass : MonoBehaviour {
 	public string sFirstOption, sSecondOption;
 	public costume cCharacter;
 	public speaker sSpeaker;
+	public valign vAlign = valign.TOP;
 	public float fSeconds = 3;
 	[HideInInspector]
 	public bool showNodes = false;

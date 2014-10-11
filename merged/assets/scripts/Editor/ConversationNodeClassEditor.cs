@@ -30,6 +30,7 @@ public class ConversationNodeClassEditor : Editor
 		cnc.sFirstOption = EditorGUILayout.TextField("sFirstOption",cnc.sFirstOption);
 		cnc.sSecondOption = EditorGUILayout.TextField("sSecondOption",cnc.sSecondOption);
 		cnc.cCharacter = (ConversationNodeClass.costume)EditorGUILayout.EnumPopup ("cCharacter", cnc.cCharacter);
+		cnc.vAlign = (ConversationNodeClass.valign)EditorGUILayout.EnumPopup ("vAlign", cnc.vAlign);
 		cnc.sSpeaker = (ConversationNodeClass.speaker)EditorGUILayout.EnumPopup ("sSpeaker", cnc.sSpeaker);
 		cnc.fSeconds = EditorGUILayout.FloatField ("fSeconds", cnc.fSeconds);
 
@@ -39,7 +40,7 @@ public class ConversationNodeClassEditor : Editor
 		cnc.clipAudio = (AudioClip)EditorGUILayout.ObjectField("Audio",cnc.clipAudio,typeof(AudioClip),true);
 	
 		cnc.showNodes = EditorGUILayout.Foldout (cnc.showNodes, "Nodes");
-		
+			
 
 		if(cnc.showNodes)
 		{

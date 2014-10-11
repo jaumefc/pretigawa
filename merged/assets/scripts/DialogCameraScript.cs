@@ -18,6 +18,11 @@ public class DialogCameraScript : MonoBehaviour {
 	public GUIStyle style_theother;
 	public GUIStyle style_narrator;
 
+	private GUIStyle style_alien_down;
+	private GUIStyle style_other_down;
+	private Texture texBotAlien;
+	private Texture textBotOther;
+
 	CameraControl CCScript;
 
 //	float ratio = 1f;
@@ -49,11 +54,22 @@ public class DialogCameraScript : MonoBehaviour {
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
 		playerAS = GameObject.Find("Player").GetComponent<AudioSource>();
 		inventoryControl = GameObject.Find ("Player").GetComponent<InventoryControl> ();
+		style_alien_down = new GUIStyle (style_alien);
+		style_other_down = new GUIStyle (style_theother);
+
 		style_think.fontSize = Mathf.RoundToInt(Screen.height/40 * size);
 		style_alien.fontSize = style_think.fontSize;
 		style_theother.fontSize = style_think.fontSize;
 		style_narrator.fontSize = style_think.fontSize;
+		style_alien_down.fontSize = style_think.fontSize;
+		style_other_down.fontSize = style_think.fontSize;
+		style_alien_down.padding.top = style_other_down.padding.top = style_alien.padding.bottom;
+		style_alien_down.padding.bottom = style_other_down.padding.bottom = style_alien.padding.top;
 		texture = Resources.Load<Texture> ("Textures/GUI_elements/thinkGreen");
+		texBotAlien = Resources.Load<Texture> ("Textures/GUI_elements/dialogBotGreen");
+		textBotOther = Resources.Load<Texture> ("Textures/GUI_elements/dialogBotOther");
+		style_alien_down.normal.background = (Texture2D)texBotAlien;
+		style_other_down.normal.background = (Texture2D)textBotOther;
 		for (int i = 0; i<4; i++) 
 		{
 			objBallons[i] = new GameObject("balloon"+i);
@@ -113,16 +129,6 @@ public class DialogCameraScript : MonoBehaviour {
 				if(CheckConditional(NodeArray[i]) && CheckCustom(NodeArray[i]))
 				   NodesToShow.Add (NodeArray[i]);
 
-//				if (NodeArray[i].ShowNode==ConversationNodeClass.show.ALWAYS){
-//					NodesToShow.Add (NodeArray[i]);
-//				}
-//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF&&gs.GetBool(NodeArray[i].var)==true){
-//					NodesToShow.Add (NodeArray[i]);
-//				}
-//				else if (NodeArray[i].ShowNode==ConversationNodeClass.show.IF_NOT&&gs.GetBool(NodeArray[i].var)==false){
-//					NodesToShow.Add (NodeArray[i]);
-//				}
-				
 			}
 			switch (NodesToShow.Count){
 			case 0:
@@ -215,17 +221,27 @@ public class DialogCameraScript : MonoBehaviour {
 		Balloondy = 0.44f;
 
 		showCam(Node);
-		if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
-			style = style_alien;
-		} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
-			style = style_theother;
-			Balloonx = 0.74f;
-		} else if (Node.sSpeaker == ConversationNodeClass.speaker.NARRATOR) {
-			style = style_narrator;
-			Balloony=1f-Balloondy;
-			//Balloondx = Balloondx*2;
-			//Balloony = 0.7f;
-			//Balloondy = 0.2f;
+
+		if (Node.vAlign == ConversationNodeClass.valign.TOP) {
+			if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
+					style = style_alien;
+			} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
+					style = style_theother;
+					Balloonx = 0.74f;
+			} else if (Node.sSpeaker == ConversationNodeClass.speaker.NARRATOR) {
+					style = style_narrator;
+					Balloony = 1f - Balloondy;
+			}
+		} else if (Node.vAlign == ConversationNodeClass.valign.BOTTOM) {
+			Balloony = 1f - Balloondy;
+			if (Node.sSpeaker == ConversationNodeClass.speaker.ALIEN) {
+				style = style_alien_down;
+			} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
+				style = style_other_down;
+				Balloonx = 0.74f;
+			} else if (Node.sSpeaker == ConversationNodeClass.speaker.NARRATOR) {
+				style = style_narrator;
+			}
 		}
 		if (gettime + Node.fSeconds > Time.time && !(Input.GetMouseButtonUp(0) && skip)) {                                                                                                                                                                                                                                                                                                                                                                                                     
 			GUI.Button (new Rect (Balloonx * Screen.width, Balloony * Screen.height, Balloondx * Screen.width, Balloondy * Screen.height), 
