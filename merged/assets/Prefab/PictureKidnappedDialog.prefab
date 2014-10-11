@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: PictureKidnappedDialog
   m_TagString: Untagged
@@ -107,7 +108,8 @@ MonoBehaviour:
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
-  postAction: 
+  postAction: EnableWC
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
@@ -134,6 +136,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -148,11 +151,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootNodes:
   - {fileID: 11400002}
-  useDialgogCamera: 0
+  useDialogCamera: 0
   allowSkip: 1
   style: 0
   alienCam: {fileID: 0}
   otherCam: {fileID: 0}
+  generalCam: {fileID: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9dfbaa7aa574c489a2eacabfa0f32f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

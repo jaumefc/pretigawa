@@ -8,13 +8,12 @@ public class ConversationScriptOrange : MonoBehaviour {
 	private GameObject player;
 	// Use this for initialization
 	void Start () {
-/*		gs = GameState.GetInstance ();
-		player = GameObject.Find ("Player");
-		if(!gs.ExistsBool("CN6"))
-			gs.AddBool ("CN6", true);
-		if(!gs.ExistsBool("CN7"))
-			gs.AddBool ("CN7", true);
-*/
+		if(!gs.ExistsBool("OrangeFainted"))
+			gs.AddBool ("OrangeFainted", true);
+		if(!gs.ExistsBool("OrangeFaintedWaitressAwake"))
+			gs.AddBool ("OrangeFaintedWaitressAwake", false);
+		if(!gs.ExistsBool("WaitressDistracted"))
+			gs.AddBool ("WaitressDistracted", true);
 	}
 	
 	// Update is called once per frame
@@ -22,17 +21,8 @@ public class ConversationScriptOrange : MonoBehaviour {
 	
 	}
 
-	void TestPreAtion(){
-		Debug.Log("PreAction is Launched!!");
-	}
 
-	void TestPostAction(){
-		Debug.Log("PostAction is Launched!!");
-	}
 
-	void EndGame(){
-		Application.LoadLevel ("end");
-	}
 
 
 }

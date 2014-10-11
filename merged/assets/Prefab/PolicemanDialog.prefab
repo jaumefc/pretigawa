@@ -390,6 +390,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 1b2169f41473e2a49a3b1d096ad19482, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
@@ -417,6 +418,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 7a715a28930a4fd419679b80940a8baa, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -443,6 +445,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 6507cfb948adeb7478cd7fb7a41e76d6, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
@@ -469,6 +472,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: e0743691d6eb6894298e2f0e0743f393, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
@@ -497,6 +501,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 4f3def902488c9b41906b3b4f82b67e3, type: 3}
 --- !u!114 &11400010
 MonoBehaviour:
@@ -523,11 +528,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootNodes:
   - {fileID: 11400006}
-  useDialgogCamera: 1
+  useDialogCamera: 0
   allowSkip: 1
   style: 0
   alienCam: {fileID: 0}
   otherCam: {fileID: 0}
+  generalCam: {fileID: 0}
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -553,6 +559,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: f21c697beba735941830e6e9195ffbb6, type: 3}
 --- !u!114 &11400016
 MonoBehaviour:
@@ -579,6 +586,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 16d78bed0741b51479918dd13852efcc, type: 3}
 --- !u!114 &11400018
 MonoBehaviour:
@@ -605,6 +613,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 47dc943c044f6b5419e6446b7ae08f70, type: 3}
 --- !u!114 &11400020
 MonoBehaviour:
@@ -631,6 +640,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 87f184f095a7e314d85a8002f53be87e, type: 3}
 --- !u!114 &11400022
 MonoBehaviour:
@@ -656,6 +666,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: ReturnToTutorial
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 3e6fcf32b2912f54dbfc5c90ae206877, type: 3}
 --- !u!114 &11400024
 MonoBehaviour:
@@ -682,6 +693,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 5ee73a4a17b3a664888c87fecf1a0d15, type: 3}
 --- !u!114 &11400026
 MonoBehaviour:
@@ -708,6 +720,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: dc47640b49679c5498c94e89db80bdf5, type: 3}
 --- !u!1001 &100100000
 Prefab:
