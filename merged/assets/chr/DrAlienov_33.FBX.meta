@@ -147,7 +147,7 @@ ModelImporter:
     13700000: Enemic_
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 2
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -810,7 +810,7 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -819,7 +819,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0

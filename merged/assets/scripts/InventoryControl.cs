@@ -46,7 +46,7 @@ public class InventoryControl : MonoBehaviour {
 		btnCRight = GameObject.Find("cright");
 		btnILeft = GameObject.Find("ileft");
 		btnIRight = GameObject.Find("iright");
-		playerMesh = GameObject.Find ("bitxoBaixaSmoothUV");
+		playerMesh = GameObject.Find ("greenMesh");
 
 		btnCRight.guiTexture.pixelInset = new Rect ((10+iconsize) * 2, 0, iconsize, iconsize);
 		btnILeft.guiTexture.pixelInset = new Rect (20+iconsize * 3, 0, iconsize, iconsize);
