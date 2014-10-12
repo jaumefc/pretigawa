@@ -245,21 +245,24 @@ public class InventoryControl : MonoBehaviour {
 		}
 
 		costumeSelected = currCostumeShowed;
-		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
-
+		if (GetCurrentCostume () != Custom.NAKED) {
+			GameObject[] enemies = GameObject.FindGameObjectsWithTag ("Enemies");
+			foreach (GameObject enemy in enemies) {
+					controlVisio cv = enemy.GetComponent<controlVisio> ();
+					cv.iaOff ();
+			}
+		}
 		switch (GetCurrentCostume ()) 
 		{
 		case Custom.JAPANESE:
 //			playerMesh.renderer.material.color = Color.yellow;
 //			playerMesh.renderer.material.mainTexture = inventoryCustoms[costumeSelected].GetComponent<InventoryCustom>().texCostume;
-			foreach(GameObject enemy in enemies){
-				controlVisio cv = enemy.GetComponent<controlVisio>();
-				cv.iaOff();
-			}
+
 			break;
 		case Custom.NAKED:
 //			float rgb=150f/256f;
 //			playerMesh.renderer.material.color = new Color(rgb,rgb,rgb,1);
+			GameObject[] enemies = GameObject.FindGameObjectsWithTag ("Enemies");
 			foreach(GameObject enemy in enemies){
 				controlVisio cv = enemy.GetComponent<controlVisio>();
 				cv.iaOn();

@@ -50,6 +50,14 @@ public class absorcioEffect : MonoBehaviour {
 	}
 
 	public void startAbsorcio(){
+		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
+		foreach(GameObject enemy in enemies){
+			controlVisio cv = enemy.GetComponent<controlVisio>();
+			cv.iaOff();
+		}
+		mainChar.transform.LookAt (target.transform);
+		mouseControl mc = mainChar.GetComponent<mouseControl> ();
+		mc.enabled = false;
 		started = true;
 		goingTowardsTarget = false;
 		thisRigidBody.angularVelocity = new Vector3 (0, 1, 0);
@@ -80,6 +88,13 @@ public class absorcioEffect : MonoBehaviour {
 	}
 
 	private void destroyInstance(){
+		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
+		foreach(GameObject enemy in enemies){
+			controlVisio cv = enemy.GetComponent<controlVisio>();
+			cv.iaOn();
+		}
+		mouseControl mc = mainChar.GetComponent<mouseControl> ();
+		mc.enabled = true;
 		pathcontroller.goPath = false;
 		pathcontroller.reset ();
 		effecteCobertura.Stop ();

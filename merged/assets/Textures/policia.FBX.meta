@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: e7713a963fae81949bcc33084ffd4348
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: humanoide BASE ojo der
+    100002: humanoide BASE ojo izq
+    100004: HumanoiderigcabezaGizmo
+    100006: Humanoiderigcuello2Gizmo
+    100008: HumanoiderigHub001Gizmo
+    100010: HumanoiderigLArm1Gizmo
+    100012: HumanoiderigLArm2Gizmo
+    100014: HumanoiderigLArmPalmGizmo
+    100016: HumanoiderigPechoGizmo
+    100018: HumanoiderigRArm1Gizmo
+    100020: HumanoiderigRArm2Gizmo
+    100022: HumanoiderigRArmPalmGizmo
+    100024: HumanoiderigSpine2Gizmo
+    100026: HumanoiderigSpine3Gizmo
+    100028: JapoRigcabezaGizmo
+    100030: JapoRigHub001Gizmo
+    100032: JapoRigLArm1Gizmo
+    100034: JapoRigLArm2Gizmo
+    100036: JapoRigLArmPalmGizmo
+    100038: JapoRigPechoGizmo
+    100040: JapoRigRArm1Gizmo
+    100042: JapoRigRArm2Gizmo
+    100044: JapoRigRArmPalmGizmo
+    100046: policeHat
+    100048: //RootNode
+    100050: Policia Rig_
+    100052: Policia Rig_Hub001
+    100054: Segrestat
+    100056: Segrestat Rig_cabeza
+    100058: Segrestat Rig_cuello1
+    100060: Segrestat Rig_cuello2
+    100062: Segrestat Rig_LArm1
+    100064: Segrestat Rig_LArm2
+    100066: Segrestat Rig_LArmCollarbone
+    100068: Segrestat Rig_LArmIKTarget
+    100070: Segrestat Rig_LArmPalm
+    100072: Segrestat Rig_LLeg1
+    100074: Segrestat Rig_LLegAnkle
+    100076: Segrestat Rig_LLegDigit11
+    100078: Segrestat Rig_LLegPlatform
+    100080: Segrestat Rig_Pecho
+    100082: Segrestat Rig_RArm
+    100084: Segrestat Rig_RArm1
+    100086: Segrestat Rig_RArm2
+    100088: Segrestat Rig_RArmCollarbone
+    100090: Segrestat Rig_RArmPalm
+    100092: Segrestat Rig_RLeg1
+    100094: Segrestat Rig_RLegAnkle
+    100096: Segrestat Rig_RLegDigit11
+    100098: Segrestat Rig_RLegPlatform
+    100100: Segrestat Rig_Spine1
+    100102: Segrestat Rig_Spine2
+    100104: Segrestat Rig_Spine3
+    400000: humanoide BASE ojo der
+    400002: humanoide BASE ojo izq
+    400004: HumanoiderigcabezaGizmo
+    400006: Humanoiderigcuello2Gizmo
+    400008: HumanoiderigHub001Gizmo
+    400010: HumanoiderigLArm1Gizmo
+    400012: HumanoiderigLArm2Gizmo
+    400014: HumanoiderigLArmPalmGizmo
+    400016: HumanoiderigPechoGizmo
+    400018: HumanoiderigRArm1Gizmo
+    400020: HumanoiderigRArm2Gizmo
+    400022: HumanoiderigRArmPalmGizmo
+    400024: HumanoiderigSpine2Gizmo
+    400026: HumanoiderigSpine3Gizmo
+    400028: JapoRigcabezaGizmo
+    400030: JapoRigHub001Gizmo
+    400032: JapoRigLArm1Gizmo
+    400034: JapoRigLArm2Gizmo
+    400036: JapoRigLArmPalmGizmo
+    400038: JapoRigPechoGizmo
+    400040: JapoRigRArm1Gizmo
+    400042: JapoRigRArm2Gizmo
+    400044: JapoRigRArmPalmGizmo
+    400046: policeHat
+    400048: //RootNode
+    400050: Policia Rig_
+    400052: Policia Rig_Hub001
+    400054: Segrestat
+    400056: Segrestat Rig_cabeza
+    400058: Segrestat Rig_cuello1
+    400060: Segrestat Rig_cuello2
+    400062: Segrestat Rig_LArm1
+    400064: Segrestat Rig_LArm2
+    400066: Segrestat Rig_LArmCollarbone
+    400068: Segrestat Rig_LArmIKTarget
+    400070: Segrestat Rig_LArmPalm
+    400072: Segrestat Rig_LLeg1
+    400074: Segrestat Rig_LLegAnkle
+    400076: Segrestat Rig_LLegDigit11
+    400078: Segrestat Rig_LLegPlatform
+    400080: Segrestat Rig_Pecho
+    400082: Segrestat Rig_RArm
+    400084: Segrestat Rig_RArm1
+    400086: Segrestat Rig_RArm2
+    400088: Segrestat Rig_RArmCollarbone
+    400090: Segrestat Rig_RArmPalm
+    400092: Segrestat Rig_RLeg1
+    400094: Segrestat Rig_RLegAnkle
+    400096: Segrestat Rig_RLegDigit11
+    400098: Segrestat Rig_RLegPlatform
+    400100: Segrestat Rig_Spine1
+    400102: Segrestat Rig_Spine2
+    400104: Segrestat Rig_Spine3
+    2300000: humanoide BASE ojo der
+    2300002: humanoide BASE ojo izq
+    2300004: policeHat
+    3300000: humanoide BASE ojo der
+    3300002: humanoide BASE ojo izq
+    3300004: policeHat
+    4300000: Segrestat
+    4300002: humanoide BASE ojo izq
+    4300004: humanoide BASE ojo der
+    4300006: policeHat
+    7400000: Idle
+    7400002: Speak
+    7400004: Walk
+    7400006: Transit
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Segrestat
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 2
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanoiderigcabezaGizmo
+        weight: 1
+      - path: Humanoiderigcuello2Gizmo
+        weight: 1
+      - path: HumanoiderigHub001Gizmo
+        weight: 1
+      - path: HumanoiderigLArm1Gizmo
+        weight: 1
+      - path: HumanoiderigLArm2Gizmo
+        weight: 1
+      - path: HumanoiderigLArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigPechoGizmo
+        weight: 1
+      - path: HumanoiderigRArm1Gizmo
+        weight: 1
+      - path: HumanoiderigRArm2Gizmo
+        weight: 1
+      - path: HumanoiderigRArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigSpine2Gizmo
+        weight: 1
+      - path: HumanoiderigSpine3Gizmo
+        weight: 1
+      - path: JapoRigcabezaGizmo
+        weight: 1
+      - path: JapoRigHub001Gizmo
+        weight: 1
+      - path: JapoRigLArm1Gizmo
+        weight: 1
+      - path: JapoRigLArm2Gizmo
+        weight: 1
+      - path: JapoRigLArmPalmGizmo
+        weight: 1
+      - path: JapoRigPechoGizmo
+        weight: 1
+      - path: JapoRigRArm1Gizmo
+        weight: 1
+      - path: JapoRigRArm2Gizmo
+        weight: 1
+      - path: JapoRigRArmPalmGizmo
+        weight: 1
+      - path: Policia Rig_
+        weight: 1
+      - path: Policia Rig_Hub001
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle/Segrestat
+          Rig_LLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle/Segrestat
+          Rig_RLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo der
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo izq
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/policeHat
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2/Segrestat Rig_LArmPalm
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2/Segrestat Rig_RArmPalm
+        weight: 1
+      - path: Segrestat
+        weight: 1
+      - path: Segrestat Rig_LArmIKTarget
+        weight: 1
+      - path: Segrestat Rig_LLegPlatform
+        weight: 1
+      - path: Segrestat Rig_RArm
+        weight: 1
+      - path: Segrestat Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Speak
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 70
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanoiderigcabezaGizmo
+        weight: 1
+      - path: Humanoiderigcuello2Gizmo
+        weight: 1
+      - path: HumanoiderigHub001Gizmo
+        weight: 1
+      - path: HumanoiderigLArm1Gizmo
+        weight: 1
+      - path: HumanoiderigLArm2Gizmo
+        weight: 1
+      - path: HumanoiderigLArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigPechoGizmo
+        weight: 1
+      - path: HumanoiderigRArm1Gizmo
+        weight: 1
+      - path: HumanoiderigRArm2Gizmo
+        weight: 1
+      - path: HumanoiderigRArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigSpine2Gizmo
+        weight: 1
+      - path: HumanoiderigSpine3Gizmo
+        weight: 1
+      - path: JapoRigcabezaGizmo
+        weight: 1
+      - path: JapoRigHub001Gizmo
+        weight: 1
+      - path: JapoRigLArm1Gizmo
+        weight: 1
+      - path: JapoRigLArm2Gizmo
+        weight: 1
+      - path: JapoRigLArmPalmGizmo
+        weight: 1
+      - path: JapoRigPechoGizmo
+        weight: 1
+      - path: JapoRigRArm1Gizmo
+        weight: 1
+      - path: JapoRigRArm2Gizmo
+        weight: 1
+      - path: JapoRigRArmPalmGizmo
+        weight: 1
+      - path: Policia Rig_
+        weight: 1
+      - path: Policia Rig_Hub001
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle/Segrestat
+          Rig_LLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle/Segrestat
+          Rig_RLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo der
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo izq
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/policeHat
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2/Segrestat Rig_LArmPalm
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2/Segrestat Rig_RArmPalm
+        weight: 1
+      - path: Segrestat
+        weight: 1
+      - path: Segrestat Rig_LArmIKTarget
+        weight: 1
+      - path: Segrestat Rig_LLegPlatform
+        weight: 1
+      - path: Segrestat Rig_RArm
+        weight: 1
+      - path: Segrestat Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 112
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanoiderigcabezaGizmo
+        weight: 1
+      - path: Humanoiderigcuello2Gizmo
+        weight: 1
+      - path: HumanoiderigHub001Gizmo
+        weight: 1
+      - path: HumanoiderigLArm1Gizmo
+        weight: 1
+      - path: HumanoiderigLArm2Gizmo
+        weight: 1
+      - path: HumanoiderigLArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigPechoGizmo
+        weight: 1
+      - path: HumanoiderigRArm1Gizmo
+        weight: 1
+      - path: HumanoiderigRArm2Gizmo
+        weight: 1
+      - path: HumanoiderigRArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigSpine2Gizmo
+        weight: 1
+      - path: HumanoiderigSpine3Gizmo
+        weight: 1
+      - path: JapoRigcabezaGizmo
+        weight: 1
+      - path: JapoRigHub001Gizmo
+        weight: 1
+      - path: JapoRigLArm1Gizmo
+        weight: 1
+      - path: JapoRigLArm2Gizmo
+        weight: 1
+      - path: JapoRigLArmPalmGizmo
+        weight: 1
+      - path: JapoRigPechoGizmo
+        weight: 1
+      - path: JapoRigRArm1Gizmo
+        weight: 1
+      - path: JapoRigRArm2Gizmo
+        weight: 1
+      - path: JapoRigRArmPalmGizmo
+        weight: 1
+      - path: Policia Rig_
+        weight: 1
+      - path: Policia Rig_Hub001
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle/Segrestat
+          Rig_LLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle/Segrestat
+          Rig_RLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo der
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo izq
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/policeHat
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2/Segrestat Rig_LArmPalm
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2/Segrestat Rig_RArmPalm
+        weight: 1
+      - path: Segrestat
+        weight: 1
+      - path: Segrestat Rig_LArmIKTarget
+        weight: 1
+      - path: Segrestat Rig_LLegPlatform
+        weight: 1
+      - path: Segrestat Rig_RArm
+        weight: 1
+      - path: Segrestat Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Transit
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 163
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanoiderigcabezaGizmo
+        weight: 1
+      - path: Humanoiderigcuello2Gizmo
+        weight: 1
+      - path: HumanoiderigHub001Gizmo
+        weight: 1
+      - path: HumanoiderigLArm1Gizmo
+        weight: 1
+      - path: HumanoiderigLArm2Gizmo
+        weight: 1
+      - path: HumanoiderigLArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigPechoGizmo
+        weight: 1
+      - path: HumanoiderigRArm1Gizmo
+        weight: 1
+      - path: HumanoiderigRArm2Gizmo
+        weight: 1
+      - path: HumanoiderigRArmPalmGizmo
+        weight: 1
+      - path: HumanoiderigSpine2Gizmo
+        weight: 1
+      - path: HumanoiderigSpine3Gizmo
+        weight: 1
+      - path: JapoRigcabezaGizmo
+        weight: 1
+      - path: JapoRigHub001Gizmo
+        weight: 1
+      - path: JapoRigLArm1Gizmo
+        weight: 1
+      - path: JapoRigLArm2Gizmo
+        weight: 1
+      - path: JapoRigLArmPalmGizmo
+        weight: 1
+      - path: JapoRigPechoGizmo
+        weight: 1
+      - path: JapoRigRArm1Gizmo
+        weight: 1
+      - path: JapoRigRArm2Gizmo
+        weight: 1
+      - path: JapoRigRArmPalmGizmo
+        weight: 1
+      - path: Policia Rig_
+        weight: 1
+      - path: Policia Rig_Hub001
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_LLeg1/Segrestat Rig_LLegAnkle/Segrestat
+          Rig_LLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_RLeg1/Segrestat Rig_RLegAnkle/Segrestat
+          Rig_RLegDigit11
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo der
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/humanoide BASE ojo izq
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_cuello1/Segrestat Rig_cuello2/Segrestat
+          Rig_cabeza/policeHat
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_LArmCollarbone/Segrestat Rig_LArm1/Segrestat
+          Rig_LArm2/Segrestat Rig_LArmPalm
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2
+        weight: 1
+      - path: Policia Rig_Hub001/Segrestat Rig_Spine1/Segrestat Rig_Spine2/Segrestat
+          Rig_Spine3/Segrestat Rig_Pecho/Segrestat Rig_RArmCollarbone/Segrestat Rig_RArm1/Segrestat
+          Rig_RArm2/Segrestat Rig_RArmPalm
+        weight: 1
+      - path: Segrestat
+        weight: 1
+      - path: Segrestat Rig_LArmIKTarget
+        weight: 1
+      - path: Segrestat Rig_LLegPlatform
+        weight: 1
+      - path: Segrestat Rig_RArm
+        weight: 1
+      - path: Segrestat Rig_RLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
