@@ -64,6 +64,7 @@ public class sniperGameplayController : MonoBehaviour {
 
 		if(!isSniperGameplay){
 			SoundBreath.audio.Stop();
+			CancelInvoke ("audioHeart");
 			mainChar.audio.volume = 1.0f;
 			mc.enabled = true;
 			chc.enabled = true;

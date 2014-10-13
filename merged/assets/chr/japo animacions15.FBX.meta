@@ -209,7 +209,7 @@ ModelImporter:
       takeName: Japoneses_06 animacions2_ex
       firstFrame: 103
       lastFrame: 162
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -311,7 +311,7 @@ ModelImporter:
       takeName: Japoneses_06 animacions2_ex
       firstFrame: 165
       lastFrame: 252
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

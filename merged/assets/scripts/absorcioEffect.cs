@@ -28,7 +28,7 @@ public class absorcioEffect : MonoBehaviour {
 
 		Vector3 vectorMoviment = (target.transform.position - mainChar.transform.position);
 		if (vectorMoviment.magnitude < 6) {
-			mainChar.GetComponent<mouseControl> ().GoTo (mainChar.transform.position);
+			mainChar.GetComponent<NavMeshAgent>().Stop();
 			if (!started) startAbsorcio ();
 		}
 		else {
@@ -56,12 +56,12 @@ public class absorcioEffect : MonoBehaviour {
 			cv.iaOff();
 		}
 		mainChar.transform.LookAt (target.transform);
-		mouseControl mc = mainChar.GetComponent<mouseControl> ();
-		mc.enabled = false;
 		started = true;
 		goingTowardsTarget = false;
 		thisRigidBody.angularVelocity = new Vector3 (0, 1, 0);
 		startingPosition = transform.position;
+		mouseControl mc = mainChar.GetComponent<mouseControl> ();
+		mc.enabled = false;
 		effecteCobertura.Play ();
 		effecteBrillo.Play ();
 		effecteCono.Play ();
