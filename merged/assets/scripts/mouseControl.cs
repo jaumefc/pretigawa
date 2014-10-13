@@ -111,7 +111,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		{
 			//Anar fins a l'objecte, i afegirlo al inventari
 		case CharacterAction.Take: 
-			if(Vector3.Distance(navi.transform.position, targetLocation)<0.5){
+			if(Vector3.Distance(new Vector3(navi.transform.position.x,0,navi.transform.position.z), new Vector3(targetLocation.x,0,targetLocation.z))<0.5){
 				targetLocation = navi.transform.position;
 				_inventory.Add2(targetObject);
 				targetObject = null;

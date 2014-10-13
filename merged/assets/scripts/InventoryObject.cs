@@ -9,6 +9,8 @@ public class InventoryObject : MonoBehaviour, ISaveable {
 
     private GameState gs;
     public InventoryObjectState state = InventoryObjectState.UNTAKEN;
+	public GameObject obj;
+	public bool hideOnTake = true;
 
     public enum InventoryObjectState
     {
@@ -43,6 +45,7 @@ public class InventoryObject : MonoBehaviour, ISaveable {
 
 		switch(state){
 		case InventoryObjectState.TAKEN:
+			if(obj!=null)obj.SetActive(false);
 			if(gameObject.renderer)gameObject.renderer.enabled = false;
 			if(gameObject.collider)gameObject.collider.enabled = false;
 			gameObject.guiTexture.enabled = true;
@@ -51,6 +54,7 @@ public class InventoryObject : MonoBehaviour, ISaveable {
 			//gameObject.GetComponent<InventoryObject>().SetState(InventoryObject.InventoryObjectState.TAKEN);
 			break;
 		case InventoryObjectState.USED:
+			if(obj!=null)obj.SetActive(false);
 			if(gameObject.renderer)gameObject.renderer.enabled = false;
 			if(gameObject.collider)gameObject.collider.enabled = false;
 			gameObject.guiTexture.enabled = false;

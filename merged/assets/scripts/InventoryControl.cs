@@ -162,14 +162,19 @@ public class InventoryControl : MonoBehaviour {
         IEnumerator it = inventoryObjects.GetEnumerator();
         while(it.MoveNext()){
             GameObject obj = (GameObject)it.Current;
-            if (obj.Equals(invObj))
+			InventoryObject cInvObj = obj.GetComponent<InventoryObject>();
+			if (cInvObj.obj.Equals(invObj))
             {
-                if(obj.renderer)obj.renderer.enabled = false;
-                if(obj.collider)obj.collider.enabled = false;
+				if(cInvObj.hideOnTake){
+					if(cInvObj.obj!=null)cInvObj.obj.SetActive(false);
+	                if(obj.renderer)obj.renderer.enabled = false;
+	                if(obj.collider)obj.collider.enabled = false;
+				}
+				if(cInvObj.obj.collider)cInvObj.obj.collider.enabled=false;
                 obj.guiTexture.enabled = true;
                 obj.guiTexture.transform.localPosition = new Vector3(1, 1, 1);
                 obj.guiTexture.transform.localScale = new Vector3(0, 0, 1);
-                obj.GetComponent<InventoryObject>().SetState(InventoryObject.InventoryObjectState.TAKEN);
+				cInvObj.SetState(InventoryObject.InventoryObjectState.TAKEN);
             }
         }
 
