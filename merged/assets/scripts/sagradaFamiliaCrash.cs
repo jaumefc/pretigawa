@@ -25,6 +25,7 @@ public class sagradaFamiliaCrash : MonoBehaviour {
 		{
 			anim.animation.Play();
 			efecteTrencat.Play();
+			audio.Play();
 			this.enabled = false;
 		}
 	}

@@ -297,7 +297,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 1.29999995
   showNodes: 1
   cncArray:
   - {fileID: 11400010}
@@ -306,7 +307,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 3d8cd4d5abf3788409c7de7c4aa70468, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -324,7 +325,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 1
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 2
   showNodes: 1
   cncArray:
   - {fileID: 11400008}
@@ -333,7 +335,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: aa91a82a4a576484e841e82ae31fef7f, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -351,7 +353,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 3
   sSpeaker: 0
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 2.5
   showNodes: 1
   cncArray:
   - {fileID: 11400012}
@@ -360,7 +363,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 61f253e449f97a6439b50ecf6146951e, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -378,7 +381,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 5
   showNodes: 1
   cncArray:
   - {fileID: 11400000}
@@ -387,7 +391,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: eeb50d52f2fefa14a8709b37ed063629, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,7 +409,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 1
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 2
   showNodes: 1
   cncArray:
   - {fileID: 11400018}
@@ -432,7 +437,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 7
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -440,7 +446,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 1e7b47af8ba79d54ea413066cef39f0b, type: 3}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -458,7 +464,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 3.5
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -466,7 +473,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8184277187c1eb046ae447449f454088, type: 3}
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -516,7 +523,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 1
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 2
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -542,7 +550,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 1
   sSpeaker: 0
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: .800000012
   showNodes: 1
   cncArray:
   - {fileID: 11400002}
@@ -551,7 +560,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 0c785099ab49b954da9a7daae3c9d831, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

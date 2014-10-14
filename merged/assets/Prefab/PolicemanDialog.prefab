@@ -382,6 +382,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 4.69999981
   showNodes: 1
   cncArray:
@@ -410,6 +411,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 6
   showNodes: 1
   cncArray:
@@ -437,6 +439,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 2.20000005
   showNodes: 1
   cncArray:
@@ -464,6 +467,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 3.70000005
   showNodes: 1
   cncArray:
@@ -491,6 +495,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
+  vAlign: 0
   fSeconds: 1
   showNodes: 1
   cncArray:
@@ -551,6 +556,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
+  vAlign: 0
   fSeconds: 3.5
   showNodes: 1
   cncArray:
@@ -578,6 +584,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
+  vAlign: 0
   fSeconds: 2
   showNodes: 1
   cncArray:
@@ -605,6 +612,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 2.79999995
   showNodes: 1
   cncArray:
@@ -632,6 +640,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 4.5999999
   showNodes: 1
   cncArray:
@@ -659,6 +668,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
+  vAlign: 0
   fSeconds: 3.79999995
   showNodes: 1
   cncArray: []
@@ -685,6 +695,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 0
   fSeconds: 2.9000001
   showNodes: 1
   cncArray:
@@ -712,6 +723,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
+  vAlign: 0
   fSeconds: 3.4000001
   showNodes: 1
   cncArray:

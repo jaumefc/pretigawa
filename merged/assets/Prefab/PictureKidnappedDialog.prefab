@@ -102,7 +102,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 1
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 5.4000001
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -110,7 +111,7 @@ MonoBehaviour:
   preAction: 
   postAction: EnableWC
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 47be8bb23d3fb57498bfd0e976abed9a, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,7 +129,8 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  fSeconds: 3
+  vAlign: 0
+  fSeconds: 1.29999995
   showNodes: 1
   cncArray:
   - {fileID: 11400000}
@@ -137,7 +139,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 0}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: e606d74278433e2459f5c67584683ea2, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1

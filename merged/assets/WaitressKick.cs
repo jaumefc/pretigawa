@@ -178,7 +178,7 @@ public class WaitressKick : MonoBehaviour {
 
 
 	void showGreenCam(){
-		if(Time.timeSinceLevelLoad-initState>3){
+		if(Time.timeSinceLevelLoad-initState>2){
 			state = 2;
 			ccontrol.TransferIn(flyCam);
 			initState = Time.timeSinceLevelLoad;
@@ -215,7 +215,7 @@ public class WaitressKick : MonoBehaviour {
 			
 			elapse_time = 0;
 			UpdateEnabled=true;
-
+			audio.Play();
 			
 			Debug.Log(state);
 
@@ -223,8 +223,6 @@ public class WaitressKick : MonoBehaviour {
 	}
 
 	void showParabolicCam(){
-
-		
 		if (UpdateEnabled==true){
 			
 			Projectile.Translate(0, (Vy - (gravity * elapse_time)) * Time.deltaTime, Vx * Time.deltaTime);

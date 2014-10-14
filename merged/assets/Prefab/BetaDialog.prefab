@@ -1,0 +1,1472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NarEndSq
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: CJ2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: CF2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 114: {fileID: 11400006}
+  m_Layer: 0
+  m_Name: CF2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100008
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400008}
+  - 114: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: BetaEndSq
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: CN5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400012}
+  m_Layer: 0
+  m_Name: CNN3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 114: {fileID: 11400014}
+  m_Layer: 0
+  m_Name: CNN1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400016}
+  - 114: {fileID: 11400016}
+  - 114: {fileID: 11400018}
+  m_Layer: 0
+  m_Name: BetaDialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400018}
+  - 114: {fileID: 11400020}
+  m_Layer: 0
+  m_Name: CJ1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100020
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400020}
+  - 114: {fileID: 11400022}
+  m_Layer: 0
+  m_Name: CN3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100022
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400022}
+  - 114: {fileID: 11400024}
+  m_Layer: 0
+  m_Name: CJ2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100024
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400024}
+  - 114: {fileID: 11400026}
+  m_Layer: 0
+  m_Name: CNN2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100026
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400026}
+  - 114: {fileID: 11400028}
+  m_Layer: 0
+  m_Name: CP2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100028
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400028}
+  - 114: {fileID: 11400030}
+  m_Layer: 0
+  m_Name: CNN7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100030
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400030}
+  - 114: {fileID: 11400032}
+  m_Layer: 0
+  m_Name: CNN6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100032
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400032}
+  - 114: {fileID: 11400034}
+  m_Layer: 0
+  m_Name: CN2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100034
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400034}
+  - 114: {fileID: 11400036}
+  m_Layer: 0
+  m_Name: CNN8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400036}
+  - 114: {fileID: 11400038}
+  m_Layer: 0
+  m_Name: CF1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400038}
+  - 114: {fileID: 11400040}
+  m_Layer: 0
+  m_Name: CP2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400040}
+  - 114: {fileID: 11400042}
+  m_Layer: 0
+  m_Name: CN1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100042
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400042}
+  - 114: {fileID: 11400044}
+  m_Layer: 0
+  m_Name: CN4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100044
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400044}
+  - 114: {fileID: 11400046}
+  m_Layer: 0
+  m_Name: CNN5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400046}
+  - 114: {fileID: 11400048}
+  m_Layer: 0
+  m_Name: CP1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100048
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400048}
+  - 114: {fileID: 11400050}
+  m_Layer: 0
+  m_Name: CNN4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100050
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400050}
+  - 114: {fileID: 11400052}
+  m_Layer: 0
+  m_Name: CN6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400008}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400018}
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400036}
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400036}
+--- !u!4 &400008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 400034}
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400050}
+  m_Father: {fileID: 400042}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400048}
+  m_Father: {fileID: 400024}
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 5.49397384e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863968, z: 0}
+  m_LocalScale: {x: .653337061, y: .653337002, z: .653337002}
+  m_Children:
+  - {fileID: 400024}
+  m_Father: {fileID: 400016}
+--- !u!4 &400016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400014}
+  - {fileID: 400040}
+  - {fileID: 400036}
+  - {fileID: 400046}
+  - {fileID: 400018}
+  m_Father: {fileID: 0}
+--- !u!4 &400018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_LocalRotation: {x: 0, y: 5.49397384e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863491, z: 0}
+  m_LocalScale: {x: .65333724, y: .653337181, z: .653337181}
+  m_Children:
+  - {fileID: 400002}
+  - {fileID: 400022}
+  m_Father: {fileID: 400016}
+--- !u!4 &400020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_LocalRotation: {x: 0, y: 5.49397384e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400042}
+  m_Father: {fileID: 400032}
+--- !u!4 &400022
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400018}
+--- !u!4 &400024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400012}
+  m_Father: {fileID: 400014}
+--- !u!4 &400026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400046}
+--- !u!4 &400028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400034}
+  m_Father: {fileID: 400030}
+--- !u!4 &400030
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400028}
+  m_Father: {fileID: 400044}
+--- !u!4 &400032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400020}
+  m_Father: {fileID: 400040}
+--- !u!4 &400034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400008}
+  m_Father: {fileID: 400028}
+--- !u!4 &400036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_LocalRotation: {x: 0, y: 5.49397384e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863491, z: 0}
+  m_LocalScale: {x: .65333724, y: .653337181, z: .653337181}
+  m_Children:
+  - {fileID: 400006}
+  - {fileID: 400004}
+  m_Father: {fileID: 400016}
+--- !u!4 &400038
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400046}
+--- !u!4 &400040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863491, z: 0}
+  m_LocalScale: {x: .653337181, y: .653337181, z: .653337181}
+  m_Children:
+  - {fileID: 400032}
+  m_Father: {fileID: 400016}
+--- !u!4 &400042
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400010}
+  m_Father: {fileID: 400020}
+--- !u!4 &400044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400030}
+  m_Father: {fileID: 400048}
+--- !u!4 &400046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_LocalRotation: {x: 0, y: 5.49397384e-07, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: .389863491, z: 0}
+  m_LocalScale: {x: .65333724, y: .653337181, z: .653337181}
+  m_Children:
+  - {fileID: 400026}
+  - {fileID: 400038}
+  m_Father: {fileID: 400016}
+--- !u!4 &400048
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400044}
+  m_Father: {fileID: 400012}
+--- !u!4 &400050
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400010}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: WaitressDistracted
+  sFirstOption: Now that the waitress is distracted we can leave safely.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 2
+  vAlign: 0
+  fSeconds: 8.19999981
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: a89221a686324294295d3adf1947bff7, type: 3}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: OrangeFainted
+  sFirstOption: 'Eeeeee..... '
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: .800000012
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: What are you doing dressed up like this?
+  sSecondOption: 
+  cCharacter: 2
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 2.0999999
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: baa51d336372cc447b5ab3e1dd6f1215, type: 3}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: OrangeFainted
+  sFirstOption: 'Eeeeee..... '
+  sSecondOption: 
+  cCharacter: 2
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: .800000012
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: WaitressDistracted
+  sFirstOption: Now that the waitress is distracted we can leave safely.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 3.79999995
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400000}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 6bb6e82895995be419378905b6e581dc, type: 3}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: I think you need the waitress' recipe more than me. I'll be back,
+    don't go anywhere!
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 4.5999999
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400052}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 33cce085b5651ef4991f59c5012c84da, type: 3}
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: I don't know! I can't remember anything from last night!!!
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 5
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400050}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 6b65bb3f11fc2f846b00beb546a629f1, type: 3}
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: OrangeFaintedWaitressAwake
+  sFirstOption: Good boy! How do you feel now?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 3.5
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400026}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 0d0153943cb62a8438d12920a4a8965a, type: 3}
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d599783e121c53746b15652b944d6fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootNodes:
+  - {fileID: 11400038}
+  - {fileID: 11400020}
+  - {fileID: 11400042}
+  - {fileID: 11400048}
+  - {fileID: 11400014}
+  useDialogCamera: 0
+  allowSkip: 1
+  style: 0
+  alienCam: {fileID: 0}
+  otherCam: {fileID: 0}
+  generalCam: {fileID: 0}
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9128feafd79fe4a931b3f625d10bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Konnichiwa!
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 1
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400002}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 0c785099ab49b954da9a7daae3c9d831, type: 3}
+--- !u!114 &11400022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Wake up!
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: .800000012
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400044}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: f0443d6a6653ff145a18d021921270b5, type: 3}
+--- !u!114 &11400024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: What are you doing dressed up like this?
+  sSecondOption: 
+  cCharacter: 1
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 2.0999999
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: baa51d336372cc447b5ab3e1dd6f1215, type: 3}
+--- !u!114 &11400026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: Perfectly well, thank you! Where is your brother?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 2.79999995
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400012}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 2028769254d085e4cb7249b5a7050065, type: 3}
+--- !u!114 &11400028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: OrangeFainted
+  sFirstOption: 'Eeeeee..... '
+  sSecondOption: 
+  cCharacter: 3
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: .800000012
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
+--- !u!114 &11400030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: Would it make any sense to you if I told you we came from the inner
+    core of the Earth?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 5.5999999
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400036}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: c313fa9f8f1d25b4ca70417cbb0179c7, type: 3}
+--- !u!114 &11400032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: Do you remember where our spaceship is, or the keys, or something
+    useful?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 5.5999999
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400030}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: e5ce1b17cbce22f4eb93b13e61b12aa7, type: 3}
+--- !u!114 &11400034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Blagrg, dah, tchst, glogloglo...
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 4.69999981
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400022}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: f5220e2f290e97c4ea487a7561b13828, type: 3}
+--- !u!114 &11400036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: still drunk, let's go outside so you get some fresh air.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 5.5
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400008}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: c52349b80e6de0644961b7ae4d17ee22, type: 3}
+--- !u!114 &11400038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: You will meet an interesting woman very soon, deary.
+  sSecondOption: 
+  cCharacter: 2
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 3.70000005
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400006}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 76492c93d18b90f438fceb3f9628ab6b, type: 3}
+--- !u!114 &11400040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: What are you doing dressed up like this?
+  sSecondOption: 
+  cCharacter: 3
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 2.0999999
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: baa51d336372cc447b5ab3e1dd6f1215, type: 3}
+--- !u!114 &11400042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 1
+  var: OrangeFainted
+  sFirstOption: Hey, buddy, are you OK?
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 1.60000002
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400034}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 316f10082c41b894ba636b2497139acc, type: 3}
+--- !u!114 &11400044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Blurp!
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: .600000024
+  showNodes: 1
+  cncArray:
+  - {fileID: 0}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: db2b608fd88d23b45bce1a14b2942a9f, type: 3}
+--- !u!114 &11400046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: But I don't remember your brother being with us.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 2.5999999
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400032}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 9d898a4cf4e1ecb40971ac3b60233b13, type: 3}
+--- !u!114 &11400048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: Is it yours the flowered car on the square?
+  sSecondOption: 
+  cCharacter: 3
+  sSpeaker: 0
+  vAlign: 0
+  fSeconds: 2.5
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400028}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 61f253e449f97a6439b50ecf6146951e, type: 3}
+--- !u!114 &11400050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 2
+  var: OrangeFainted
+  sFirstOption: I just remember when you and I arrived here this morning. I needed
+    to throw up and I was looking for an appropriate place to do it.
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: 8.39999962
+  showNodes: 1
+  cncArray:
+  - {fileID: 11400046}
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 9b9395854a487004382647cd648ecfc2, type: 3}
+--- !u!114 &11400052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowNode: 0
+  var: 
+  sFirstOption: 'Eeeeee..... '
+  sSecondOption: 
+  cCharacter: 0
+  sSpeaker: 1
+  vAlign: 0
+  fSeconds: .800000012
+  showNodes: 1
+  cncArray: []
+  bIsSelected: 0
+  bIsUsed: 0
+  preAction: 
+  postAction: 
+  scriptAnimacio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100016}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
