@@ -13,6 +13,8 @@ public class finalscene : MonoBehaviour {
 
 	public GameObject extintor;
 	public AudioSource extintorSo;
+	public ParticleSystem particlesExtintor;
+	public GameObject videofinal;
 
 	private bool alreadyPanned = false;
 	private bool dialogEnded = false;
@@ -50,6 +52,16 @@ public class finalscene : MonoBehaviour {
 		extintor.SetActive (true);
 	}
 
+	private void partsExtintor(){
+		extintor.SetActive (false);
+		particlesExtintor.Play ();
+		particlesExtintor.gameObject.audio.Play ();
+	}
+
+	private void cutscene(){
+		videofinal.SetActive (true);
+	}
+
 	void Update () {
 		if (alreadyPanned == true && dialogEnded == false)
 				return;
@@ -68,6 +80,8 @@ public class finalscene : MonoBehaviour {
 			
 			extintorSo.Play();
 			Invoke("llencaextintor", 0.75f);
+			Invoke("partsExtintor", 2.5f);
+			Invoke ("cutscene", 4.0f);
 		}
 	}
 
