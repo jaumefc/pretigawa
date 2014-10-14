@@ -28,6 +28,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 	private GUIText test;
 	private GameObject inventoryBack;
 
+	private bool stayStatic = false;
 
 	enum CharacterAction {
 		None = 0,
@@ -39,6 +40,9 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 
 	private CharacterAction _characterAction;
 
+	public void characterStatic(bool enabled){
+		stayStatic = enabled;
+	}
 
 	void Start () {
 		// Cache component lookups at startup instead of every frame
@@ -68,7 +72,8 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 	void Update () {
 		ReadInput();
 		// Move towards the target location
-		navi.SetDestination(targetLocation);
+		if(stayStatic == false)
+			navi.SetDestination(targetLocation);
 		ExecuteAction ();
 	}
 
