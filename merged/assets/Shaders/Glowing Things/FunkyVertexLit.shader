@@ -18,4 +18,5 @@ SubShader {
 		} 
 	}
 }
+FallBack "Diffuse"
 }
