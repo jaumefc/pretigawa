@@ -3077,6 +3077,11 @@ MonoBehaviour:
   top1: .74000001
   size1: .189999998
   text:
+  - {fileID: 2800000, guid: 0d8ee0d40bee54f248bbba5b23580dea, type: 3}
+  - {fileID: 2800000, guid: e3fd952e82adc4760adb769e4bcb9677, type: 3}
+  - {fileID: 2800000, guid: 60cd89be04d654a4eb275b42f22105a3, type: 3}
+  - {fileID: 2800000, guid: 46937b77d5de8443883fe535c6d85f65, type: 3}
+  - {fileID: 2800000, guid: e8837921b4e344c1890c8579494750cc, type: 3}
   - {fileID: 2800000, guid: 187e3b0dff62a40d98ef8be2e216932a, type: 3}
   - {fileID: 2800000, guid: c20a129c0146543fd96246327c7a986f, type: 3}
   - {fileID: 2800000, guid: 6cc06959827ca41168a1978453125a5c, type: 3}
