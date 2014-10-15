@@ -9,5 +9,7 @@ public class startSniperGameplay : UseAction {
 		sniperGameplayController controller = snipergame.GetComponent<sniperGameplayController> ();
 
 		controller.setActive (true);
+		GameObject.Find ("SniperSniper").SetActive (false);
+		GameObject.Find ("Sniper_02").SetActive (false);
 	}
 }
