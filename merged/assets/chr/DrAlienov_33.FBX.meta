@@ -645,7 +645,7 @@ ModelImporter:
       takeName: Enemic dolent_33_ex
       firstFrame: 170
       lastFrame: 200
-      wrapMode: 0
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

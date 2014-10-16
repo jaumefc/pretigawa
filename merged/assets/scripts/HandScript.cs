@@ -29,7 +29,7 @@ public class HandScript : MonoBehaviour {
 	float screenratio;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		buttonleft=handleft1;
 		buttontop=handtop1;
 

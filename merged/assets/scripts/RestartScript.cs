@@ -24,7 +24,7 @@ public class RestartScript : MonoBehaviour {
 
 		//set font size
 		style.fontSize = Mathf.RoundToInt (Screen.height / 25);
-		style2.fontSize = Mathf.RoundToInt (Screen.height / 15);
+		style2.fontSize = Mathf.RoundToInt (Screen.height / 10);
 		
 		style2.padding.left = (int)(Screen.height*screenratio / 25);
 		style2.padding.right = (int)(Screen.height*screenratio / 25);

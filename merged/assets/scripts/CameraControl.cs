@@ -17,6 +17,7 @@ public class CameraControl : MonoBehaviour {
 		MCScript = GameObject.Find("Player").GetComponent<mouseControl>();
 		//cCamera2 = GameObject.Find ("Camera2").camera;
 		cCameraDialog = GameObject.Find ("DialogCamera").camera;
+		cCameraOriginal = GameObject.FindWithTag("MainCamera").camera;//
 
 		//DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
 		//DCTexture = GameObject.Find ("DialogLayout").guiTexture;
