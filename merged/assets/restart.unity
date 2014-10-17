@@ -1436,8 +1436,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 173314742}
-  - 82: {fileID: 173314744}
-  - 81: {fileID: 173314743}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1464,71 +1462,6 @@ Transform:
   - {fileID: 580285706}
   - {fileID: 854596287}
   m_Father: {fileID: 487099875}
---- !u!81 &173314743
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 173314741}
-  m_Enabled: 1
---- !u!82 &173314744
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 173314741}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 2.29999995
-  MaxDistance: 60
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &174860562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,23 +2351,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332797d404665845be35eea86f5e6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left1: .540000021
-  top1: .140000001
-  size1: .550000012
-  left2: .860000014
-  top2: .74000001
-  size2: .189999998
+  left1: .409999996
+  top1: .0299999993
+  size1: .560000002
+  left2: .790000021
+  top2: .639999986
+  size2: .360000014
   style:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 9f9764cfa8e210f498929ef0bb4012fb, type: 3}
+      m_Background: {fileID: 0}
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
-      m_Background: {fileID: 2800000, guid: 9f9764cfa8e210f498929ef0bb4012fb, type: 3}
+      m_Background: {fileID: 0}
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Active:
-      m_Background: {fileID: 2800000, guid: 9f9764cfa8e210f498929ef0bb4012fb, type: 3}
-      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Focused:
       m_Background: {fileID: 0}
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
@@ -2471,13 +2404,13 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Font: {fileID: 0}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
-    m_Alignment: 4
-    m_WordWrap: 1
+    m_Alignment: 0
+    m_WordWrap: 0
     m_RichText: 1
     m_TextClipping: 0
-    m_ImagePosition: 1
+    m_ImagePosition: 0
     m_ContentOffset: {x: 0, y: 0}
     m_FixedWidth: 0
     m_FixedHeight: 0
@@ -2486,7 +2419,7 @@ MonoBehaviour:
   style2:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 56b429f3881c54d45aaa45ff51428ab0, type: 3}
+      m_Background: {fileID: 2800000, guid: 924c49a9e8afdd049a7b09d352b269aa, type: 3}
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
       m_Background: {fileID: 0}
@@ -2520,8 +2453,8 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Padding:
-      m_Left: 26
-      m_Right: 26
+      m_Left: 19
+      m_Right: 19
       m_Top: 0
       m_Bottom: 0
     m_Overflow:
@@ -2530,7 +2463,7 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Font: {fileID: 12800000, guid: 92a636f7d8dc94504a22eb4e667fc6f9, type: 3}
-    m_FontSize: 24
+    m_FontSize: 26
     m_FontStyle: 0
     m_Alignment: 4
     m_WordWrap: 1
@@ -2542,6 +2475,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
+  botoBack: {fileID: 2800000, guid: 042eab027e8dcf14e868db660e6f47c5, type: 3}
 --- !u!20 &758227428
 Camera:
   m_ObjectHideFlags: 0

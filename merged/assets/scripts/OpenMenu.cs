@@ -7,7 +7,6 @@ using System.Collections;
 public class OpenMenu : MonoBehaviour {
 
 	float screenratio = 1f;
-	float stylebgratio = 1f;
 
 
 	public float left1, top1, size1;
@@ -15,51 +14,40 @@ public class OpenMenu : MonoBehaviour {
 	public float left3, top3, size3;
 	public float left4, top4, size4;
 	public float left5, top5, size5;
-	public float left6, top6, size6;
 
 	private GameState gs;
 
-	public Texture2D image1, image2, image3, image4, image5, image6;
+	public Texture2D image1, image2, image3, image4, image5;
 
+	float ratio1, ratio2, ratio3, ratio4, ratio5;
 
-
+	public GUIStyle style;
 	
 	void Awake() {	
 		// Store screen ratio
 		screenratio = (float)(Screen.width) / (float)(Screen.height);
+		ratio1 = (float)(image1.width) / (float)(image1.height);
+		ratio2 = (float)(image2.width) / (float)(image2.height);
+		ratio3 = (float)(image3.width) / (float)(image3.height);
+		ratio4 = (float)(image4.width) / (float)(image4.height);
+		ratio5 = (float)(image5.width) / (float)(image5.height);
+
 		gs = GameState.GetInstance();
 	}
-	
-
-
-
-
 
 
 
 	void OnGUI() {
 
-		GUI.skin.button.fontSize = Mathf.RoundToInt (Screen.height / 23);
-		GUI.skin.button.padding.left = (int)(Screen.height*screenratio / 50);
-		GUI.skin.button.padding.right = (int)(Screen.height*screenratio / 50);
-		GUI.skin.button.normal.textColor = Color.black;
-		GUI.skin.button.hover.textColor = Color.white;
-		GUI.skin.button.active.textColor = Color.white;
 
-
-		GUI.skin.button.normal.background = (Texture2D) image1;
-		GUI.skin.button.hover.background = (Texture2D) image1;
-		GUI.skin.button.active.background = (Texture2D) image1;
-		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "New\nGame")) {
+		if (GUI.Button (new Rect (left1 * Screen.width*ratio1, top1 * Screen.height, size1 * Screen.height * ratio1, size1 * Screen.height), image1, style)) {
 			Debug.Log ("New Game");
 			gs.GameNew();
 			Application.LoadLevel("placa_tutorial");
 		}
 
-		GUI.skin.button.normal.background = (Texture2D) image2;
-		GUI.skin.button.hover.background = (Texture2D) image2;
-		GUI.skin.button.active.background = (Texture2D) image2;
-		if (GUI.Button (new Rect (left2 * Screen.width*stylebgratio, top2 * Screen.height, size2 * Screen.height * stylebgratio, size2 * Screen.height), "Load/Save\nGame")) {
+
+		if (GUI.Button (new Rect (left2 * Screen.width*ratio2, top2 * Screen.height, size2 * Screen.height * ratio2, size2 * Screen.height), image2, style)) {
 			gs.GameLoad();
 			//modificacio build jesus
 
@@ -69,33 +57,20 @@ public class OpenMenu : MonoBehaviour {
 			Debug.Log ("Load/Save Game");
 		}
 
-		GUI.skin.button.normal.background = (Texture2D) image3;
-		GUI.skin.button.hover.background = (Texture2D) image3;
-		GUI.skin.button.active.background = (Texture2D) image3;
-		if (GUI.Button (new Rect (left3 * Screen.width*stylebgratio, top3 * Screen.height, size3 * Screen.height * stylebgratio, size3 * Screen.height), "Settings")) {
-			Debug.Log ("Settings");
-		}
 
-		GUI.skin.button.normal.background = (Texture2D) image4;
-		GUI.skin.button.hover.background = (Texture2D) image4;
-		GUI.skin.button.active.background = (Texture2D) image4;
-		if (GUI.Button (new Rect (left4 * Screen.width*stylebgratio, top4 * Screen.height, size4 * Screen.height * stylebgratio, size4 * Screen.height), "Credits")) {
+		if (GUI.Button (new Rect (left3 * Screen.width*ratio3, top3 * Screen.height, size3 * Screen.height * ratio3, size3 * Screen.height), image3, style)) {
 			Debug.Log ("Credits");
 			Application.LoadLevel("credits");
 		}
 
-		GUI.skin.button.normal.background = (Texture2D) image5;
-		GUI.skin.button.hover.background = (Texture2D) image5;
-		GUI.skin.button.active.background = (Texture2D) image5;
-		if (GUI.Button (new Rect (left5 * Screen.width*stylebgratio, top5 * Screen.height, size5 * Screen.height * stylebgratio, size5 * Screen.height), "Help")) {
+
+		if (GUI.Button (new Rect (left4 * Screen.width*ratio4, top4 * Screen.height, size4 * Screen.height * ratio4, size4 * Screen.height), image4, style)) {
 			Debug.Log ("Help");
 			Application.LoadLevel("help");
 		}
 
-		GUI.skin.button.normal.background = (Texture2D) image6;
-		GUI.skin.button.hover.background = (Texture2D) image6;
-		GUI.skin.button.active.background = (Texture2D) image6;
-		if (GUI.Button (new Rect (left6 * Screen.width*stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), "Exit")) {
+
+		if (GUI.Button (new Rect (left5 * Screen.width*ratio5, top5 * Screen.height, size5 * Screen.height * ratio5, size5 * Screen.height), image5, style)) {
 			Debug.Log ("Exit");
 			Application.Quit();
 		}	

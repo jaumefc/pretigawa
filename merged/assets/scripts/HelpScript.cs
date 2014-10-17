@@ -13,27 +13,24 @@ public class HelpScript : MonoBehaviour {
 
 	public float left5, top5, size5;
 	public float left6, top6, size6;
-	public float left7, top7, size7;
 
 	public GUIStyle style;
 	public GUIStyle style2;
-	public GUIStyle style3;
 
-
+	public Texture2D next;
 	
 		
 	void Awake() {	
 		// Store screen ratio
 		screenratio = (float)(Screen.width) / (float)(Screen.height);
 
-		stylebgratio=(float)(style.normal.background.width)/(float)(style.normal.background.height);
+		stylebgratio=(float)(style2.normal.background.width)/(float)(style2.normal.background.height);
 
 		//set font size
-		style.fontSize = Mathf.RoundToInt (Screen.height / 25);
-		style2.fontSize = style.fontSize;
+		style2.fontSize = Mathf.RoundToInt (Screen.height / 15);
 		
-		style2.padding.left = (int)(Screen.height*screenratio / 35);
-		style2.padding.right = (int)(Screen.height*screenratio / 35);
+		style2.padding.left = (int)(Screen.height*screenratio / 25);
+		style2.padding.right = (int)(Screen.height*screenratio / 25);
 	}
 	
 
@@ -48,7 +45,7 @@ public class HelpScript : MonoBehaviour {
 		            "Tap on an object or person and release on the action to perform.", style2);
 
 
-		if (GUI.Button (new Rect (left6 * Screen.width * stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), "Next", style)) {
+		if (GUI.Button (new Rect (left6 * Screen.width * stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), next, style)) {
 			Debug.Log ("next");
 			Application.LoadLevel ("help2");
 		}

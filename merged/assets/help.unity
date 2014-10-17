@@ -1888,9 +1888,9 @@ AudioSource:
   m_GameObject: {fileID: 758227424}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 26efc34a70f34b248a011ec014016032, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d72884fc3cd8d8d47a3e6eac757cb785, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .583999991
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4085,12 +4085,9 @@ MonoBehaviour:
   left5: .0299999993
   top5: .0299999993
   size5: .569999993
-  left6: .860000014
-  top6: .74000001
-  size6: .189999998
-  left7: .540000021
-  top7: .330000013
-  size7: .5
+  left6: .519999981
+  top6: .460000008
+  size6: .850000024
   style:
     m_Name: 
     m_Normal:
@@ -4153,7 +4150,7 @@ MonoBehaviour:
   style2:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 56b429f3881c54d45aaa45ff51428ab0, type: 3}
+      m_Background: {fileID: 2800000, guid: 924c49a9e8afdd049a7b09d352b269aa, type: 3}
       m_TextColor: {r: 0, g: 0, b: 0, a: 1}
     m_Hover:
       m_Background: {fileID: 0}
@@ -4187,8 +4184,8 @@ MonoBehaviour:
       m_Top: 0
       m_Bottom: 0
     m_Padding:
-      m_Left: 15
-      m_Right: 15
+      m_Left: 13
+      m_Right: 13
       m_Top: 0
       m_Bottom: 0
     m_Overflow:
@@ -4196,8 +4193,8 @@ MonoBehaviour:
       m_Right: 0
       m_Top: 0
       m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 12
+    m_Font: {fileID: 12800000, guid: 92a636f7d8dc94504a22eb4e667fc6f9, type: 3}
+    m_FontSize: 17
     m_FontStyle: 0
     m_Alignment: 4
     m_WordWrap: 1
@@ -4209,65 +4206,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  style3:
-    m_Name: 
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 2
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
+  next: {fileID: 2800000, guid: 0e3507dfe761be84e81840e21186ef04, type: 3}
 --- !u!1 &1844046110
 GameObject:
   m_ObjectHideFlags: 0

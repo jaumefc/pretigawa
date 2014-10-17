@@ -14,13 +14,13 @@ public class RestartScript : MonoBehaviour {
 	public GUIStyle style;
 	public GUIStyle style2;
 
-
+	public Texture botoBack;
 
 
 	void Awake() {	
 		// Store screen ratio
 		screenratio = (float)(Screen.width) / (float)(Screen.height);
-		stylebgratio=(float)(style.normal.background.width)/(float)(style.normal.background.height);
+		stylebgratio=(float)(style2.normal.background.width)/(float)(style2.normal.background.height);
 
 		//set font size
 		style.fontSize = Mathf.RoundToInt (Screen.height / 25);
@@ -38,11 +38,11 @@ public class RestartScript : MonoBehaviour {
 		            "Next time, try to be more careful...", style2);
 				
 
-		if (GUI.Button (new Rect (left2 * Screen.width * stylebgratio, top2 * Screen.height, size2 * Screen.height * stylebgratio, size2 * Screen.height), "Back to Game", style)) {
+		if (GUI.Button (new Rect (left2 * Screen.width * stylebgratio, top2 * Screen.height, size2 * Screen.height * stylebgratio, size2 * Screen.height), botoBack, style)) {
 			Debug.Log ("RestartScene");
 			Application.LoadLevel ("placa");
 		}
-		
+
 		
 		if (Input.GetKeyDown (KeyCode.Escape)){
 			Application.LoadLevel("menu");
