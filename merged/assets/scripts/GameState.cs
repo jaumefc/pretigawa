@@ -276,4 +276,26 @@ public class GameState {
 		}
 	}
 
+	public string ToString(){
+		string ret = "";
+		foreach(DictionaryEntry vartemp in stringVars)
+		{
+			ret = ret+ vartemp.Key.ToString()+": " +vartemp.Value.ToString()+"\n";
+		}
+		
+		foreach(DictionaryEntry vartemp in intVars)
+		{
+			ret = ret + vartemp.Key.ToString()+": " +vartemp.Value.ToString()+"\n";
+		}
+		foreach(DictionaryEntry vartemp in floatVars)
+		{
+			ret = ret + vartemp.Key.ToString()+": " +vartemp.Value.ToString()+"\n";
+		}
+		foreach(DictionaryEntry vartemp in booleanVars)
+		{
+			ret = ret + vartemp.Key.ToString()+": " +vartemp.Value.ToString()+"\n";
+		}
+		return ret;
+	}
+
 }

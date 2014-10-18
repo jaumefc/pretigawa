@@ -93,6 +93,8 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			gd.toggle();
 		if (Input.GetKeyDown (KeyCode.F11)||Input.touchCount==3)//Toggle FPS
 			gd.toogleFPS ();
+		if (Input.GetKeyDown (KeyCode.F7))
+						Debug.Log (gs.ToString());
 		if(Input.GetMouseButtonDown(0))//Mouse button down
 		{
 			MouseButtonDown();

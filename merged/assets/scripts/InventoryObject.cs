@@ -11,6 +11,7 @@ public class InventoryObject : MonoBehaviour, ISaveable {
     public InventoryObjectState state = InventoryObjectState.UNTAKEN;
 	public GameObject obj;
 	public bool hideOnTake = true;
+	//public string varName;
 
     public enum InventoryObjectState
     {
@@ -32,6 +33,7 @@ public class InventoryObject : MonoBehaviour, ISaveable {
     {
         Debug.Log("Saveing:" + this.gameObject.name);
         gs.SetInt(this.name,(int)state);
+		gs.AddBool("var_"+this.name,(state==InventoryObjectState.UNTAKEN)?false:true); 
         //throw new System.NotImplementedException();
     }
 
@@ -39,8 +41,10 @@ public class InventoryObject : MonoBehaviour, ISaveable {
     {
         Debug.Log("Loading:" + this.gameObject.name);
         gs = GameState.GetInstance();
-        if (!gs.ExistsInt(this.name))
-            gs.AddInt(this.name, (int)state);
+        if (!gs.ExistsInt (this.name)) {
+			gs.AddInt (this.name, (int)state);
+			gs.AddBool("var_"+this.name,(state==InventoryObjectState.UNTAKEN)?false:true); 
+		}
         state = (InventoryObjectState)gs.GetInt(this.name);
 
 		switch(state){
@@ -74,5 +78,8 @@ public class InventoryObject : MonoBehaviour, ISaveable {
     {
 		this.state = state;
 		gs.SetInt(this.name,(int)state);
+		gs.SetBool("var_"+this.name,(state==InventoryObjectState.UNTAKEN)?false:true); 
+
+
     }
 }

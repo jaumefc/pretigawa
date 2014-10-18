@@ -8,6 +8,7 @@ public class ConversationScriptWaitress : MonoBehaviour {
 	private GameObject player;
 	private GameObject shot,bottle;
 	private InventoryControl ic;
+	public InventoryObject recipe;
 	// Use this for initialization
 	void Start () {
 		gs = GameState.GetInstance ();
@@ -52,6 +53,7 @@ public class ConversationScriptWaitress : MonoBehaviour {
 
 	void FalseRecipeFirstTime(){
 		gs.SetBool ("RecipeFirstTime", false);
+		recipe.SetState (InventoryObject.InventoryObjectState.TAKEN);
 	}
 
 	void GetShot(){
