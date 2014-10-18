@@ -4,6 +4,7 @@ using System.Collections;
 public class playAnimation : MonoBehaviour {
 
 	public GameObject characterToPlayIt;
+	public GameObject otherCharSpeaking;
 	public AnimationClip animacio;
 
 	public playAnimation previousAnim;
@@ -19,6 +20,7 @@ public class playAnimation : MonoBehaviour {
 			if(previousAnim!=null)previousAnim.StopAllCoroutines();
 			anims = characterToPlayIt.GetComponent<Animation>();
 			anims.Play(animacio.name);
+			if(otherCharSpeaking)otherCharSpeaking.GetComponent<Animation>().Play("Idle");
 			StartCoroutine(backToIdle(animacio.length));
 		}
 	}
