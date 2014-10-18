@@ -214,7 +214,7 @@ public class DialogCameraScript : MonoBehaviour {
 		float Balloonx, Balloony, Balloondx, Balloondy;
 		GUIStyle style = style_narrator;
 		
-		Balloonx = 0.01f;//0.005f;
+		Balloonx = 0.4f;//0.005f;
 		Balloony = 0.01f;
 
 		Balloondx = 0.24f;
@@ -227,8 +227,9 @@ public class DialogCameraScript : MonoBehaviour {
 					style = style_alien;
 			} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
 					style = style_theother;
-					Balloonx = 0.64f;//0.74f;
+					Balloonx = 0.44f;//0.74f;
 			} else if (Node.sSpeaker == ConversationNodeClass.speaker.NARRATOR) {
+					Balloonx = 0.005f;
 					style = style_narrator;
 					Balloony = 1f - Balloondy;
 			}
@@ -238,7 +239,7 @@ public class DialogCameraScript : MonoBehaviour {
 				style = style_alien_down;
 			} else if (Node.sSpeaker == ConversationNodeClass.speaker.THEOTHER) {
 				style = style_other_down;
-				Balloonx = 0.64f;//0.74f;
+				Balloonx = 0.44f;//0.74f;
 			} else if (Node.sSpeaker == ConversationNodeClass.speaker.NARRATOR) {
 				style = style_narrator;
 			}

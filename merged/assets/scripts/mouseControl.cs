@@ -127,12 +127,14 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			//i llançar el dialeg
 		case CharacterAction.Dialog:
 			Vector3 agentPos = new Vector3(navi.transform.position.x,0,navi.transform.position.z);
+			Debug.Log("AgentPos: "+agentPos+" TargetLocation: "+targetLocation);
 			//Si el Player esta 2 unitats davant del seu interlocutor, ha de girar fins estar cara a cara amb ell
 			if(Vector3.Distance(agentPos, targetLocation)<0.3){
 				targetLocation = agentPos;
 				targetRotation = Quaternion.LookRotation(new Vector3(targetObject.transform.position.x-1,0,targetObject.transform.position.z)-targetLocation);
 				//Si el Player mira cara a cara el seu interlocutor, es fa el transfer de camera, sino gira fins mirar el seu interlocutor
-				if(navi.transform.rotation == targetRotation){
+				Debug.Log("AgentRotation: "+navi.transform.rotation+" TargetRotation: "+targetRotation);
+				if(navi.transform.rotation == targetRotation || navi.transform.rotation == new Quaternion(-targetRotation.x,-targetRotation.y,-targetRotation.z,-targetRotation.w)){
 					//CCScript.TransferIn(targetObject.GetComponentInChildren<Camera>());
 					DCScript.Init();
 					targetObject = null;
@@ -325,6 +327,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		targetLocation = targetObj.transform.position + 2*targetObj.transform.forward;
 		targetLocation = new Vector3(targetLocation.x,0,targetLocation.z);
 		targetObject = targetObj;
+		Debug.Log (targetLocation);
 		_characterAction = CharacterAction.Dialog;
 	}
 

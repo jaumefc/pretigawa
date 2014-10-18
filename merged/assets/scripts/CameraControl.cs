@@ -37,6 +37,10 @@ public class CameraControl : MonoBehaviour {
 		Debug.Log ("Fem el In");
 		Debug.Log (Camera.current);
 		cCamera2 = otherCam;
+		if(!stateIn)
+		{
+			cCameraOriginal = Camera.current;
+		}
 		foreach(Camera cam in Camera.allCameras){
 			cam.enabled = false;
 		}
@@ -47,10 +51,6 @@ public class CameraControl : MonoBehaviour {
 //		else{
 //			cCameraOriginal = Camera.current;
 //			cCameraOriginal.enabled = false;
-//		}
-//		if(cCameraOriginal==null)
-//		{
-//			cCameraOriginal = Camera.main;
 //		}
 		//DCTexture.enabled = true;
 		//cCamera1.enabled = true;
