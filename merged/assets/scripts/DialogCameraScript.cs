@@ -35,6 +35,7 @@ public class DialogCameraScript : MonoBehaviour {
 
 	GameState gs;
 	InventoryControl inventoryControl;
+	animationControl animControl;
 
 	private AudioSource playerAS;
 
@@ -54,6 +55,7 @@ public class DialogCameraScript : MonoBehaviour {
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
 		playerAS = GameObject.Find("Player").GetComponent<AudioSource>();
 		inventoryControl = GameObject.Find ("Player").GetComponent<InventoryControl> ();
+		animControl = GameObject.Find ("Player").GetComponent<animationControl> ();
 		style_alien_down = new GUIStyle (style_alien);
 		style_other_down = new GUIStyle (style_theother);
 
@@ -279,9 +281,12 @@ public class DialogCameraScript : MonoBehaviour {
 	 */
 	void EndDialog(){
 
+		animControl.enabled = true;
+
+
 		Debug.Log(Camera.current);
 		if(CCScript.IsIn()){
-			CCScript.TransferOut();
+			CCScript.		TransferOut();
 		}
 		dialogState = DialogState.NONE;
 		this.enabled = false;
@@ -341,6 +346,8 @@ public class DialogCameraScript : MonoBehaviour {
 	 */
 	public void Init()
 	{
+		animControl = GameObject.Find ("Player").GetComponent<animationControl> ();
+		animControl.enabled = false;
 		this.enabled = true;
 		dialogState = DialogState.INIT;
 	}
