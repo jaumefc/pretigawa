@@ -12,6 +12,8 @@ public class sniperGameplayController : MonoBehaviour {
 	public GameObject dardo;
 	public ParticleSystem fxShoot;
 
+	public GameObject francotirador;
+
 	private GameObject mainChar;
 	private CapsuleCollider cc;
 	private mouseControl mc;
@@ -25,6 +27,9 @@ public class sniperGameplayController : MonoBehaviour {
 	private GameObject SoundBreath;
 	private GameObject SoundShoot;
 	private GameObject SoundReload;
+
+	private DialogCameraScript DCScript;
+	public ConversationTreeClass AfterGameplayTree;
 
 	void Start () {
 		mainChar = GameObject.Find ("Player");
@@ -72,6 +77,12 @@ public class sniperGameplayController : MonoBehaviour {
 			GameObject.Find ("CameraSniper").camera.enabled = false;
 			triggeredCams.SetActive (true);
 			sniperGameplay.SetActive(false);
+
+			francotirador.SetActive(true);
+			mainChar.transform.LookAt(francotirador.transform);
+
+			DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
+			DCScript.Init(AfterGameplayTree);
 		}
 		
 		else{
