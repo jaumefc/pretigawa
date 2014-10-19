@@ -127,7 +127,7 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 
 			Vector3 distancia = (transform.position - targetLocation);
 			if (distancia.magnitude < 1) {
-				targetLocation = navi.transform.position;
+				//targetLocation = navi.transform.position;
 				transform.LookAt(targetLocation);
 				animcontroller.enabled = false;
 				animComp.Play("Pick");

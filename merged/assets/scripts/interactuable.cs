@@ -21,6 +21,7 @@ public class interactuable : MonoBehaviour {
 	public GameObject objecteBo;
 	public ConversationTreeClass arbreBo;
 
+	private combinacio comb;
 
 	public erronis[] objectesErronis;
 	public ConversationTreeClass defaultNode;
@@ -94,7 +95,12 @@ public class interactuable : MonoBehaviour {
 	public Vector3 GetScreenPosition() {
 		return new Vector3(posx,posy,0);
 	}
-	
+
+	private void retardedAdd(){
+		comb.resultat.SetState(InventoryObject.InventoryObjectState.TAKEN);
+		comb.resultat.Load();
+	}
+
 	public bool comprobarInteraccio(GameObject origen){
 		DialogCameraScript DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
 
@@ -104,10 +110,9 @@ public class interactuable : MonoBehaviour {
 
 		GameObject[] combinations = GameObject.FindGameObjectsWithTag ("Combinacio");
 		foreach (GameObject combination in combinations) {
-			combinacio comb = combination.GetComponent<combinacio>();
+			comb = combination.GetComponent<combinacio>();
    			if (comb.origenInventari == origen && comb.destiEscena == this.gameObject){
-				comb.resultat.SetState(InventoryObject.InventoryObjectState.TAKEN);
-				comb.resultat.Load();
+				Invoke("retardedAdd", 1.0f);
 			}
 		}
 

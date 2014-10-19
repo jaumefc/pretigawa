@@ -163,7 +163,7 @@ public class InventoryControl : MonoBehaviour {
         while(it.MoveNext()){
             GameObject obj = (GameObject)it.Current;
 			InventoryObject cInvObj = obj.GetComponent<InventoryObject>();
-			if (cInvObj.obj.Equals(invObj))
+			if (invObj.Equals(cInvObj.obj))
             {
 				if(cInvObj.hideOnTake){
 					if(cInvObj.obj!=null)cInvObj.obj.SetActive(false);
