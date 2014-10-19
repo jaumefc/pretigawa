@@ -8,12 +8,8 @@ public class ConversationScriptOrange : MonoBehaviour {
 	private GameObject player;
 	// Use this for initialization
 	void Start () {
-	/*	if(!gs.ExistsBool("OrangeFainted"))
+		if(!gs.ExistsBool("OrangeFainted"))
 			gs.AddBool ("OrangeFainted", true);
-		if(!gs.ExistsBool("OrangeFaintedWaitressAwake"))
-			gs.AddBool ("OrangeFaintedWaitressAwake", false);
-		if(!gs.ExistsBool("WaitressDistracted"))
-			gs.AddBool ("WaitressDistracted", true);*/
 	}
 	
 	// Update is called once per frame
