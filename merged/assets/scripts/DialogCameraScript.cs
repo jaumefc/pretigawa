@@ -372,8 +372,10 @@ public class DialogCameraScript : MonoBehaviour {
 			break;
 		case ConversationNodeClass.costume.JAPANESE:
 			if(inventoryControl.GetCurrentCostume()==Custom.JAPANESE ) ret = true;
-			break;
-
+			break;			
+	/*	case ConversationNodeClass.costume.POLICEMAN:
+			if(inventoryControl.GetCurrentCostume()==Custom.POLICEMAN ) ret = true;
+			break;*/
 		}
 		return ret;
 	}
