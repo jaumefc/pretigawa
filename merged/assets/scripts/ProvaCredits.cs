@@ -11,6 +11,8 @@ public class ProvaCredits : MonoBehaviour {
 
 	public Texture[] text;
 
+	public GUIStyle style;
+
 
 	public GameObject prefab;
 
@@ -71,7 +73,7 @@ public class ProvaCredits : MonoBehaviour {
 		GUI.skin.button.normal.background = (Texture2D) image;
 		GUI.skin.button.hover.background = (Texture2D) image;
 		GUI.skin.button.active.background = (Texture2D) image;
-		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), "Back")) {
+		if (GUI.Button (new Rect (left1 * Screen.width*stylebgratio, top1 * Screen.height, size1 * Screen.height * stylebgratio, size1 * Screen.height), image, style)) {
 			Debug.Log ("Back");
 			Application.LoadLevel("menu");
 		}

@@ -5481,9 +5481,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b273998e815184b4dad59549b2e8110f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left1: .860000014
-  top1: .74000001
-  size1: .189999998
+  left1: .109999999
+  top1: .860000014
+  size1: .119999997
   text:
   - {fileID: 2800000, guid: 0d8ee0d40bee54f248bbba5b23580dea, type: 3}
   - {fileID: 2800000, guid: e3fd952e82adc4760adb769e4bcb9677, type: 3}
@@ -5506,6 +5506,65 @@ MonoBehaviour:
   - {fileID: 2800000, guid: f8db68b34070a4804bed12e886bd9ecf, type: 3}
   - {fileID: 2800000, guid: 50ca5943c412c4055a3b4cecb4c898ff, type: 3}
   - {fileID: 2800000, guid: d12f5c254868c4a019ff6854eb1ecb20, type: 3}
+  style:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 2
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
   prefab: {fileID: 100002, guid: 4e3a7fa31ca53401cba98204f92ab37a, type: 2}
   image: {fileID: 2800000, guid: 0e3507dfe761be84e81840e21186ef04, type: 3}
 --- !u!1 &1799072379
