@@ -67,6 +67,9 @@ public class finalscene : MonoBehaviour {
 	}
 
 	void Update () {
+		if (Input.GetKey (KeyCode.Escape)) {
+			Application.LoadLevel("menu");
+		}
 		if (alreadyPanned == true && dialogEnded == false)
 				return;
 		else if (dialogEnded == false) {
