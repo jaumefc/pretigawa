@@ -9,6 +9,8 @@ public class ConversationScriptWaitress : MonoBehaviour {
 	private GameObject shot,bottle;
 	private InventoryControl ic;
 	public InventoryObject recipe;
+	public InventoryObject ioBottle;
+	public InventoryObject coctail;
 	// Use this for initialization
 	void Start () {
 		gs = GameState.GetInstance ();
@@ -60,14 +62,17 @@ public class ConversationScriptWaitress : MonoBehaviour {
 		//shot in inventory
 		//ic.Add2 (shot);
 		gs.SetBool ("ShotGot", true);
+		checkObjectsReceipe ();
 	}
 
 	void GetBloody(){
 		gs.SetBool ("BloodyGot", true);
+		checkObjectsReceipe();
 	}
 
 	void GetCosmo(){
 		gs.SetBool ("CosmoGot", true);
+		checkObjectsReceipe ();
 	}
 
 
@@ -83,7 +88,15 @@ public class ConversationScriptWaitress : MonoBehaviour {
 	void TrueDangerousManChosen(){
 		gs.SetBool ("DangerousManChosen", true);
 	}
-
+	
+	void checkObjectsReceipe(){
+		if (gs.GetBool ("CosmoGot") && gs.GetBool ("ShotGot") && gs.GetBool ("BloodyGot") && gs.GetInt ("cacahuets") == 2 && gs.GetInt ("cigar") == 2) {
+			//gs.SetInt("coctail",1);
+			//gs.SetInt("bottle",2);
+			ioBottle.SetState(InventoryObject.InventoryObjectState.USED);
+			coctail.SetState(InventoryObject.InventoryObjectState.TAKEN);
+		}
+	}
 
 
 	

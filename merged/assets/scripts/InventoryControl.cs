@@ -25,7 +25,7 @@ public class InventoryControl : MonoBehaviour {
 	private float width,height;
 	public int iconsize;
 
-    public GameObject[] inventoryObjects = new GameObject[13];
+    public GameObject[] inventoryObjects = new GameObject[16];
     public GameObject[] inventoryCustoms = new GameObject[MAX_CUSTOMS];
 
 	private int currCostumeShowed = 0;
