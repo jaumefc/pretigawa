@@ -8,6 +8,8 @@ public class ConversationScriptKidnapped : MonoBehaviour {
 	private GameObject player;
 	private GameObject shot;
 	private InventoryControl ic;
+	public Texture apallissat;
+	public GameObject kidnapped;
 	// Use this for initialization
 	void Start () {
 		gs = GameState.GetInstance ();
@@ -15,6 +17,9 @@ public class ConversationScriptKidnapped : MonoBehaviour {
 		ic = player.GetComponent<InventoryControl> ();
 		if(!gs.ExistsBool("FirstWC"))
 			gs.AddBool ("FirstWC", true);
+		if (!gs.ExistsBool ("apallissat")) {
+			gs.AddBool("apallissat", false);
+		}
 	}
 	
 	// Update is called once per frame
@@ -24,6 +29,12 @@ public class ConversationScriptKidnapped : MonoBehaviour {
 		
 	void ChangeFirstWC(){
 		gs.SetBool ("FirstWC", false);
+	}
+
+
+	void changeTexture(){
+		gs.SetBool ("apallissat", true);
+		kidnapped.gameObject.renderer.material.SetTexture ("_MainTex", apallissat);
 	}
 	
 
