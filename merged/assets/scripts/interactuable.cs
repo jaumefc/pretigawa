@@ -51,10 +51,11 @@ public class interactuable : MonoBehaviour {
 			//renderers[i].gameObject.animation.AddClip//
 			/////
 			/// 
+			/*
 			Material mat = new Material(Shader.Find("VertexLit Funky"));
 			mat.SetTexture("_MainTex",renderers[i].material.GetTexture("_MainTex"));
 			renderers[i].material = mat;
-			/////
+			*////
 		}
 		width = Display.main.systemWidth;
 		height = Display.main.systemHeight;
