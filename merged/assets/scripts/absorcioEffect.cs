@@ -21,6 +21,8 @@ public class absorcioEffect : MonoBehaviour {
 
 	private bool goingTowardsTarget = false;
 
+	public GameObject AbsSound;
+
 	public void assigntree(ConversationTreeClass thistree){
 		AfterTree = thistree;
 	}
@@ -55,6 +57,7 @@ public class absorcioEffect : MonoBehaviour {
 	}
 
 	public void startAbsorcio(){
+		AbsSound.audio.Play();
 		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
 		foreach(GameObject enemy in enemies){
 			controlVisio cv = enemy.GetComponent<controlVisio>();

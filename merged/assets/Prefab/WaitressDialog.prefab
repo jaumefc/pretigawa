@@ -2366,7 +2366,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2.79999995
   showNodes: 1
   cncArray:
   - {fileID: 11400018}
@@ -2378,7 +2378,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400318}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: e326b383b274dbe41b6d300d502635a0, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2397,7 +2397,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: .699999988
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400208}
-  clipAudio: {fileID: 8300000, guid: c335bbd1ad3cb8349b79fa9649278ff0, type: 3}
+  clipAudio: {fileID: 8300000, guid: 3af96a1c66658584ba1f0ea045a7f493, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2430,7 +2430,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 8
+  fSeconds: 9
   showNodes: 1
   cncArray:
   - {fileID: 11400044}
@@ -2453,12 +2453,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: No, who do you think I am?
+  sFirstOption: "No, who do you \r\nthink I am?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2
   showNodes: 1
   cncArray:
   - {fileID: 11400056}
@@ -2467,7 +2467,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400194}
-  clipAudio: {fileID: 8300000, guid: fce19a46bebd20344bf933cab9aec574, type: 3}
+  clipAudio: {fileID: 8300000, guid: ef7faae837fee584b8a32b18caf73448, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2516,7 +2516,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 9.80000019
   showNodes: 1
   cncArray:
   - {fileID: 11400066}
@@ -2525,7 +2525,7 @@ MonoBehaviour:
   preAction: 
   postAction: TrueWealthyManSaid
   scriptAnimacio: {fileID: 11400306}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 2bcb905e10a379f4fab33ecaf9069113, type: 3}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2539,7 +2539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: RecipeFirstTime
-  sFirstOption: Could you please tell me again the list of ingredients?
+  sFirstOption: "Could you please \r\ntell me again the \r\nlist of ingredients?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
@@ -2553,7 +2553,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400212}
-  clipAudio: {fileID: 8300000, guid: e00ac34c8ea17a84a815d9455cbc51c3, type: 3}
+  clipAudio: {fileID: 8300000, guid: ddc42589839e53b4290039ce77548264, type: 3}
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2572,7 +2572,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 4
+  fSeconds: 3.29999995
   showNodes: 1
   cncArray:
   - {fileID: 11400154}
@@ -2603,7 +2603,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 6
+  fSeconds: 9.19999981
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -2611,7 +2611,7 @@ MonoBehaviour:
   preAction: 
   postAction: FalseRecipeFirstTime
   scriptAnimacio: {fileID: 11400268}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 726cb144a70ee554aa4c7937f3277c1a, type: 3}
 --- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2631,7 +2631,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 8.19999981
   showNodes: 1
   cncArray:
   - {fileID: 11400066}
@@ -2640,7 +2640,7 @@ MonoBehaviour:
   preAction: 
   postAction: TrueLovingManSaid
   scriptAnimacio: {fileID: 11400310}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 6ecbe6913eef3af48bef26d0188d52b5, type: 3}
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2653,13 +2653,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowNode: 2
-  var: BottleGot
+  var: var_bottle
   sFirstOption: Yeah, sounds refreshing.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 5
+  fSeconds: 6.30000019
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -2671,7 +2671,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400184}
-  clipAudio: {fileID: 8300000, guid: abef73487ff902f46a8dfb2574c06161, type: 3}
+  clipAudio: {fileID: 8300000, guid: ae001d818eaf6c149ba29302b7a241a2, type: 3}
 --- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2685,12 +2685,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Ahm... Uh... I meant a guy dressed in orange, have you seen him?
+  sFirstOption: "Ahm... Uh... \rI mean \r\na guy dressed in orange, \r\nhave you seen
+    him?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 5
+  fSeconds: 4.5
   showNodes: 1
   cncArray:
   - {fileID: 11400122}
@@ -2718,7 +2719,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 1.10000002
   showNodes: 1
   cncArray:
   - {fileID: 11400076}
@@ -2727,7 +2728,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400256}
-  clipAudio: {fileID: 8300000, guid: 935850e77ac91274288f30746aa21803, type: 3}
+  clipAudio: {fileID: 8300000, guid: 85391180ff08533459fe67c86eccc048, type: 3}
 --- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2761,6 +2762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e55e6d63637e85499169e8bb192a1cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  recipe: {fileID: 0}
 --- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2780,7 +2782,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 14.5
   showNodes: 1
   cncArray:
   - {fileID: 11400000}
@@ -2789,7 +2791,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400312}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 7d66343c9e2e42c4c9132be6872116b7, type: 3}
 --- !u!114 &11400032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2808,7 +2810,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 4
+  fSeconds: .699999988
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -2816,7 +2818,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400158}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 7a020fddfe2192345a39e052b6c55a31, type: 3}
 --- !u!114 &11400034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2836,7 +2838,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 10.1000004
   showNodes: 1
   cncArray:
   - {fileID: 11400066}
@@ -2845,7 +2847,7 @@ MonoBehaviour:
   preAction: 
   postAction: TrueIntelligentManSaid
   scriptAnimacio: {fileID: 11400308}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: aaf840e76a4b11442b13bd4ac3748a92, type: 3}
 --- !u!114 &11400036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2859,12 +2861,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Better than coffee? Is it legal?
+  sFirstOption: "Better than coffee? \r\nIs it legal?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2.5
   showNodes: 1
   cncArray:
   - {fileID: 11400004}
@@ -2892,7 +2894,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 1
+  fSeconds: 2.29999995
   showNodes: 1
   cncArray:
   - {fileID: 11400030}
@@ -2901,7 +2903,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400320}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: d1560197ca65b424d8a9c219361edc85, type: 3}
 --- !u!114 &11400040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2921,7 +2923,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 9
+  fSeconds: 6.19999981
   showNodes: 1
   cncArray:
   - {fileID: 11400116}
@@ -2949,10 +2951,11 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 5
+  fSeconds: 1.70000005
   showNodes: 1
   cncArray:
   - {fileID: 11400020}
+  - {fileID: 11400060}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -2978,7 +2981,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 8
+  fSeconds: 7
   showNodes: 1
   cncArray:
   - {fileID: 11400008}
@@ -3001,12 +3004,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Do you want to hear about my night?
+  sFirstOption: "Do you want to \r\nhear about my \r\nnight?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 1.60000002
   showNodes: 1
   cncArray:
   - {fileID: 11400014}
@@ -3015,7 +3018,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400198}
-  clipAudio: {fileID: 8300000, guid: 8d9307affe69e104a83b2e02023cbf11, type: 3}
+  clipAudio: {fileID: 8300000, guid: 8dceba6642747f441adff12e77268ac3, type: 3}
 --- !u!114 &11400048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3034,7 +3037,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2.70000005
   showNodes: 1
   cncArray:
   - {fileID: 11400144}
@@ -3062,7 +3065,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 1.29999995
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -3094,12 +3097,13 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 4
+  fSeconds: 3
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
   - {fileID: 11400128}
   - {fileID: 11400086}
+  - {fileID: 11400100}
   - {fileID: 11400032}
   bIsSelected: 0
   bIsUsed: 0
@@ -3120,13 +3124,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: "I'm looking for my friends. \nHave you seen any orange guy \naround
-    here?"
+  sFirstOption: "I'm looking for my \r\r\nfriends. Have you seen\r \r\nany orange
+    guy \naround here?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 5
+  fSeconds: 4
   showNodes: 1
   cncArray:
   - {fileID: 11400118}
@@ -3178,12 +3182,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: I need something to wake me up... Anything...
+  sFirstOption: "I need something \r\nto wake me up... \r\nAnything..."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 4
   showNodes: 1
   cncArray:
   - {fileID: 11400098}
@@ -3192,7 +3196,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400164}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 058dc6b1439a91241ba84439759f3c8d, type: 3}
 --- !u!114 &11400060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3205,13 +3209,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowNode: 1
-  var: BottleGot
+  var: var_bottle
   sFirstOption: Yeah! I'll try it again.
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 5
+  fSeconds: 1.20000005
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -3223,7 +3227,7 @@ MonoBehaviour:
   preAction: 
   postAction: GetShot
   scriptAnimacio: {fileID: 11400182}
-  clipAudio: {fileID: 8300000, guid: abef73487ff902f46a8dfb2574c06161, type: 3}
+  clipAudio: {fileID: 8300000, guid: 33ff95f3f45e5bd499579ba0d2630c24, type: 3}
 --- !u!114 &11400062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3237,12 +3241,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: CosmoGot
-  sFirstOption: No, pleeeease, I can't stand it anymore.
+  sFirstOption: "No, pleeeease, \r\nI can't stand it \r\nany more."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 3.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400092}
@@ -3251,7 +3255,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400166}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 9ecde672500230849b27dc8ac7ce0fce, type: 3}
 --- !u!114 &11400064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3270,7 +3274,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 4
+  fSeconds: 3.5
   showNodes: 1
   cncArray:
   - {fileID: 11400052}
@@ -3298,7 +3302,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 1.5
   showNodes: 1
   cncArray:
   - {fileID: 11400104}
@@ -3307,7 +3311,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400316}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 3289a9e0672b1b346a8d1effe2e5a2be, type: 3}
 --- !u!114 &11400068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3327,7 +3331,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 6
+  fSeconds: 5.9000001
   showNodes: 1
   cncArray:
   - {fileID: 11400132}
@@ -3355,7 +3359,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 1.70000005
   showNodes: 1
   cncArray:
   - {fileID: 11400156}
@@ -3366,7 +3370,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400244}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: e07c568230453664f8e21c855e6c491f, type: 3}
 --- !u!114 &11400072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3385,7 +3389,7 @@ MonoBehaviour:
   cCharacter: 3
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 1
+  fSeconds: 2.5
   showNodes: 1
   cncArray:
   - {fileID: 11400112}
@@ -3394,7 +3398,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400298}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 61f253e449f97a6439b50ecf6146951e, type: 3}
 --- !u!114 &11400074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3414,7 +3418,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 6
+  fSeconds: 5
   showNodes: 1
   cncArray:
   - {fileID: 11400146}
@@ -3423,7 +3427,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400272}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 9553402f9a38b524b84c114e78f29a6e, type: 3}
 --- !u!114 &11400076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3442,7 +3446,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: .600000024
   showNodes: 1
   cncArray:
   - {fileID: 11400150}
@@ -3453,7 +3457,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400200}
-  clipAudio: {fileID: 8300000, guid: 935850e77ac91274288f30746aa21803, type: 3}
+  clipAudio: {fileID: 8300000, guid: bc296985b13ab7a4bb417b69f08dad52, type: 3}
 --- !u!114 &11400078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3472,7 +3476,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 10
+  fSeconds: 4.5
   showNodes: 1
   cncArray:
   - {fileID: 11400090}
@@ -3501,7 +3505,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 7
+  fSeconds: 8.10000038
   showNodes: 1
   cncArray:
   - {fileID: 11400040}
@@ -3530,7 +3534,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 8
+  fSeconds: 7.19999981
   showNodes: 1
   cncArray:
   - {fileID: 11400150}
@@ -3560,7 +3564,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 12
+  fSeconds: 5.5
   showNodes: 1
   cncArray:
   - {fileID: 11400004}
@@ -3569,7 +3573,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400220}
-  clipAudio: {fileID: 8300000, guid: 9a063027b3196bf4bab7745ed8ae81e2, type: 3}
+  clipAudio: {fileID: 0}
 --- !u!114 &11400086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3583,12 +3587,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: ShotGot
-  sFirstOption: I'd like something to drink, can you give me something mind-clearing?
+  sFirstOption: "I'd like something to \r\ndrink, can you give \r\nme something \r\nmind-clearing?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 4
+  fSeconds: 3.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400042}
@@ -3597,7 +3601,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400186}
-  clipAudio: {fileID: 8300000, guid: 3f9969f62e830ce458f882f86c96c5c1, type: 3}
+  clipAudio: {fileID: 8300000, guid: 213c7546e02648d41b8d5bca7f38c47d, type: 3}
 --- !u!114 &11400088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3644,7 +3648,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 10
+  fSeconds: 5.0999999
   showNodes: 1
   cncArray:
   - {fileID: 11400150}
@@ -3674,7 +3678,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 3.5
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -3686,7 +3690,7 @@ MonoBehaviour:
   preAction: 
   postAction: GetCosmo
   scriptAnimacio: {fileID: 11400162}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 46ff83975bfed5948ac7857b3a0b0a90, type: 3}
 --- !u!114 &11400094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3717,7 +3721,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400168}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 750a2857ec419ae4eb46dba03f7fe49d, type: 3}
 --- !u!114 &11400096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3737,7 +3741,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 10.3999996
   showNodes: 1
   cncArray:
   - {fileID: 11400066}
@@ -3746,7 +3750,7 @@ MonoBehaviour:
   preAction: 
   postAction: TrueDangeousManChosen
   scriptAnimacio: {fileID: 11400304}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 474679f486d795a4d832954665546175, type: 3}
 --- !u!114 &11400098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3765,7 +3769,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 1.39999998
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -3777,7 +3781,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400160}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 49f982492f0264b4fa20d269496c33ff, type: 3}
 --- !u!114 &11400100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3791,12 +3795,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 1
   var: ShotGot
-  sFirstOption: I'd like something to drink, but no more St. Pepper, something different.
+  sFirstOption: "I'd like something to \r\ndrink, but no more \r\r\nSt. Pepper, something
+    \r\ndifferent."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 4
+  fSeconds: 5.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400070}
@@ -3805,7 +3810,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400180}
-  clipAudio: {fileID: 8300000, guid: 3f9969f62e830ce458f882f86c96c5c1, type: 3}
+  clipAudio: {fileID: 8300000, guid: 535630688bf6fc24a9a3043155b24827, type: 3}
 --- !u!114 &11400102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3824,7 +3829,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2.29999995
   showNodes: 1
   cncArray:
   - {fileID: 11400036}
@@ -3855,7 +3860,7 @@ MonoBehaviour:
   cCharacter: 2
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 9
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -3863,7 +3868,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400314}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: e3c4cfe5628b5db4da01371732bbf546, type: 3}
 --- !u!114 &11400106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3882,7 +3887,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 2.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400024}
@@ -3891,7 +3896,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400202}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: d82e1b25bd8f486498f911ae0ccde0ab, type: 3}
 --- !u!114 &11400108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3910,7 +3915,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 10
+  fSeconds: 2.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400120}
@@ -3919,7 +3924,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400260}
-  clipAudio: {fileID: 8300000, guid: e7f87a64c63643c439326db045b142c4, type: 3}
+  clipAudio: {fileID: 8300000, guid: 5590ecf6d0a585842a7c947b9b887ab3, type: 3}
 --- !u!114 &11400110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3933,12 +3938,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: And a purple one? He has only one eye and a few spikes on the back.
+  sFirstOption: "And a purple one? \r\nHe has only one eye \r\nand a few spikes on
+    \r\nthe back."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 6
+  fSeconds: 5
   showNodes: 1
   cncArray:
   - {fileID: 11400068}
@@ -3966,7 +3972,7 @@ MonoBehaviour:
   cCharacter: 3
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: .600000024
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -3974,7 +3980,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400296}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 705dfb2569286d44280271bd131c2ff8, type: 3}
 --- !u!114 &11400114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3993,7 +3999,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 1.79999995
   showNodes: 1
   cncArray:
   - {fileID: 11400108}
@@ -4002,7 +4008,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400204}
-  clipAudio: {fileID: 8300000, guid: 7bb2b3b65c8f7da47813713e411c435b, type: 3}
+  clipAudio: {fileID: 8300000, guid: 6e00af7b1c004b34892c98ceb356c4cc, type: 3}
 --- !u!114 &11400116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4022,7 +4028,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 7
+  fSeconds: 8.5
   showNodes: 1
   cncArray:
   - {fileID: 11400022}
@@ -4054,13 +4060,14 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2.79999995
   showNodes: 1
   cncArray:
   - {fileID: 11400022}
   - {fileID: 11400110}
   - {fileID: 11400142}
   - {fileID: 11400012}
+  - {fileID: 11400002}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -4086,7 +4093,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 6.5999999
   showNodes: 1
   cncArray:
   - {fileID: 11400106}
@@ -4095,7 +4102,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400258}
-  clipAudio: {fileID: 8300000, guid: 4c3f9a3827179a24ebbfe8a366c36097, type: 3}
+  clipAudio: {fileID: 8300000, guid: f945fb89536cdd041afa2f3f224f150c, type: 3}
 --- !u!114 &11400122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4115,7 +4122,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 8
+  fSeconds: 5.4000001
   showNodes: 1
   cncArray:
   - {fileID: 11400080}
@@ -4181,7 +4188,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400214}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 8d095a033ecab7146a0b01b9ac23a267, type: 3}
 --- !u!114 &11400128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4195,12 +4202,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: As I can see, you don't really like working here, right?
+  sFirstOption: "As I can see, you \r\ndon't really like working \r\nhere, right?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 3.79999995
   showNodes: 1
   cncArray:
   - {fileID: 11400082}
@@ -4209,7 +4216,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400210}
-  clipAudio: {fileID: 8300000, guid: cfbc60fc8d5012e4e84ddc7d0493968b, type: 3}
+  clipAudio: {fileID: 8300000, guid: 9c25099937b521b4e86d5705a4b69539, type: 3}
 --- !u!114 &11400130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4227,9 +4234,9 @@ MonoBehaviour:
     remains, Glamour touch'
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 0
+  sSpeaker: 1
   vAlign: 0
-  fSeconds: 8
+  fSeconds: 9
   showNodes: 1
   cncArray: []
   bIsSelected: 0
@@ -4237,7 +4244,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400266}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: bbe2847929858e8419733482a68817b7, type: 3}
 --- !u!114 &11400132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4256,7 +4263,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3.25999999
+  fSeconds: 4
   showNodes: 1
   cncArray:
   - {fileID: 11400022}
@@ -4288,7 +4295,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 1.20000005
   showNodes: 1
   cncArray:
   - {fileID: 11400078}
@@ -4297,7 +4304,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400190}
-  clipAudio: {fileID: 8300000, guid: c547fe8cdf4106442b20e6f818536fed, type: 3}
+  clipAudio: {fileID: 8300000, guid: 09244cd615d539e43bf6fcb0a88cf111, type: 3}
 --- !u!114 &11400136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4316,7 +4323,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 4.4000001
   showNodes: 1
   cncArray:
   - {fileID: 11400074}
@@ -4325,7 +4332,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400216}
-  clipAudio: {fileID: 8300000, guid: 14f3283cabda93d4eb8f26365dd0ac7c, type: 3}
+  clipAudio: {fileID: 8300000, guid: 2509c9553e9cd5248b981dfec3debae7, type: 3}
 --- !u!114 &11400138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4339,12 +4346,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: As long as it is lactose-free, I'll take it.
+  sFirstOption: "If it is lactose-free, \r\nI'll take it."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2.5
   showNodes: 1
   cncArray:
   - {fileID: 11400004}
@@ -4353,7 +4360,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400218}
-  clipAudio: {fileID: 8300000, guid: 9ec27cd5c3d1ed34a9c016f6eedec629, type: 3}
+  clipAudio: {fileID: 8300000, guid: b17b2e946a287d244a73026de20c1e8e, type: 3}
 --- !u!114 &11400140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4372,7 +4379,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: .699999988
   showNodes: 1
   cncArray:
   - {fileID: 11400050}
@@ -4381,7 +4388,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400188}
-  clipAudio: {fileID: 8300000, guid: 40936cc61a385e2499caa06be36148de, type: 3}
+  clipAudio: {fileID: 8300000, guid: b4f41e59c19947f45bdf07a1be4f42f1, type: 3}
 --- !u!114 &11400142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4395,12 +4402,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 1
   var: RecipeFirstTime
-  sFirstOption: I think I'm still drunk indeed, any ideas?
+  sFirstOption: "I think I'm still very \r\r\ndrunk indeed, \r\nany ideas?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 5
+  fSeconds: 4
   showNodes: 1
   cncArray:
   - {fileID: 11400048}
@@ -4428,7 +4435,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 1
   showNodes: 1
   cncArray:
   - {fileID: 11400102}
@@ -4457,7 +4464,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 6
+  fSeconds: 6.69999981
   showNodes: 1
   cncArray:
   - {fileID: 11400126}
@@ -4486,7 +4493,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 7
+  fSeconds: 6.4000001
   showNodes: 1
   cncArray:
   - {fileID: 11400114}
@@ -4509,12 +4516,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Let me be your shrink, I'm listening
+  sFirstOption: "Let me be your \r\nshrink, I'm listening"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 2
   showNodes: 1
   cncArray:
   - {fileID: 11400148}
@@ -4523,7 +4530,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400206}
-  clipAudio: {fileID: 8300000, guid: 3ed3e7c114a22b24cab19fa39aebd195, type: 3}
+  clipAudio: {fileID: 8300000, guid: e736f559ef436514f9b0dd4ad7415ccc, type: 3}
 --- !u!114 &11400152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4537,13 +4544,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: I'm getting married in two days, so... as good as it sounds what you're
-    saying I'm an enganged
+  sFirstOption: "I'm getting married \r\nin two days, so... \r\nas good as it sounds
+    \r\nwhat you're saying \r\nI'm an enganged"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 12
+  fSeconds: 6
   showNodes: 1
   cncArray:
   - {fileID: 11400084}
@@ -4566,12 +4573,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: Mmmm... Yes... And now I can't find them nor our spaceship.
+  sFirstOption: "Mmmm... Yes... \r\nAnd now I can't find \r\nthem nor our \r\nspaceship."
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 3
+  fSeconds: 4.19999981
   showNodes: 1
   cncArray:
   - {fileID: 11400078}
@@ -4580,7 +4587,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400196}
-  clipAudio: {fileID: 8300000, guid: 840504c91cb2cf54ebc4ad595a99747b, type: 3}
+  clipAudio: {fileID: 8300000, guid: 542ba9eec2f3e374b9785c48b2ab8a6f, type: 3}
 --- !u!114 &11400156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4599,7 +4606,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 0
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 1.20000005
   showNodes: 1
   cncArray:
   - {fileID: 11400322}
@@ -4608,7 +4615,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400178}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: f77411ed9b05e6e44b5ccb32abf8d2b3, type: 3}
 --- !u!114 &11400158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4621,9 +4628,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400240}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4636,9 +4644,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400002, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 11400244}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4651,9 +4660,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400002, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 11400244}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4666,9 +4676,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400180}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4681,9 +4692,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400180}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4696,9 +4708,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400020, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400180}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4729,7 +4742,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400172}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 750a2857ec419ae4eb46dba03f7fe49d, type: 3}
 --- !u!114 &11400172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4742,9 +4755,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400020, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400180}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4757,9 +4771,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400020, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400180}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400176
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4790,7 +4805,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400174}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 750a2857ec419ae4eb46dba03f7fe49d, type: 3}
 --- !u!114 &11400178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4803,9 +4818,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400180}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4818,9 +4834,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400240}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4833,9 +4850,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400020, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400186}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4848,9 +4866,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400020, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400186}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4863,9 +4882,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400240}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4878,9 +4898,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400210}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4893,9 +4914,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400198}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4908,9 +4930,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400198}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4923,9 +4946,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400198}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4938,9 +4962,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400198}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4953,9 +4978,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400210}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4968,9 +4994,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400202}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4983,9 +5010,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400204}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4998,9 +5026,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400206}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5013,9 +5042,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400210}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5028,6 +5058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400238}
   goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
@@ -5043,9 +5074,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400238}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5058,6 +5090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400238}
   goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
@@ -5073,9 +5106,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400216}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5088,9 +5122,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400218}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5103,9 +5138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400226}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5118,9 +5154,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400226}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5133,9 +5170,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400226}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5148,9 +5186,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400226}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400226
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5163,9 +5202,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400228}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5178,9 +5218,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400238}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5193,9 +5234,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400232}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5208,9 +5250,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400238}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5223,9 +5266,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400236}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5238,9 +5282,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400238}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5253,9 +5298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400240}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5268,9 +5314,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5283,9 +5330,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400002, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 11400244}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5298,9 +5346,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 11400294}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5313,9 +5362,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400002, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 11400294}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5328,9 +5378,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400264}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5343,9 +5394,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400254}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5358,9 +5410,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400254}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5373,9 +5426,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400264}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5388,9 +5442,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400258}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5403,9 +5458,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400262}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5418,9 +5474,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400262}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5433,9 +5490,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400264}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5448,9 +5506,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400294}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5463,6 +5522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400292}
   goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
@@ -5478,9 +5538,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400270}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5493,9 +5554,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400274}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5508,9 +5570,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400274}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5523,9 +5586,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400280}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5538,9 +5602,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400280}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400278
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5553,9 +5618,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400280}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400280
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5568,9 +5634,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400282}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5583,9 +5650,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400292}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5598,9 +5666,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400292}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400286
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5613,9 +5682,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400292}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5628,9 +5698,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400292}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5643,9 +5714,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400292}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5658,9 +5730,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400294}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5673,9 +5746,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400296
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5688,9 +5762,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400298
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5703,9 +5778,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400018, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5718,9 +5794,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400018, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5733,9 +5810,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5747,10 +5825,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 100028}
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400312}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5762,10 +5841,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 100028}
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400312}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5777,10 +5857,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 100028}
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400312}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5792,10 +5873,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 100028}
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400312}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5808,9 +5890,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400000, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5823,9 +5906,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400304}
-  goBackToAnimation: {fileID: 7400018, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5838,9 +5922,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400318}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5853,9 +5938,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400320}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5868,9 +5954,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  goBackToAnimation: {fileID: 0}
 --- !u!114 &11400322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5889,7 +5976,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 2
+  fSeconds: 4.0999999
   showNodes: 1
   cncArray:
   - {fileID: 11400054}
@@ -5901,7 +5988,7 @@ MonoBehaviour:
   preAction: 
   postAction: GetBloody
   scriptAnimacio: {fileID: 11400242}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: 693fd9d1c5f464941a2a8debfb409c61, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

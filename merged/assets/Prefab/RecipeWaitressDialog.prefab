@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootNodes:
   - {fileID: 11400010}
-  useDialogCamera: 0
+  useDialogCamera: 1
   allowSkip: 1
   style: 0
   alienCam: {fileID: 0}
@@ -159,7 +159,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400004}
-  clipAudio: {fileID: 0}
+  clipAudio: {fileID: 8300000, guid: bbe2847929858e8419733482a68817b7, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: RecipeFirstTime
-  sFirstOption: Could you please tell me again the list of ingredients?
+  sFirstOption: "Could you please \rtell me again the list of ingredients?"
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
   preAction: 
   postAction: 
   scriptAnimacio: {fileID: 11400008}
-  clipAudio: {fileID: 8300000, guid: e00ac34c8ea17a84a815d9455cbc51c3, type: 3}
+  clipAudio: {fileID: 8300000, guid: ddc42589839e53b4290039ce77548264, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
