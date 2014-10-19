@@ -20,6 +20,8 @@ public class finalscene : MonoBehaviour {
 	private bool dialogEnded = false;
 	private bool hasToThrowExtinguisher = false;
 
+	public GameObject audioMusic;
+
 	// Use this for initialization
 	void Start () {
 		mainChar = GameObject.Find ("Player");
@@ -59,6 +61,8 @@ public class finalscene : MonoBehaviour {
 	}
 
 	private void cutscene(){
+		audioMusic.audio.Stop ();
+		mainChar.GetComponent<AudioListener>().enabled = false;
 		videofinal.SetActive (true);
 	}
 
