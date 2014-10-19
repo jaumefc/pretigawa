@@ -2510,8 +2510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: WealthyManSaid
-  sFirstOption: 'A wealthy gentleman will take you with him, and you won''t need to
-    wait those tables any more, little girl. '
+  sFirstOption: "A wealthy gentleman \r\nwill take you with him, \r\nand you won't
+    need to \r\nwait those tables any \r\nmore, little girl. "
   sSecondOption: 
   cCharacter: 2
   sSpeaker: 0
@@ -2625,8 +2625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: LovingManSaid
-  sFirstOption: You will meet a good and loving man that will treat you like a princess,
-    sweetheart.
+  sFirstOption: "You will meet a good \r\nand loving man that \r\nwill treat you like
+    a \r\nprincess, sweetheart."
   sSecondOption: 
   cCharacter: 2
   sSpeaker: 0
@@ -2832,8 +2832,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 2
   var: IntelligentManSaid
-  sFirstOption: I see an intelligent man. Intelligent and sensible, he will bring
-    you the stability you need, my dear.
+  sFirstOption: "I see an intelligent \r\nman. Intelligent and \r\nsensible, \rhe
+    will bring \r\nyou the \rstability \r\nyou need, \rmy dear."
   sSecondOption: 
   cCharacter: 2
   sSpeaker: 0
@@ -3681,10 +3681,7 @@ MonoBehaviour:
   fSeconds: 3.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400054}
-  - {fileID: 11400128}
-  - {fileID: 11400100}
-  - {fileID: 11400032}
+  - {fileID: 11400094}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -3735,8 +3732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: I can tell you that a dangerous man will appear, honey. Exciting and
-    mysterious you will fall at his feet.
+  sFirstOption: "I can tell you that a \r\ndangerous man will \r\nappear, honey. \r\nExciting
+    and mysterious \r\nyou will fall at his feet."
   sSecondOption: 
   cCharacter: 2
   sSpeaker: 0
@@ -3748,7 +3745,7 @@ MonoBehaviour:
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
-  postAction: TrueDangeousManChosen
+  postAction: TrueDangerousManChosen
   scriptAnimacio: {fileID: 11400304}
   clipAudio: {fileID: 8300000, guid: 474679f486d795a4d832954665546175, type: 3}
 --- !u!114 &11400098
@@ -3772,10 +3769,7 @@ MonoBehaviour:
   fSeconds: 1.39999998
   showNodes: 1
   cncArray:
-  - {fileID: 11400054}
-  - {fileID: 11400128}
-  - {fileID: 11400100}
-  - {fileID: 11400032}
+  - {fileID: 11400170}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -5267,8 +5261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400236}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400236
 MonoBehaviour:
@@ -5683,8 +5677,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400292}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400288
 MonoBehaviour:
@@ -5699,8 +5693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400292}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400290
 MonoBehaviour:
@@ -5715,8 +5709,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400292}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400292
 MonoBehaviour:
@@ -5731,8 +5725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400294}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400294
 MonoBehaviour:
@@ -5747,7 +5741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400296
@@ -5811,7 +5805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400304
@@ -5923,8 +5917,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400318}
+  animacio: {fileID: 7400010, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400318
 MonoBehaviour:
@@ -5939,8 +5933,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400320}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
+  previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400320
 MonoBehaviour:
@@ -5955,7 +5949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterToPlayIt: {fileID: 0}
   otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  animacio: {fileID: 7400006, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 0}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400322
@@ -5979,10 +5973,7 @@ MonoBehaviour:
   fSeconds: 4.0999999
   showNodes: 1
   cncArray:
-  - {fileID: 11400054}
-  - {fileID: 11400128}
-  - {fileID: 11400100}
-  - {fileID: 11400032}
+  - {fileID: 11400176}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 

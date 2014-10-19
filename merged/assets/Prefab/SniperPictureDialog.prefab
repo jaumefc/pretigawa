@@ -25,6 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400002}
+  - 114: {fileID: 11400044}
   m_Layer: 0
   m_Name: SniperPicture2Alt
   m_TagString: Untagged
@@ -41,6 +42,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400004}
+  - 114: {fileID: 11400046}
   m_Layer: 0
   m_Name: SniperPicture1
   m_TagString: Untagged
@@ -57,6 +59,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 114: {fileID: 11400006}
+  - 114: {fileID: 11400048}
   m_Layer: 0
   m_Name: SniperPicture1Alt
   m_TagString: Untagged
@@ -89,6 +92,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400010}
   - 114: {fileID: 11400010}
+  - 114: {fileID: 11400050}
   m_Layer: 0
   m_Name: SniperPicture3iB
   m_TagString: Untagged
@@ -105,6 +109,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400012}
   - 114: {fileID: 11400012}
+  - 114: {fileID: 11400052}
   m_Layer: 0
   m_Name: SniperPicture2
   m_TagString: Untagged
@@ -137,6 +142,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400016}
   - 114: {fileID: 11400016}
+  - 114: {fileID: 11400054}
   m_Layer: 0
   m_Name: SniperPicture3iA
   m_TagString: Untagged
@@ -169,6 +175,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400020}
   - 114: {fileID: 11400020}
+  - 114: {fileID: 11400056}
   m_Layer: 0
   m_Name: SniperPicture3iiA
   m_TagString: Untagged
@@ -185,6 +192,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400022}
   - 114: {fileID: 11400022}
+  - 114: {fileID: 11400058}
   m_Layer: 0
   m_Name: SniperPicture3iB
   m_TagString: Untagged
@@ -233,6 +241,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400028}
   - 114: {fileID: 11400028}
+  - 114: {fileID: 11400060}
   m_Layer: 0
   m_Name: SniperPicture3iA
   m_TagString: Untagged
@@ -249,6 +258,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400030}
   - 114: {fileID: 11400030}
+  - 114: {fileID: 11400062}
   m_Layer: 0
   m_Name: SniperPicture3iiA
   m_TagString: Untagged
@@ -643,7 +653,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400044}
   clipAudio: {fileID: 8300000, guid: 414801817e4fe7348a692070dc2568f6, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -671,7 +681,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400046}
   clipAudio: {fileID: 8300000, guid: 901e00ad25be9274c806cb8c9837472a, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
@@ -700,7 +710,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400048}
   clipAudio: {fileID: 8300000, guid: 395aa56e4cf4f474da18c3686c54d76b, type: 3}
 --- !u!114 &11400008
 MonoBehaviour:
@@ -755,7 +765,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400050}
   clipAudio: {fileID: 0}
 --- !u!114 &11400012
 MonoBehaviour:
@@ -785,7 +795,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400052}
   clipAudio: {fileID: 8300000, guid: 724ada85a6f5eae47be09e829ac792bb, type: 3}
 --- !u!114 &11400014
 MonoBehaviour:
@@ -843,7 +853,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400054}
   clipAudio: {fileID: 8300000, guid: 5e229d7014da3d0488bfb6b26a424149, type: 3}
 --- !u!114 &11400018
 MonoBehaviour:
@@ -899,7 +909,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400056}
   clipAudio: {fileID: 8300000, guid: 7d821937db8e0b149b7b4d23fb3cd1b9, type: 3}
 --- !u!114 &11400022
 MonoBehaviour:
@@ -926,7 +936,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400058}
   clipAudio: {fileID: 0}
 --- !u!114 &11400024
 MonoBehaviour:
@@ -1012,7 +1022,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400060}
   clipAudio: {fileID: 8300000, guid: 5e229d7014da3d0488bfb6b26a424149, type: 3}
 --- !u!114 &11400030
 MonoBehaviour:
@@ -1040,7 +1050,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 0}
+  scriptAnimacio: {fileID: 11400062}
   clipAudio: {fileID: 8300000, guid: 7d821937db8e0b149b7b4d23fb3cd1b9, type: 3}
 --- !u!114 &11400032
 MonoBehaviour:
@@ -1124,7 +1134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootNodes:
   - {fileID: 0}
-  useDialogCamera: 0
+  useDialogCamera: 1
   allowSkip: 1
   style: 0
   alienCam: {fileID: 0}
@@ -1186,6 +1196,166 @@ MonoBehaviour:
   postAction: 
   scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 35938389151d7094e976e08698316ef1, type: 3}
+--- !u!114 &11400044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
+--- !u!114 &11400062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400004, guid: 8f97e0a0ec4e9554e87fe53ebb59d859, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

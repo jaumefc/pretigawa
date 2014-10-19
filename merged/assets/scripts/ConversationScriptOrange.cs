@@ -8,6 +8,9 @@ public class ConversationScriptOrange : MonoBehaviour {
 	private GameObject player;
 	// Use this for initialization
 	void Start () {
+
+		gs = GameState.GetInstance ();
+
 		if(!gs.ExistsBool("OrangeFainted"))
 			gs.AddBool ("OrangeFainted", true);
 	}

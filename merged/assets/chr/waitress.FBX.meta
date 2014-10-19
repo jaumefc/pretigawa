@@ -184,6 +184,7 @@ ModelImporter:
     7400004: Pick
     7400006: Speak
     7400008: Bonus
+    7400010: Tetes
     9500000: //RootNode
     11100000: //RootNode
     13700000: waitressBody
@@ -945,6 +946,190 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1000
       lastFrame: 1479
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: glassControlPoint
+        weight: 1
+      - path: glassControlPoint/glass
+        weight: 1
+      - path: waitress
+        weight: 1
+      - path: waitressBody
+        weight: 1
+      - path: waitressHair
+        weight: 1
+      - path: waitressLLegPlatform
+        weight: 1
+      - path: waitressMouth
+        weight: 1
+      - path: waitressPelvis
+        weight: 1
+      - path: waitressPelvis/waitressLLeg1
+        weight: 1
+      - path: waitressPelvis/waitressLLeg1/waitressLLeg2
+        weight: 1
+      - path: waitressPelvis/waitressLLeg1/waitressLLeg2/waitressLLegAnkle
+        weight: 1
+      - path: waitressPelvis/waitressLLeg1/waitressLLeg2/waitressLLegAnkle/waitressLLegDigit11
+        weight: 1
+      - path: waitressPelvis/waitressRLeg1
+        weight: 1
+      - path: waitressPelvis/waitressRLeg1/waitressRLeg2
+        weight: 1
+      - path: waitressPelvis/waitressRLeg1/waitressRLeg2/waitressRLegAnkle
+        weight: 1
+      - path: waitressPelvis/waitressRLeg1/waitressRLeg2/waitressRLegAnkle/waitressRLegDigit11
+        weight: 1
+      - path: waitressPelvis/waitressSpine1
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit11
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit11/waitressLArmDigit12
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit11/waitressLArmDigit12/waitressLArmDigit13
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit21
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit21/waitressLArmDigit22
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit21/waitressLArmDigit22/waitressLArmDigit23
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit31
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit31/waitressLArmDigit32
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit31/waitressLArmDigit32/waitressLArmDigit33
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit41
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit41/waitressLArmDigit42
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit41/waitressLArmDigit42/waitressLArmDigit43
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit51
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit51/waitressLArmDigit52
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLArmCollarbone/waitressLArm1/waitressLArm2/waitressLArmPalm/waitressLArmDigit51/waitressLArmDigit52/waitressLArmDigit53
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressLBooby
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/eyeControlPoint
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/eyeControlPoint/waitressLEyePoint001
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/eyeControlPoint/waitressREyePoint001
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/LHair
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/RHair
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/waitressEyeball_L
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/waitressEyeball_R
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/waitressLEyePoint
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/waitressLEyePoint/waitressEyeIris_L
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/waitressREyePoint
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressNeck1/waitressNeck2/waitressNeck3/waitressHead/waitressREyePoint/waitressEyeIris_R
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit11
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit11/waitressRArmDigit12
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit11/waitressRArmDigit12/waitressRArmDigit13
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit21
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit21/waitressRArmDigit22
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit21/waitressRArmDigit22/waitressRArmDigit23
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit31
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit31/waitressRArmDigit32
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit31/waitressRArmDigit32/waitressRArmDigit33
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit41
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit41/waitressRArmDigit42
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit41/waitressRArmDigit42/waitressRArmDigit43
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit51
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit51/waitressRArmDigit52
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRArmCollarbone/waitressRArm1/waitressRArm2/waitressRArmPalm/waitressRArmDigit51/waitressRArmDigit52/waitressRArmDigit53
+        weight: 1
+      - path: waitressPelvis/waitressSpine1/waitressSpine2/waitressSpine3/waitressSpine4/waitressChest/waitressRBooby
+        weight: 1
+      - path: waitressRArmIKTarget
+        weight: 1
+      - path: waitressRLegPlatform
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Tetes
+      takeName: Take 001
+      firstFrame: 1345
+      lastFrame: 1400
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
