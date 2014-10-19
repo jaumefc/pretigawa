@@ -47,7 +47,7 @@ public class HelpScript : MonoBehaviour {
 
 		if (GUI.Button (new Rect (left6 * Screen.width * stylebgratio, top6 * Screen.height, size6 * Screen.height * stylebgratio, size6 * Screen.height), next, style)) {
 			Debug.Log ("next");
-			Application.LoadLevel ("help2");
+			Application.LoadLevel ("menu");
 		}
 
 
