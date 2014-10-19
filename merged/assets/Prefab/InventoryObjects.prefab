@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0953b117bf150749828e963b72c4502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 1
+  state: 0
   obj: {fileID: 0}
   hideOnTake: 0
 --- !u!114 &11400014
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0953b117bf150749828e963b72c4502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 1
+  state: 0
   obj: {fileID: 0}
   hideOnTake: 0
 --- !u!114 &11400052
