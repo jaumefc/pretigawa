@@ -26,7 +26,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 114: {fileID: 11400004}
-  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: Picture1
   m_TagString: Untagged
@@ -42,8 +41,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400004}
-  - 114: {fileID: 11400008}
-  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: Picture2
   m_TagString: Untagged
@@ -57,8 +55,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_LocalRotation: {x: 0, y: .691992104, z: 0, w: -.721905112}
-  m_LocalPosition: {x: 31.9667358, y: -5.36989689, z: 52.1203308}
+  m_LocalRotation: {x: 0, y: -.723780692, z: 0, w: -.690030158}
+  m_LocalPosition: {x: -.843674421, y: .834521055, z: 1.06295669}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -137,30 +135,14 @@ MonoBehaviour:
   fSeconds: 1.29999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400008}
+  - {fileID: 11400006}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400006}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: e606d74278433e2459f5c67584683ea2, type: 3}
 --- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -186,24 +168,8 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: EnableWC
-  scriptAnimacio: {fileID: 11400010}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 47be8bb23d3fb57498bfd0e976abed9a, type: 3}
---- !u!114 &11400010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400002, guid: a621ab542ccbbf64481060ae9bc399de, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

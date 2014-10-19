@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: CN1
   m_TagString: Untagged
@@ -25,8 +24,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400002}
-  - 114: {fileID: 11400004}
-  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: BetaEndSq
   m_TagString: Untagged
@@ -42,8 +40,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400004}
-  - 114: {fileID: 11400008}
-  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: CNN2
   m_TagString: Untagged
@@ -59,8 +56,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400006}
-  - 114: {fileID: 11400012}
-  - 114: {fileID: 11400014}
+  - 114: {fileID: 11400006}
   m_Layer: 0
   m_Name: CNN6
   m_TagString: Untagged
@@ -76,8 +72,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400008}
-  - 114: {fileID: 11400016}
-  - 114: {fileID: 11400018}
+  - 114: {fileID: 11400008}
   m_Layer: 0
   m_Name: CNN8
   m_TagString: Untagged
@@ -93,8 +88,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400010}
-  - 114: {fileID: 11400020}
-  - 114: {fileID: 11400022}
+  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400012}
   m_Layer: 0
   m_Name: BetaDialog
   m_TagString: Untagged
@@ -110,8 +105,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400012}
-  - 114: {fileID: 11400024}
-  - 114: {fileID: 11400026}
+  - 114: {fileID: 11400014}
   m_Layer: 0
   m_Name: CNN1
   m_TagString: Untagged
@@ -127,8 +121,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400014}
-  - 114: {fileID: 11400028}
-  - 114: {fileID: 11400030}
+  - 114: {fileID: 11400016}
   m_Layer: 0
   m_Name: CF2
   m_TagString: Untagged
@@ -144,7 +137,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400016}
-  - 114: {fileID: 11400032}
+  - 114: {fileID: 11400018}
   m_Layer: 0
   m_Name: NarEndSq
   m_TagString: Untagged
@@ -160,8 +153,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400018}
-  - 114: {fileID: 11400034}
-  - 114: {fileID: 11400036}
+  - 114: {fileID: 11400020}
   m_Layer: 0
   m_Name: CN6
   m_TagString: Untagged
@@ -177,8 +169,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400020}
-  - 114: {fileID: 11400038}
-  - 114: {fileID: 11400040}
+  - 114: {fileID: 11400022}
   m_Layer: 0
   m_Name: CP1
   m_TagString: Untagged
@@ -194,8 +185,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400022}
-  - 114: {fileID: 11400042}
-  - 114: {fileID: 11400044}
+  - 114: {fileID: 11400024}
   m_Layer: 0
   m_Name: CNN4
   m_TagString: Untagged
@@ -211,8 +201,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400024}
-  - 114: {fileID: 11400046}
-  - 114: {fileID: 11400048}
+  - 114: {fileID: 11400026}
   m_Layer: 0
   m_Name: CNN3
   m_TagString: Untagged
@@ -228,8 +217,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400026}
-  - 114: {fileID: 11400050}
-  - 114: {fileID: 11400052}
+  - 114: {fileID: 11400028}
   m_Layer: 0
   m_Name: CJ2
   m_TagString: Untagged
@@ -245,8 +233,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400028}
-  - 114: {fileID: 11400054}
-  - 114: {fileID: 11400056}
+  - 114: {fileID: 11400030}
   m_Layer: 0
   m_Name: CF1
   m_TagString: Untagged
@@ -262,8 +249,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400030}
-  - 114: {fileID: 11400058}
-  - 114: {fileID: 11400060}
+  - 114: {fileID: 11400032}
   m_Layer: 0
   m_Name: CF2
   m_TagString: Untagged
@@ -279,8 +265,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400032}
-  - 114: {fileID: 11400062}
-  - 114: {fileID: 11400064}
+  - 114: {fileID: 11400034}
   m_Layer: 0
   m_Name: CN4
   m_TagString: Untagged
@@ -296,8 +281,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400034}
-  - 114: {fileID: 11400066}
-  - 114: {fileID: 11400068}
+  - 114: {fileID: 11400036}
   m_Layer: 0
   m_Name: CNN5
   m_TagString: Untagged
@@ -313,8 +297,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400036}
-  - 114: {fileID: 11400070}
-  - 114: {fileID: 11400072}
+  - 114: {fileID: 11400038}
   m_Layer: 0
   m_Name: CN2
   m_TagString: Untagged
@@ -330,8 +313,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400038}
-  - 114: {fileID: 11400074}
-  - 114: {fileID: 11400076}
+  - 114: {fileID: 11400040}
   m_Layer: 0
   m_Name: CN3
   m_TagString: Untagged
@@ -347,8 +329,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400040}
-  - 114: {fileID: 11400078}
-  - 114: {fileID: 11400080}
+  - 114: {fileID: 11400042}
   m_Layer: 0
   m_Name: CNN7
   m_TagString: Untagged
@@ -364,8 +345,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400042}
-  - 114: {fileID: 11400082}
-  - 114: {fileID: 11400084}
+  - 114: {fileID: 11400044}
   m_Layer: 0
   m_Name: CP2
   m_TagString: Untagged
@@ -381,8 +361,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400044}
-  - 114: {fileID: 11400086}
-  - 114: {fileID: 11400088}
+  - 114: {fileID: 11400046}
   m_Layer: 0
   m_Name: CP2
   m_TagString: Untagged
@@ -398,8 +377,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400046}
-  - 114: {fileID: 11400090}
-  - 114: {fileID: 11400092}
+  - 114: {fileID: 11400048}
   m_Layer: 0
   m_Name: CJ2
   m_TagString: Untagged
@@ -415,8 +393,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400048}
-  - 114: {fileID: 11400094}
-  - 114: {fileID: 11400096}
+  - 114: {fileID: 11400050}
   m_Layer: 0
   m_Name: CJ1
   m_TagString: Untagged
@@ -432,8 +409,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400050}
-  - 114: {fileID: 11400098}
-  - 114: {fileID: 11400100}
+  - 114: {fileID: 11400052}
   m_Layer: 0
   m_Name: CN5
   m_TagString: Untagged
@@ -773,30 +749,14 @@ MonoBehaviour:
   fSeconds: 1.60000002
   showNodes: 1
   cncArray:
-  - {fileID: 11400070}
+  - {fileID: 11400038}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400002}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 316f10082c41b894ba636b2497139acc, type: 3}
 --- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -817,30 +777,14 @@ MonoBehaviour:
   fSeconds: 3.79999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400032}
+  - {fileID: 11400018}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400006}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 6bb6e82895995be419378905b6e581dc, type: 3}
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400008
+--- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -861,30 +805,14 @@ MonoBehaviour:
   fSeconds: 2.79999995
   showNodes: 1
   cncArray:
-  - {fileID: 11400046}
+  - {fileID: 11400026}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400010}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 2028769254d085e4cb7249b5a7050065, type: 3}
---- !u!114 &11400010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400012
+--- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -906,30 +834,14 @@ MonoBehaviour:
   fSeconds: 5.5999999
   showNodes: 1
   cncArray:
-  - {fileID: 11400078}
+  - {fileID: 11400042}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400014}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: e5ce1b17cbce22f4eb93b13e61b12aa7, type: 3}
---- !u!114 &11400014
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400016
+--- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -950,30 +862,14 @@ MonoBehaviour:
   fSeconds: 5.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400004}
+  - {fileID: 11400002}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400018}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: c52349b80e6de0644961b7ae4d17ee22, type: 3}
---- !u!114 &11400018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400020
+--- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -985,18 +881,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rootNodes:
-  - {fileID: 11400054}
-  - {fileID: 11400094}
+  - {fileID: 11400030}
+  - {fileID: 11400050}
   - {fileID: 11400000}
-  - {fileID: 11400038}
-  - {fileID: 11400024}
+  - {fileID: 11400022}
+  - {fileID: 11400014}
   useDialogCamera: 0
   allowSkip: 1
   style: 0
   alienCam: {fileID: 0}
   otherCam: {fileID: 0}
   generalCam: {fileID: 0}
---- !u!114 &11400022
+--- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1007,7 +903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c9128feafd79fe4a931b3f625d10bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11400024
+--- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1028,30 +924,14 @@ MonoBehaviour:
   fSeconds: 3.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400008}
+  - {fileID: 11400004}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400026}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 0d0153943cb62a8438d12920a4a8965a, type: 3}
---- !u!114 &11400026
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400028
+--- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1076,25 +956,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400030}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: baa51d336372cc447b5ab3e1dd6f1215, type: 3}
---- !u!114 &11400030
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400032
+--- !u!114 &11400018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1121,7 +985,7 @@ MonoBehaviour:
   postAction: 
   scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: a89221a686324294295d3adf1947bff7, type: 3}
---- !u!114 &11400034
+--- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1146,25 +1010,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400036}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
---- !u!114 &11400036
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400038
+--- !u!114 &11400022
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1185,30 +1033,14 @@ MonoBehaviour:
   fSeconds: 2.5
   showNodes: 1
   cncArray:
-  - {fileID: 11400082}
+  - {fileID: 11400044}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400040}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 61f253e449f97a6439b50ecf6146951e, type: 3}
---- !u!114 &11400040
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400042
+--- !u!114 &11400024
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1230,30 +1062,14 @@ MonoBehaviour:
   fSeconds: 8.39999962
   showNodes: 1
   cncArray:
-  - {fileID: 11400066}
+  - {fileID: 11400036}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400044}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 9b9395854a487004382647cd648ecfc2, type: 3}
---- !u!114 &11400044
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400046
+--- !u!114 &11400026
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1274,30 +1090,14 @@ MonoBehaviour:
   fSeconds: 5
   showNodes: 1
   cncArray:
-  - {fileID: 11400042}
+  - {fileID: 11400024}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400048}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 6b65bb3f11fc2f846b00beb546a629f1, type: 3}
---- !u!114 &11400048
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400050
+--- !u!114 &11400028
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1322,25 +1122,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400052}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
---- !u!114 &11400052
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400054
+--- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1361,30 +1145,14 @@ MonoBehaviour:
   fSeconds: 3.70000005
   showNodes: 1
   cncArray:
-  - {fileID: 11400058}
+  - {fileID: 11400032}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400056}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 76492c93d18b90f438fceb3f9628ab6b, type: 3}
---- !u!114 &11400056
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400058
+--- !u!114 &11400032
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1409,25 +1177,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400060}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
---- !u!114 &11400060
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400062
+--- !u!114 &11400034
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1448,30 +1200,14 @@ MonoBehaviour:
   fSeconds: .600000024
   showNodes: 1
   cncArray:
-  - {fileID: 11400098}
+  - {fileID: 11400052}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400064}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: db2b608fd88d23b45bce1a14b2942a9f, type: 3}
---- !u!114 &11400064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400066
+--- !u!114 &11400036
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1492,30 +1228,14 @@ MonoBehaviour:
   fSeconds: 2.5999999
   showNodes: 1
   cncArray:
-  - {fileID: 11400012}
+  - {fileID: 11400006}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400068}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 9d898a4cf4e1ecb40971ac3b60233b13, type: 3}
---- !u!114 &11400068
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400070
+--- !u!114 &11400038
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1536,30 +1256,14 @@ MonoBehaviour:
   fSeconds: 4.69999981
   showNodes: 1
   cncArray:
-  - {fileID: 11400074}
+  - {fileID: 11400040}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400072}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: f5220e2f290e97c4ea487a7561b13828, type: 3}
---- !u!114 &11400072
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400074
+--- !u!114 &11400040
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1580,30 +1284,14 @@ MonoBehaviour:
   fSeconds: .800000012
   showNodes: 1
   cncArray:
-  - {fileID: 11400062}
+  - {fileID: 11400034}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400076}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: f0443d6a6653ff145a18d021921270b5, type: 3}
---- !u!114 &11400076
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400078
+--- !u!114 &11400042
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1625,30 +1313,14 @@ MonoBehaviour:
   fSeconds: 5.5999999
   showNodes: 1
   cncArray:
-  - {fileID: 11400016}
+  - {fileID: 11400008}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400080}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: c313fa9f8f1d25b4ca70417cbb0179c7, type: 3}
---- !u!114 &11400080
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400082
+--- !u!114 &11400044
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1673,25 +1345,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400084}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 8077804671ed6e54aaa9796f832b1034, type: 3}
---- !u!114 &11400084
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400086
+--- !u!114 &11400046
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1716,25 +1372,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400088}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: baa51d336372cc447b5ab3e1dd6f1215, type: 3}
---- !u!114 &11400088
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400090
+--- !u!114 &11400048
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1759,25 +1399,9 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400092}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: baa51d336372cc447b5ab3e1dd6f1215, type: 3}
---- !u!114 &11400092
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400004, guid: 550d97ae8bbb0354a9ef7b91ec97fbd0, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400094
+--- !u!114 &11400050
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1798,30 +1422,14 @@ MonoBehaviour:
   fSeconds: 1
   showNodes: 1
   cncArray:
-  - {fileID: 11400050}
+  - {fileID: 11400028}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400096}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 0c785099ab49b954da9a7daae3c9d831, type: 3}
---- !u!114 &11400096
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400098
+--- !u!114 &11400052
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1843,29 +1451,13 @@ MonoBehaviour:
   fSeconds: 4.5999999
   showNodes: 1
   cncArray:
-  - {fileID: 11400034}
+  - {fileID: 11400020}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
   postAction: 
-  scriptAnimacio: {fileID: 11400100}
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 33cce085b5651ef4991f59c5012c84da, type: 3}
---- !u!114 &11400100
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 0}
-  goBackToAnimation: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
