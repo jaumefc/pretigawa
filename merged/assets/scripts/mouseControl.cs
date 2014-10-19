@@ -24,6 +24,9 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 	private CameraControl CCScript;
 	private DialogCameraScript DCScript;
 
+	private Animation animComp;
+	private animationControl animcontroller;
+
 	private GameState gs;
 	private GUIText test;
 	private GameObject inventoryBack;
@@ -52,7 +55,9 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		_inventory = GetComponent<InventoryControl>();
 		gd = GameObject.FindObjectOfType<GizmoDebug>().GetComponent<GizmoDebug>();
 		CCScript = GameObject.Find("CameraControl").GetComponent<CameraControl>();
-		DCScript = GameObject.Find("DialogLayout").GetComponent<DialogCameraScript>();;
+		DCScript = GameObject.Find("DialogLayout").GetComponent<DialogCameraScript>();
+		animComp = GetComponent<Animation>();
+		animcontroller = GetComponent<animationControl>();
 		inventoryBack = GameObject.Find("background");
 		_characterAction = CharacterAction.None;
         gs = GameState.GetInstance();
@@ -118,10 +123,17 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		{
 			//Anar fins a l'objecte, i afegirlo al inventari
 		case CharacterAction.Take: 
-			if(Vector3.Distance(new Vector3(navi.transform.position.x,0,navi.transform.position.z), new Vector3(targetLocation.x,0,targetLocation.z))<0.5){
+			//if(Vector3.Distance(new Vector3(navi.transform.position.x,0,navi.transform.position.z), new Vector3(targetLocation.x,0,targetLocation.z))<0.5){
+
+			Vector3 distancia = (transform.position - targetLocation);
+			if (distancia.magnitude < 1) {
 				targetLocation = navi.transform.position;
-				_inventory.Add2(targetObject);
-				targetObject = null;
+				transform.LookAt(targetLocation);
+				animcontroller.enabled = false;
+				animComp.Play("Pick");
+				Invoke ("audioTake", 1.0f);
+				Invoke("agafaObjecte", 2.0f);
+				Invoke("reactivateAnimController", 2.5f);
 				_characterAction = CharacterAction.None;
 			}
 			break;
@@ -149,7 +161,21 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 			break;
 		}
 	}
-	
+
+	private void audioTake(){
+		GameObject.Find("takesound").audio.Play();
+	}
+
+	private void agafaObjecte(){
+		_inventory.Add2(targetObject);
+		targetObject = null;
+	}
+
+	private void reactivateAnimController()
+	{
+		animcontroller.enabled = true;
+	}
+
 	private void MouseButtonDown(){
 		if(cam == null)cam = Camera.main;
 		Ray ray = cam.ScreenPointToRay(Input.mousePosition);

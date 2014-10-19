@@ -100,13 +100,21 @@ public class interactuable : MonoBehaviour {
 		Debug.Log ("Origen de combinacio: " + origen);
 
 		ConversationTreeClass nodeALlencar = defaultNode;
-		
+
+		GameObject[] combinations = GameObject.FindGameObjectsWithTag ("Combinacio");
+		foreach (GameObject combination in combinations) {
+			combinacio comb = combination.GetComponent<combinacio>();
+   			if (comb.origenInventari == origen && comb.destiEscena == this.gameObject){
+				comb.resultat.SetState(InventoryObject.InventoryObjectState.TAKEN);
+				comb.resultat.Load();
+			}
+		}
+
 		if(objecteBo!=null && origen!=null && objecteBo==origen){
 			DCScript.Init(arbreBo);
 		//	DCScript.enabled = true;
 			return true;
-		}
-		else if(objectesErronis.Length > 0){
+		}else if(objectesErronis.Length > 0){
 			foreach(erronis erroni in objectesErronis){
 				foreach(GameObject objecte in erroni.objectes){
 					if(objecte == origen){

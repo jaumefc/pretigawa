@@ -10,7 +10,7 @@ public class getSuckedActionPoliceman : UseAction {
 	public ConversationTreeClass AfterTree;
 
 	void Start () {
-		DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
+
 	}
 
 	
@@ -19,7 +19,8 @@ public class getSuckedActionPoliceman : UseAction {
 		GameState.GetInstance().GameSave();
 		Destroy(GameObject.Find(sDestroy));
 		Debug.Log("Got Sucked !");
-		DCScript.Init (AfterTree);
+		//DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
+		//DCScript.Init (AfterTree);
 
 	}
 }

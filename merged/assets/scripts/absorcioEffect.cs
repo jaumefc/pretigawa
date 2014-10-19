@@ -15,10 +15,15 @@ public class absorcioEffect : MonoBehaviour {
 	public ParticleSystem explosioFase2;
 	private Rigidbody thisRigidBody;
 
+	private ConversationTreeClass AfterTree;
 	private bool started = false;
 	private GameObject target;
 
 	private bool goingTowardsTarget = false;
+
+	public void assigntree(ConversationTreeClass thistree){
+		AfterTree = thistree;
+	}
 
 	void Start () {
 	}
@@ -88,6 +93,10 @@ public class absorcioEffect : MonoBehaviour {
 	}
 
 	private void destroyInstance(){
+		if (AfterTree) {
+			DialogCameraScript DCScript = GameObject.Find ("DialogLayout").GetComponent<DialogCameraScript>();
+			DCScript.Init (AfterTree);
+		}
 		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemies");
 		foreach(GameObject enemy in enemies){
 			controlVisio cv = enemy.GetComponent<controlVisio>();
