@@ -11,13 +11,17 @@ EditorBuildSettings:
     path: assets/credits.unity
   - enabled: 1
     path: assets/help.unity
-  - enabled: 1
+  - enabled: 0
     path: assets/help2.unity
   - enabled: 1
     path: assets/placa.unity
   - enabled: 1
     path: assets/restart.unity
-  - enabled: 1
+  - enabled: 0
     path: assets/end.unity
   - enabled: 1
     path: assets/placa_tutorial.unity
+  - enabled: 1
+    path: assets/linkwithend.unity
+  - enabled: 1
+    path: assets/placa_final.unity

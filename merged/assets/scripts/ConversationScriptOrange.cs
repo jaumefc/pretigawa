@@ -20,6 +20,10 @@ public class ConversationScriptOrange : MonoBehaviour {
 	
 	}
 
+	void nextScene(){
+		Application.LoadLevel("linkwithend");
+	}
+
 
 
 
