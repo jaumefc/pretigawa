@@ -32,8 +32,10 @@ public class InventoryObject : MonoBehaviour, ISaveable {
     public void Save()
     {
         Debug.Log("Saveing:" + this.gameObject.name);
-        gs.SetInt(this.name,(int)state);
-		gs.AddBool("var_"+this.name,(state==InventoryObjectState.UNTAKEN)?false:true); 
+		if (!gs.ExistsInt (this.name)) {
+			gs.SetInt (this.name, (int)state);
+			gs.AddBool ("var_" + this.name, (state == InventoryObjectState.UNTAKEN) ? false : true); 
+		}
         //throw new System.NotImplementedException();
     }
 
