@@ -318,7 +318,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
-  vAlign: 0
+  vAlign: 1
   fSeconds: 2
   showNodes: 1
   cncArray:

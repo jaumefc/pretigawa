@@ -493,23 +493,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100058
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400058}
-  - 114: {fileID: 11400060}
-  - 114: {fileID: 11400182}
-  m_Layer: 0
-  m_Name: CN1c3ii
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100060
 GameObject:
   m_ObjectHideFlags: 1
@@ -1628,7 +1611,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400020}
-  - {fileID: 400058}
   m_Father: {fileID: 400084}
 --- !u!4 &400042
 Transform:
@@ -1728,17 +1710,6 @@ Transform:
   m_Children:
   - {fileID: 400096}
   m_Father: {fileID: 400068}
---- !u!4 &400058
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100058}
-  m_LocalRotation: {x: 0, y: 5.26616986e-07, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400040}
 --- !u!4 &400060
 Transform:
   m_ObjectHideFlags: 1
@@ -2652,8 +2623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowNode: 2
-  var: var_bottle
+  ShowNode: 0
+  var: 
   sFirstOption: Yeah, sounds refreshing.
   sSecondOption: 
   cCharacter: 0
@@ -2664,7 +2635,7 @@ MonoBehaviour:
   cncArray:
   - {fileID: 11400054}
   - {fileID: 11400128}
-  - {fileID: 11400086}
+  - {fileID: 11400100}
   - {fileID: 11400032}
   bIsSelected: 0
   bIsUsed: 0
@@ -2763,6 +2734,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recipe: {fileID: 0}
+  ioBottle: {fileID: 0}
+  coctail: {fileID: 0}
+  fortuneTeller: {fileID: 0}
 --- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2951,11 +2925,10 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 1.70000005
+  fSeconds: 3.20000005
   showNodes: 1
   cncArray:
   - {fileID: 11400020}
-  - {fileID: 11400060}
   bIsSelected: 0
   bIsUsed: 0
   preAction: 
@@ -3197,37 +3170,6 @@ MonoBehaviour:
   postAction: 
   scriptAnimacio: {fileID: 11400164}
   clipAudio: {fileID: 8300000, guid: 058dc6b1439a91241ba84439759f3c8d, type: 3}
---- !u!114 &11400060
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5115d83d9dca4289b61e105a34ed333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowNode: 1
-  var: var_bottle
-  sFirstOption: Yeah! I'll try it again.
-  sSecondOption: 
-  cCharacter: 0
-  sSpeaker: 0
-  vAlign: 0
-  fSeconds: 1.20000005
-  showNodes: 1
-  cncArray:
-  - {fileID: 11400054}
-  - {fileID: 11400128}
-  - {fileID: 11400100}
-  - {fileID: 11400032}
-  bIsSelected: 0
-  bIsUsed: 0
-  preAction: 
-  postAction: GetShot
-  scriptAnimacio: {fileID: 11400182}
-  clipAudio: {fileID: 8300000, guid: 33ff95f3f45e5bd499579ba0d2630c24, type: 3}
 --- !u!114 &11400062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3704,7 +3646,7 @@ MonoBehaviour:
   sFirstOption: Wiii
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
+  sSpeaker: 0
   vAlign: 0
   fSeconds: 2
   showNodes: 1
@@ -3715,7 +3657,7 @@ MonoBehaviour:
   - {fileID: 11400032}
   bIsSelected: 0
   bIsUsed: 0
-  preAction: 
+  preAction: clearGlass
   postAction: 
   scriptAnimacio: {fileID: 11400168}
   clipAudio: {fileID: 8300000, guid: 750a2857ec419ae4eb46dba03f7fe49d, type: 3}
@@ -3732,8 +3674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowNode: 0
   var: 
-  sFirstOption: "I can tell you that a \r\ndangerous man will \r\nappear, honey. \r\nExciting
-    and mysterious \r\nyou will fall at his feet."
+  sFirstOption: "I can tell you that a\ndangerous man will\r\nappear, honey.\r\nExciting
+    and mysterious\r\nyou will fall at his feet."
   sSecondOption: 
   cCharacter: 2
   sSpeaker: 0
@@ -3766,7 +3708,7 @@ MonoBehaviour:
   cCharacter: 0
   sSpeaker: 1
   vAlign: 0
-  fSeconds: 1.39999998
+  fSeconds: 3.20000005
   showNodes: 1
   cncArray:
   - {fileID: 11400170}
@@ -4722,7 +4664,7 @@ MonoBehaviour:
   sFirstOption: Wiii
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
+  sSpeaker: 0
   vAlign: 0
   fSeconds: 2
   showNodes: 1
@@ -4785,7 +4727,7 @@ MonoBehaviour:
   sFirstOption: Wiii
   sSecondOption: 
   cCharacter: 0
-  sSpeaker: 1
+  sSpeaker: 0
   vAlign: 0
   fSeconds: 2
   showNodes: 1
@@ -4831,22 +4773,6 @@ MonoBehaviour:
   otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400022, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
   previousAnim: {fileID: 11400240}
-  goBackToAnimation: {fileID: 0}
---- !u!114 &11400182
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterToPlayIt: {fileID: 0}
-  otherCharSpeaking: {fileID: 0}
-  animacio: {fileID: 7400020, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
-  previousAnim: {fileID: 11400186}
   goBackToAnimation: {fileID: 0}
 --- !u!114 &11400184
 MonoBehaviour:
@@ -5327,7 +5253,7 @@ MonoBehaviour:
   otherCharSpeaking: {fileID: 0}
   animacio: {fileID: 7400002, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
   previousAnim: {fileID: 11400244}
-  goBackToAnimation: {fileID: 0}
+  goBackToAnimation: {fileID: 7400000, guid: 5d10eb2c13d271740aaf054951252241, type: 3}
 --- !u!114 &11400244
 MonoBehaviour:
   m_ObjectHideFlags: 1

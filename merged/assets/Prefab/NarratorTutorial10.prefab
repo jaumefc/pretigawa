@@ -57,6 +57,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 114: {fileID: 11400006}
+  - 114: {fileID: 11400008}
   m_Layer: 0
   m_Name: CT44
   m_TagString: Untagged
@@ -129,6 +130,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
+  vAlign: 0
   fSeconds: 4.19999981
   showNodes: 1
   cncArray:
@@ -137,6 +139,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: 9919f8a6dabcf2042a31c17207445184, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
@@ -156,6 +159,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 2
+  vAlign: 0
   fSeconds: 4.30000019
   showNodes: 1
   cncArray: []
@@ -163,6 +167,7 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 0}
   clipAudio: {fileID: 8300000, guid: cac55af622877dc4690f9ce314cc1d40, type: 3}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -177,11 +182,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootNodes:
   - {fileID: 11400006}
-  useDialgogCamera: 0
+  useDialogCamera: 0
   allowSkip: 1
   style: 2
   alienCam: {fileID: 0}
   otherCam: {fileID: 0}
+  generalCam: {fileID: 0}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -199,6 +205,7 @@ MonoBehaviour:
   sSecondOption: 
   cCharacter: 0
   sSpeaker: 0
+  vAlign: 1
   fSeconds: 4
   showNodes: 1
   cncArray:
@@ -207,7 +214,24 @@ MonoBehaviour:
   bIsUsed: 0
   preAction: 
   postAction: 
+  scriptAnimacio: {fileID: 11400008}
   clipAudio: {fileID: 8300000, guid: dabd2fd1aa92aa34db24ddc6511b3d88, type: 3}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f634aad6fba354f941a979d6f8a104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToPlayIt: {fileID: 0}
+  otherCharSpeaking: {fileID: 0}
+  animacio: {fileID: 7400006, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
+  previousAnim: {fileID: 0}
+  goBackToAnimation: {fileID: 7400002, guid: 714bfe90998515e45bb159894fb0d421, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

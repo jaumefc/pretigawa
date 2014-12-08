@@ -10,7 +10,7 @@ public class GlobusRandom : MonoBehaviour {
 		initialScale = transform.localScale;
 
 		float randomNewScale = Random.Range ((-1*randomOffset), randomOffset);
-		int rndColor = Random.Range (0, 9);
+		int rndColor = Random.Range (0, 6);
 		gameObject.renderer.material.color = chooseColor (rndColor);
 
 
@@ -22,7 +22,7 @@ public class GlobusRandom : MonoBehaviour {
 	private Color chooseColor(int rndColor){
 		switch (rndColor) {
 			case 0:
-				return Color.black;
+				return Color.yellow;
 			break;
 			case 1:
 				return Color.blue;
@@ -31,22 +31,13 @@ public class GlobusRandom : MonoBehaviour {
 				return Color.cyan;
 			break;
 			case 3:
-				return Color.grey;
+				return Color.magenta;
 			break;
 			case 4:
 				return Color.green;
 			break;
 			case 5:
-				return Color.magenta;
-			break;
-			case 6:
 				return Color.red;
-			break;
-			case 7:
-				return Color.white;
-			break;
-			case 8:
-				return Color.yellow;
 			break;
 			default:
 				return Color.red;
