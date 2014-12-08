@@ -372,11 +372,11 @@ public class mouseControl : MonoBehaviour, ISaveable  {
 		Debug.Log ("Loading:"+this.gameObject.name);
 		gs = GameState.GetInstance();
         if (!gs.ExistsVector3("PlayerRot"))
-            gs.AddVector3("PlayerRot", new Vector3(0.0f, 0.0f, 0.0f));
+            gs.AddVector3("PlayerRot", new Vector3(0.0f, 180.0f, 0.0f));
         thisTransform.Rotate(gs.GetVector3("PlayerRot"));
 
         if (!gs.ExistsVector3("PlayerPos"))
-            gs.AddVector3("PlayerPos", new Vector3(10.0024f, 3.67965f, 8.96460f));
+            gs.AddVector3("PlayerPos", new Vector3(24.8024f, 4.57965f, 30.96460f));
 		navi.Warp(gs.GetVector3("PlayerPos"));
 		targetLocation = transform.position = gs.GetVector3("PlayerPos");
         if (!gs.ExistsInt("scene"))

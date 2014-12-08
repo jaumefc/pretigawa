@@ -14,8 +14,8 @@ PlayerSettings:
   productName: Tigawa
   defaultCursor: {fileID: 2800000, guid: 6dc023313a5534a4486bdd443a21eb00, type: 3}
   cursorHotspot: {x: 0, y: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 576
+  defaultScreenWidth: 0
+  defaultScreenHeight: 0
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_RenderingPath: 1
@@ -74,6 +74,8 @@ PlayerSettings:
     16:9: 1
     Others: 0
   iPhoneBundleIdentifier: com.mvj.PreTigawa
+  metroEnableIndependentInputSource: 0
+  metroEnableLowLatencyPresentationAPI: 0
   productGUID: 6fd7c8453af9fb249a33d59bf756848e
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
@@ -204,6 +206,7 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   metroSplashScreenUseBackgroundColor: 0
   metroCapabilities: {}
+  metroUnprocessedPlugins: []
   metroCompilationOverrides: 1
   blackberryDeviceAddress: 
   blackberryDevicePassword: 

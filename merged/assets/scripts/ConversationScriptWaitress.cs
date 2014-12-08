@@ -11,6 +11,7 @@ public class ConversationScriptWaitress : MonoBehaviour {
 	public InventoryObject recipe;
 	public InventoryObject ioBottle;
 	public InventoryObject coctail;
+	public GameObject fortuneTeller;
 	// Use this for initialization
 	void Start () {
 		gs = GameState.GetInstance ();
@@ -95,6 +96,9 @@ public class ConversationScriptWaitress : MonoBehaviour {
 			//gs.SetInt("bottle",2);
 			ioBottle.SetState(InventoryObject.InventoryObjectState.USED);
 			coctail.SetState(InventoryObject.InventoryObjectState.TAKEN);
+		}
+		if (gs.GetBool ("CosmoGot") && gs.GetBool ("ShotGot") && gs.GetBool ("BloodyGot")) {
+			fortuneTeller.SetActive (true);
 		}
 	}
 

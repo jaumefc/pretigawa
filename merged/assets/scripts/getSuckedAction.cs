@@ -6,6 +6,7 @@ public class getSuckedAction : UseAction {
 	public InventoryCustom ICustom;
 	public GameObject realTarget;
 	public ConversationTreeClass AfterTree;
+	public GameObject addObject;
 
 	public override void Do () {
 
@@ -15,5 +16,11 @@ public class getSuckedAction : UseAction {
 		aE.tryStartAbsorcio(realTarget);
 		if (AfterTree) aE.assigntree (AfterTree);
 		ICustom.taken = true;
+		if (ICustom.custom == Custom.JAPANESE) {
+			Debug.Log("Agafo la camera!!!!!!");
+//						InventoryControl _inventory = (InventoryControl)GameObject.Find("Player").GetComponent<InventoryControl>();
+//			_inventory.Add2(addObject);
+			((InventoryObject)(addObject.GetComponent<InventoryObject>())).state = InventoryObject.InventoryObjectState.TAKEN;
+		}
 	}
 }
