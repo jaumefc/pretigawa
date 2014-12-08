@@ -3979,7 +3979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7711d9fdb93aae4187281e92b4fdab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImgHand: {fileID: 2800000, guid: 422a43f60fb5a3e4bbc22d0f3e3761a2, type: 3}
+  ImgHand: {fileID: 2800000, guid: aa2542e113182814f8c95ee7b73599f1, type: 3}
   ImgLook: {fileID: 2800000, guid: 6460fb0175792bc4583025b6bbd168c2, type: 3}
   ImgTake: {fileID: 2800000, guid: 7c68d34563ad774428a75309de87b188, type: 3}
   ImgTalk: {fileID: 2800000, guid: f24e060aa4938fc4d8d516c0061f20b5, type: 3}
@@ -3993,11 +3993,11 @@ MonoBehaviour:
   top3: .209999993
   left4: .769999981
   top4: .360000014
-  handleft1: .649999976
+  handleft1: .699999988
   handtop1: .5
-  handleft2: .409999996
+  handleft2: .449999988
   handtop2: .419999987
-  handsize: .200000003
+  handsize: .100000001
   handratio: 1
   vx: -.379999995
   vy: -.200000003
