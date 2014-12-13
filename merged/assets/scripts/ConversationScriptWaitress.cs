@@ -12,12 +12,17 @@ public class ConversationScriptWaitress : MonoBehaviour {
 	public InventoryObject ioBottle;
 	public InventoryObject coctail;
 	public GameObject fortuneTeller;
+	Transform glassTrans;
+
+	private GameObject glass;
 	// Use this for initialization
 	void Start () {
 		gs = GameState.GetInstance ();
 		player = GameObject.Find ("Player");
 		shot = GameObject.Find ("shot");
 		bottle = GameObject.Find ("bottle");
+		glass = GameObject.Find ("glass");
+		glassTrans = (Transform)GameObject.Find ("glassControlPoint").GetComponent<Transform> ();
 		ic = player.GetComponent<InventoryControl> ();
 		if(!gs.ExistsBool("RecipeFirstTime"))
 			gs.AddBool ("RecipeFirstTime", true);
@@ -64,16 +69,19 @@ public class ConversationScriptWaitress : MonoBehaviour {
 		//ic.Add2 (shot);
 		gs.SetBool ("ShotGot", true);
 		checkObjectsReceipe ();
+		clearGlass ();
 	}
 
 	void GetBloody(){
 		gs.SetBool ("BloodyGot", true);
 		checkObjectsReceipe();
+		clearGlass ();
 	}
 
 	void GetCosmo(){
 		gs.SetBool ("CosmoGot", true);
 		checkObjectsReceipe ();
+		clearGlass ();
 	}
 
 
@@ -100,6 +108,21 @@ public class ConversationScriptWaitress : MonoBehaviour {
 		if (gs.GetBool ("CosmoGot") && gs.GetBool ("ShotGot") && gs.GetBool ("BloodyGot")) {
 			fortuneTeller.SetActive (true);
 		}
+	}
+
+	public void clearGlass(){
+		Debug.Log("Soy un puto vasooo1111111111!");
+		Invoke ("disableGlass",2f);
+	}
+
+	void disableGlass(){
+		Debug.Log("Soy un puto vasooo!");
+		//glass.transform.position = glassTrans.position;
+		glass.SetActive (false);
+	}
+
+	void showGlass(){
+		glass.SetActive (true);
 	}
 
 
