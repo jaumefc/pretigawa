@@ -4,6 +4,9 @@ using System.Collections;
 public class CryWhenEnd : MonoBehaviour {
 
 	public GameObject[] Balloons;
+	public Texture crying;
+	public GameObject nen;
+
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +17,7 @@ public class CryWhenEnd : MonoBehaviour {
 	void Update () {
 		if (NoMoreBalloons()==true){
  			audio.Play();
+			nen.gameObject.renderer.material.SetTexture ("_MainTex", crying);
 			this.enabled=false;
 		}
 	
